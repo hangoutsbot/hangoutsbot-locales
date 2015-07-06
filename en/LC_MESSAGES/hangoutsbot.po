@@ -1,0 +1,93 @@
+# Copyright (C) 2015 HANGOTSBOT TEAM
+# This file is distributed under the same license as the HANGOTSBOT package.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.4.2\n"
+"Report-Msgid-Bugs-To: svante.b47@gmail.com\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Svante Bengtson\n"
+"Language-Team: Hangoutsbot\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# commands.py
+
+#: commands.py:44
+msgid "CommandDispatcher.run: {}"
+msgstr ""
+
+#: commands.py:45
+msgid "EXCEPTION in {}"
+msgstr ""
+
+#: commands.py:90
+msgid "<b>User commands:</b>"
+msgstr ""
+
+#: commands.py:95
+msgid "<i>For more information, please see: {}</i>"
+msgstr ""
+
+#: commands.py:99
+msgid "<b>Admin commands:</b>"
+msgstr ""
+
+#: commands.py:114
+msgid "<i>{}, I've sent you some help ;)</i>"
+msgstr ""
+
+#: commands.py:116
+msgid "<i>{}, before I can help you, you need to private message me and say hi.</i>"
+msgstr ""
+
+#: commands.py:122
+msgid "pong"
+msgstr ""
+
+#: commands.py:139
+msgid "<i>{}, you <b>opted-out</b> from bot private messages</i>"
+msgstr ""
+
+#: commands.py:141
+msgid "<i>{}, you <b>opted-in</b> for bot private messages</i>"
+msgstr ""
+
+#: commands.py:147
+msgid "Bot Version: <b>{}</b>"
+msgstr ""
+
+#: commands.py:154
+msgid "{}: unknown command"
+msgstr ""
+
+# config.py
+
+#: config.py:23
+msgid "exception occurred, config.json likely malformed"
+msgstr ""
+
+#: config.py:24
+msgid "  check {}"
+msgstr ""
+
+# 
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
