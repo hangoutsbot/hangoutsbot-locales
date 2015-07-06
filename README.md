@@ -2,6 +2,7 @@
 Translation project for Hangoutsbot
 
 # Contributor/Developer Guide
+### a translation management system might be set up soon
 If you are initialising this repo as a submodule of the hangoutsbot project, 
   the submodules repository will be in a 'detached HEAD' state. It is highly
   advisable that you `git checkout master` inside the submodule dir
