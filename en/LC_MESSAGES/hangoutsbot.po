@@ -14,13 +14,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+# __init__.py
+
 # commands.py
 
 #: commands.py:44
 msgid "CommandDispatcher.run: {}"
 msgstr ""
 
-#: commands.py:45
+#: commands.py:45 handlers.py:167
 msgid "EXCEPTION in {}"
 msgstr ""
 
@@ -74,7 +76,439 @@ msgstr ""
 msgid "  check {}"
 msgstr ""
 
+# handlers.py
+
+#: handlers.py:30
+msgid "{} handler cannot be a coroutine"
+msgstr ""
+
+#: handlers.py:32
+msgid "unknown event type for handler: {}"
+msgstr ""
+
+#: handlers.py:46
+msgid "LEGACY handlers.register_object(): use plugins.register_shared"
+msgstr ""
+
+#: handlers.py:50
+msgid "LEGACY handlers.register_user_command(): use plugins.register_user_command"
+msgstr ""
+
+#: handlers.py:54
+msgid "LEGACY handlers.register_admin_command(): use plugins.register_admin_command"
+msgstr ""
+
+#: handlers.py:58
+msgid "LEGACY handlers.get_admin_commands(): use command.get_admin_commands"
+msgstr ""
+
+#: handlers.py:104
+msgid "{}: missing parameter(s)"
+msgstr ""
+
+#: handlers.py:111
+msgid "{}: Can\'t do that."
+msgstr ""
+
+#: handlers.py:199
+msgid "unrecognised event {}"
+msgstr ""
+
+# hangupsbot.py
+
+#: hangupsbot.py:15
+msgid "WARNING: hangups library out of date!"
+msgstr ""
+
+#: hangupsbot.py:91
+msgid "eventdump: completed --8<--"
+msgstr ""
+
+#: hangupsbot.py:118
+msgid "HangupsBot: memory file will be used: {}"
+msgstr ""
+
+#: hangupsbot.py:122
+msgid ""
+msgstr ""
+
+#: hangupsbot.py:126
+msgid "failed to create default memory file: {}"
+msgstr ""
+
+#: hangupsbot.py:139
+msgid "{} already registered in shared"
+msgstr ""
+
+#: hangupsbot.py:163
+msgid "Login failed ({})"
+msgstr ""
+
+#: hangupsbot.py:189
+msgid "unrecoverable low-level error"
+msgstr ""
+
+#: hangupsbot.py:190
+msgid "Client unexpectedly disconnected:\n{}"
+msgstr ""
+
+#: hangupsbot.py:191
+msgid "Waiting {} seconds..."
+msgstr ""
+
+#: hangupsbot.py:193
+msgid "Trying to connect again (attempt {} of {})..."
+msgstr ""
+
+#: hangupsbot.py:194
+msgid "Maximum number of retries reached! Exiting..."
+msgstr ""
+
+#: hangupsbot.py:248
+msgid "could not identify conversation id"
+msgstr ""
+
+#: hangupsbot.py:262
+msgid "_begin_message_sending(): SuppressEventHandling"
+msgstr ""
+
+#: hangupsbot.py:272
+msgid "_begin_message_sending(): global context: {}"
+msgstr ""
+
+#: hangupsbot.py:276
+msgid "_begin_message_sending(): {}"
+msgstr ""
+
+#: hangupsbot.py:287
+msgid "list_conversations() returned {} conversation(s)"
+msgstr ""
+
+#: hangupsbot.py:289
+msgid "list_conversations()"
+msgstr ""
+
+#: hangupsbot.py:350
+msgid "Conversations:"
+msgstr ""
+
+#: hangupsbot.py:372
+msgid "memory: {} is 1on1 with {}"
+msgstr ""
+
+#: hangupsbot.py:408
+msgid "get_1on1: remembered {} for {}"
+msgstr ""
+
+#: hangupsbot.py:414
+msgid "get_1on1: creating 1to1 with {}"
+msgstr ""
+
+#: hangupsbot.py:418
+msgid "<i>Hi there! I'll be using this channel to send private "
+msgstr ""
+
+#: hangupsbot.py:419
+msgid "messages and alerts. "
+msgstr ""
+
+#: hangupsbot.py:420
+msgid "For help, type <b>{0} help</b>. "
+msgstr ""
+
+#: hangupsbot.py:421
+msgid "To keep me quiet, reply with <b>{0} opt-out</b>.</i>"
+msgstr ""
+
+#: hangupsbot.py:427
+msgid "GET_1TO1: failed to create 1-to-1 for user {}"
+msgstr ""
+
+#: hangupsbot.py:433
+msgid "get_1on1: searching for existing 1to1 with {}"
+msgstr ""
+
+#: hangupsbot.py:443
+msgid "get_1on1: determined {} for {}"
+msgstr ""
+
+#: hangupsbot.py:474
+msgid "_on_message_sent(): failed to send message"
+msgstr ""
+
+#: hangupsbot.py:479
+msgid "Connected"
+msgstr ""
+
+#: hangupsbot.py:511
+msgid "_on_event(): ignoring duplicate event {}"
+msgstr ""
+
+#: hangupsbot.py:540
+msgid "_execute_hooks()"
+msgstr ""
+
+#: hangupsbot.py:546
+msgid "Connection lost!"
+msgstr ""
+
+#: hangupsbot.py:553
+msgid "DEPRECATED: external_send_message(), use send_html_to_conversation()"
+msgstr ""
+
+#: hangupsbot.py:561
+msgid "DEPRECATED: external_send_message_parsed(), use send_html_to_conversation()"
+msgstr ""
+
+#: hangupsbot.py:565
+msgid "send_html_to_conversation(): sending to {}"
+msgstr ""
+
+#: hangupsbot.py:571
+msgid "send_html_to_user(): 1-to-1 conversation not found"
+msgstr ""
+
+#: hangupsbot.py:573
+msgid "send_html_to_user(): sending to {}"
+msgstr ""
+
+#: hangupsbot.py:582
+msgid "DEPRECATED: send_html_to_user_or_conversation(), use send_html_to_conversation() or send_html_to_user()"
+msgstr ""
+
+#: hangupsbot.py:613
+msgid "log detailed debugging messages"
+msgstr ""
+
+#: hangupsbot.py:615
+msgid "log file path"
+msgstr ""
+
+#: hangupsbot.py:617
+msgid "cookie storage path"
+msgstr ""
+
+#: hangupsbot.py:619
+msgid "memory storage path"
+msgstr ""
+
+#: hangupsbot.py:621
+msgid "config storage path"
+msgstr ""
+
+#: hangupsbot.py:623
+msgid "show program\'s version number and exit"
+msgstr ""
+
+#: hangupsbot.py:633
+msgid "Failed to create directory: {}"
+msgstr ""
+
+#: hangupsbot.py:641
+msgid "Failed to copy default config file: {}"
+msgstr ""
+
+# utils.py
+
+#: utils.py:62
+msgid "could not determine conversation name"
+msgstr ""
+
+# hooks/__init__.py
+
+#: hooks/__init__.py:15
+msgid "config.hooks[{}].module should have at least 4 packages {}"
+msgstr ""
+
+#: hooks/__init__.py:20
+msgid "config.hooks[{}].module must be a valid package name"
+msgstr ""
+
+#: hooks/__init__.py:23
+msgid "config.hooks[{}] missing keyword"
+msgstr ""
+
+#: hooks/__init__.py:33
+msgid "_load_hooks(): {}"
+msgstr ""
+
+#: hooks/__init__.py:36
+msgid "_load_hooks(): hook failed to initialise"
+msgstr ""
+
+#: hooks/__init__.py:38
+msgid "_load_hooks(): {} hook(s) loaded"
+msgstr ""
+
+# hooks/chatlogger/__init__.py
+
+# hooks/chatlogger/writer.py
+
+#: hooks/chatlogger/writer.py:28
+msgid "logger failed to create directory: {}"
+msgstr ""
+
+#: hooks/chatlogger/writer.py:32
+msgid "logger: chats stored in {}"
+msgstr ""
+
+#: hooks/chatlogger/writer.py:34
+msgid "logger: failed to initialise: config.hooks[].storage_path cannot be empty"
+msgstr ""
+
+#: hooks/chatlogger/writer.py:38
+msgid "logger: failed to initialise: config.hooks[].storage_path not provided"
+msgstr ""
+
+# hooks/hubotsend/__init__.py
+
+# hooks/hubotsend/post.py
+
+#: hooks/hubotsend/post.py:15
+msgid "cannot initalise: config.hooks[].HUBOT_URL not provided"
+msgstr ""
+
+# parsers/__init__.py
+
+# parsers/kludgy_html_parser.py
+
+#: &&&:35
+msgid "Ignoring unknown chat message segment type: {}"
+msgstr ""
+
+#: &&&:123
+msgid "simpleHTMLParser(): [LINK] entityref {}"
+msgstr ""
+
+#: &&&:131
+msgid "simpleHTMLParser(): [LINK] data \"{}\""
+msgstr ""
+
+#: &&&:144
+msgid "simpleHTMLParser(): [NEW] {} {}"
+msgstr ""
+
+#: &&&:153
+msgid "simpleHTMLParser(): [APPEND] {} {}"
+msgstr ""
+
+#: &&&:195
+msgid "hello world"
+msgstr ""
+
+#: &&&:272
+msgid "*** TEST: utils.fix_urls() ***"
+msgstr ""
+
+#: &&&:280 &&&:298
+msgid "ORIGINAL: {}"
+msgstr ""
+
+#: &&&:281
+msgid "EXPECTED: {}"
+msgstr ""
+
+#: &&&:282
+msgid " RESULTS: {}"
+msgstr ""
+
+#: &&&:286
+msgid "*** TEST: utils.fix_urls(): PASS ***"
+msgstr ""
+
+#: &&&:289
+msgid "*** TEST: simple_parse_to_segments() ***"
+msgstr ""
+
+#: &&&:299
+msgid "EXPECTED/ACTUAL COUNT: {}/{}"
+msgstr ""
+
+#: &&&:305
+msgid " B L TXT: {} {} {}"
+msgstr ""
+
+#: &&&:309
+msgid "*** TEST: simple_parse_to_segments(): PASS ***"
+msgstr ""
+
 # 
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
+
+#: :
+msgid ""
+msgstr ""
 
 #: :
 msgid ""
