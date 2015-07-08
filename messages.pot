@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-08 09:34+0800\n"
+"POT-Creation-Date: 2015-07-08 14:27+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,14 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: commands.py:56
-msgid "CommandDispatcher.run: {}"
-msgstr ""
-
-#: commands.py:57
-msgid "EXCEPTION in {}"
-msgstr ""
 
 #: commands.py:102
 msgid "<b>User commands:</b>"
@@ -46,10 +38,6 @@ msgid ""
 "<i>{}, before I can help you, you need to private message me and say hi.</i>"
 msgstr ""
 
-#: commands.py:134
-msgid "pong"
-msgstr ""
-
 #: commands.py:151
 msgid "<i>{}, you <b>opted-out</b> from bot private messages</i>"
 msgstr ""
@@ -66,11 +54,11 @@ msgstr ""
 msgid "{}: unknown command"
 msgstr ""
 
-#: plugins/monitoradds.py:57 plugins/monitoradds.py:62
+#: plugins/monitoradds.py:58 plugins/monitoradds.py:63
 msgid "<i>Moderators updated: {} added</i>"
 msgstr ""
 
-#: plugins/monitoradds.py:77
+#: plugins/monitoradds.py:79
 msgid "<i>Moderators updated: {} removed</i>"
 msgstr ""
 
@@ -116,91 +104,141 @@ msgstr ""
 msgid "user id {} is not authorised"
 msgstr ""
 
-#: plugins/autoreply.py:16
-msgid "autoreplies in {} disabled/unset"
+#: plugins/default.py:35
+msgid ""
+"<em>1 parameter required, {} supplied - enclose parameter in double-quotes</"
+"em>"
 msgstr ""
 
-#: plugins/default.py:22
-msgid "DEFAULT: LEGACY FRAMEWORK MODE"
+#: plugins/default.py:38
+msgid "<em>supply 1 parameter</em>"
 msgstr ""
 
-#: plugins/default.py:26
-msgid "DEFAULT: OBSOLETE FRAMEWORK MODE"
+#: plugins/default.py:43 plugins/default.py:287
+msgid "<b>Total: {}</b>"
 msgstr ""
 
-#: plugins/default.py:51 plugins/default.py:79
-msgid "NOPE! Some things aren't worth repeating."
+#: plugins/default.py:54
+msgid "<em>sending to ALL conversations not allowed</em>"
 msgstr ""
 
-#: plugins/default.py:94
-msgid "broadcast: no message set"
+#: plugins/default.py:63
+msgid "<em>command echo blocked</em>"
 msgstr ""
 
-#: plugins/default.py:97
-msgid "broadcast: no conversations available"
+#: plugins/default.py:67
+msgid "<em>missing text</em>"
 msgstr ""
 
-#: plugins/default.py:100
-msgid "<b>message:</b><br />{}<br /><b>to:</b><br />{}"
+#: plugins/default.py:71
+msgid "<em>required parameters: convfilter text</em>"
 msgstr ""
 
-#: plugins/default.py:110
-msgid "broadcast: message not allowed"
+#: plugins/default.py:75
+msgid "<em>no conversations filtered</em>"
+msgstr ""
+
+#: plugins/default.py:96
+msgid "<em>missing title</em>"
+msgstr ""
+
+#: plugins/default.py:101
+msgid "<em>required parameters: convfilter title</em>"
+msgstr ""
+
+#: plugins/default.py:111
+msgid "<em>should be 1 parameter, {} supplied</em>"
 msgstr ""
 
 #: plugins/default.py:114
-msgid "broadcast: message must be supplied after subcommand"
+msgid "<em>retrieving ALL conversations blocked</em>"
 msgstr ""
 
 #: plugins/default.py:133
-msgid "broadcast: {} conversation(s)"
+msgid "<b>Users: {}</b>"
 msgstr ""
 
-#: plugins/default.py:147
-msgid "broadcast: removed {}"
-msgstr ""
-
-#: plugins/default.py:153
-msgid "broadcast: message sent to {} chats"
+#: plugins/default.py:148
+msgid "<em>cannot leave ALL conversations</em>"
 msgstr ""
 
 #: plugins/default.py:155
-msgid "broadcast: /bot broadcast [info|message|add|remove|NOW] ..."
+msgid "<em>required parameters: convfilter</em>"
 msgstr ""
 
-#: plugins/default.py:157
-msgid "broadcast: /bot broadcast [info|message|add|remove|NOW]"
-msgstr ""
-
-#: plugins/default.py:181
-msgid "results for user named \"{}\":"
-msgstr ""
-
-#: plugins/default.py:239
+#: plugins/default.py:160
 msgid "I'll be back!"
 msgstr ""
 
-#: plugins/default.py:257
-msgid "HangupsBot killed by user {} from conversation {}"
+#: plugins/default.py:184
+msgid "broadcast: no message set"
 msgstr ""
 
-#: plugins/default.py:309
-msgid "append failed on non-list"
+#: plugins/default.py:187
+msgid "broadcast: no conversations available"
+msgstr ""
+
+#: plugins/default.py:190
+msgid "<b>message:</b><br />{}<br /><b>to:</b><br />{}"
+msgstr ""
+
+#: plugins/default.py:200
+msgid "broadcast: message not allowed"
+msgstr ""
+
+#: plugins/default.py:204
+msgid "broadcast: message must be supplied after subcommand"
+msgstr ""
+
+#: plugins/default.py:223
+msgid "broadcast: {} conversation(s)"
+msgstr ""
+
+#: plugins/default.py:237
+msgid "broadcast: removed {}"
+msgstr ""
+
+#: plugins/default.py:243
+msgid "broadcast: message sent to {} chats"
+msgstr ""
+
+#: plugins/default.py:245
+msgid "broadcast: /bot broadcast [info|message|add|remove|NOW] ..."
+msgstr ""
+
+#: plugins/default.py:247
+msgid "broadcast: /bot broadcast [info|message|add|remove|NOW]"
+msgstr ""
+
+#: plugins/default.py:258
+msgid "results for user named \"{}\":"
+msgstr ""
+
+#: plugins/default.py:289
+msgid "<b>List of hangouts with keyword:</b> \"{}\""
 msgstr ""
 
 #: plugins/default.py:322
+msgid "HangupsBot killed by user {} from conversation {}"
+msgstr ""
+
+#: plugins/default.py:374
+msgid "append failed on non-list"
+msgstr ""
+
+#: plugins/default.py:387
 msgid "remove failed on non-list"
 msgstr ""
 
-#: plugins/default.py:331
+#: plugins/default.py:396
 msgid "Parameter does not exist!"
 msgstr ""
 
-#: plugins/default.py:353
+#: plugins/default.py:418
 msgid "<b>{}</b>, chat_id = <i>{}</i>"
 msgstr ""
 
-#: plugins/default.py:361
+#: plugins/default.py:426
 msgid "You are at <b>{}</b>, conv_id = <i>{}</i>"
 msgstr ""
 
@@ -629,11 +667,11 @@ msgstr ""
 msgid "conversation id must be provided as part of path"
 msgstr ""
 
-#: plugins/convtools.py:131
+#: plugins/convtools.py:144
 msgid "<i>group refreshed</i><br />"
 msgstr ""
 
-#: plugins/convtools.py:132
+#: plugins/convtools.py:145
 msgid "<b>group obsoleted</b>"
 msgstr ""
 
@@ -859,15 +897,15 @@ msgstr ""
 msgid "No match found"
 msgstr ""
 
-#: plugins/chance.py:26
+#: plugins/chance.py:27
 msgid "<i>{} rolled <b>{}</b></i>"
 msgstr ""
 
-#: plugins/chance.py:31
+#: plugins/chance.py:33
 msgid "<i>{}, coin turned up <b>heads</b></i>"
 msgstr ""
 
-#: plugins/chance.py:33
+#: plugins/chance.py:35
 msgid "<i>{}, coin turned up <b>tails</b></i>"
 msgstr ""
 
