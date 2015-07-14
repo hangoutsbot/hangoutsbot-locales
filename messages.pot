@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-13 20:53+0800\n"
+"POT-Creation-Date: 2015-07-14 19:43+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -735,18 +735,20 @@ msgstr ""
 msgid "GROUP: {}"
 msgstr ""
 
-#: plugins/convtools_invitations.py:170
-msgid ""
-"<em>Usage: https://github.com/hangoutsbot/hangoutsbot/wiki/Conversation-"
-"Invitations-Plugin</em>"
+#: plugins/convtools_invitations.py:168
+msgid "<em>insufficient parameters for invite</em>"
 msgstr ""
 
-#: plugins/convtools_invitations.py:188
-msgid "<b>Invitation Purge (Admin)</b>"
+#: plugins/convtools_invitations.py:187
+msgid "<b>Test Invitation Purge</b>"
 msgstr ""
 
-#: plugins/convtools_invitations.py:191
-msgid "<b>Invitation List (Admin)</b>"
+#: plugins/convtools_invitations.py:189
+msgid "<b>Invitation Purge</b>"
+msgstr ""
+
+#: plugins/convtools_invitations.py:192
+msgid "<b>Invitation List</b>"
 msgstr ""
 
 #: plugins/convtools_invitations.py:220
@@ -761,24 +763,24 @@ msgstr ""
 msgid "<em>invite: could not identify target conversation"
 msgstr ""
 
-#: plugins/convtools_invitations.py:362
+#: plugins/convtools_invitations.py:363
 msgid "<em>invite: nobody invited</em>"
 msgstr ""
 
-#: plugins/convtools_invitations.py:388
+#: plugins/convtools_invitations.py:389
 msgid "<em>invite: {} invitations created</em>"
 msgstr ""
 
-#: plugins/convtools_invitations.py:407
+#: plugins/convtools_invitations.py:408
 msgid "<b>Invites for {}:</b>"
 msgstr ""
 
-#: plugins/convtools_invitations.py:412
+#: plugins/convtools_invitations.py:413
 msgid ""
 "<em>To claim an invite, use the rsvp command followed by the invite code</em>"
 msgstr ""
 
-#: plugins/convtools_invitations.py:415
+#: plugins/convtools_invitations.py:416
 msgid "<em>no invites to display</em>"
 msgstr ""
 
