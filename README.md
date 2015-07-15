@@ -1,9 +1,9 @@
 # hangoutsbot-locales
 Translation project for Hangoutsbot
-[![Översättningsstatus](https://hosted.weblate.org/widgets/hangoutsbot/-/svg-badge.svg)](https://hosted.weblate.org/engage/hangoutsbot/?utm_source=widget)
+[![Translation status](https://hosted.weblate.org/widgets/hangoutsbot/-/svg-badge.svg)](https://hosted.weblate.org/engage/hangoutsbot/?utm_source=widget)
+### Easiest way to contribute with translation is via [weblate] (https://hosted.weblate.org/projects/hangoutsbot/hangups) 
 
 # Contributor/Developer Guide
-### Easiest way to contribute with translation is via [weblate] (https://hosted.weblate.org/projects/hangoutsbot/hangups) 
 If you are initialising this repo as a submodule of the hangoutsbot project, 
   the submodules repository will be in a 'detached HEAD' state. It is highly
   advisable that you `git checkout master` inside the submodule dir
