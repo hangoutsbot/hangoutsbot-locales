@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2015-07-14 13:39+0200\n"
+"PO-Revision-Date: 2015-07-15 22:12+0200\n"
 "Last-Translator: Svante Bengtson <svante.b37@gmail.com>\n"
 "Language-Team: Swedish "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/sv/>\n"
@@ -95,44 +95,49 @@ msgid ""
 "<i>{}, you need to be authorised to add me to another conversation. I'm "
 "leaving now...</i>"
 msgstr ""
+"<i>Du måste bara auktoriserad för att kunna lägga till mig i en "
+"konversation, jag kommer lämna nu...</i>"
 
 #: plugins/restrictedadd.py:84
 msgid "RESTRICTEDADD: found botkeeper {}"
-msgstr ""
+msgstr "RESTRICTEDADD: hittade bothållare {}"
 
 #: plugins/restrictedadd.py:91
 msgid "RESTRICTEDADD: no botkeeper in {}"
-msgstr ""
+msgstr "RESTRICTEDADD: ingen bothållare i {}"
 
 #: plugins/restrictedadd.py:96
 msgid "<i>There is no botkeeper in here. I have to go...</i>"
-msgstr ""
+msgstr "<i>Det finns ingen bothållare här inne. Jag måste härifrån...</i>"
 
 #: plugins/restrictedadd.py:120
 msgid "user id {} added as botkeeper"
-msgstr ""
+msgstr "Användar id {} tillagd som bothållare"
 
 #: plugins/restrictedadd.py:142
 msgid "user id {} removed as botkeeper"
-msgstr ""
+msgstr "Användar id {} borttagen som bothållare"
 
 #: plugins/restrictedadd.py:151
 msgid "user id {} is not authorised"
-msgstr ""
+msgstr "Användar id {} är inte auktoriserad"
 
 #: plugins/default.py:35
+#, fuzzy
 msgid ""
 "<em>1 parameter required, {} supplied - enclose parameter in double-quotes</"
 "em>"
 msgstr ""
+"<em>1 parameter behövs, {} given - skriv parametern med dubbla "
+"citationstecken</em>"
 
 #: plugins/default.py:38
 msgid "<em>supply 1 parameter</em>"
-msgstr ""
+msgstr "<em>ange 1 parameter}</em>"
 
 #: plugins/default.py:43 plugins/default.py:285
 msgid "<b>Total: {}</b>"
-msgstr ""
+msgstr "<b>Totalt: {}</b>"
 
 #: plugins/default.py:54
 msgid "<em>sending to ALL conversations not allowed</em>"
