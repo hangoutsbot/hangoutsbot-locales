@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-14 19:43+0800\n"
+"POT-Creation-Date: 2015-07-15 11:11+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -459,15 +459,11 @@ msgid ""
 msgstr ""
 
 #: plugins/mentions.py:439
-msgid "<i>Your nickname is already \""
+msgid "<i>Your nickname is already <b>`{}`</b></i>"
 msgstr ""
 
 #: plugins/mentions.py:444
-msgid "<i>Nickname \""
-msgstr ""
-
-#: plugins/mentions.py:444
-msgid "\" is already in use by another user.</i>"
+msgid "<i>Nickname <b>`{}`</b> is already in use by another user"
 msgstr ""
 
 #: plugins/mentions.py:463
