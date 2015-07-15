@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2015-07-14 13:18+0200\n"
-"Last-Translator: Michal Čihař <michal@cihar.com>\n"
+"PO-Revision-Date: 2015-07-15 10:38+0200\n"
+"Last-Translator: Martin Kalábek (Eneris) <eneris.cz@gmail.com>\n"
 "Language-Team: Czech "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/cs/>\n"
 "Language: cs\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: commands.py:102
 msgid "<b>User commands:</b>"
-msgstr ""
+msgstr "<b>Příkazy uživatele:</d>"
 
 #: commands.py:107
 msgid "<i>For more information, please see: {}</i>"
