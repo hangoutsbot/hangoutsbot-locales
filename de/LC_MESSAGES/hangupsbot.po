@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2015-07-15 16:24+0200\n"
+"PO-Revision-Date: 2015-07-16 14:42+0200\n"
 "Last-Translator: Carsten Raddatz <git@carsten-raddatz.de>\n"
 "Language-Team: German "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/de/>\n"
@@ -713,148 +713,165 @@ msgstr "<i>Wolfram Alpha hat keine nützlichen Daten zurückgeliefert</i>"
 
 #: plugins/starter.py:16
 msgid "<i>Starter: Configuring first admin: {}</i>"
-msgstr ""
+msgstr "<i>Starter: Konfiguriere ersten admin: {}</i>"
 
 #: plugins/starter.py:21
 msgid "<i>No! I am Spartacus!</i>"
-msgstr ""
+msgstr "<i>Nein! Ich bin Spartakus!</i>"
 
 #: plugins/starter.py:29
+#, fuzzy
 msgid "<i>config: {}<br />memory: {}</i>"
-msgstr ""
+msgstr "<i>config: {}<br />memory: {}</i>"
 
 #: plugins/starter.py:51
 msgid ""
 "<i>verification completed - this is your one-to-one chat with the bot</i>"
-msgstr ""
+msgstr "<i>Verifizierung komplett - dies ist Dein 1-to-1 Chat mit dem bot</i>"
 
 #: plugins/starter.py:56
 msgid "<i>verified - user has a one-to-one conversation with me</i>"
-msgstr ""
+msgstr "<i>Verifiziert - User hat eine 1-to-1 Unterhaltung mit mir</i>"
 
 #: plugins/starter.py:70
 msgid ""
 "<i>User must say \"hi\" to me first via a 1-on-1 hangout with <b>{}</b>."
 msgstr ""
+"<i>User muss zuerst \"hi\" zu mir sagen in einer 1-to-1 Unterhaltung mit "
+"<b>{}</b>."
 
 #: plugins/starter.py:71
 msgid "Then let me know by sending <b>/bot verifyme</b> in this chat.</i>"
 msgstr ""
+"Dann lass es mich wissen indem Du mit <b>/bot verifyme</b> in diesem Chat "
+"schickst.</i>"
 
 #: plugins/simplewikipedia.py:20
 msgid "<i>source: <a href=\"{}\">{}</a></i>"
-msgstr ""
+msgstr "<i>Quelle: <a href=\"{}\">{}</a></i>"
 
 #: plugins/simplewikipedia.py:24
 msgid "<i>no entry found for {}</i>"
-msgstr ""
+msgstr "<i>Kein Eintrag gefunden für {}</i>"
 
 #: plugins/syncrooms_autotranslate.py:26
 msgid "AUTOTRANSLATE(): translating {} to {}"
-msgstr ""
+msgstr "AUTOTRANSLATE(): übersetze {} nach {}"
 
 #: plugins/syncrooms_autotranslate.py:57
 msgid "<i>syncroom \"{}\" language is {}</i>"
-msgstr ""
+msgstr "<i>syncroom \"{}\" Sprache ist {}</i>"
 
 #: plugins/syncrooms_autotranslate.py:70
 msgid "<i>syncroom \"{}\" language set to {}</i>"
-msgstr ""
+msgstr "<i>syncroom \"{}\" Sprache eingestellt auf {}</i>"
 
 #: plugins/convtools_invitations.py:112
 msgid "<i>group created</i>"
-msgstr ""
+msgstr "<i>Gruppe erzeugt</i>"
 
 #: plugins/convtools_invitations.py:114
 msgid "GROUP: {}"
-msgstr ""
+msgstr "GRUPPE: {}"
 
 #: plugins/convtools_invitations.py:170
 msgid ""
 "<em>Usage: https://github.com/hangoutsbot/hangoutsbot/wiki/Conversation-"
 "Invitations-Plugin</em>"
 msgstr ""
+"<em>Gebrauch: https://github.com/hangoutsbot/hangoutsbot/wiki/Conversation-"
+"Invitations-Plugin</em>"
 
 #: plugins/convtools_invitations.py:188
+#, fuzzy
 msgid "<b>Invitation Purge (Admin)</b>"
-msgstr ""
+msgstr "<b>Invitation Purge (Admin)</b>"
 
 #: plugins/convtools_invitations.py:191
 msgid "<b>Invitation List (Admin)</b>"
-msgstr ""
+msgstr "<b>Einladungsliste (Admin)</b>"
 
 #: plugins/convtools_invitations.py:220
 msgid "<em>no invites found</em>"
-msgstr ""
+msgstr "<em>Keine Einladungen gefunden</em>"
 
 #: plugins/convtools_invitations.py:288
 msgid "<em>invite: specify \"from\" or explicit list of \"users\"</em>"
 msgstr ""
+"<em>Einladung: spezifiziere \"von\" oder explizite Liste von \"Usern\"</em>"
 
 #: plugins/convtools_invitations.py:297
 msgid "<em>invite: could not identify target conversation"
-msgstr ""
+msgstr "<em>Einladung: konnte Ziel-Unterhaltung nicht identifizieren"
 
 #: plugins/convtools_invitations.py:362
 msgid "<em>invite: nobody invited</em>"
-msgstr ""
+msgstr "<em>Einladung: niemanden eingeladen</em>"
 
 #: plugins/convtools_invitations.py:388
 msgid "<em>invite: {} invitations created</em>"
-msgstr ""
+msgstr "<em>Einladung: {} Einladungen erzeugt</em>"
 
 #: plugins/convtools_invitations.py:407
 msgid "<b>Invites for {}:</b>"
-msgstr ""
+msgstr "<b>Einladungen für {}:</b>"
 
 #: plugins/convtools_invitations.py:412
 msgid ""
 "<em>To claim an invite, use the rsvp command followed by the invite code</em>"
 msgstr ""
+"<em>Um einer Einladung zu folgen, nutze das RVSP-Kommando gefolgt vom invite "
+"code</em>"
 
 #: plugins/convtools_invitations.py:415
 msgid "<em>no invites to display</em>"
-msgstr ""
+msgstr "<em>Keine Einladungen zum Anzeigen</em>"
 
 #: plugins/example_printrenames.py:21
+#, fuzzy
 msgid "EXAMPLE_PRINTRENAMES: {} cleared the conversation name"
-msgstr ""
+msgstr "EXAMPLE_PRINTRENAMES: {} cleared the conversation name"
 
 #: plugins/example_printrenames.py:23
 msgid "EXAMPLE_PRINTRENAMES: {} renamed the conversation to {}"
-msgstr ""
+msgstr "EXAMPLE_PRINTRENAMES: {} Unterhaltung in {} umbenannt"
 
 #: plugins/dnd.py:23
+#, fuzzy
 msgid "dnd: list migrated to memory"
-msgstr ""
+msgstr "dnd: list migrated to memory"
 
 #: plugins/dnd.py:38
+#, fuzzy
 msgid "dnd: list migrated to dictionary"
-msgstr ""
+msgstr "dnd: list migrated to dictionary"
 
 #: plugins/example_memory.py:22
+#, fuzzy
 msgid "<b>{}</b>, remembered!"
-msgstr ""
+msgstr "<b>{}</b>, remembered!"
 
 #: plugins/example_memory.py:27
+#, fuzzy
 msgid "<b>{}</b>, remembered something else!"
-msgstr ""
+msgstr "<b>{}</b>, remembered something else!"
 
 #: plugins/example_memory.py:38
+#, fuzzy
 msgid "<b>{}</b>, nothing remembered!"
-msgstr ""
+msgstr "<b>{}</b>, nothing remembered!"
 
 #: plugins/example_memory.py:43
 msgid "<b>{}</b> asked me to remember <i>\"{}\"</i>"
-msgstr ""
+msgstr "<b>{}</b> bat mich mir <i>\"{}\"</i> zu merken"
 
 #: plugins/example_memory.py:54
 msgid "<b>{}</b>, nothing to forget!"
-msgstr ""
+msgstr "<b>{}</b>, nichts zu vergessen!"
 
 #: plugins/example_memory.py:60
 msgid "<b>{}</b>, forgotten!"
-msgstr ""
+msgstr "<b>{}</b>, vergessen!"
 
 #: plugins/example_memory.py:76
 msgid "<b>{}</b>, remembered for this conversation"
