@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2015-07-15 22:12+0200\n"
+"PO-Revision-Date: 2015-07-24 18:28+0200\n"
 "Last-Translator: Svante Bengtson <svante.b37@gmail.com>\n"
 "Language-Team: Swedish "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/sv/>\n"
@@ -29,7 +29,7 @@ msgstr "<i>för mer information, se: {}</i>"
 
 #: commands.py:111
 msgid "<b>Admin commands:</b>"
-msgstr "<b>Administratiörskommandom:</b>"
+msgstr "<b>Administratiörskommandon:</b>"
 
 #: commands.py:131
 msgid "<i>{}, I've sent you some help ;)</i>"
