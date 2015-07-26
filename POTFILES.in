@@ -1,4 +1,5 @@
 commands.py
+hangupsbot.py
 plugins/_example_memory.py
 plugins/_example_printrenames.py
 plugins/_example_watchmembers.py
