@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-26 10:03+0800\n"
+"POT-Creation-Date: 2015-07-29 19:05+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,43 +61,23 @@ msgstr "Bot Version: <b>{}</b>"
 msgid "{}: unknown command"
 msgstr "{}: unknown command"
 
-#: hangupsbot.py:215
+#: hangupsbot.py:217
 msgid "{} already registered in shared"
 msgstr "{} already registered in shared"
 
-#: hangupsbot.py:267
-msgid ""
-"Client unexpectedly disconnected:\n"
-"{}"
-msgstr ""
-"Client unexpectedly disconnected:\n"
-"{}"
-
-#: hangupsbot.py:268
-msgid "Waiting {} seconds..."
-msgstr "Waiting {} seconds..."
-
-#: hangupsbot.py:270
-msgid "Trying to connect again (try {} of {})..."
-msgstr "Trying to connect again (try {} of {})..."
-
-#: hangupsbot.py:272
-msgid "Maximum number of retries reached! Exiting..."
-msgstr "Maximum number of retries reached! Exiting..."
-
-#: hangupsbot.py:311
+#: hangupsbot.py:322
 msgid "could not identify conversation id"
 msgstr "could not identify conversation id"
 
-#: hangupsbot.py:467
+#: hangupsbot.py:478
 msgid "Conversations:"
 msgstr "Conversations:"
 
-#: hangupsbot.py:489
+#: hangupsbot.py:500
 msgid "memory: {} is 1on1 with {}"
 msgstr "memory: {} is 1on1 with {}"
 
-#: hangupsbot.py:535
+#: hangupsbot.py:546
 #, python-brace-format
 msgid ""
 "<i>Hi there! I'll be using this channel to send private messages and alerts. "
@@ -108,11 +88,11 @@ msgstr ""
 "For help, type <b>{0} help</b>. To keep me quiet, reply with <b>{0} optout</"
 "b>.</i>"
 
-#: hangupsbot.py:775
+#: hangupsbot.py:762
 msgid "Unidentified User"
 msgstr "Unidentified User"
 
-#: hangupsbot.py:783
+#: hangupsbot.py:770
 msgid ""
 "<i>{}, you are currently opted-out. Private message me or enter <b>{} "
 "optout</b> to get me to talk to you.</i>"
@@ -120,41 +100,41 @@ msgstr ""
 "<i>{}, you are currently opted-out. Private message me or enter <b>{} "
 "optout</b> to get me to talk to you.</i>"
 
-#: hangupsbot.py:786
+#: hangupsbot.py:773
 msgid ""
 "<i>{}, before I can help you, you need to private message me and say hi.</i>"
 msgstr ""
 "<i>{}, before I can help you, you need to private message me and say hi.</i>"
 
-#: hangupsbot.py:849
+#: hangupsbot.py:836
 msgid "log detailed debugging messages"
 msgstr "log detailed debugging messages"
 
-#: hangupsbot.py:851
+#: hangupsbot.py:838
 msgid "log file path"
 msgstr "log file path"
 
-#: hangupsbot.py:853
+#: hangupsbot.py:840
 msgid "cookie storage path"
 msgstr "cookie storage path"
 
-#: hangupsbot.py:855
+#: hangupsbot.py:842
 msgid "memory storage path"
 msgstr "memory storage path"
 
-#: hangupsbot.py:857
+#: hangupsbot.py:844
 msgid "config storage path"
 msgstr "config storage path"
 
-#: hangupsbot.py:859
+#: hangupsbot.py:846
 msgid "show program's version number and exit"
 msgstr "show program's version number and exit"
 
-#: hangupsbot.py:869
+#: hangupsbot.py:856
 msgid "Failed to create directory: {}"
 msgstr "Failed to create directory: {}"
 
-#: hangupsbot.py:877
+#: hangupsbot.py:864
 msgid "Failed to copy default config file: {}"
 msgstr "Failed to copy default config file: {}"
 
@@ -796,11 +776,22 @@ msgstr "Removing nickname"
 msgid "Setting nickname to '{}'"
 msgstr "Setting nickname to '{}'"
 
-#: plugins/monitoradds.py:58 plugins/monitoradds.py:63
+#: plugins/monitoradds.py:52
+#, python-brace-format
+msgid ""
+"<b>!!! WARNING !!!</b><br /><br /><b>{0}</b> invited <b>{1}</b> without "
+"authorization.<br /><br /><b>{1}</b>: Please leave this hangout and ask a "
+"moderator to add you. Thank you for your understanding."
+msgstr ""
+"<b>!!! WARNING !!!</b><br /><br /><b>{0}</b> invited <b>{1}</b> without "
+"authorization.<br /><br /><b>{1}</b>: Please leave this hangout and ask a "
+"moderator to add you. Thank you for your understanding."
+
+#: plugins/monitoradds.py:69 plugins/monitoradds.py:74
 msgid "<i>Moderators updated: {} added</i>"
 msgstr "<i>Moderators updated: {} added</i>"
 
-#: plugins/monitoradds.py:79
+#: plugins/monitoradds.py:90
 msgid "<i>Moderators updated: {} removed</i>"
 msgstr "<i>Moderators updated: {} removed</i>"
 
@@ -812,19 +803,7 @@ msgstr "Removing topic"
 msgid "Setting topic to '{}'"
 msgstr "Setting topic to '{}'"
 
-#: plugins/restrictedadd.py:37
-msgid "RESTRICTEDADD: admin added me to {}"
-msgstr "RESTRICTEDADD: admin added me to {}"
-
-#: plugins/restrictedadd.py:41
-msgid "RESTRICTEDADD: authorised user added me to {}"
-msgstr "RESTRICTEDADD: authorised user added me to {}"
-
-#: plugins/restrictedadd.py:44
-msgid "RESTRICTEDADD: user {} tried to add me to {}"
-msgstr "RESTRICTEDADD: user {} tried to add me to {}"
-
-#: plugins/restrictedadd.py:50
+#: plugins/restrictedadd.py:66
 msgid ""
 "<i>{}, you need to be authorised to add me to another conversation. I'm "
 "leaving now...</i>"
@@ -832,27 +811,19 @@ msgstr ""
 "<i>{}, you need to be authorised to add me to another conversation. I'm "
 "leaving now...</i>"
 
-#: plugins/restrictedadd.py:82
-msgid "RESTRICTEDADD: found botkeeper {}"
-msgstr "RESTRICTEDADD: found botkeeper {}"
-
-#: plugins/restrictedadd.py:89
-msgid "RESTRICTEDADD: no botkeeper in {}"
-msgstr "RESTRICTEDADD: no botkeeper in {}"
-
-#: plugins/restrictedadd.py:94
+#: plugins/restrictedadd.py:108
 msgid "<i>There is no botkeeper in here. I have to go...</i>"
 msgstr "<i>There is no botkeeper in here. I have to go...</i>"
 
-#: plugins/restrictedadd.py:118
+#: plugins/restrictedadd.py:132
 msgid "user id {} added as botkeeper"
 msgstr "user id {} added as botkeeper"
 
-#: plugins/restrictedadd.py:140
+#: plugins/restrictedadd.py:154
 msgid "user id {} removed as botkeeper"
 msgstr "user id {} removed as botkeeper"
 
-#: plugins/restrictedadd.py:149
+#: plugins/restrictedadd.py:163
 msgid "user id {} is not authorised"
 msgstr "user id {} is not authorised"
 
@@ -920,45 +891,29 @@ msgstr ""
 msgid "Then let me know by sending <b>/bot verifyme</b> in this chat.</i>"
 msgstr "Then let me know by sending <b>/bot verifyme</b> in this chat.</i>"
 
-#: plugins/subscribe.py:58
-msgid "subscribe: keyword '{}' in '{}' ({})"
-msgstr "subscribe: keyword '{}' in '{}' ({})"
-
-#: plugins/subscribe.py:76
+#: plugins/subscribe.py:82
 msgid "<b>{}</b> mentioned '{}' in <i>{}</i>:<br />{}"
 msgstr "<b>{}</b> mentioned '{}' in <i>{}</i>:<br />{}"
 
-#: plugins/subscribe.py:81
-msgid "subscribe: {} ({}) alerted via 1on1 ({})"
-msgstr "subscribe: {} ({}) alerted via 1on1 ({})"
-
-#: plugins/subscribe.py:83
-msgid "subscribe: {} ({}) has dnd"
-msgstr "subscribe: {} ({}) has dnd"
-
-#: plugins/subscribe.py:85
-msgid "subscribe: user {} ({}) could not be alerted via 1on1"
-msgstr "subscribe: user {} ({}) could not be alerted via 1on1"
-
-#: plugins/subscribe.py:97
+#: plugins/subscribe.py:103
 msgid ""
 "Note: I am unable to ping you until you start a 1 on 1 conversation with me!"
 msgstr ""
 "Note: I am unable to ping you until you start a 1 on 1 conversation with me!"
 
-#: plugins/subscribe.py:101
+#: plugins/subscribe.py:107
 msgid "Usage: /bot subscribe [keyword]"
 msgstr "Usage: /bot subscribe [keyword]"
 
-#: plugins/subscribe.py:105 plugins/subscribe.py:138
+#: plugins/subscribe.py:111 plugins/subscribe.py:144
 msgid "Subscribed to: {}"
 msgstr "Subscribed to: {}"
 
-#: plugins/subscribe.py:112
+#: plugins/subscribe.py:118
 msgid "Already subscribed to '{}'!"
 msgstr "Already subscribed to '{}'!"
 
-#: plugins/subscribe.py:121 plugins/subscribe.py:129
+#: plugins/subscribe.py:127 plugins/subscribe.py:135
 msgid ""
 "Note: You will not be able to trigger your own subscriptions. To test, "
 "please ask somebody else to test this for you."
@@ -966,15 +921,15 @@ msgstr ""
 "Note: You will not be able to trigger your own subscriptions. To test, "
 "please ask somebody else to test this for you."
 
-#: plugins/subscribe.py:148
+#: plugins/subscribe.py:154
 msgid "Unsubscribing all keywords"
 msgstr "Unsubscribing all keywords"
 
-#: plugins/subscribe.py:152
+#: plugins/subscribe.py:158
 msgid "Unsubscribing from keyword '{}'"
 msgstr "Unsubscribing from keyword '{}'"
 
-#: plugins/subscribe.py:156
+#: plugins/subscribe.py:162
 msgid "Error: keyword not found"
 msgstr "Error: keyword not found"
 
