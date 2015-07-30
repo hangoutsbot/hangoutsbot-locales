@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-29 19:05+0800\n"
+"POT-Creation-Date: 2015-07-30 19:29+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,11 +73,11 @@ msgstr ""
 msgid "Conversations:"
 msgstr ""
 
-#: hangupsbot.py:500
+#: hangupsbot.py:502
 msgid "memory: {} is 1on1 with {}"
 msgstr ""
 
-#: hangupsbot.py:546
+#: hangupsbot.py:548
 #, python-brace-format
 msgid ""
 "<i>Hi there! I'll be using this channel to send private messages and alerts. "
@@ -85,50 +85,50 @@ msgid ""
 "b>.</i>"
 msgstr ""
 
-#: hangupsbot.py:762
+#: hangupsbot.py:765
 msgid "Unidentified User"
 msgstr ""
 
-#: hangupsbot.py:770
+#: hangupsbot.py:773
 msgid ""
 "<i>{}, you are currently opted-out. Private message me or enter <b>{} "
 "optout</b> to get me to talk to you.</i>"
 msgstr ""
 
-#: hangupsbot.py:773
+#: hangupsbot.py:776
 msgid ""
 "<i>{}, before I can help you, you need to private message me and say hi.</i>"
 msgstr ""
 
-#: hangupsbot.py:836
+#: hangupsbot.py:839
 msgid "log detailed debugging messages"
 msgstr ""
 
-#: hangupsbot.py:838
+#: hangupsbot.py:841
 msgid "log file path"
 msgstr ""
 
-#: hangupsbot.py:840
+#: hangupsbot.py:843
 msgid "cookie storage path"
 msgstr ""
 
-#: hangupsbot.py:842
+#: hangupsbot.py:845
 msgid "memory storage path"
 msgstr ""
 
-#: hangupsbot.py:844
+#: hangupsbot.py:847
 msgid "config storage path"
 msgstr ""
 
-#: hangupsbot.py:846
+#: hangupsbot.py:849
 msgid "show program's version number and exit"
 msgstr ""
 
-#: hangupsbot.py:856
+#: hangupsbot.py:859
 msgid "Failed to create directory: {}"
 msgstr ""
 
-#: hangupsbot.py:864
+#: hangupsbot.py:867
 msgid "Failed to copy default config file: {}"
 msgstr ""
 
@@ -668,90 +668,90 @@ msgstr ""
 msgid "pushbullet alert failed for {} ({})"
 msgstr ""
 
-#: plugins/mentions.py:315
+#: plugins/mentions.py:312
 msgid "<b>{}</b> @mentioned you in <i>{}</i>:<br />{}"
 msgstr ""
 
-#: plugins/mentions.py:321
+#: plugins/mentions.py:318
 msgid "{} ({}) alerted via 1on1 ({})"
 msgstr ""
 
-#: plugins/mentions.py:327
+#: plugins/mentions.py:324
 msgid ""
 "@mention didn't work for <b>{}</b>. User must say something to me first."
 msgstr ""
 
-#: plugins/mentions.py:329
+#: plugins/mentions.py:326
 msgid "user {} ({}) could not be alerted via 1on1"
 msgstr ""
 
-#: plugins/mentions.py:332
+#: plugins/mentions.py:329
 msgid "<b>@mentions:</b><br />"
 msgstr ""
 
-#: plugins/mentions.py:334
+#: plugins/mentions.py:331
 msgid "1-to-1 fail: <i>{}</i><br />"
 msgstr ""
 
-#: plugins/mentions.py:336
+#: plugins/mentions.py:333
 msgid "PushBullet fail: <i>{}</i><br />"
 msgstr ""
 
-#: plugins/mentions.py:338
+#: plugins/mentions.py:335
 msgid "Ignored (DND): <i>{}</i><br />"
 msgstr ""
 
-#: plugins/mentions.py:340
+#: plugins/mentions.py:337
 msgid "Alerted: <i>{}</i><br />"
 msgstr ""
 
-#: plugins/mentions.py:342
+#: plugins/mentions.py:339
 msgid "Nobody was successfully @mentioned ;-(<br />"
 msgstr ""
 
-#: plugins/mentions.py:345
+#: plugins/mentions.py:342
 msgid "Users failing 1-to-1 need to say something to me privately first.<br />"
 msgstr ""
 
-#: plugins/mentions.py:361
+#: plugins/mentions.py:358
 msgid "deactivating pushbullet integration"
 msgstr ""
 
-#: plugins/mentions.py:365
+#: plugins/mentions.py:362
 msgid "setting pushbullet api key"
 msgstr ""
 
-#: plugins/mentions.py:373
+#: plugins/mentions.py:370
 msgid "pushbullet configuration not changed"
 msgstr ""
 
-#: plugins/mentions.py:389
+#: plugins/mentions.py:386
 msgid "<em>\"be more specific\" for mentions toggled ON</em>"
 msgstr ""
 
-#: plugins/mentions.py:393
+#: plugins/mentions.py:390
 msgid "<em>\"be more specific\" for mentions toggled OFF</em>"
 msgstr ""
 
-#: plugins/mentions.py:412
+#: plugins/mentions.py:409
 msgid ""
 "Error: Minimum length of nickname is {} characters. Only alphabetical and "
 "numeric characters allowed."
 msgstr ""
 
-#: plugins/mentions.py:450
+#: plugins/mentions.py:447
 msgid "<i>Your nickname is already <b>`{}`</b></i>"
 msgstr ""
 
-#: plugins/mentions.py:455
+#: plugins/mentions.py:452
 msgid "<i>Nickname <b>`{}`</b> is already in use by another user"
 msgstr ""
 
-#: plugins/mentions.py:474
+#: plugins/mentions.py:471
 msgid "Removing nickname"
 msgstr ""
 
-#: plugins/mentions.py:478
+#: plugins/mentions.py:475
 msgid "Setting nickname to '{}'"
 msgstr ""
 
@@ -863,42 +863,42 @@ msgstr ""
 msgid "Then let me know by sending <b>/bot verifyme</b> in this chat.</i>"
 msgstr ""
 
-#: plugins/subscribe.py:82
+#: plugins/subscribe.py:83
 msgid "<b>{}</b> mentioned '{}' in <i>{}</i>:<br />{}"
 msgstr ""
 
-#: plugins/subscribe.py:103
+#: plugins/subscribe.py:104
 msgid ""
 "Note: I am unable to ping you until you start a 1 on 1 conversation with me!"
 msgstr ""
 
-#: plugins/subscribe.py:107
+#: plugins/subscribe.py:108
 msgid "Usage: /bot subscribe [keyword]"
 msgstr ""
 
-#: plugins/subscribe.py:111 plugins/subscribe.py:144
+#: plugins/subscribe.py:112 plugins/subscribe.py:145
 msgid "Subscribed to: {}"
 msgstr ""
 
-#: plugins/subscribe.py:118
+#: plugins/subscribe.py:119
 msgid "Already subscribed to '{}'!"
 msgstr ""
 
-#: plugins/subscribe.py:127 plugins/subscribe.py:135
+#: plugins/subscribe.py:128 plugins/subscribe.py:136
 msgid ""
 "Note: You will not be able to trigger your own subscriptions. To test, "
 "please ask somebody else to test this for you."
 msgstr ""
 
-#: plugins/subscribe.py:154
+#: plugins/subscribe.py:155
 msgid "Unsubscribing all keywords"
 msgstr ""
 
-#: plugins/subscribe.py:158
+#: plugins/subscribe.py:159
 msgid "Unsubscribing from keyword '{}'"
 msgstr ""
 
-#: plugins/subscribe.py:162
+#: plugins/subscribe.py:163
 msgid "Error: keyword not found"
 msgstr ""
 
