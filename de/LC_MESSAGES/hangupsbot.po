@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2015-08-14 11:08+0200\n"
-"Last-Translator: Carsten Raddatz <git@carsten-raddatz.de>\n"
+"PO-Revision-Date: 2015-08-14 11:11+0200\n"
+"Last-Translator: Markus Eyrich (nEUTR0n) <eyrich.markus@gmail.com>\n"
 "Language-Team: German "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/de/>\n"
 "Language: de\n"
@@ -382,11 +382,11 @@ msgid ""
 "{} users would be mentioned with \"@{}\"! Be more specific. List of matching "
 "users:<br />"
 msgstr ""
-"{} User würden erwähnt mit \"@{}\"! Sei genauer. Liste passender User:<br />"
+"{} User werden erwähnt mit \"@{}\"! Sei genauer. Liste passender User:<br />"
 
 #: plugins/mentions.py:263
 msgid "@{} not sent due to multiple recipients"
-msgstr "@{} nicht gesendet wegen zahlreicher Empfänger"
+msgstr "@{} nicht gesendet wegen mehrerer Empfänger"
 
 #: plugins/mentions.py:283
 msgid "{} mentioned you in {}"
@@ -443,12 +443,12 @@ msgstr "Benachrichtigt: <i>{}</i><br />"
 
 #: plugins/mentions.py:331
 msgid "Nobody was successfully @mentioned ;-(<br />"
-msgstr "Niemand wurde erfoglreich @mentioned ;-(<br />"
+msgstr "Niemand wurde erfoglreich erwähnt ;-(<br />"
 
 #: plugins/mentions.py:334
 msgid "Users failing 1-to-1 need to say something to me privately first.<br />"
 msgstr ""
-"User die 1-to-1 nicht benutzen können müssen zuerst mir eine private "
+"User die 1-to-1 nicht benutzen können müssen mir zuerst eine private "
 "Nachricht schicken.<br />"
 
 #: plugins/mentions.py:350
