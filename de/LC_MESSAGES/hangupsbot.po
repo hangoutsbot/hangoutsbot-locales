@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2015-08-13 17:19+0200\n"
-"Last-Translator: Philipp Klose <me@thehippo.de>\n"
+"PO-Revision-Date: 2015-08-14 10:59+0200\n"
+"Last-Translator: Markus Eyrich (nEUTR0n) <eyrich.markus@gmail.com>\n"
 "Language-Team: German "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/de/>\n"
 "Language: de\n"
@@ -33,7 +33,7 @@ msgstr "<b>Admin-Kommandos:</b>"
 
 #: commands.py:131
 msgid "<i>{}, I've sent you some help ;)</i>"
-msgstr "<i>{}, ich habe Dir etwas Hilfe geschickt ;)</i>"
+msgstr "<i>{}, Ich habe Dir etwas Hilfe geschickt ;)</i>"
 
 #: commands.py:136
 msgid ""
@@ -47,16 +47,16 @@ msgstr ""
 msgid ""
 "<i>{}, before I can help you, you need to private message me and say hi.</i>"
 msgstr ""
-"<i>{}, bevor ich Dir helfen kann musst Du mir eine private Nachricht "
+"<i>{}, Bevor ich Dir helfen kann musst Du mir eine private Nachricht "
 "schicken und Hi sagen.</i>"
 
 #: commands.py:165
 msgid "<i>{}, you <b>opted-out</b> from bot private messages</i>"
-msgstr "<i>{}, du hast private Nachrichten vom Bot <b>abgewählt</b></i>"
+msgstr "<i>{}, Du hast private Nachrichten vom Bot <b>abgewählt</b></i>"
 
 #: commands.py:167
 msgid "<i>{}, you <b>opted-in</b> for bot private messages</i>"
-msgstr "<i>{}, du hast private Nachrichten vom Bot <b>angewählt</b></i>"
+msgstr "<i>{}, Du hast private Nachrichten vom Bot <b>angewählt</b></i>"
 
 #: commands.py:173
 msgid "Bot Version: <b>{}</b>"
@@ -72,11 +72,11 @@ msgstr "WEITERLEITUNG: {}"
 
 #: plugins/monitoradds.py:58 plugins/monitoradds.py:63
 msgid "<i>Moderators updated: {} added</i>"
-msgstr "<i>Moderatoren geupdated: {} hinzugefügt</i>"
+msgstr "<i>Moderatoren aktualisiert: {} hinzugefügt</i>"
 
 #: plugins/monitoradds.py:79
 msgid "<i>Moderators updated: {} removed</i>"
-msgstr "<i>Moderatoren geupdated: {} entfernt</i>"
+msgstr "<i>Moderatoren aktualisiert: {} entfernt</i>"
 
 #: plugins/restrictedadd.py:39
 msgid "RESTRICTEDADD: admin added me to {}"
@@ -100,11 +100,11 @@ msgstr ""
 
 #: plugins/restrictedadd.py:84
 msgid "RESTRICTEDADD: found botkeeper {}"
-msgstr ""
+msgstr "RESTRICTEDADD: botkeeper gefunden {}"
 
 #: plugins/restrictedadd.py:91
 msgid "RESTRICTEDADD: no botkeeper in {}"
-msgstr ""
+msgstr "RESTRICTEDADD: Kein botkeeper in {}"
 
 #: plugins/restrictedadd.py:96
 msgid "<i>There is no botkeeper in here. I have to go...</i>"
