@@ -7,7 +7,10 @@ commands/permamem.py
 commands/plugincontrol.py
 commands/tagging.py
 config.py
+event.py
+exceptions.py
 handlers.py
+hangups_conversation.py
 hangupsbot.py
 hooks/__init__.py
 monkeypatch/__init__.py

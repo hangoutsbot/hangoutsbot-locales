@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-17 17:38+0800\n"
+"POT-Creation-Date: 2015-08-21 10:30+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,7 +64,11 @@ msgid "Bot Version: <b>{}</b>"
 msgstr ""
 
 #: commands/basic.py:140
-msgid "{}: unknown command"
+msgid "{}: Unknown Command"
+msgstr ""
+
+#: commands/basic.py:146
+msgid "{}: Can't do that."
 msgstr ""
 
 #: commands/convid.py:32
@@ -201,31 +205,23 @@ msgstr ""
 msgid "<b>no users found</b>"
 msgstr ""
 
-#: handlers.py:175
+#: handlers.py:174
 msgid "{}: {}"
 msgstr ""
 
-#: handlers.py:181
+#: handlers.py:180
 msgid "{}: Missing parameter(s)"
 msgstr ""
 
-#: handlers.py:193
-msgid "{}: Can't do that."
-msgstr ""
-
-#: hangupsbot.py:211
+#: hangupsbot.py:116
 msgid "{} already registered in shared"
 msgstr ""
 
-#: hangupsbot.py:449
-msgid "Conversations:"
-msgstr ""
-
-#: hangupsbot.py:471
+#: hangupsbot.py:400
 msgid "memory: {} is 1on1 with {}"
 msgstr ""
 
-#: hangupsbot.py:518
+#: hangupsbot.py:447
 #, python-brace-format
 msgid ""
 "<i>Hi there! I'll be using this channel to send private messages and alerts. "
@@ -233,50 +229,50 @@ msgid ""
 "b>.</i>"
 msgstr ""
 
-#: hangupsbot.py:860
+#: hangupsbot.py:789
 msgid "Unidentified User"
 msgstr ""
 
-#: hangupsbot.py:868
+#: hangupsbot.py:797
 msgid ""
 "<i>{}, you are currently opted-out. Private message me or enter <b>{} "
 "optout</b> to get me to talk to you.</i>"
 msgstr ""
 
-#: hangupsbot.py:871
+#: hangupsbot.py:800
 msgid ""
 "<i>{}, before I can help you, you need to private message me and say hi.</i>"
 msgstr ""
 
-#: hangupsbot.py:1004
+#: hangupsbot.py:938
 msgid "log detailed debugging messages"
 msgstr ""
 
-#: hangupsbot.py:1006
+#: hangupsbot.py:940
 msgid "log file path"
 msgstr ""
 
-#: hangupsbot.py:1008
+#: hangupsbot.py:942
 msgid "cookie storage path"
 msgstr ""
 
-#: hangupsbot.py:1010
+#: hangupsbot.py:944
 msgid "memory storage path"
 msgstr ""
 
-#: hangupsbot.py:1012
+#: hangupsbot.py:946
 msgid "config storage path"
 msgstr ""
 
-#: hangupsbot.py:1014
+#: hangupsbot.py:948
 msgid "show program's version number and exit"
 msgstr ""
 
-#: hangupsbot.py:1024
+#: hangupsbot.py:958
 msgid "Failed to create directory: {}"
 msgstr ""
 
-#: hangupsbot.py:1032
+#: hangupsbot.py:966
 msgid "Failed to copy default config file: {}"
 msgstr ""
 
@@ -328,6 +324,10 @@ msgstr ""
 msgid "<b>{}</b>, forgotten for this conversation!"
 msgstr ""
 
+#: plugins/autoreply.py:67
+msgid "Unidentified Conversation"
+msgstr ""
+
 #: plugins/botaliases.py:50
 msgid "<i>bot alias: {}</i>"
 msgstr ""
@@ -348,12 +348,64 @@ msgstr ""
 msgid "<i>{}, coin turned up <b>tails</b></i>"
 msgstr ""
 
-#: plugins/convtools.py:148
+#: plugins/cleverbot.py:201
+msgid "<em>Cleverbot is silent</em>"
+msgstr ""
+
+#: plugins/convtools.py:53
+msgid "supply the id of the conversation to join"
+msgstr ""
+
+#: plugins/convtools.py:131
+msgid "conversation {} not found"
+msgstr ""
+
+#: plugins/convtools.py:134
+msgid "conversation {} is not a GROUP"
+msgstr ""
+
+#: plugins/convtools.py:137
+msgid "[DEFUNCT] {}"
+msgstr ""
+
+#: plugins/convtools.py:154
+msgid ""
+"<b>refresh:</b> {}<br /><b>rename old: {}</b><br /><b>removed {}:</b> {}<br /"
+"><b>added {}:</b> {}"
+msgstr ""
+
+#: plugins/convtools.py:158
+msgid "<em>unchanged</em>"
+msgstr ""
+
+#: plugins/convtools.py:160 plugins/convtools.py:162 plugins/convtools.py:184
+msgid "<em>none</em>"
+msgstr ""
+
+#: plugins/convtools.py:167
 msgid "<i>group refreshed</i><br />"
 msgstr ""
 
-#: plugins/convtools.py:149 plugins/convtools.py:151
-msgid "<b>group obsoleted</b>"
+#: plugins/convtools.py:175
+msgid "<i>group has been obsoleted</i>"
+msgstr ""
+
+#: plugins/convtools.py:178
+msgid ""
+"refreshed: <b><pre>{}</pre></b> (original id: <pre>{}</pre>).<br />new "
+"conversation id: <b><pre>{}</pre></b>.<br />removed {}: {}"
+msgstr ""
+
+#: plugins/convtools.py:187
+msgid "<b>nobody to add in the new conversation</b>"
+msgstr ""
+
+#: plugins/convtools.py:213
+msgid "supply optional conversation id and valid user ids to kick"
+msgstr ""
+
+#: plugins/convtools.py:216
+msgid "supply at least one valid user id to kick"
 msgstr ""
 
 #: plugins/convtools_invitations.py:121
@@ -465,27 +517,27 @@ msgstr ""
 msgid "<b>List of hangouts with keyword:</b> \"<pre>{}</pre>\""
 msgstr ""
 
-#: plugins/default.py:277
+#: plugins/default.py:281
 msgid "<em>note: testing single parameter as json</em>"
 msgstr ""
 
-#: plugins/default.py:304
+#: plugins/default.py:308
 msgid "append failed on non-list"
 msgstr ""
 
-#: plugins/default.py:318
+#: plugins/default.py:322
 msgid "remove failed on non-list"
 msgstr ""
 
-#: plugins/default.py:328
+#: plugins/default.py:332
 msgid "Parameter does not exist!"
 msgstr ""
 
-#: plugins/default.py:350
+#: plugins/default.py:354
 msgid "<b><pre>{}</pre></b>, chat_id = <i>{}</i>"
 msgstr ""
 
-#: plugins/default.py:358
+#: plugins/default.py:362
 msgid "You are at <b><pre>{}</pre></b>, conv_id = <i><pre>{}</pre></i>"
 msgstr ""
 
@@ -575,201 +627,109 @@ msgstr ""
 msgid "You drew a {} previously."
 msgstr ""
 
-#: plugins/mentions.py:110
+#: plugins/mentions.py:116
 msgid ""
 "<b>{}</b>, you cannot @mention anyone until your DND status is toggled off."
 msgstr ""
 
-#: plugins/mentions.py:114
-msgid "quidproquo: user {} ({}) has 1-on-1"
-msgstr ""
-
-#: plugins/mentions.py:116
-msgid "quidproquo: user {} ({}) has no 1-on-1"
-msgstr ""
-
-#: plugins/mentions.py:120
+#: plugins/mentions.py:126
 msgid "<b>{}</b> cannot @mention anyone until they say something to me first."
 msgstr ""
 
-#: plugins/mentions.py:139
-msgid "@mention '{}' in '{}' ({})"
-msgstr ""
-
-#: plugins/mentions.py:148
-msgid "@all in {}: disabled/unset global/per-conversation"
-msgstr ""
-
-#: plugins/mentions.py:153
-msgid "@all in {}: user {} ({}) is not admin"
-msgstr ""
-
-#: plugins/mentions.py:157
-msgid "@all in {}: user {} ({}) blocked"
-msgstr ""
-
-#: plugins/mentions.py:161
+#: plugins/mentions.py:167
 msgid "You are not allowed to use @all in <b>{}</b>"
 msgstr ""
 
-#: plugins/mentions.py:166
+#: plugins/mentions.py:172
 msgid "<b>{}</b> blocked from using <i>@all</i>"
 msgstr ""
 
-#: plugins/mentions.py:170
-msgid "@all in {}: allowed, {} ({}) is whitelisted"
-msgstr ""
-
-#: plugins/mentions.py:172
-msgid "@all in {}: allowed, {} ({}) is an admin"
-msgstr ""
-
-#: plugins/mentions.py:174
-msgid "@all in {}: enabled global/per-conversation"
-msgstr ""
-
-#: plugins/mentions.py:203
-msgid "user {} ({}) is present"
-msgstr ""
-
-#: plugins/mentions.py:207
-msgid "suppressing bot mention by {} ({})"
-msgstr ""
-
-#: plugins/mentions.py:212
-msgid "suppressing @all for {} ({})"
-msgstr ""
-
-#: plugins/mentions.py:217
-msgid "suppressing @self for {} ({})"
-msgstr ""
-
-#: plugins/mentions.py:222
-msgid "suppressing duplicate mention for {} ({})"
-msgstr ""
-
-#: plugins/mentions.py:227
-msgid "suppressing @mention for {} ({})"
-msgstr ""
-
-#: plugins/mentions.py:246
-msgid "prioritising nickname match for {}"
-msgstr ""
-
-#: plugins/mentions.py:250
-msgid "prioritising single case-sensitive fragment match for {}"
-msgstr ""
-
-#: plugins/mentions.py:253
-msgid "prioritising multiple case-sensitive fragment match for {}"
-msgstr ""
-
-#: plugins/mentions.py:265
+#: plugins/mentions.py:271
 msgid ""
 "{} users would be mentioned with \"@{}\"! Be more specific. List of matching "
 "users:<br />"
 msgstr ""
 
-#: plugins/mentions.py:278
-msgid "@{} not sent due to multiple recipients"
-msgstr ""
-
-#: plugins/mentions.py:298
+#: plugins/mentions.py:304
 msgid "{} mentioned you in {}"
 msgstr ""
 
-#: plugins/mentions.py:304
-msgid "{} ({}) alerted via pushbullet"
-msgstr ""
-
-#: plugins/mentions.py:308
-msgid "pushbullet alert failed for {} ({})"
-msgstr ""
-
-#: plugins/mentions.py:316
+#: plugins/mentions.py:322
 msgid "<b>{}</b> @mentioned you in <i>{}</i>:<br />{}"
 msgstr ""
 
-#: plugins/mentions.py:322
-msgid "{} ({}) alerted via 1on1 ({})"
-msgstr ""
-
-#: plugins/mentions.py:328
+#: plugins/mentions.py:334
 msgid ""
 "@mention didn't work for <b>{}</b>. User must say something to me first."
 msgstr ""
 
-#: plugins/mentions.py:330
-msgid "user {} ({}) could not be alerted via 1on1"
-msgstr ""
-
-#: plugins/mentions.py:333
+#: plugins/mentions.py:339
 msgid "<b>@mentions:</b><br />"
 msgstr ""
 
-#: plugins/mentions.py:335
+#: plugins/mentions.py:341
 msgid "1-to-1 fail: <i>{}</i><br />"
 msgstr ""
 
-#: plugins/mentions.py:337
+#: plugins/mentions.py:343
 msgid "PushBullet fail: <i>{}</i><br />"
 msgstr ""
 
-#: plugins/mentions.py:339
+#: plugins/mentions.py:345
 msgid "Ignored (DND): <i>{}</i><br />"
 msgstr ""
 
-#: plugins/mentions.py:341
+#: plugins/mentions.py:347
 msgid "Alerted: <i>{}</i><br />"
 msgstr ""
 
-#: plugins/mentions.py:343
+#: plugins/mentions.py:349
 msgid "Nobody was successfully @mentioned ;-(<br />"
 msgstr ""
 
-#: plugins/mentions.py:346
+#: plugins/mentions.py:352
 msgid "Users failing 1-to-1 need to say something to me privately first.<br />"
 msgstr ""
 
-#: plugins/mentions.py:362
+#: plugins/mentions.py:368
 msgid "deactivating pushbullet integration"
 msgstr ""
 
-#: plugins/mentions.py:366
+#: plugins/mentions.py:372
 msgid "setting pushbullet api key"
 msgstr ""
 
-#: plugins/mentions.py:374
+#: plugins/mentions.py:380
 msgid "pushbullet configuration not changed"
 msgstr ""
 
-#: plugins/mentions.py:390
+#: plugins/mentions.py:396
 msgid "<em>\"be more specific\" for mentions toggled ON</em>"
 msgstr ""
 
-#: plugins/mentions.py:394
+#: plugins/mentions.py:400
 msgid "<em>\"be more specific\" for mentions toggled OFF</em>"
 msgstr ""
 
-#: plugins/mentions.py:413
+#: plugins/mentions.py:419
 msgid ""
 "Error: Minimum length of nickname is {} characters. Only alphabetical and "
 "numeric characters allowed."
 msgstr ""
 
-#: plugins/mentions.py:451
+#: plugins/mentions.py:457
 msgid "<i>Your nickname is already <b>`{}`</b></i>"
 msgstr ""
 
-#: plugins/mentions.py:456
+#: plugins/mentions.py:462
 msgid "<i>Nickname <b>`{}`</b> is already in use by another user"
 msgstr ""
 
-#: plugins/mentions.py:475
+#: plugins/mentions.py:481
 msgid "Removing nickname"
 msgstr ""
 
-#: plugins/mentions.py:479
+#: plugins/mentions.py:485
 msgid "Setting nickname to '{}'"
 msgstr ""
 
@@ -940,63 +900,67 @@ msgstr ""
 msgid "<i>`{}` was detached</i>"
 msgstr ""
 
-#: plugins/tldr.py:28
-msgid "<b>TL;DR ({}):</b>"
-msgstr ""
-
-#: plugins/tldr.py:30
+#: plugins/tldr.py:36
 msgid "{}. {} <b>{} ago</b>"
 msgstr ""
 
-#: plugins/tldr.py:37
-msgid "Nothing in TL;DR"
+#: plugins/tldr.py:41
+msgid "TL;DR not found"
 msgstr ""
 
-#: plugins/tldr.py:46
+#: plugins/tldr.py:43
+msgid "<b>TL;DR ({} stored):</b>"
+msgstr ""
+
+#: plugins/tldr.py:44
+msgid "<br />"
+msgstr ""
+
+#: plugins/tldr.py:55
 msgid "TL;DR #{} not found"
 msgstr ""
 
-#: plugins/tldr.py:50
+#: plugins/tldr.py:59
 msgid "TL;DR #{} removed - \"{}\""
 msgstr ""
 
-#: plugins/tldr.py:53
+#: plugins/tldr.py:62
 msgid "All TL;DRs cleared"
 msgstr ""
 
-#: plugins/tldr.py:65
+#: plugins/tldr.py:74
 msgid "Added \"{}\" to TL;DR. Count: {}"
 msgstr ""
 
-#: plugins/tldr.py:74
+#: plugins/tldr.py:83
 msgid "{}s"
 msgstr ""
 
-#: plugins/tldr.py:76
+#: plugins/tldr.py:85
 msgid "{}m"
 msgstr ""
 
-#: plugins/tldr.py:78
+#: plugins/tldr.py:87
 msgid "{}h"
 msgstr ""
 
-#: plugins/tldr.py:80
+#: plugins/tldr.py:89
 msgid "{}d"
 msgstr ""
 
-#: plugins/urbandict.py:89
+#: plugins/urbandict.py:93
 msgid "<b>definition:</b> "
 msgstr ""
 
-#: plugins/urbandict.py:91
+#: plugins/urbandict.py:95
 msgid "<b>example:</b> "
 msgstr ""
 
-#: plugins/urbandict.py:96
+#: plugins/urbandict.py:100
 msgid "<i>no urban dictionary definition for \"{}\"</i>"
 msgstr ""
 
-#: plugins/urbandict.py:98
+#: plugins/urbandict.py:102
 msgid "<i>no term from urban dictionary</i>"
 msgstr ""
 
