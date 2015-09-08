@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-21 10:30+0800\n"
-"PO-Revision-Date: 2015-08-21 10:30+0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2015-09-08 19:10+0200\n"
+"Last-Translator: JimmyChang <mybalance22@gmail.com>\n"
+"Language-Team: Traditional Chinese "
+"<https://hosted.weblate.org/projects/hangoutsbot/hangups/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.4-dev\n"
 
 #: commands/basic.py:35
 msgid ""
@@ -24,19 +27,19 @@ msgstr ""
 
 #: commands/basic.py:45
 msgid "<b>User commands:</b>"
-msgstr ""
+msgstr "<b>使用者指令：</b>"
 
 #: commands/basic.py:50
 msgid "<i>For more information, please see: {}</i>"
-msgstr ""
+msgstr "<i>更多資訊，請至： {}</i>"
 
 #: commands/basic.py:54
 msgid "<b>Admin commands:</b>"
-msgstr ""
+msgstr "<b>管理員指令：</b>"
 
 #: commands/basic.py:68
 msgid "<i>{}, I've sent you some help ;)</i>"
-msgstr ""
+msgstr "<i>{} ，我會給你一些幫助訊息 ;)</i>"
 
 #: commands/basic.py:77
 msgid "locale set to: {}"
@@ -60,15 +63,15 @@ msgstr ""
 
 #: commands/basic.py:118
 msgid "Bot Version: <b>{}</b>"
-msgstr ""
+msgstr "Bot 版本： <b>{}</b>"
 
 #: commands/basic.py:140
 msgid "{}: Unknown Command"
-msgstr ""
+msgstr "{}: 未知的指令"
 
 #: commands/basic.py:146
 msgid "{}: Can't do that."
-msgstr ""
+msgstr "{}: 無法執行。"
 
 #: commands/convid.py:32
 msgid ""
@@ -82,7 +85,7 @@ msgstr ""
 
 #: commands/convid.py:40 plugins/default.py:191
 msgid "<b>Total: {}</b>"
-msgstr ""
+msgstr "<b>總共： {}</b>"
 
 #: commands/convid.py:55
 msgid "<em>sending to ALL conversations not allowed</em>"
@@ -949,20 +952,20 @@ msgstr ""
 
 #: plugins/urbandict.py:93
 msgid "<b>definition:</b> "
-msgstr ""
+msgstr "<b>定義：</b> "
 
 #: plugins/urbandict.py:95
 msgid "<b>example:</b> "
-msgstr ""
+msgstr "<b>例子：</b> "
 
 #: plugins/urbandict.py:100
 msgid "<i>no urban dictionary definition for \"{}\"</i>"
-msgstr ""
+msgstr "<i>城市詞典中對於 \"{}\" 沒有任何定義</i>"
 
 #: plugins/urbandict.py:102
 msgid "<i>no term from urban dictionary</i>"
-msgstr ""
+msgstr "<i>城市詞典中沒有這個術語</i>"
 
 #: plugins/wolframalpha.py:52
 msgid "<i>Wolfram Alpha did not return any useful data</i>"
-msgstr ""
+msgstr "<i>Wolfram Alpha 沒有回傳任何的有用的資訊</i>"
