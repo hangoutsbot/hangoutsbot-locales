@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-21 10:30+0800\n"
-"PO-Revision-Date: 2015-08-21 10:30+0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2015-10-12 11:11+0200\n"
+"Last-Translator: Kasper Lorenzen <kalo@solutionz.dk>\n"
+"Language-Team: Danish "
+"<https://hosted.weblate.org/projects/hangoutsbot/hangups/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.5-dev\n"
 
 #: commands/basic.py:35
 msgid ""
@@ -29,11 +31,11 @@ msgstr ""
 
 #: commands/basic.py:50
 msgid "<i>For more information, please see: {}</i>"
-msgstr ""
+msgstr "<i>For yderligere information, se venligst: {}</i>"
 
 #: commands/basic.py:54
 msgid "<b>Admin commands:</b>"
-msgstr ""
+msgstr "<b>Admin kommandoer:</b>"
 
 #: commands/basic.py:68
 msgid "<i>{}, I've sent you some help ;)</i>"
@@ -41,11 +43,11 @@ msgstr ""
 
 #: commands/basic.py:77
 msgid "locale set to: {}"
-msgstr ""
+msgstr "sprog sat til: {}"
 
 #: commands/basic.py:79
 msgid "locale unchanged"
-msgstr ""
+msgstr "sprog uændret"
 
 #: commands/basic.py:81
 msgid "language code required"
@@ -53,65 +55,67 @@ msgstr ""
 
 #: commands/basic.py:108
 msgid "<i>{}, you <b>opted-out</b> from bot private messages</i>"
-msgstr ""
+msgstr "<i>{}, du <b>opted-out</b> fra bottens privat beskeder</i>"
 
 #: commands/basic.py:110
 msgid "<i>{}, you <b>opted-in</b> for bot private messages</i>"
-msgstr ""
+msgstr "<i>{}, du <b>opted-in</b> for privat beskeder fra botten</i>"
 
 #: commands/basic.py:118
 msgid "Bot Version: <b>{}</b>"
-msgstr ""
+msgstr "Bot version: <b>{}</b>"
 
 #: commands/basic.py:140
 msgid "{}: Unknown Command"
-msgstr ""
+msgstr "{}: Ukendt Kommando"
 
 #: commands/basic.py:146
 msgid "{}: Can't do that."
-msgstr ""
+msgstr "{}: Det er ikke muligt."
 
 #: commands/convid.py:32
 msgid ""
 "<em>1 parameter required, {} supplied - enclose parameter in double-quotes</"
 "em>"
 msgstr ""
+"<em>1 parameter er påkrævet, {} fundet - indsæt paramter i dobbelt-"
+"quotes</em>"
 
 #: commands/convid.py:35
 msgid "<em>supply 1 parameter</em>"
-msgstr ""
+msgstr "<em>tilføj 1 parameter</em>"
 
 #: commands/convid.py:40 plugins/default.py:191
 msgid "<b>Total: {}</b>"
-msgstr ""
+msgstr "<b>Totalt: {}</b>"
 
 #: commands/convid.py:55
 msgid "<em>sending to ALL conversations not allowed</em>"
-msgstr ""
+msgstr "<em>det er ikke tilladt at sende til @ALL</em>"
 
 #: commands/convid.py:64
 msgid "<em>command echo blocked</em>"
-msgstr ""
+msgstr "<em>kommandoen echo er blokeret</em>"
 
 #: commands/convid.py:68
 msgid "<em>missing text</em>"
-msgstr ""
+msgstr "<em>tekst mangler</em>"
 
 #: commands/convid.py:72
 msgid "<em>required parameters: convfilter text</em>"
-msgstr ""
+msgstr "<em>krævede parametre: convfilter tekst</em>"
 
 #: commands/convid.py:76
 msgid "<em>no conversations filtered</em>"
-msgstr ""
+msgstr "<em>ingen samtaler filtreret</em>"
 
 #: commands/convid.py:97
 msgid "<em>missing title</em>"
-msgstr ""
+msgstr "<em>titel mangler</em>"
 
 #: commands/convid.py:102
 msgid "<em>required parameters: convfilter title</em>"
-msgstr ""
+msgstr "<em>krævede parametre: convfilter titel</em>"
 
 #: commands/convid.py:112
 msgid "<em>should be 1 parameter, {} supplied</em>"
