@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-16 11:54+0800\n"
-"PO-Revision-Date: 2015-07-21 17:01+0200\n"
-"Last-Translator: Çağrı TOPÇU <hctopcu@gmail.com>\n"
+"PO-Revision-Date: 2015-10-30 17:57+0200\n"
+"Last-Translator: Mehmet Burak Sertcelik (Preteu <mbsertcelik@gmail.com>\n"
 "Language-Team: Turkish "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/tr/>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.4-dev\n"
+"X-Generator: Weblate 2.5-dev\n"
 
 #: commands.py:101
 msgid "<b>User commands:</b>"
@@ -59,7 +59,7 @@ msgstr "<i>{}, bot mesajlarını devreye aldın.  (<b>opted-in</b>)</i>"
 
 #: commands.py:172
 msgid "Bot Version: <b>{}</b>"
-msgstr "Bot Versionu: <b>{}</b>"
+msgstr "Bot Versiyonu: <b>{}</b>"
 
 #: commands.py:179
 msgid "{}: unknown command"
@@ -67,7 +67,7 @@ msgstr "{}: komut bilinmiyor"
 
 #: plugins/forwarding.py:20
 msgid "FORWARDING: {}"
-msgstr "İLETİLİYOR: {}"
+msgstr "YÖNLENDİRİLİYOR: {}"
 
 #: plugins/monitoradds.py:58 plugins/monitoradds.py:63
 msgid "<i>Moderators updated: {} added</i>"
@@ -82,12 +82,10 @@ msgid "RESTRICTEDADD: admin added me to {}"
 msgstr "RESTRICTEDADD: admin beni şuraya ekledi: {}"
 
 #: plugins/restrictedadd.py:41
-#, fuzzy
 msgid "RESTRICTEDADD: authorised user added me to {}"
 msgstr "RESTRICTEDADD: yetkili kullanıcı beni şuraya ekledi: {}"
 
 #: plugins/restrictedadd.py:44
-#, fuzzy
 msgid "RESTRICTEDADD: user {} tried to add me to {}"
 msgstr "RESTRICTEDADD: {} isimli kullanıcı beni şuraya eklemeye çalıştı: {}"
 
@@ -144,23 +142,20 @@ msgid "<em>sending to ALL conversations not allowed</em>"
 msgstr "<em>Tüm görüşmelere göndermeye izin verilmiyor</em>"
 
 #: plugins/default.py:63
-#, fuzzy
 msgid "<em>command echo blocked</em>"
-msgstr "<em>echo komutu engelli</em>"
+msgstr "<em>echo komutu engellendi</em>"
 
 #: plugins/default.py:67
 msgid "<em>missing text</em>"
 msgstr "<em>metin eksik</em>"
 
 #: plugins/default.py:71
-#, fuzzy
 msgid "<em>required parameters: convfilter text</em>"
 msgstr "<em>gerekli parametreler: convfilter metni</em>"
 
 #: plugins/default.py:75
-#, fuzzy
 msgid "<em>no conversations filtered</em>"
-msgstr "<em>hiç bir görüşme filrelenmedi</em>"
+msgstr "<em>hiçbir görüşme filrelenmedi</em>"
 
 #: plugins/default.py:96
 msgid "<em>missing title</em>"
@@ -175,9 +170,8 @@ msgid "<em>should be 1 parameter, {} supplied</em>"
 msgstr "<em>1 parametre olması gerekiyordu, {} verildi</em>"
 
 #: plugins/default.py:114
-#, fuzzy
 msgid "<em>retrieving ALL conversations blocked</em>"
-msgstr "<em>tüm görüşmeleri alma engelli</em>"
+msgstr "<em>TÜM gelen mesajlar engellendi</em>"
 
 #: plugins/default.py:133
 msgid "<b>Users: {}</b>"
@@ -196,9 +190,8 @@ msgid "I'll be back!"
 msgstr "Elbet bir gün geri geleceğim!"
 
 #: plugins/default.py:182
-#, fuzzy
 msgid "broadcast: no message set"
-msgstr "duyuru: hiç bir mesaj ayarlanmadı"
+msgstr "duyuru: hiçbir mesaj ayarlanmadı"
 
 #: plugins/default.py:185
 msgid "broadcast: no conversations available"
@@ -209,7 +202,6 @@ msgid "<b>message:</b><br />{}<br /><b>to:</b><br />{}"
 msgstr "<b>mesaj:</b><br />{}<br /><b>alıcı:</b><br />{}"
 
 #: plugins/default.py:198
-#, fuzzy
 msgid "broadcast: message not allowed"
 msgstr "duyuru: mesaja izin verilmiyor"
 
