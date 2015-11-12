@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
 "PO-Revision-Date: 2015-11-12 10:45+0000\n"
-"Last-Translator: Martin Kalábek (Eneris) <eneris.cz@gmail.com>\n"
+"Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language-Team: Czech "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/cs/>\n"
 "Language: cs\n"
@@ -68,7 +68,7 @@ msgstr "PŘESMĚROVÁNÍ: {}"
 
 #: plugins/monitoradds.py:58 plugins/monitoradds.py:63
 msgid "<i>Moderators updated: {} added</i>"
-msgstr "<i>Aktualizace seznamu moderátorů: {} přidán/o</i>"
+msgstr "<i>Aktualizace seznamu moderátorů: {} přidán</i>"
 
 #: plugins/monitoradds.py:79
 msgid "<i>Moderators updated: {} removed</i>"
