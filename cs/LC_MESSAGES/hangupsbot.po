@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2015-07-16 12:16+0200\n"
+"PO-Revision-Date: 2015-11-12 10:45+0000\n"
 "Last-Translator: Martin Kalábek (Eneris) <eneris.cz@gmail.com>\n"
 "Language-Team: Czech "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/cs/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2.4-dev\n"
+"X-Generator: Weblate 2.5-dev\n"
 
 #: commands.py:102
 msgid "<b>User commands:</b>"
@@ -25,7 +25,7 @@ msgstr "<b>Příkazy uživatele:</b>"
 
 #: commands.py:107
 msgid "<i>For more information, please see: {}</i>"
-msgstr ""
+msgstr "<i>Více informací čtěte na: {}</i>"
 
 #: commands.py:111
 msgid "<b>Admin commands:</b>"
@@ -68,7 +68,7 @@ msgstr "PŘESMĚROVÁNÍ: {}"
 
 #: plugins/monitoradds.py:58 plugins/monitoradds.py:63
 msgid "<i>Moderators updated: {} added</i>"
-msgstr ""
+msgstr "<i>Aktualizace seznamu moderátorů: {} přidán/o</i>"
 
 #: plugins/monitoradds.py:79
 msgid "<i>Moderators updated: {} removed</i>"
