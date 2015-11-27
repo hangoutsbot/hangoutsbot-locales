@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-21 10:30+0800\n"
-"PO-Revision-Date: 2015-11-28 00:34+0000\n"
+"PO-Revision-Date: 2015-11-28 00:35+0000\n"
 "Last-Translator: Carlos Núñez (Sabinico) <sabinico@gmail.com>\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/es/>\n"
@@ -524,11 +524,11 @@ msgstr "broadcast: mensaje enviado a {} conversaciones"
 
 #: plugins/default.py:138
 msgid "broadcast: /bot broadcast [info|message|add|remove|NOW] ..."
-msgstr "broadcast: /bot broadcast [info|message|add|remove|NOW] ..."
+msgstr "uso de broadcast: /bot broadcast [info|message|add|remove|NOW] ..."
 
 #: plugins/default.py:141
 msgid "broadcast: /bot broadcast [info|message|add|remove|NOW]"
-msgstr "broadcast: /bot broadcast [info|message|add|remove|NOW]"
+msgstr "uso de broadcast: /bot broadcast [info|message|add|remove|NOW]"
 
 #: plugins/default.py:155
 msgid "results for user named \"{}\":"
