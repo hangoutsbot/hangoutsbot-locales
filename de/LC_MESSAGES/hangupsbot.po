@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2015-08-14 11:11+0200\n"
-"Last-Translator: Markus Eyrich (nEUTR0n) <eyrich.markus@gmail.com>\n"
+"PO-Revision-Date: 2016-01-02 13:39+0000\n"
+"Last-Translator: rene mayer <renemayer0hb@gmail.com>\n"
 "Language-Team: German "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/de/>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.4-dev\n"
+"X-Generator: Weblate 2.5-dev\n"
 
 #: commands.py:102
 msgid "<b>User commands:</b>"
@@ -278,11 +278,11 @@ msgstr ""
 
 #: plugins/mentions.py:64
 msgid "@mention from {} ({}) too short (== '{}')"
-msgstr ""
+msgstr "@mention von {} ({}) zu kurz (== '{}')"
 
 #: plugins/mentions.py:82
 msgid "@mention in a syncroom: {} user(s) present"
-msgstr ""
+msgstr "@mention in einen Syncraum: {} Benutzer vorhanden"
 
 #: plugins/mentions.py:101
 msgid "quidproquo: user {} ({}) has DND active"
@@ -425,9 +425,8 @@ msgid "<b>@mentions:</b><br />"
 msgstr "<b>@mentions:</b><br />"
 
 #: plugins/mentions.py:323
-#, fuzzy
 msgid "1-to-1 fail: <i>{}</i><br />"
-msgstr "1-to-1 fail: <i>{}</i><br />"
+msgstr "1-zu-1 fehlgeschlagen: <i>{}</i><br />"
 
 #: plugins/mentions.py:325
 msgid "PushBullet fail: <i>{}</i><br />"
@@ -555,15 +554,15 @@ msgstr ""
 
 #: plugins/subscribe.py:149
 msgid "Unsubscribing all keywords"
-msgstr ""
+msgstr "Abonnement aller Schlagwörtern gekündigt"
 
 #: plugins/subscribe.py:153
 msgid "Unsubscribing from keyword '{}'"
-msgstr ""
+msgstr "Kündige Abonnements des Schlagworts '{}'"
 
 #: plugins/subscribe.py:157
 msgid "Error: keyword not found"
-msgstr ""
+msgstr "Fehler: Schlagwort nicht gefunden"
 
 #: plugins/syncrooms.py:59
 msgid "_migrate_syncroom_v1(): config-v2 = {}"
