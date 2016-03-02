@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-21 10:30+0800\n"
-"PO-Revision-Date: 2015-11-28 00:35+0000\n"
+"PO-Revision-Date: 2016-03-03 00:10+0000\n"
 "Last-Translator: Carlos Núñez (Sabinico) <sabinico@gmail.com>\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/es/>\n"
@@ -69,11 +69,11 @@ msgstr "Versión del bot: <b>{}</b>"
 
 #: commands/basic.py:140
 msgid "{}: Unknown Command"
-msgstr "{}: Comando desconocido"
+msgstr "<i>Comando desconocido, {}</i>"
 
 #: commands/basic.py:146
 msgid "{}: Can't do that."
-msgstr "{}: No puedo hacer eso."
+msgstr "Oops! No puedo hacer eso, {}."
 
 #: commands/convid.py:32
 msgid ""
@@ -85,7 +85,7 @@ msgstr ""
 
 #: commands/convid.py:35
 msgid "<em>supply 1 parameter</em>"
-msgstr "<em>Suministre un parámetro</em>"
+msgstr "<em>Suministre 1 parámetro</em>"
 
 #: commands/convid.py:40 plugins/default.py:191
 msgid "<b>Total: {}</b>"
@@ -953,7 +953,7 @@ msgstr "<i>`{}` ha sido de-sincronizado</i>"
 
 #: plugins/tldr.py:36
 msgid "{}. {} <b>{} ago</b>"
-msgstr "<b>Hace {}. {} {} </b>"
+msgstr "{}. {} <b>Hace {}</b>"
 
 #: plugins/tldr.py:41
 msgid "TL;DR not found"
