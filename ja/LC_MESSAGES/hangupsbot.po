@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-21 10:30+0800\n"
-"PO-Revision-Date: 2016-02-18 02:17+0000\n"
+"PO-Revision-Date: 2016-03-04 16:02+0000\n"
 "Last-Translator: tomoki matsuoka <tomoki.matsuoka@gmail.com>\n"
 "Language-Team: Japanese "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/ja/>\n"
@@ -122,7 +122,7 @@ msgstr "<em>1つのパラメータ　{}　が必要です。</em>"
 
 #: commands/convid.py:115
 msgid "<em>retrieving ALL conversations blocked</em>"
-msgstr ""
+msgstr "<em>全員宛の会話は禁止されています。</em>"
 
 #: commands/convid.py:132
 msgid "<b>Users: {}</b>"
@@ -130,7 +130,7 @@ msgstr "<b>ユーザー: {}</b>"
 
 #: commands/convid.py:149
 msgid "<em>cannot leave ALL conversations</em>"
-msgstr ""
+msgstr "<em>全員宛の会話は出来ません。</em>"
 
 #: commands/convid.py:156
 msgid "<em>required parameters: convfilter</em>"
@@ -218,11 +218,11 @@ msgstr "{}: パラメータが不足しています"
 
 #: hangupsbot.py:116
 msgid "{} already registered in shared"
-msgstr ""
+msgstr "{} 既に共有登録されています"
 
 #: hangupsbot.py:400
 msgid "memory: {} is 1on1 with {}"
-msgstr ""
+msgstr "メモリー: {} は  {} と 1on1しています。"
 
 #: hangupsbot.py:447
 #, python-brace-format
@@ -253,7 +253,7 @@ msgstr "<i>{}, 利用を開始する前に、私と個別HOを開始して何か
 
 #: hangupsbot.py:938
 msgid "log detailed debugging messages"
-msgstr ""
+msgstr "デバッグ情報を含む詳細ログ"
 
 #: hangupsbot.py:940
 msgid "log file path"
@@ -285,11 +285,11 @@ msgstr "デフォルト設定ファイルのコピーに失敗しました: {}"
 
 #: plugins/_example_memory.py:22
 msgid "<b>{}</b>, remembered!"
-msgstr ""
+msgstr "<b>{}</b>, 思い出した！"
 
 #: plugins/_example_memory.py:27
 msgid "<b>{}</b>, remembered something else!"
-msgstr ""
+msgstr "<b>{}</b>, 別のことを思い出した！"
 
 #: plugins/_example_memory.py:38
 msgid "<b>{}</b>, nothing remembered!"
@@ -301,7 +301,7 @@ msgstr "<b>{}</b> 思い出すように言ってください <i>\"{}\"</i>"
 
 #: plugins/_example_memory.py:54
 msgid "<b>{}</b>, nothing to forget!"
-msgstr ""
+msgstr "<b>{}</b>, 忘れる物はなにもない！"
 
 #: plugins/_example_memory.py:60
 msgid "<b>{}</b>, forgotten!"
@@ -309,23 +309,23 @@ msgstr "<b>{}</b>, わすれた！"
 
 #: plugins/_example_memory.py:76
 msgid "<b>{}</b>, remembered for this conversation"
-msgstr ""
+msgstr "<b>{}</b>, この会話を思い出した"
 
 #: plugins/_example_memory.py:81
 msgid "<b>{}</b>, remembered something else for this conversation!"
-msgstr ""
+msgstr "<b>{}</b>, この会話以外の何かを思い出した！"
 
 #: plugins/_example_memory.py:92
 msgid "<b>{}</b>, nothing remembered for this conversation!"
-msgstr ""
+msgstr "<b>{}</b>, この会話の事を思い出せなかった！"
 
 #: plugins/_example_memory.py:97
 msgid "<b>{}</b> asked me to remember <i>\"{}\" for this conversation</i>"
-msgstr ""
+msgstr "<b>{}</b> この会話について <i>\"{}\" を思い出すように指示して下さい</i>"
 
 #: plugins/_example_memory.py:108
 msgid "<b>{}</b>, nothing to forget for this conversation!"
-msgstr ""
+msgstr "<b>{}</b>, この会話について忘れる物はなにもない！"
 
 #: plugins/_example_memory.py:114
 msgid "<b>{}</b>, forgotten for this conversation!"
@@ -333,7 +333,7 @@ msgstr ""
 
 #: plugins/autoreply.py:67
 msgid "Unidentified Conversation"
-msgstr ""
+msgstr "未設定の会話"
 
 #: plugins/botaliases.py:50
 msgid "<i>bot alias: {}</i>"
@@ -345,31 +345,31 @@ msgstr "<i>botのエイリアス変更は許可されていません。</i>"
 
 #: plugins/chance.py:27
 msgid "<i>{} rolled <b>{}</b></i>"
-msgstr ""
+msgstr "<i>{} は <b>{}</b>を演じた</i>"
 
 #: plugins/chance.py:33
 msgid "<i>{}, coin turned up <b>heads</b></i>"
-msgstr ""
+msgstr "<i>{}, コイントスを行った。 <b>表</b></i>"
 
 #: plugins/chance.py:35
 msgid "<i>{}, coin turned up <b>tails</b></i>"
-msgstr ""
+msgstr "<i>{}, コイントスを行った。 <b>裏</b></i>"
 
 #: plugins/cleverbot.py:201
 msgid "<em>Cleverbot is silent</em>"
-msgstr ""
+msgstr "<em>Cleverbot は沈黙中です</em>"
 
 #: plugins/convtools.py:53
 msgid "supply the id of the conversation to join"
-msgstr ""
+msgstr "HOに入るにはidを指定して下さい"
 
 #: plugins/convtools.py:131
 msgid "conversation {} not found"
-msgstr ""
+msgstr "グループ {} は見つかりません"
 
 #: plugins/convtools.py:134
 msgid "conversation {} is not a GROUP"
-msgstr ""
+msgstr "会話 {} はグループではありません"
 
 #: plugins/convtools.py:137
 msgid "[DEFUNCT] {}"
@@ -380,6 +380,8 @@ msgid ""
 "<b>refresh:</b> {}<br /><b>rename old: {}</b><br /><b>removed {}:</b> {}<br /"
 "><b>added {}:</b> {}"
 msgstr ""
+"<b>更新結果:</b> {}<br /><b>名前変更: {}</b><br /><b>削除 {}:</b> {}<br /><b>追加 {}:</b>"
+" {}"
 
 #: plugins/convtools.py:158
 msgid "<em>unchanged</em>"
@@ -391,7 +393,7 @@ msgstr "<em>なし</em>"
 
 #: plugins/convtools.py:167
 msgid "<i>group refreshed</i><br />"
-msgstr ""
+msgstr "<i>グループを更新しました</i><br />"
 
 #: plugins/convtools.py:175
 msgid "<i>group has been obsoleted</i>"
@@ -402,22 +404,24 @@ msgid ""
 "refreshed: <b><pre>{}</pre></b> (original id: <pre>{}</pre>).<br />new "
 "conversation id: <b><pre>{}</pre></b>.<br />removed {}: {}"
 msgstr ""
+"更新結果: <b><pre>{}</pre></b> (旧ID: <pre>{}</pre>).<br />新会話ID: "
+"<b><pre>{}</pre></b>.<br />削除 {}: {}"
 
 #: plugins/convtools.py:187
 msgid "<b>nobody to add in the new conversation</b>"
-msgstr ""
+msgstr "<b>会話に追加する人はいません</b>"
 
 #: plugins/convtools.py:213
 msgid "supply optional conversation id and valid user ids to kick"
-msgstr ""
+msgstr "キックするには会話ID（オプション）と正しいユーザーIDを指定して下さい。"
 
 #: plugins/convtools.py:216
 msgid "supply at least one valid user id to kick"
-msgstr ""
+msgstr "キックするには一つ以上の正しいユーザIDを指定して下さい"
 
 #: plugins/convtools_invitations.py:121
 msgid "<i>group created</i>"
-msgstr ""
+msgstr "<i>グループを作成しました</i>"
 
 #: plugins/convtools_invitations.py:123
 msgid "GROUP: {}"
