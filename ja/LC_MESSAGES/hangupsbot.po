@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-21 10:30+0800\n"
-"PO-Revision-Date: 2016-03-04 16:02+0000\n"
+"PO-Revision-Date: 2016-03-12 05:51+0000\n"
 "Last-Translator: tomoki matsuoka <tomoki.matsuoka@gmail.com>\n"
 "Language-Team: Japanese "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.5-dev\n"
+"X-Generator: Weblate 2.5\n"
 
 #: commands/basic.py:35
 msgid ""
@@ -202,7 +202,7 @@ msgstr "<b>conv_id を指定する、オプションでタグリストを指定�
 
 #: commands/tagging.py:185
 msgid "<em>no tags returned</em>"
-msgstr ""
+msgstr "<em>タグは有りませんでした</em>"
 
 #: commands/tagging.py:189
 msgid "<b>no users found</b>"
@@ -329,7 +329,7 @@ msgstr "<b>{}</b>, この会話について忘れる物はなにもない！"
 
 #: plugins/_example_memory.py:114
 msgid "<b>{}</b>, forgotten for this conversation!"
-msgstr ""
+msgstr "<b>{}</b>, この会話を忘れました！"
 
 #: plugins/autoreply.py:67
 msgid "Unidentified Conversation"
@@ -478,15 +478,15 @@ msgstr ""
 
 #: plugins/default.py:35
 msgid "<b>only admins can echo other conversations</b>"
-msgstr ""
+msgstr "<b>管理者だけが別チャンネルへのエコーを実行できます</b>"
 
 #: plugins/default.py:64
 msgid "broadcast: no message set"
-msgstr ""
+msgstr "broadcast: メッセージが有りません"
 
 #: plugins/default.py:68
 msgid "broadcast: no conversations available"
-msgstr ""
+msgstr "broadcast: HOが有りません"
 
 #: plugins/default.py:72
 msgid "<b>message:</b><br />{}<br /><b>to:</b><br />{}"
@@ -534,23 +534,23 @@ msgstr ""
 
 #: plugins/default.py:308
 msgid "append failed on non-list"
-msgstr ""
+msgstr "非リストへのappend（追加）は出来ません"
 
 #: plugins/default.py:322
 msgid "remove failed on non-list"
-msgstr ""
+msgstr "非リストからのremove（削除）は出来ません"
 
 #: plugins/default.py:332
 msgid "Parameter does not exist!"
-msgstr ""
+msgstr "パラメータが有りません"
 
 #: plugins/default.py:354
 msgid "<b><pre>{}</pre></b>, chat_id = <i>{}</i>"
-msgstr ""
+msgstr "<b><pre>{}</pre></b>, チャットID = <i>{}</i>"
 
 #: plugins/default.py:362
 msgid "You are at <b><pre>{}</pre></b>, conv_id = <i><pre>{}</pre></i>"
-msgstr ""
+msgstr "<b><pre>{}</pre></b> にいます。 会話ID = <i><pre>{}</pre></i>"
 
 #: plugins/humor_hangoutcalls.py:32
 msgid ""
@@ -560,7 +560,7 @@ msgstr ""
 
 #: plugins/humor_hangoutcalls.py:37
 msgid "<b>It's been {} since the last call. The last caller was <i>{}</i>.</b>"
-msgstr ""
+msgstr "<b>最後の会話から {}  経ちました。last call. The last caller was <i>{}</i>.</b>"
 
 #: plugins/humor_hangoutcalls.py:42
 msgid "<b>No prizes for that call</b>"
@@ -568,19 +568,19 @@ msgstr ""
 
 #: plugins/lookup.py:20
 msgid "Spreadsheet function disabled"
-msgstr ""
+msgstr "スプレッドシートの使用は禁止です"
 
 #: plugins/lookup.py:24
 msgid "Spreadsheet URL not set"
-msgstr ""
+msgstr "スプレッドシートのURLが設定されていません"
 
 #: plugins/lookup.py:37
 msgid "Results for keyword <b>{}</b>:<br />"
-msgstr ""
+msgstr "キーワードの結果 <b>{}</b>:<br />"
 
 #: plugins/lookup.py:71
 msgid "<br />Row {}: "
-msgstr ""
+msgstr "<br />行 {}: "
 
 #: plugins/lookup.py:82
 #, python-brace-format
@@ -641,19 +641,19 @@ msgstr ""
 #: plugins/mentions.py:116
 msgid ""
 "<b>{}</b>, you cannot @mention anyone until your DND status is toggled off."
-msgstr ""
+msgstr "<b>{}</b>, 現在DNDがオンのため @メンションを送信出来ません。"
 
 #: plugins/mentions.py:126
 msgid "<b>{}</b> cannot @mention anyone until they say something to me first."
-msgstr ""
+msgstr "<b>{}</b> 相手が一度botと会話するまで@ でのメンションは出来ません。"
 
 #: plugins/mentions.py:167
 msgid "You are not allowed to use @all in <b>{}</b>"
-msgstr ""
+msgstr "<b>{}</b>での全員宛のメンションは許可されていません。"
 
 #: plugins/mentions.py:172
 msgid "<b>{}</b> blocked from using <i>@all</i>"
-msgstr ""
+msgstr "<b>{}</b> 全員宛のメンションの利用は許可されていません。"
 
 #: plugins/mentions.py:271
 msgid ""
@@ -663,16 +663,16 @@ msgstr ""
 
 #: plugins/mentions.py:304
 msgid "{} mentioned you in {}"
-msgstr ""
+msgstr "{} があなた宛のメンションを送りました （{}） 。"
 
 #: plugins/mentions.py:322
 msgid "<b>{}</b> @mentioned you in <i>{}</i>:<br />{}"
-msgstr ""
+msgstr "<b>{}</b> があなたにメンションを送信しました。 <i>{}</i>:<br />{}"
 
 #: plugins/mentions.py:334
 msgid ""
 "@mention didn't work for <b>{}</b>. User must say something to me first."
-msgstr ""
+msgstr "ユーザーがbotと一度会話するまで、<b>{}</b> 宛の@メンションは使用できません。"
 
 #: plugins/mentions.py:339
 msgid "<b>@mentions:</b><br />"
