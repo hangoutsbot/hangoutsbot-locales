@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2016-03-23 01:09+0000\n"
+"PO-Revision-Date: 2016-03-23 01:22+0000\n"
 "Last-Translator: Jakob Ackermann <das7pad@outlook.com>\n"
 "Language-Team: German "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/de/>\n"
@@ -339,7 +339,7 @@ msgstr "@all in {}: erlaubt, {} ({}) ist Admin"
 
 #: plugins/mentions.py:168
 msgid "@all in {}: enabled global/per-conversation"
-msgstr ""
+msgstr "@all in {}: enabled global/per-conversation"
 
 #: plugins/mentions.py:190
 msgid "user {} ({}) is present"
@@ -371,22 +371,23 @@ msgstr "Priorisiere Nickname match für {}"
 
 #: plugins/mentions.py:235
 msgid "prioritising single case-sensitive fragment match for {}"
-msgstr ""
+msgstr "prioritising single case-sensitive fragment match for {}"
 
 #: plugins/mentions.py:238
 msgid "prioritising multiple case-sensitive fragment match for {}"
-msgstr ""
+msgstr "prioritising multiple case-sensitive fragment match for {}"
 
 #: plugins/mentions.py:250
 msgid ""
 "{} users would be mentioned with \"@{}\"! Be more specific. List of matching "
 "users:<br />"
 msgstr ""
-"{} User werden erwähnt mit \"@{}\"! Sei genauer. Liste passender User:<br />"
+"{} Personen werden erwähnt mit \"@{}\"! Sei genauer. Liste passender "
+"Personen:<br />"
 
 #: plugins/mentions.py:263
 msgid "@{} not sent due to multiple recipients"
-msgstr "@{} nicht gesendet wegen mehrerer Empfänger"
+msgstr "@{} not sent due to multiple recipients"
 
 #: plugins/mentions.py:283
 msgid "{} mentioned you in {}"
@@ -420,7 +421,6 @@ msgid "user {} ({}) could not be alerted via 1on1"
 msgstr "User {} ({}) konnte nicht via 1on1 benachrichtigt werden"
 
 #: plugins/mentions.py:321
-#, fuzzy
 msgid "<b>@mentions:</b><br />"
 msgstr "<b>@mentions:</b><br />"
 
@@ -483,7 +483,6 @@ msgid "<i>Your nickname is already \""
 msgstr "<i>Dein Nickname ist bereits \""
 
 #: plugins/mentions.py:444
-#, fuzzy
 msgid "<i>Nickname \""
 msgstr "<i>Nickname \""
 
@@ -521,11 +520,11 @@ msgstr "subscribe: {} ({}) alerted via 1on1 ({})"
 
 #: plugins/subscribe.py:84
 msgid "subscribe: {} ({}) has dnd"
-msgstr ""
+msgstr "subscribe: {} ({}) has dnd"
 
 #: plugins/subscribe.py:86
 msgid "subscribe: user {} ({}) could not be alerted via 1on1"
-msgstr ""
+msgstr "subscribe: user {} ({}) could not be alerted via 1on1"
 
 #: plugins/subscribe.py:98
 msgid ""
@@ -540,7 +539,7 @@ msgstr "Verwendung: /bot subscribe [keyword]"
 
 #: plugins/subscribe.py:106 plugins/subscribe.py:139
 msgid "Subscribed to: {}"
-msgstr ""
+msgstr "Abonniert: {}"
 
 #: plugins/subscribe.py:113
 msgid "Already subscribed to '{}'!"
@@ -596,7 +595,7 @@ msgstr ""
 
 #: plugins/syncrooms.py:278
 msgid "<b>Sync Rooms: {}</b>"
-msgstr ""
+msgstr "<b>Sync Chats: {}</b>"
 
 #: plugins/syncrooms.py:282
 msgid "<b>Standard Room</b>"
@@ -607,17 +606,14 @@ msgid "<b>Total Unique: {}</b>"
 msgstr "<b>Gesamt Unique: {}</b>"
 
 #: plugins/simplytranslate.py:30
-#, fuzzy
 msgid "TRANSLATE: \"{}\" to {}"
 msgstr "TRANSLATE: \"{}\" to {}"
 
 #: plugins/api.py:51
-#, fuzzy
 msgid "config.api[{}].certfile must be configured"
 msgstr "config.api[{}].certfile must be configured"
 
 #: plugins/api.py:56
-#, fuzzy
 msgid "config.api[{}] missing keyword"
 msgstr "config.api[{}] missing keyword"
 
@@ -630,17 +626,14 @@ msgid "EXAMPLE_WATCHMEMBERS: {} has left"
 msgstr "EXAMPLE_WATCHMEMBERS: {} ist rausgegangen"
 
 #: plugins/slack.py:56
-#, fuzzy
 msgid "config.slack[{}].certfile must be configured"
 msgstr "config.slack[{}].certfile must be configured"
 
 #: plugins/slack.py:61
-#, fuzzy
 msgid "config.slack[{}] missing keyword"
 msgstr "config.slack[{}] missing keyword"
 
 #: plugins/slack.py:78
-#, fuzzy
 msgid "_start_slack_sinks(): {} sink thread(s) started"
 msgstr "_start_slack_sinks(): {} sink thread(s) started"
 
@@ -657,12 +650,10 @@ msgid "connection closed"
 msgstr "Verbindung geschlossen"
 
 #: plugins/slack.py:233
-#, fuzzy
 msgid "incoming path: {}"
 msgstr "incoming path: {}"
 
 #: plugins/slack.py:238
-#, fuzzy
 msgid "payload {}"
 msgstr "payload {}"
 
@@ -675,14 +666,12 @@ msgid "<b>group obsoleted</b>"
 msgstr "<b>Gruppe veraltet</b>"
 
 #: plugins/botaliases.py:33
-#, fuzzy
 msgid "bot aliases: {}"
-msgstr "bot aliases: {}"
+msgstr "Bot Aliase: {}"
 
 #: plugins/botaliases.py:46
-#, fuzzy
 msgid "<i>bot alias: {}</i>"
-msgstr "<i>bot alias: {}</i>"
+msgstr "<i>Bot Alias: {}</i>"
 
 #: plugins/botaliases.py:75
 msgid "<i>not authorised to change bot alias</i>"
@@ -705,7 +694,6 @@ msgid "<i>no term from urban dictionary</i>"
 msgstr "<i>Kein Begriff vom urban dictionary</i>"
 
 #: plugins/wolframalpha.py:25
-#, fuzzy
 msgid "WOLFRAMALPHA: config.wolframalpha-apikey required"
 msgstr "WOLFRAMALPHA: config.wolframalpha-apikey required"
 
@@ -722,7 +710,6 @@ msgid "<i>No! I am Spartacus!</i>"
 msgstr "<i>Nein! Ich bin Spartakus!</i>"
 
 #: plugins/starter.py:29
-#, fuzzy
 msgid "<i>config: {}<br />memory: {}</i>"
 msgstr "<i>config: {}<br />memory: {}</i>"
 
@@ -830,7 +817,6 @@ msgid "<em>no invites to display</em>"
 msgstr "<em>Keine Einladungen zum Anzeigen</em>"
 
 #: plugins/example_printrenames.py:21
-#, fuzzy
 msgid "EXAMPLE_PRINTRENAMES: {} cleared the conversation name"
 msgstr "EXAMPLE_PRINTRENAMES: {} cleared the conversation name"
 
@@ -839,12 +825,10 @@ msgid "EXAMPLE_PRINTRENAMES: {} renamed the conversation to {}"
 msgstr "EXAMPLE_PRINTRENAMES: {} Unterhaltung in {} umbenannt"
 
 #: plugins/dnd.py:23
-#, fuzzy
 msgid "dnd: list migrated to memory"
 msgstr "dnd: list migrated to memory"
 
 #: plugins/dnd.py:38
-#, fuzzy
 msgid "dnd: list migrated to dictionary"
 msgstr "dnd: list migrated to dictionary"
 
