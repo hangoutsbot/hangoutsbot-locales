@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2016-01-02 13:39+0000\n"
-"Last-Translator: rene mayer <renemayer0hb@gmail.com>\n"
+"PO-Revision-Date: 2016-03-23 01:00+0000\n"
+"Last-Translator: Jakob Ackermann <das7pad@outlook.com>\n"
 "Language-Team: German "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/de/>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.5-dev\n"
+"X-Generator: Weblate 2.6-dev\n"
 
 #: commands.py:102
 msgid "<b>User commands:</b>"
@@ -33,7 +33,7 @@ msgstr "<b>Admin-Kommandos:</b>"
 
 #: commands.py:131
 msgid "<i>{}, I've sent you some help ;)</i>"
-msgstr "<i>{}, Ich habe Dir etwas Hilfe geschickt ;)</i>"
+msgstr "<i>{}, Ich habe Dir Hilfe geschickt ;)</i>"
 
 #: commands.py:136
 msgid ""
@@ -41,18 +41,18 @@ msgid ""
 "optout</b> to get me to talk to you.</i>"
 msgstr ""
 "<i>{}, Du bist gerade im opt-out. Schicke mir eine private Nachricht oder "
-"gibt <b>{} optout</b> ein um mit mir zu sprechen.</i>"
+"gibt <b>{} optout</b> ein um mich wieder mit Dir sprechen zu lassen.</i>"
 
 #: commands.py:141
 msgid ""
 "<i>{}, before I can help you, you need to private message me and say hi.</i>"
 msgstr ""
-"<i>{}, Bevor ich Dir helfen kann musst Du mir eine private Nachricht "
+"<i>{}, bevor ich Dir helfen kann, musst Du mir eine private Nachricht "
 "schicken und Hi sagen.</i>"
 
 #: commands.py:165
 msgid "<i>{}, you <b>opted-out</b> from bot private messages</i>"
-msgstr "<i>{}, Du hast private Nachrichten vom Bot <b>abgewählt</b></i>"
+msgstr "<i>{}, Du hast private Nachrichten vom Bot <b>abgeschaltet</b></i>"
 
 #: commands.py:167
 msgid "<i>{}, you <b>opted-in</b> for bot private messages</i>"
@@ -80,7 +80,7 @@ msgstr "<i>Moderatoren aktualisiert: {} entfernt</i>"
 
 #: plugins/restrictedadd.py:39
 msgid "RESTRICTEDADD: admin added me to {}"
-msgstr "RESTRICTEDADD: admin hat mich zu to {} hinzugefügt"
+msgstr "RESTRICTEDADD: admin hat mich zu {} hinzugefügt"
 
 #: plugins/restrictedadd.py:43
 msgid "RESTRICTEDADD: authorised user added me to {}"
@@ -108,7 +108,7 @@ msgstr "RESTRICTEDADD: Kein botkeeper in {}"
 
 #: plugins/restrictedadd.py:96
 msgid "<i>There is no botkeeper in here. I have to go...</i>"
-msgstr "<i>Es gibt keinen botkeeper hier. Ich muss gehen...</i>"
+msgstr "<i>Es gibt keinen Botkeeper hier. Ich muss gehen...</i>"
 
 #: plugins/restrictedadd.py:120
 msgid "user id {} added as botkeeper"
@@ -192,11 +192,11 @@ msgstr "Ich komme wieder!"
 
 #: plugins/default.py:182
 msgid "broadcast: no message set"
-msgstr ""
+msgstr "broadcast: es wurde keine Nachricht gesendet"
 
 #: plugins/default.py:185
 msgid "broadcast: no conversations available"
-msgstr ""
+msgstr "broadcast: keine Konversationen verfügbar"
 
 #: plugins/default.py:188
 msgid "<b>message:</b><br />{}<br /><b>to:</b><br />{}"
@@ -208,7 +208,7 @@ msgstr "Broadcast: Nachricht nicht erlaubt"
 
 #: plugins/default.py:202
 msgid "broadcast: message must be supplied after subcommand"
-msgstr ""
+msgstr "broadcast: message must be supplied after subcommand"
 
 #: plugins/default.py:221
 msgid "broadcast: {} conversation(s)"
@@ -244,25 +244,23 @@ msgstr "HangupsBot beendet von User {} von Unterhaltung {}"
 
 #: plugins/default.py:370
 msgid "<em>note: testing single parameter as json</em>"
-msgstr ""
+msgstr "<em>Notiz: Teste einzelne Parameter als json</em>"
 
 #: plugins/default.py:397
-#, fuzzy
 msgid "append failed on non-list"
-msgstr "append failed on non-list"
+msgstr "Hinzufügen schlug fehl, keine passende Liste angegeben"
 
 #: plugins/default.py:411
 msgid "remove failed on non-list"
-msgstr ""
+msgstr "Entfernen schlug fehl, keine passende Liste angegeben"
 
 #: plugins/default.py:421
 msgid "Parameter does not exist!"
 msgstr "Parameter existiert nicht!"
 
 #: plugins/default.py:443
-#, fuzzy
 msgid "<b>{}</b>, chat_id = <i>{}</i>"
-msgstr "<b>{}</b>, chat_id = <i>{}</i>"
+msgstr "<b>{}</b>, chat_id =<i> {}</i>"
 
 #: plugins/default.py:451
 msgid "You are at <b>{}</b>, conv_id = <i>{}</i>"
@@ -274,7 +272,7 @@ msgstr "migration(): pushbullet config übertragen"
 
 #: plugins/mentions.py:46
 msgid "mentions: falling back to legacy _user_has_dnd()"
-msgstr ""
+msgstr "mentions: falling back to legacy  _user_has_dnd()"
 
 #: plugins/mentions.py:64
 msgid "@mention from {} ({}) too short (== '{}')"
@@ -286,44 +284,46 @@ msgstr "@mention in einen Syncraum: {} Benutzer vorhanden"
 
 #: plugins/mentions.py:101
 msgid "quidproquo: user {} ({}) has DND active"
-msgstr ""
+msgstr "quidproquo: Person {} ({}) hat DND aktiv"
 
 #: plugins/mentions.py:105
 msgid ""
 "<b>{}</b>, you cannot @mention anyone until your DND status is toggled off."
 msgstr ""
+"<b>{}</b>, Du kannst niemanden @mention bis dein DND Status wieder "
+"ausgeschaltet ist."
 
 #: plugins/mentions.py:109
 msgid "quidproquo: user {} ({}) has 1-on-1"
-msgstr ""
+msgstr "quidproquo: Person {} ({}) hat einen pHO mit mir"
 
 #: plugins/mentions.py:111
 msgid "quidproquo: user {} ({}) has no 1-on-1"
-msgstr ""
+msgstr "quidproquo: Person {} ({}) hat keinen pHO mit mir"
 
 #: plugins/mentions.py:115
 msgid "<b>{}</b> cannot @mention anyone until they say something to me first."
-msgstr ""
+msgstr "<b>{}</b> kann niemanden @mention bis sie etwas zu mir gesagt haben."
 
 #: plugins/mentions.py:134
 msgid "@mention '{}' in '{}' ({})"
-msgstr ""
+msgstr "@mention '{}' in '{}' ({})"
 
 #: plugins/mentions.py:142
 msgid "@all in {}: disabled/unset global/per-conversation"
-msgstr ""
+msgstr "@ all in {}: disabled/unset global/per-conversation"
 
 #: plugins/mentions.py:147
 msgid "@all in {}: user {} ({}) is not admin"
-msgstr "@all in {}: User {} ({}) ist kein Admin"
+msgstr "@ all in {}: User {} ({}) ist kein Admin"
 
 #: plugins/mentions.py:151
 msgid "@all in {}: user {} ({}) blocked"
-msgstr "@all in {}: User {} ({}) blockiert"
+msgstr "@ all in {}: User {} ({}) blockiert"
 
 #: plugins/mentions.py:155
 msgid "You are not allowed to use @all in <b>{}</b>"
-msgstr "Dir ist es nicht erlaub@all in <b>{}</b> zu benutzen"
+msgstr "Dir ist es nicht erlaub @ all in <b>{}</b> zu benutzen"
 
 #: plugins/mentions.py:160
 msgid "<b>{}</b> blocked from using <i>@all</i>"
