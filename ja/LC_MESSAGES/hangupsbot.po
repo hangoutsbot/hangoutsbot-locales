@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-21 10:30+0800\n"
-"PO-Revision-Date: 2016-03-12 05:51+0000\n"
+"PO-Revision-Date: 2016-03-24 04:17+0000\n"
 "Last-Translator: tomoki matsuoka <tomoki.matsuoka@gmail.com>\n"
 "Language-Team: Japanese "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.5\n"
+"X-Generator: Weblate 2.6-dev\n"
 
 #: commands/basic.py:35
 msgid ""
@@ -47,7 +47,7 @@ msgstr "地域を設定しました: {}"
 
 #: commands/basic.py:79
 msgid "locale unchanged"
-msgstr "地域を変更していません。。"
+msgstr "地域を変更していません"
 
 #: commands/basic.py:81
 msgid "language code required"
@@ -166,11 +166,11 @@ msgstr "<b>type　と id を指定してください。</b>"
 
 #: commands/tagging.py:59
 msgid "<b><pre>COMMAND: {}</pre></b> does not exist"
-msgstr "<b><pre>コマンド: {}</pre></b> はありません。"
+msgstr "<b><pre>コマンド: {}</pre></b> はありません"
 
 #: commands/tagging.py:109
 msgid "<b><pre>COMMAND: {}</pre></b> has no tags"
-msgstr "<b><pre>コマンド: {}</pre></b> のタグはありません。"
+msgstr "<b><pre>コマンド: {}</pre></b> のタグはありません"
 
 #: commands/tagging.py:111
 msgid "<b><pre>COMMAND: {}</pre></b>, match <b>ANY</b>:"
@@ -222,7 +222,7 @@ msgstr "{} 既に共有登録されています"
 
 #: hangupsbot.py:400
 msgid "memory: {} is 1on1 with {}"
-msgstr "メモリー: {} は  {} と 1on1しています。"
+msgstr "メモリー: {} は  {} と 1on1しています"
 
 #: hangupsbot.py:447
 #, python-brace-format
@@ -413,7 +413,7 @@ msgstr "<b>会話に追加する人はいません</b>"
 
 #: plugins/convtools.py:213
 msgid "supply optional conversation id and valid user ids to kick"
-msgstr "キックするには会話ID（オプション）と正しいユーザーIDを指定して下さい。"
+msgstr "キックするには会話ID（オプション）と正しいユーザーIDを指定して下さい"
 
 #: plugins/convtools.py:216
 msgid "supply at least one valid user id to kick"
@@ -542,7 +542,7 @@ msgstr "非リストからのremove（削除）は出来ません"
 
 #: plugins/default.py:332
 msgid "Parameter does not exist!"
-msgstr "パラメータが有りません"
+msgstr "パラメータが有りません！"
 
 #: plugins/default.py:354
 msgid "<b><pre>{}</pre></b>, chat_id = <i>{}</i>"
@@ -649,11 +649,11 @@ msgstr "<b>{}</b> 相手が一度botと会話するまで@ でのメンション
 
 #: plugins/mentions.py:167
 msgid "You are not allowed to use @all in <b>{}</b>"
-msgstr "<b>{}</b>での全員宛のメンションは許可されていません。"
+msgstr "<b>{}</b>での全員宛のメンションは許可されていません"
 
 #: plugins/mentions.py:172
 msgid "<b>{}</b> blocked from using <i>@all</i>"
-msgstr "<b>{}</b> 全員宛のメンションの利用は許可されていません。"
+msgstr "<b>{}</b> 全員宛メンション<i>@all</i>の利用は許可されていません"
 
 #: plugins/mentions.py:271
 msgid ""
@@ -663,7 +663,7 @@ msgstr ""
 
 #: plugins/mentions.py:304
 msgid "{} mentioned you in {}"
-msgstr "{} があなた宛のメンションを送りました （{}） 。"
+msgstr "{} があなた宛のメンションを送りました （{}）"
 
 #: plugins/mentions.py:322
 msgid "<b>{}</b> @mentioned you in <i>{}</i>:<br />{}"
