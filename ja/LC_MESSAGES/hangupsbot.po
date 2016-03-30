@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-21 10:30+0800\n"
-"PO-Revision-Date: 2016-03-24 04:17+0000\n"
+"PO-Revision-Date: 2016-03-30 03:29+0000\n"
 "Last-Translator: tomoki matsuoka <tomoki.matsuoka@gmail.com>\n"
 "Language-Team: Japanese "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/ja/>\n"
@@ -397,7 +397,7 @@ msgstr "<i>グループを更新しました</i><br />"
 
 #: plugins/convtools.py:175
 msgid "<i>group has been obsoleted</i>"
-msgstr ""
+msgstr "<i>グループは廃止されています</i>"
 
 #: plugins/convtools.py:178
 msgid ""
@@ -429,43 +429,43 @@ msgstr "グループ: {}"
 
 #: plugins/convtools_invitations.py:177
 msgid "<em>insufficient parameters for invite</em>"
-msgstr ""
+msgstr "<em>招待に必要なパラメータが不足しています</em>"
 
 #: plugins/convtools_invitations.py:196
 msgid "<b>Test Invitation Purge</b>"
-msgstr ""
+msgstr "<b>招待テストを破棄しました</b>"
 
 #: plugins/convtools_invitations.py:198
 msgid "<b>Invitation Purge</b>"
-msgstr ""
+msgstr "<b>招待を破棄しました</b>"
 
 #: plugins/convtools_invitations.py:201
 msgid "<b>Invitation List</b>"
-msgstr ""
+msgstr "<b>招待リスト</b>"
 
 #: plugins/convtools_invitations.py:230
 msgid "<em>no invites found</em>"
-msgstr ""
+msgstr "<em>招待が有りません</em>"
 
 #: plugins/convtools_invitations.py:298
 msgid "<em>invite: specify \"from\" or explicit list of \"users\"</em>"
-msgstr ""
+msgstr "<em>招待：fromを明示するか、正確なユーザ一覧を明示してください</em>"
 
 #: plugins/convtools_invitations.py:307
 msgid "<em>invite: could not identify target conversation"
-msgstr ""
+msgstr "<em>招待：対象の会話が見つかりません"
 
 #: plugins/convtools_invitations.py:373
 msgid "<em>invite: nobody invited</em>"
-msgstr ""
+msgstr "<em>招待：誰も招待されていません。</em>"
 
 #: plugins/convtools_invitations.py:399
 msgid "<em>invite: {} invitations created</em>"
-msgstr ""
+msgstr "<em>招待: {} を作成しました</em>"
 
 #: plugins/convtools_invitations.py:418
 msgid "<b>Invites for {}:</b>"
-msgstr ""
+msgstr "<b>{}:への招待</b>"
 
 #: plugins/convtools_invitations.py:423
 msgid ""
@@ -676,11 +676,11 @@ msgstr "ユーザーがbotと一度会話するまで、<b>{}</b> 宛の@メン�
 
 #: plugins/mentions.py:339
 msgid "<b>@mentions:</b><br />"
-msgstr ""
+msgstr "<b>@メンション：</b><br />"
 
 #: plugins/mentions.py:341
 msgid "1-to-1 fail: <i>{}</i><br />"
-msgstr ""
+msgstr "1対1会話 失敗： <i>{}</i><br />"
 
 #: plugins/mentions.py:343
 msgid "PushBullet fail: <i>{}</i><br />"
@@ -688,7 +688,7 @@ msgstr ""
 
 #: plugins/mentions.py:345
 msgid "Ignored (DND): <i>{}</i><br />"
-msgstr ""
+msgstr "無視されました (DND): <i>{}</i><br />"
 
 #: plugins/mentions.py:347
 msgid "Alerted: <i>{}</i><br />"
@@ -730,19 +730,19 @@ msgstr ""
 
 #: plugins/mentions.py:457
 msgid "<i>Your nickname is already <b>`{}`</b></i>"
-msgstr ""
+msgstr "<i>あなたのニックネームはすでに <b>`{}`</b> です</i>"
 
 #: plugins/mentions.py:462
 msgid "<i>Nickname <b>`{}`</b> is already in use by another user"
-msgstr ""
+msgstr "<i>ニックネーム<b>`{}`</b> はすでにほかのユーザーに登録されています。"
 
 #: plugins/mentions.py:481
 msgid "Removing nickname"
-msgstr ""
+msgstr "ニックネームを削除します"
 
 #: plugins/mentions.py:485
 msgid "Setting nickname to '{}'"
-msgstr ""
+msgstr "ニックネームを '{}' に設定しました"
 
 #: plugins/monitoradds.py:52
 #, python-brace-format
@@ -808,7 +808,7 @@ msgstr ""
 
 #: plugins/starter.py:23
 msgid "<i>No! I am Spartacus!</i>"
-msgstr ""
+msgstr "<i>私がスパルタカスだ!</i>"
 
 #: plugins/starter.py:31
 msgid "<i>config: {}<br />memory: {}</i>"
@@ -826,7 +826,7 @@ msgstr ""
 #: plugins/starter.py:73
 msgid ""
 "<i>User must say \"hi\" to me first via a 1-on-1 hangout with <b>{}</b>."
-msgstr ""
+msgstr "<i><b>{}</b> は最初に 私との1対1ハングアウトで何か会話する必要があります"
 
 #: plugins/starter.py:74
 msgid "Then let me know by sending <b>/bot verifyme</b> in this chat.</i>"
@@ -834,7 +834,7 @@ msgstr ""
 
 #: plugins/subscribe.py:88
 msgid "<b>{}</b> mentioned '{}' in <i>{}</i>:<br />{}"
-msgstr ""
+msgstr "<b>{}</b> が <b>'{}'</b> でメンションを送信しました：:<br />{}"
 
 #: plugins/subscribe.py:110
 msgid ""
@@ -843,15 +843,15 @@ msgstr ""
 
 #: plugins/subscribe.py:114
 msgid "Usage: /bot subscribe [keyword]"
-msgstr ""
+msgstr "使用方法： /bot subscribe [キーワード]"
 
 #: plugins/subscribe.py:118 plugins/subscribe.py:151
 msgid "Subscribed to: {}"
-msgstr ""
+msgstr "予約しました : {}"
 
 #: plugins/subscribe.py:125
 msgid "Already subscribed to '{}'!"
-msgstr ""
+msgstr "すでに '{}' に予約されています!"
 
 #: plugins/subscribe.py:134 plugins/subscribe.py:142
 msgid ""
@@ -861,19 +861,19 @@ msgstr ""
 
 #: plugins/subscribe.py:162
 msgid "Unsubscribing all keywords"
-msgstr ""
+msgstr "すべてのキーワードを予約解除しました"
 
 #: plugins/subscribe.py:166
 msgid "Unsubscribing from keyword '{}'"
-msgstr ""
+msgstr "'{}' からキーワードを解除します"
 
 #: plugins/subscribe.py:170
 msgid "Error: keyword not found"
-msgstr ""
+msgstr "エラー： キーワードが見つかりません"
 
 #: plugins/syncrooms.py:281
 msgid "<b>Sync Rooms: {}</b>"
-msgstr ""
+msgstr "<b>同期部屋： {}</b>"
 
 #: plugins/syncrooms.py:285
 msgid "<b>Standard Room</b>"
@@ -965,7 +965,7 @@ msgstr ""
 
 #: plugins/urbandict.py:95
 msgid "<b>example:</b> "
-msgstr ""
+msgstr "<b>例：</b> "
 
 #: plugins/urbandict.py:100
 msgid "<i>no urban dictionary definition for \"{}\"</i>"
