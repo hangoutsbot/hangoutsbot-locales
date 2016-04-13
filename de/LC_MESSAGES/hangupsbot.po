@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2016-03-23 01:22+0000\n"
+"PO-Revision-Date: 2016-04-14 01:31+0000\n"
 "Last-Translator: Jakob Ackermann <das7pad@outlook.com>\n"
 "Language-Team: German "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/de/>\n"
@@ -567,31 +567,36 @@ msgstr "Fehler: Schlagwort nicht gefunden"
 
 #: plugins/syncrooms.py:59
 msgid "_migrate_syncroom_v1(): config-v2 = {}"
-msgstr ""
+msgstr "_migrate_syncroom_v1(): config-v2 = {}"
 
 #: plugins/syncrooms.py:73
 msgid "syncrooms: handler disabled by context"
-msgstr ""
+msgstr "syncrooms: handler disabled by context"
 
 #: plugins/syncrooms.py:87
+#, fuzzy
 msgid "syncrooms: broadcasting to {} room(s)"
-msgstr ""
+msgstr "syncrooms: broadcasting to {} room(s)"
 
 #: plugins/syncrooms.py:90
+#, fuzzy
 msgid "syncrooms: not a sync room"
-msgstr ""
+msgstr "syncrooms: not a sync room"
 
 #: plugins/syncrooms.py:116
+#, fuzzy
 msgid "syncrooms: incoming message"
-msgstr ""
+msgstr "syncrooms: incoming message"
 
 #: plugins/syncrooms.py:233
+#, fuzzy
 msgid "syncrooms: {} user(s) added to {}"
-msgstr ""
+msgstr "syncrooms: {} user(s) added to {}"
 
 #: plugins/syncrooms.py:241
+#, fuzzy
 msgid "syncrooms: {} user(s) left {}"
-msgstr ""
+msgstr "syncrooms: {} user(s) left {}"
 
 #: plugins/syncrooms.py:278
 msgid "<b>Sync Rooms: {}</b>"
@@ -599,11 +604,11 @@ msgstr "<b>Sync Chats: {}</b>"
 
 #: plugins/syncrooms.py:282
 msgid "<b>Standard Room</b>"
-msgstr ""
+msgstr "<b>Standard Chats</b>"
 
 #: plugins/syncrooms.py:310
 msgid "<b>Total Unique: {}</b>"
-msgstr "<b>Gesamt Unique: {}</b>"
+msgstr "<b>Teilnehmende User: {}</b>"
 
 #: plugins/simplytranslate.py:30
 msgid "TRANSLATE: \"{}\" to {}"
