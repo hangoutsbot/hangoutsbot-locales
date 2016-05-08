@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2015-11-12 10:49+0000\n"
-"Last-Translator: Martin Kalábek (Eneris) <eneris.cz@gmail.com>\n"
+"PO-Revision-Date: 2016-05-08 14:56+0000\n"
+"Last-Translator: Petr Dráb <petr@drabovi.cz>\n"
 "Language-Team: Czech "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/cs/>\n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2.5-dev\n"
+"X-Generator: Weblate 2.7-dev\n"
 
 #: commands.py:102
 msgid "<b>User commands:</b>"
@@ -29,11 +29,11 @@ msgstr "<i>Více informací čtěte na: {}</i>"
 
 #: commands.py:111
 msgid "<b>Admin commands:</b>"
-msgstr ""
+msgstr "<b>Příkazy administrátora:</b>"
 
 #: commands.py:131
 msgid "<i>{}, I've sent you some help ;)</i>"
-msgstr ""
+msgstr "<i>{}, poslal jsem ti nějakou pomoc ;)</i>"
 
 #: commands.py:136
 msgid ""
@@ -45,6 +45,8 @@ msgstr ""
 msgid ""
 "<i>{}, before I can help you, you need to private message me and say hi.</i>"
 msgstr ""
+"<i>{}, dříve než ti budu moci pomoct,    musíš mi napsat přes soukromou "
+"zprávu a napsat hi.</i>"
 
 #: commands.py:165
 msgid "<i>{}, you <b>opted-out</b> from bot private messages</i>"
@@ -72,7 +74,7 @@ msgstr "<i>Aktualizace seznamu moderátorů: {} přidán</i>"
 
 #: plugins/monitoradds.py:79
 msgid "<i>Moderators updated: {} removed</i>"
-msgstr ""
+msgstr "<i>Moderátoři aktualizováni: {} odstraněni</i>"
 
 #: plugins/restrictedadd.py:39
 msgid "RESTRICTEDADD: admin added me to {}"
@@ -80,17 +82,19 @@ msgstr ""
 
 #: plugins/restrictedadd.py:43
 msgid "RESTRICTEDADD: authorised user added me to {}"
-msgstr ""
+msgstr "RESTRICTEDADD: autorizovaný uživatel mě přidal do {}"
 
 #: plugins/restrictedadd.py:46
 msgid "RESTRICTEDADD: user {} tried to add me to {}"
-msgstr ""
+msgstr "RESTRICTEDADD: uživatel {} se pokoušel mě přidat do {}"
 
 #: plugins/restrictedadd.py:52
 msgid ""
 "<i>{}, you need to be authorised to add me to another conversation. I'm "
 "leaving now...</i>"
 msgstr ""
+"<i>{}, musíš mít povolení mě přidat do další konverzace.  odcházím z kanálu. "
+"</i>"
 
 #: plugins/restrictedadd.py:84
 msgid "RESTRICTEDADD: found botkeeper {}"
@@ -98,11 +102,11 @@ msgstr "RESTRICTEDADD: nalezen botkeeper {}"
 
 #: plugins/restrictedadd.py:91
 msgid "RESTRICTEDADD: no botkeeper in {}"
-msgstr ""
+msgstr "RESTRICTEDADD: chybí bot keeper v {}"
 
 #: plugins/restrictedadd.py:96
 msgid "<i>There is no botkeeper in here. I have to go...</i>"
-msgstr ""
+msgstr "<i>Není tu žádný bot keeper. Musím odejít.. </i>"
 
 #: plugins/restrictedadd.py:120
 msgid "user id {} added as botkeeper"
@@ -140,7 +144,7 @@ msgstr "<em>příkaz echo je zakázán</em>"
 
 #: plugins/default.py:67
 msgid "<em>missing text</em>"
-msgstr ""
+msgstr "<em>chybějící text</em>"
 
 #: plugins/default.py:71
 msgid "<em>required parameters: convfilter text</em>"
@@ -152,7 +156,7 @@ msgstr ""
 
 #: plugins/default.py:96
 msgid "<em>missing title</em>"
-msgstr ""
+msgstr "<em>chybějící titulka</em>"
 
 #: plugins/default.py:101
 msgid "<em>required parameters: convfilter title</em>"
@@ -172,7 +176,7 @@ msgstr "<b>Uživatelé: {}</b>"
 
 #: plugins/default.py:148
 msgid "<em>cannot leave ALL conversations</em>"
-msgstr ""
+msgstr "<em>nemůžu opustit VŠECHNY konverzace</em>"
 
 #: plugins/default.py:155
 msgid "<em>required parameters: convfilter</em>"
@@ -180,7 +184,7 @@ msgstr ""
 
 #: plugins/default.py:161
 msgid "I'll be back!"
-msgstr ""
+msgstr "Já se vrátím!"
 
 #: plugins/default.py:182
 msgid "broadcast: no message set"
@@ -192,7 +196,7 @@ msgstr ""
 
 #: plugins/default.py:188
 msgid "<b>message:</b><br />{}<br /><b>to:</b><br />{}"
-msgstr ""
+msgstr "<b>zpráva:</b><br />{}<br /><b>pro:</b><br />{}"
 
 #: plugins/default.py:198
 msgid "broadcast: message not allowed"
@@ -224,7 +228,7 @@ msgstr ""
 
 #: plugins/default.py:256
 msgid "results for user named \"{}\":"
-msgstr ""
+msgstr "výsledky pro uživatele \"{}\":"
 
 #: plugins/default.py:287
 msgid "<b>List of hangouts with keyword:</b> \"{}\""
@@ -248,7 +252,7 @@ msgstr ""
 
 #: plugins/default.py:421
 msgid "Parameter does not exist!"
-msgstr ""
+msgstr "Parametr neexistuje!"
 
 #: plugins/default.py:443
 msgid "<b>{}</b>, chat_id = <i>{}</i>"
@@ -256,7 +260,7 @@ msgstr ""
 
 #: plugins/default.py:451
 msgid "You are at <b>{}</b>, conv_id = <i>{}</i>"
-msgstr ""
+msgstr "Jsi v <b>{}</b>, conv_id = <i>{}</i>"
 
 #: plugins/mentions.py:28
 msgid "migration(): pushbullet config migrated"
@@ -293,11 +297,11 @@ msgstr ""
 
 #: plugins/mentions.py:115
 msgid "<b>{}</b> cannot @mention anyone until they say something to me first."
-msgstr ""
+msgstr "<b>{}</b> nemůžu udelat @mention někomu, kdo mě ještě neoslovil."
 
 #: plugins/mentions.py:134
 msgid "@mention '{}' in '{}' ({})"
-msgstr ""
+msgstr "@mention '{}' v '{}' ({})"
 
 #: plugins/mentions.py:142
 msgid "@all in {}: disabled/unset global/per-conversation"
@@ -305,7 +309,7 @@ msgstr ""
 
 #: plugins/mentions.py:147
 msgid "@all in {}: user {} ({}) is not admin"
-msgstr ""
+msgstr "@all v {}: uživatel {} ({}) není administrátor"
 
 #: plugins/mentions.py:151
 msgid "@all in {}: user {} ({}) blocked"
@@ -313,7 +317,7 @@ msgstr ""
 
 #: plugins/mentions.py:155
 msgid "You are not allowed to use @all in <b>{}</b>"
-msgstr ""
+msgstr "Nemůžete použít @all v <b>{}</b>"
 
 #: plugins/mentions.py:160
 msgid "<b>{}</b> blocked from using <i>@all</i>"
@@ -379,7 +383,7 @@ msgstr ""
 
 #: plugins/mentions.py:283
 msgid "{} mentioned you in {}"
-msgstr ""
+msgstr "{} se o tobě zmínil v {}"
 
 #: plugins/mentions.py:289
 msgid "{} ({}) alerted via pushbullet"
@@ -391,7 +395,7 @@ msgstr ""
 
 #: plugins/mentions.py:304
 msgid "<b>{}</b> @mentioned you in <i>{}</i>:<br />{}"
-msgstr ""
+msgstr "<b>{}</b> se o tobě @zminil v <i>{}</i>:<br />{}"
 
 #: plugins/mentions.py:310
 msgid "{} ({}) alerted via 1on1 ({})"
@@ -408,7 +412,7 @@ msgstr ""
 
 #: plugins/mentions.py:321
 msgid "<b>@mentions:</b><br />"
-msgstr ""
+msgstr "<b>@zmínky :</b><br />"
 
 #: plugins/mentions.py:323
 msgid "1-to-1 fail: <i>{}</i><br />"
@@ -459,30 +463,32 @@ msgid ""
 "Error: Minimum length of nickname is {} characters. Only alphabetical and "
 "numeric characters allowed."
 msgstr ""
+"Chyba: Minimální délka přezdívky je {} znaků. Povoleny jsou jen znaky a "
+"číslice."
 
 #: plugins/mentions.py:439
 msgid "<i>Your nickname is already \""
-msgstr ""
+msgstr "<i>Vaše přezdívka je již \""
 
 #: plugins/mentions.py:444
 msgid "<i>Nickname \""
-msgstr ""
+msgstr "<i>Přezdívka \""
 
 #: plugins/mentions.py:444
 msgid "\" is already in use by another user.</i>"
-msgstr ""
+msgstr "\" používá jiný uzivatel.</i>"
 
 #: plugins/mentions.py:463
 msgid "Removing nickname"
-msgstr ""
+msgstr "Odstraňuji přezdívku"
 
 #: plugins/mentions.py:467
 msgid "Setting nickname to '{}'"
-msgstr ""
+msgstr "Nastavuji přezdívku na '{}'"
 
 #: plugins/namelock.py:44
 msgid "Removing topic"
-msgstr ""
+msgstr "Odstraňuji téma"
 
 #: plugins/namelock.py:48
 msgid "Setting topic to '{}'"
