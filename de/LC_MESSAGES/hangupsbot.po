@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2016-04-14 01:31+0000\n"
-"Last-Translator: Jakob Ackermann <das7pad@outlook.com>\n"
+"PO-Revision-Date: 2016-05-18 13:49+0000\n"
+"Last-Translator: renemayer-hb <renemayer@renemayer.de>\n"
 "Language-Team: German "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/de/>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.6-dev\n"
+"X-Generator: Weblate 2.7-dev\n"
 
 #: commands.py:102
 msgid "<b>User commands:</b>"
@@ -524,7 +524,7 @@ msgstr "subscribe: {} ({}) has dnd"
 
 #: plugins/subscribe.py:86
 msgid "subscribe: user {} ({}) could not be alerted via 1on1"
-msgstr "subscribe: user {} ({}) could not be alerted via 1on1"
+msgstr "subscribe: Benutzer {} ({}) konnte nicht per 1on1 alarmiert werden"
 
 #: plugins/subscribe.py:98
 msgid ""
@@ -823,7 +823,7 @@ msgstr "<em>Keine Einladungen zum Anzeigen</em>"
 
 #: plugins/example_printrenames.py:21
 msgid "EXAMPLE_PRINTRENAMES: {} cleared the conversation name"
-msgstr "EXAMPLE_PRINTRENAMES: {} cleared the conversation name"
+msgstr "EXAMPLE_PRINTRENAMES: {} Unterhaltungsname wurde gelöscht"
 
 #: plugins/example_printrenames.py:23
 msgid "EXAMPLE_PRINTRENAMES: {} renamed the conversation to {}"
@@ -838,19 +838,17 @@ msgid "dnd: list migrated to dictionary"
 msgstr "dnd: list migrated to dictionary"
 
 #: plugins/example_memory.py:22
-#, fuzzy
 msgid "<b>{}</b>, remembered!"
-msgstr "<b>{}</b>, remembered!"
+msgstr "<b>{}</b>, gemerkt!"
 
 #: plugins/example_memory.py:27
 #, fuzzy
 msgid "<b>{}</b>, remembered something else!"
-msgstr "<b>{}</b>, remembered something else!"
+msgstr "<b>{}</b>, etwas anderes wurde sich gemerkt!"
 
 #: plugins/example_memory.py:38
-#, fuzzy
 msgid "<b>{}</b>, nothing remembered!"
-msgstr "<b>{}</b>, nothing remembered!"
+msgstr "<b>{}</b>, nichts gemerkt!"
 
 #: plugins/example_memory.py:43
 msgid "<b>{}</b> asked me to remember <i>\"{}\"</i>"
@@ -866,15 +864,16 @@ msgstr "<b>{}</b>, vergessen!"
 
 #: plugins/example_memory.py:76
 msgid "<b>{}</b>, remembered for this conversation"
-msgstr ""
+msgstr "<b>{}</b>, wurde für diese Unterhaltung gemerkt"
 
 #: plugins/example_memory.py:81
+#, fuzzy
 msgid "<b>{}</b>, remembered something else for this conversation!"
-msgstr ""
+msgstr "<b>{}</b>, für diese Unterhaltung wurde sich etwas anderes gemerkt!"
 
 #: plugins/example_memory.py:92
 msgid "<b>{}</b>, nothing remembered for this conversation!"
-msgstr ""
+msgstr "<b>{}</b>, für diese Unterhaltung wurde sich nichts gemerkt!"
 
 #: plugins/example_memory.py:97
 msgid "<b>{}</b> asked me to remember <i>\"{}\" for this conversation</i>"
@@ -882,7 +881,7 @@ msgstr ""
 
 #: plugins/example_memory.py:108
 msgid "<b>{}</b>, nothing to forget for this conversation!"
-msgstr ""
+msgstr "<b>{}</b>, für diese Unterhaltung kann nichts vergessen werden!"
 
 #: plugins/example_memory.py:114
 msgid "<b>{}</b>, forgotten for this conversation!"
