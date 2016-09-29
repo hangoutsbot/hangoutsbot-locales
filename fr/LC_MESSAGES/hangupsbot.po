@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2016-03-04 02:35+0000\n"
-"Last-Translator: Valentin R. <rubeluta@gmail.com>\n"
+"PO-Revision-Date: 2016-09-29 19:15+0000\n"
+"Last-Translator: Ho RoBotBDX <ho.bot.bordeaux@gmail.com>\n"
 "Language-Team: French "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/fr/>\n"
 "Language: fr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.5-dev\n"
+"X-Generator: Weblate 2.9-dev\n"
 
 #: commands.py:102
 msgid "<b>User commands:</b>"
@@ -36,13 +36,13 @@ msgid "<i>{}, I've sent you some help ;)</i>"
 msgstr "<i>{}, Je t'ai envoyé un peu d'aide ;)</i>"
 
 #: commands.py:136
-#, fuzzy
 msgid ""
 "<i>{}, you are currently opted-out. Private message me or enter <b>{} "
 "optout</b> to get me to talk to you.</i>"
 msgstr ""
-"<i>{}, tu es actuellement en opt-out. Envoie moi un message privé ou entre "
-"<b>{} optout</b> pour me permettre de te parler.</i>"
+"<i>{}, tu es actuellement en mode \"ignorer conversations\" . Envoie moi un "
+"message privé ou envoie la commande <b>{} optout</b> pour me permettre de te "
+"parler.</i>"
 
 #: commands.py:141
 msgid ""
@@ -124,13 +124,12 @@ msgid "user id {} is not authorised"
 msgstr "L'identifiant utilisateur {} n'est pas autorise"
 
 #: plugins/default.py:35
-#, fuzzy
 msgid ""
 "<em>1 parameter required, {} supplied - enclose parameter in double-quotes</"
 "em>"
 msgstr ""
 "<em>1 paramètre requis, {} fourni(s) - encadrer le paramètre par des "
-"guillements</em>"
+"guillemets</em>"
 
 #: plugins/default.py:38
 msgid "<em>supply 1 parameter</em>"
@@ -142,7 +141,7 @@ msgstr "<b>Total : {}</b>"
 
 #: plugins/default.py:54
 msgid "<em>sending to ALL conversations not allowed</em>"
-msgstr ""
+msgstr "<em>envoyer vers TOUTES les conversations n'est pas permis</em>"
 
 #: plugins/default.py:63
 msgid "<em>command echo blocked</em>"
@@ -153,13 +152,12 @@ msgid "<em>missing text</em>"
 msgstr "<em>texte manquant</em>"
 
 #: plugins/default.py:71
-#, fuzzy
 msgid "<em>required parameters: convfilter text</em>"
-msgstr "<em>paramètre requis : </em>"
+msgstr "<em>paramètres requis: convfilter texte</em>"
 
 #: plugins/default.py:75
 msgid "<em>no conversations filtered</em>"
-msgstr ""
+msgstr "<em>pas des conversations filtrées</em>"
 
 #: plugins/default.py:96
 msgid "<em>missing title</em>"
@@ -167,11 +165,11 @@ msgstr "<em>titre manquant</em>"
 
 #: plugins/default.py:101
 msgid "<em>required parameters: convfilter title</em>"
-msgstr ""
+msgstr "<em>paramétrés nécessaires: convfilter titre</em>"
 
 #: plugins/default.py:111
 msgid "<em>should be 1 parameter, {} supplied</em>"
-msgstr ""
+msgstr "<em>doit être 1 paramétré, {} envoyé</em>"
 
 #: plugins/default.py:114
 msgid "<em>retrieving ALL conversations blocked</em>"
@@ -187,7 +185,7 @@ msgstr "<em>impossible de quitter TOUTES les conversations</em>"
 
 #: plugins/default.py:155
 msgid "<em>required parameters: convfilter</em>"
-msgstr ""
+msgstr "<em>paramétré requis: convfilter</em>"
 
 #: plugins/default.py:161
 msgid "I'll be back!"
@@ -246,7 +244,6 @@ msgid "HangupsBot killed by user {} from conversation {}"
 msgstr "HangupsBot tué par l’utilisateur {} depuis la conversation {}"
 
 #: plugins/default.py:370
-#, fuzzy
 msgid "<em>note: testing single parameter as json</em>"
 msgstr "<em>note : tentative avec un seul paramètre en tant que json</em>"
 
@@ -272,11 +269,11 @@ msgstr "Vous êtes sur <b>{}</b>, conv_id = <i>{}</i>"
 
 #: plugins/mentions.py:28
 msgid "migration(): pushbullet config migrated"
-msgstr ""
+msgstr "migration(): pushbullet configuration déplacée"
 
 #: plugins/mentions.py:46
 msgid "mentions: falling back to legacy _user_has_dnd()"
-msgstr ""
+msgstr "mentions: restaurer legacy _user_has_dnd()"
 
 #: plugins/mentions.py:64
 msgid "@mention from {} ({}) too short (== '{}')"
@@ -360,9 +357,8 @@ msgid "suppressing @all for {} ({})"
 msgstr "suppression @all pour {} ({})"
 
 #: plugins/mentions.py:204
-#, fuzzy
 msgid "suppressing @self for {} ({})"
-msgstr "suppression @soi pour {} ({})"
+msgstr "suppression @self pour {} ({})"
 
 #: plugins/mentions.py:209
 msgid "suppressing duplicate mention for {} ({})"
@@ -429,7 +425,7 @@ msgstr "L'utilisateur {} ({}) ne peut peut pas etre alerte en prive"
 
 #: plugins/mentions.py:321
 msgid "<b>@mentions:</b><br />"
-msgstr ""
+msgstr "<b>@mentions: </b><br />"
 
 #: plugins/mentions.py:323
 msgid "1-to-1 fail: <i>{}</i><br />"
@@ -480,6 +476,8 @@ msgid ""
 "Error: Minimum length of nickname is {} characters. Only alphabetical and "
 "numeric characters allowed."
 msgstr ""
+"Ereur: La longueur minimale pour le noms est {} caractères. Seulement des "
+"lettres et/ou chiffres."
 
 #: plugins/mentions.py:439
 msgid "<i>Your nickname is already \""
@@ -570,7 +568,7 @@ msgstr "Erreur: mot-clé non trouvé"
 
 #: plugins/syncrooms.py:59
 msgid "_migrate_syncroom_v1(): config-v2 = {}"
-msgstr ""
+msgstr "_migrate_syncroom_v1():  config-v2 = {}"
 
 #: plugins/syncrooms.py:73
 msgid "syncrooms: handler disabled by context"
@@ -614,19 +612,19 @@ msgstr "TRANSLATE: \"{}\" vers {}"
 
 #: plugins/api.py:51
 msgid "config.api[{}].certfile must be configured"
-msgstr ""
+msgstr "config.api[{}].certfile doit être paramétrée"
 
 #: plugins/api.py:56
 msgid "config.api[{}] missing keyword"
-msgstr ""
+msgstr "config.api[{}] mot-clé manquant"
 
 #: plugins/example_watchmembers.py:23
 msgid "EXAMPLE_WATCHMEMBERS: {} has added {}"
-msgstr ""
+msgstr "EXAMPLE_WATCHMEMBERS: {} a ajouté {}"
 
 #: plugins/example_watchmembers.py:26
 msgid "EXAMPLE_WATCHMEMBERS: {} has left"
-msgstr ""
+msgstr "EXAMPLE_WATCHMEMBERS: {} est parti"
 
 #: plugins/slack.py:56
 msgid "config.slack[{}].certfile must be configured"
@@ -638,7 +636,7 @@ msgstr "Il manque un mot cle au composant config.slack[{}]"
 
 #: plugins/slack.py:78
 msgid "_start_slack_sinks(): {} sink thread(s) started"
-msgstr ""
+msgstr "_start_slack_sinks(): {} sink fils(s) démarrés"
 
 #: plugins/slack.py:137
 msgid "conversation id must be provided as part of path"
@@ -654,11 +652,11 @@ msgstr "Connexion terminee"
 
 #: plugins/slack.py:233
 msgid "incoming path: {}"
-msgstr ""
+msgstr "chemin arrivage: {}"
 
 #: plugins/slack.py:238
 msgid "payload {}"
-msgstr ""
+msgstr "payload {}"
 
 #: plugins/convtools.py:147
 msgid "<i>group refreshed</i><br />"
@@ -714,12 +712,12 @@ msgstr "<i>Nan! Je suis Spartacus!</i>"
 
 #: plugins/starter.py:29
 msgid "<i>config: {}<br />memory: {}</i>"
-msgstr ""
+msgstr "<i>configuration: {}<br />memoire: {}</i>"
 
 #: plugins/starter.py:51
 msgid ""
 "<i>verification completed - this is your one-to-one chat with the bot</i>"
-msgstr ""
+msgstr "<i>vérification complète - ceci est le tchat un-a-un avec le bot</i>"
 
 #: plugins/starter.py:56
 msgid "<i>verified - user has a one-to-one conversation with me</i>"
@@ -735,6 +733,8 @@ msgstr ""
 #: plugins/starter.py:71
 msgid "Then let me know by sending <b>/bot verifyme</b> in this chat.</i>"
 msgstr ""
+"Puis faites-le-moi savoir par la commande <b>/bot verifyme</b> dans cette "
+"fenetre de tchat.</i>"
 
 #: plugins/simplewikipedia.py:20
 msgid "<i>source: <a href=\"{}\">{}</a></i>"
@@ -758,29 +758,31 @@ msgstr "<i>syncroom \"{}\" changement de langue en {}</i>"
 
 #: plugins/convtools_invitations.py:112
 msgid "<i>group created</i>"
-msgstr ""
+msgstr "<i>groupe créè</i>"
 
 #: plugins/convtools_invitations.py:114
 msgid "GROUP: {}"
-msgstr ""
+msgstr "GROUPE: {}"
 
 #: plugins/convtools_invitations.py:170
 msgid ""
 "<em>Usage: https://github.com/hangoutsbot/hangoutsbot/wiki/Conversation-"
 "Invitations-Plugin</em>"
 msgstr ""
+"<em>Utilisation: https://github.com/hangoutsbot/hangoutsbot/wiki"
+"/Conversation-Invitations-Plugin</em>"
 
 #: plugins/convtools_invitations.py:188
 msgid "<b>Invitation Purge (Admin)</b>"
-msgstr ""
+msgstr "<b>Délester Invitations (Admin)</b>"
 
 #: plugins/convtools_invitations.py:191
 msgid "<b>Invitation List (Admin)</b>"
-msgstr ""
+msgstr "<b>Liste Invitations (Admin)</b>"
 
 #: plugins/convtools_invitations.py:220
 msgid "<em>no invites found</em>"
-msgstr ""
+msgstr "<em>aucune invitation trouvée</em>"
 
 #: plugins/convtools_invitations.py:288
 msgid "<em>invite: specify \"from\" or explicit list of \"users\"</em>"
@@ -790,7 +792,7 @@ msgstr ""
 
 #: plugins/convtools_invitations.py:297
 msgid "<em>invite: could not identify target conversation"
-msgstr ""
+msgstr "<em>invitation: je ne trouve pas la conversation cible"
 
 #: plugins/convtools_invitations.py:362
 msgid "<em>invite: nobody invited</em>"
@@ -817,11 +819,11 @@ msgstr "<em>aucune invitation à afficher</em>"
 
 #: plugins/example_printrenames.py:21
 msgid "EXAMPLE_PRINTRENAMES: {} cleared the conversation name"
-msgstr ""
+msgstr "EXAMPLE_PRINTRENAMES: {} a nettoyé le nom de la conversation"
 
 #: plugins/example_printrenames.py:23
 msgid "EXAMPLE_PRINTRENAMES: {} renamed the conversation to {}"
-msgstr ""
+msgstr "EXAMPLE_PRINTRENAMES: {} a rebaptisé la conversation avec {}"
 
 #: plugins/dnd.py:23
 msgid "dnd: list migrated to memory"
@@ -910,6 +912,7 @@ msgstr "<br />{0} lignes trouvées. Renvoi uniquement les {1} premières."
 #, python-brace-format
 msgid "<br />Hint: Use <b>/bot lookup <{0} {1}</b> to view {0} rows"
 msgstr ""
+"<br />Astuce: Utiliser <b>/bot lookup <{0} {1}</b> pour voir {0} collones"
 
 #: plugins/lookup.py:85
 msgid "No match found"
@@ -953,7 +956,7 @@ msgstr "<i>syncouts inchange</i>"
 
 #: plugins/syncrooms_config.py:110
 msgid "<i>`{}` was detached</i>"
-msgstr ""
+msgstr "<i>`{}` a été détachée</i>"
 
 #: plugins/lottery.py:33
 msgid "LOTTERY: joint room keys {}"
@@ -976,11 +979,15 @@ msgstr ""
 msgid ""
 "Wow! Too many items to draw in <b>{}</b> lottery. Try {} items or less..."
 msgstr ""
+"Aie! Trop d'items a dessiner dans <b>{}</b> loterie. Essayer {} items ou "
+"moins..."
 
 #: plugins/lottery.py:125
 msgid ""
 "The <b>{}</b> lottery is ready: {} items loaded and shuffled into the box."
 msgstr ""
+"La loterie <b>{}</b> est prête: {} items sont chargée et mélangées dans le "
+"chapeau."
 
 #: plugins/lottery.py:127
 msgid "prepare: {} was initialised empty"
