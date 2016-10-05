@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-21 10:30+0800\n"
-"PO-Revision-Date: 2016-04-26 13:01+0000\n"
-"Last-Translator: kes <iso2022jp@loafer.jp>\n"
+"PO-Revision-Date: 2016-10-05 04:29+0000\n"
+"Last-Translator: tomoki matsuoka <tomoki.matsuoka@gmail.com>\n"
 "Language-Team: Japanese "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/ja/>\n"
 "Language: ja\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.6-dev\n"
+"X-Generator: Weblate 2.9-dev\n"
 
 #: commands/basic.py:35
 msgid ""
@@ -517,7 +517,6 @@ msgid "broadcast: /bot broadcast [info|message|add|remove|NOW] ..."
 msgstr "broadcast: /bot broadcast [info|message|add|remove|NOW] ..."
 
 #: plugins/default.py:141
-#, fuzzy
 msgid "broadcast: /bot broadcast [info|message|add|remove|NOW]"
 msgstr "broadcast: /bot broadcast [info|message|add|remove|NOW]"
 
@@ -783,22 +782,18 @@ msgid "<i>There is no botkeeper in here. I have to go...</i>"
 msgstr "<i>ここには私の管理者が居ませんね。退出しないと……</i>"
 
 #: plugins/restrictedadd.py:132
-#, fuzzy
 msgid "user id {} added as botkeeper"
 msgstr "ユーザー ID {} が BOT 管理者に追加されました"
 
 #: plugins/restrictedadd.py:154
-#, fuzzy
 msgid "user id {} removed as botkeeper"
 msgstr "ユーザー ID {} が BOT 管理者から削除されました"
 
 #: plugins/restrictedadd.py:163
-#, fuzzy
 msgid "user id {} is not authorised"
 msgstr "ユーザー ID {} は認証されていません"
 
 #: plugins/simplewikipedia.py:20
-#, fuzzy
 msgid "<i>source: <a href=\"{}\">{}</a></i>"
 msgstr "<i>出典: <a href=\"{}\">{}</a></i>"
 
@@ -807,7 +802,6 @@ msgid "<i>no entry found for {}</i>"
 msgstr "<i>{}</i> の項目は見つかりませんでした"
 
 #: plugins/simplytranslate.py:45
-#, fuzzy
 msgid "Translation server error: <i>{}</i>"
 msgstr "翻訳サーバーエラー: <i>{}</i>"
 
@@ -889,12 +883,10 @@ msgid "<b>Standard Room</b>"
 msgstr "<b>通常のハングアウト</b>"
 
 #: plugins/syncrooms.py:296
-#, fuzzy
 msgid "<b>failed to retrieve user list</b>"
 msgstr "<b>ユーザー一覧の取得に失敗しました</b>"
 
 #: plugins/syncrooms.py:317
-#, fuzzy
 msgid "<b>Total Unique: {}</b>"
 msgstr "<b>一意のユーザー数: {} 名</b>"
 
