@@ -2,19 +2,21 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-21 10:30+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2016-10-06 03:10+0000\n"
+"Last-Translator: Rafael Capaci Pereira <rafaelcp123@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) "
+"<https://hosted.weblate.org/projects/hangoutsbot/hangups/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.9-dev\n"
 
 #: commands/basic.py:35
 msgid ""
@@ -28,23 +30,23 @@ msgstr ""
 
 #: commands/basic.py:50
 msgid "<i>For more information, please see: {}</i>"
-msgstr ""
+msgstr "<i>Para mais informações, por favor, verifique:{}</i>"
 
 #: commands/basic.py:54
 msgid "<b>Admin commands:</b>"
-msgstr ""
+msgstr "<b>Comandos do Administrador</b>"
 
 #: commands/basic.py:68
 msgid "<i>{}, I've sent you some help ;)</i>"
-msgstr ""
+msgstr "<i>{}, Lhe enviei algo para ajudar ;)</i>"
 
 #: commands/basic.py:77
 msgid "locale set to: {}"
-msgstr ""
+msgstr "localização selecionada: {}"
 
 #: commands/basic.py:79
 msgid "locale unchanged"
-msgstr ""
+msgstr "localização inalterada"
 
 #: commands/basic.py:81
 msgid "language code required"
@@ -60,15 +62,15 @@ msgstr ""
 
 #: commands/basic.py:118
 msgid "Bot Version: <b>{}</b>"
-msgstr ""
+msgstr "Versão do Bot: <b>{}</b>"
 
 #: commands/basic.py:140
 msgid "{}: Unknown Command"
-msgstr ""
+msgstr "{}: Comando desconhecido"
 
 #: commands/basic.py:146
 msgid "{}: Can't do that."
-msgstr ""
+msgstr "{}: Não é possível fazer isso."
 
 #: commands/convid.py:32
 msgid ""
@@ -82,19 +84,19 @@ msgstr ""
 
 #: commands/convid.py:40 plugins/default.py:191
 msgid "<b>Total: {}</b>"
-msgstr ""
+msgstr "<b>Total: {}</b>"
 
 #: commands/convid.py:55
 msgid "<em>sending to ALL conversations not allowed</em>"
-msgstr ""
+msgstr "<em>Não é permitido enviar para todas as conversas</em>"
 
 #: commands/convid.py:64
 msgid "<em>command echo blocked</em>"
-msgstr ""
+msgstr "<em>comando echo bloqueado</em>"
 
 #: commands/convid.py:68
 msgid "<em>missing text</em>"
-msgstr ""
+msgstr "<em>texto faltando</em>"
 
 #: commands/convid.py:72
 msgid "<em>required parameters: convfilter text</em>"
@@ -102,11 +104,11 @@ msgstr ""
 
 #: commands/convid.py:76
 msgid "<em>no conversations filtered</em>"
-msgstr ""
+msgstr "<em>sem conversas filtradas</em>"
 
 #: commands/convid.py:97
 msgid "<em>missing title</em>"
-msgstr ""
+msgstr "<em>falta o título</em>"
 
 #: commands/convid.py:102
 msgid "<em>required parameters: convfilter title</em>"
@@ -118,15 +120,15 @@ msgstr ""
 
 #: commands/convid.py:115
 msgid "<em>retrieving ALL conversations blocked</em>"
-msgstr ""
+msgstr "<em>recuperando todas as conversas bloqueadas</em>"
 
 #: commands/convid.py:132
 msgid "<b>Users: {}</b>"
-msgstr ""
+msgstr "<b>Usuários: {}</b>"
 
 #: commands/convid.py:149
 msgid "<em>cannot leave ALL conversations</em>"
-msgstr ""
+msgstr "<em>impossível deixar todas as conversas</em>"
 
 #: commands/convid.py:156
 msgid "<em>required parameters: convfilter</em>"
@@ -134,15 +136,15 @@ msgstr ""
 
 #: commands/convid.py:162
 msgid "I'll be back!"
-msgstr ""
+msgstr "Eu voltarei!"
 
 #: commands/tagging.py:18
 msgid "tagged <b><pre>{}</pre></b> with <b><pre>{}</pre></b>"
-msgstr ""
+msgstr "marcado<b><pre>{}</pre></b>com<b><pre>{}</pre></b>"
 
 #: commands/tagging.py:20 commands/tagging.py:34
 msgid "<b><pre>{}</pre></b> unchanged"
-msgstr ""
+msgstr "<b><pre>{}</pre></b>inalterado"
 
 #: commands/tagging.py:22 commands/tagging.py:36
 msgid "<b>supply type, id, tag</b>"
@@ -150,11 +152,11 @@ msgstr ""
 
 #: commands/tagging.py:32
 msgid "removed <b><pre>{}</pre></b> from <b><pre>{}</pre></b>"
-msgstr ""
+msgstr "removido <b><pre>{}</pre></b> de <b><pre>{}</pre></b>"
 
 #: commands/tagging.py:46
 msgid "entries removed: <b><pre>{}</pre></b>"
-msgstr ""
+msgstr "entradas removidas: <b><pre>{}</pre></b>"
 
 #: commands/tagging.py:48
 msgid "<b>supply type, id</b>"
@@ -162,15 +164,15 @@ msgstr ""
 
 #: commands/tagging.py:59
 msgid "<b><pre>COMMAND: {}</pre></b> does not exist"
-msgstr ""
+msgstr "<b><pre>COMANDO: {}</pre></b> não existe"
 
 #: commands/tagging.py:109
 msgid "<b><pre>COMMAND: {}</pre></b> has no tags"
-msgstr ""
+msgstr "<b><pre>Comando: {}</pre></b> não tem tags"
 
 #: commands/tagging.py:111
 msgid "<b><pre>COMMAND: {}</pre></b>, match <b>ANY</b>:"
-msgstr ""
+msgstr "<b><pre>Comando: {}</pre></b>, corresponde <b>QUALQUER UM</b>:"
 
 #: commands/tagging.py:115
 msgid "<b>supply command name</b>"
@@ -178,15 +180,15 @@ msgstr ""
 
 #: commands/tagging.py:128
 msgid "index: <b><pre>{}</pre></b>"
-msgstr ""
+msgstr "índice: <b><pre>{}</pre></b>"
 
 #: commands/tagging.py:130
 msgid "key: <pre>{}</pre>"
-msgstr ""
+msgstr "chave: <pre>{}</pre>"
 
 #: commands/tagging.py:138
 msgid "<b>no entries to list</b>"
-msgstr ""
+msgstr "<b>sem entradas para a lista</b>"
 
 #: commands/tagging.py:153
 msgid "<b>supply chat_id, optional conv_id</b>"
@@ -198,19 +200,19 @@ msgstr ""
 
 #: commands/tagging.py:185
 msgid "<em>no tags returned</em>"
-msgstr ""
+msgstr "<em>nenhuma tag retornada</em>"
 
 #: commands/tagging.py:189
 msgid "<b>no users found</b>"
-msgstr ""
+msgstr "<b>nenhum usuário foi encontrado</b>"
 
 #: handlers.py:174
 msgid "{}: {}"
-msgstr ""
+msgstr "{}: {}"
 
 #: handlers.py:180
 msgid "{}: Missing parameter(s)"
-msgstr ""
+msgstr "{}: Parâmetro(s) faltando"
 
 #: hangupsbot.py:116
 msgid "{} already registered in shared"
@@ -227,10 +229,13 @@ msgid ""
 "For help, type <b>{0} help</b>. To keep me quiet, reply with <b>{0} optout</"
 "b>.</i>"
 msgstr ""
+"<i>Olá! Eu estarei usando esse canal para lhe enviar mensagens privadas e "
+"alertas. Para solicitar ajuda, digite <b>{0} help</b>. Para me silenciar, "
+"responda com <b>{0} optout</b>.</i>"
 
 #: hangupsbot.py:789
 msgid "Unidentified User"
-msgstr ""
+msgstr "Usuário não identificado"
 
 #: hangupsbot.py:797
 msgid ""
@@ -242,6 +247,8 @@ msgstr ""
 msgid ""
 "<i>{}, before I can help you, you need to private message me and say hi.</i>"
 msgstr ""
+"<i>{}, antes de eu lhe ajudar, você precisa me enviar uma mensagem privada "
+"dizendo olá.</i>"
 
 #: hangupsbot.py:938
 msgid "log detailed debugging messages"
@@ -253,11 +260,11 @@ msgstr ""
 
 #: hangupsbot.py:942
 msgid "cookie storage path"
-msgstr ""
+msgstr "caminho do armazenamento de cookies"
 
 #: hangupsbot.py:944
 msgid "memory storage path"
-msgstr ""
+msgstr "caminho de armazenamento de memória"
 
 #: hangupsbot.py:946
 msgid "config storage path"
@@ -265,27 +272,27 @@ msgstr ""
 
 #: hangupsbot.py:948
 msgid "show program's version number and exit"
-msgstr ""
+msgstr "mostrar o número de versão do programa e sair"
 
 #: hangupsbot.py:958
 msgid "Failed to create directory: {}"
-msgstr ""
+msgstr "Falha ao criar diretório: {}"
 
 #: hangupsbot.py:966
 msgid "Failed to copy default config file: {}"
-msgstr ""
+msgstr "Falha ao copiar o arquivo de configuração padrão: {}"
 
 #: plugins/_example_memory.py:22
 msgid "<b>{}</b>, remembered!"
-msgstr ""
+msgstr "<b>{}</b>, lembrado!"
 
 #: plugins/_example_memory.py:27
 msgid "<b>{}</b>, remembered something else!"
-msgstr ""
+msgstr "<b>{}</b>, outra coisa lembrada!"
 
 #: plugins/_example_memory.py:38
 msgid "<b>{}</b>, nothing remembered!"
-msgstr ""
+msgstr "<b>{}</b>, nada lembrado!"
 
 #: plugins/_example_memory.py:43
 msgid "<b>{}</b> asked me to remember <i>\"{}\"</i>"
@@ -661,6 +668,8 @@ msgstr ""
 msgid ""
 "@mention didn't work for <b>{}</b>. User must say something to me first."
 msgstr ""
+"@mention não funciona para <b>{}</b>. O usuário deve me dizer algo "
+"primeiramente."
 
 #: plugins/mentions.py:339
 msgid "<b>@mentions:</b><br />"
@@ -715,22 +724,24 @@ msgid ""
 "Error: Minimum length of nickname is {} characters. Only alphabetical and "
 "numeric characters allowed."
 msgstr ""
+"Erro: O tamanho mínimo do nickname é {} caracteres. Somente caracteres "
+"alfanuméricos são permitidos."
 
 #: plugins/mentions.py:457
 msgid "<i>Your nickname is already <b>`{}`</b></i>"
-msgstr ""
+msgstr "<i>O seu nickname já é <b>`{}`</b></i>"
 
 #: plugins/mentions.py:462
 msgid "<i>Nickname <b>`{}`</b> is already in use by another user"
-msgstr ""
+msgstr "<i>Nickname <b>`{}`</b> já está sendo utilizado por outro usuário"
 
 #: plugins/mentions.py:481
 msgid "Removing nickname"
-msgstr ""
+msgstr "Removendo nickname"
 
 #: plugins/mentions.py:485
 msgid "Setting nickname to '{}'"
-msgstr ""
+msgstr "Definindo nickname para '{}'"
 
 #: plugins/monitoradds.py:52
 #, python-brace-format
@@ -742,25 +753,27 @@ msgstr ""
 
 #: plugins/monitoradds.py:69 plugins/monitoradds.py:74
 msgid "<i>Moderators updated: {} added</i>"
-msgstr ""
+msgstr "<i>Moderadores atualizados: {} incluído(s)</i>"
 
 #: plugins/monitoradds.py:90
 msgid "<i>Moderators updated: {} removed</i>"
-msgstr ""
+msgstr "<i>Moderadores atualizados: {} removido(s)</i>"
 
 #: plugins/namelock.py:71
 msgid "Removing topic"
-msgstr ""
+msgstr "Removendo tópico"
 
 #: plugins/namelock.py:75
 msgid "Setting topic to '{}'"
-msgstr ""
+msgstr "Definindo tópico para '{}'"
 
 #: plugins/restrictedadd.py:66
 msgid ""
 "<i>{}, you need to be authorised to add me to another conversation. I'm "
 "leaving now...</i>"
 msgstr ""
+"<i>{}, você precisa estar logado para me adicionar em outra conversa. Estou "
+"indo agora...</i>"
 
 #: plugins/restrictedadd.py:108
 msgid "<i>There is no botkeeper in here. I have to go...</i>"
@@ -822,7 +835,7 @@ msgstr ""
 
 #: plugins/subscribe.py:88
 msgid "<b>{}</b> mentioned '{}' in <i>{}</i>:<br />{}"
-msgstr ""
+msgstr "<b>{}</b> mencionado '{}' em <i>{}</i>:<br />{}"
 
 #: plugins/subscribe.py:110
 msgid ""
@@ -857,7 +870,7 @@ msgstr ""
 
 #: plugins/subscribe.py:170
 msgid "Error: keyword not found"
-msgstr ""
+msgstr "Erro: palavra chave não encontrada"
 
 #: plugins/syncrooms.py:281
 msgid "<b>Sync Rooms: {}</b>"
@@ -877,27 +890,27 @@ msgstr ""
 
 #: plugins/syncrooms_autotranslate.py:57
 msgid "<i>syncroom \"{}\" language is {}</i>"
-msgstr ""
+msgstr "<i>syncroom \"{}\" o idioma é {}</i>"
 
 #: plugins/syncrooms_autotranslate.py:70
 msgid "<i>syncroom \"{}\" language set to {}</i>"
-msgstr ""
+msgstr "<i>syncroom \"{}\" idioma definido para {}</i>"
 
 #: plugins/syncrooms_config.py:68
 msgid "<i>syncout updated: {} conversations</i>"
-msgstr ""
+msgstr "<i>syncout alterados: {} conversas</i>"
 
 #: plugins/syncrooms_config.py:71
 msgid "<i>syncout created: {} conversations</i>"
-msgstr ""
+msgstr "<i>syncout criado: {} conversas</i>"
 
 #: plugins/syncrooms_config.py:74
 msgid "<i>syncouts unchanged</i>"
-msgstr ""
+msgstr "<i>syncouts inalterados</i>"
 
 #: plugins/syncrooms_config.py:115
 msgid "<i>`{}` was detached</i>"
-msgstr ""
+msgstr "<i>`{}` foi destacado</i>"
 
 #: plugins/tldr.py:36
 msgid "{}. {} <b>{} ago</b>"
@@ -933,27 +946,27 @@ msgstr ""
 
 #: plugins/tldr.py:83
 msgid "{}s"
-msgstr ""
+msgstr "{}s"
 
 #: plugins/tldr.py:85
 msgid "{}m"
-msgstr ""
+msgstr "{}m"
 
 #: plugins/tldr.py:87
 msgid "{}h"
-msgstr ""
+msgstr "{}h"
 
 #: plugins/tldr.py:89
 msgid "{}d"
-msgstr ""
+msgstr "{}d"
 
 #: plugins/urbandict.py:93
 msgid "<b>definition:</b> "
-msgstr ""
+msgstr "<b>definição:</b> "
 
 #: plugins/urbandict.py:95
 msgid "<b>example:</b> "
-msgstr ""
+msgstr "<b>exemplo:</b> "
 
 #: plugins/urbandict.py:100
 msgid "<i>no urban dictionary definition for \"{}\"</i>"
