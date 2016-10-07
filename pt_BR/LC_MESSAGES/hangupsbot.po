@@ -1,12 +1,8 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Portuguese (Brazil) (Hangoutsbot)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-21 10:30+0800\n"
+"POT-Creation-Date: 2016-10-07 05:27+0200\n"
 "PO-Revision-Date: 2016-10-06 03:10+0000\n"
 "Last-Translator: Rafael Capaci Pereira <rafaelcp123@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) "
@@ -83,6 +79,7 @@ msgid "<em>supply 1 parameter</em>"
 msgstr ""
 
 #: commands/convid.py:40 plugins/default.py:191
+#: commands/convid.py:40,
 msgid "<b>Total: {}</b>"
 msgstr "<b>Total: {}</b>"
 
@@ -143,6 +140,7 @@ msgid "tagged <b><pre>{}</pre></b> with <b><pre>{}</pre></b>"
 msgstr "marcado<b><pre>{}</pre></b>com<b><pre>{}</pre></b>"
 
 #: commands/tagging.py:20 commands/tagging.py:34
+#: commands/tagging.py:20,
 msgid "<b><pre>{}</pre></b> unchanged"
 msgstr "<b><pre>{}</pre></b>inalterado"
 
@@ -752,6 +750,7 @@ msgid ""
 msgstr ""
 
 #: plugins/monitoradds.py:69 plugins/monitoradds.py:74
+#: plugins/monitoradds.py:69,
 msgid "<i>Moderators updated: {} added</i>"
 msgstr "<i>Moderadores atualizados: {} incluído(s)</i>"
 
@@ -914,31 +913,31 @@ msgstr "<i>`{}` foi destacado</i>"
 
 #: plugins/tldr.py:36
 msgid "{}. {} <b>{} ago</b>"
-msgstr ""
+msgstr "{}. {} <b>{} atrás</b>"
 
 #: plugins/tldr.py:41
 msgid "TL;DR not found"
-msgstr ""
+msgstr "TL;DR não encontrado"
 
 #: plugins/tldr.py:43
 msgid "<b>TL;DR ({} stored):</b>"
-msgstr ""
+msgstr "<b>TL;DR ({} armazenado(s)):</b>"
 
 #: plugins/tldr.py:44
 msgid "<br />"
-msgstr ""
+msgstr "<br />"
 
 #: plugins/tldr.py:55
 msgid "TL;DR #{} not found"
-msgstr ""
+msgstr "TL;DR #{} não encontrado"
 
 #: plugins/tldr.py:59
 msgid "TL;DR #{} removed - \"{}\""
-msgstr ""
+msgstr "TL;DR #{} removido(s) - \"{}\""
 
 #: plugins/tldr.py:62
 msgid "All TL;DRs cleared"
-msgstr ""
+msgstr "Todos os TL;DRs foram limpos"
 
 #: plugins/tldr.py:74
 msgid "Added \"{}\" to TL;DR. Count: {}"
@@ -970,12 +969,12 @@ msgstr "<b>exemplo:</b> "
 
 #: plugins/urbandict.py:100
 msgid "<i>no urban dictionary definition for \"{}\"</i>"
-msgstr ""
+msgstr "<i>sem definições no dicionário para \"{}\"</i>"
 
 #: plugins/urbandict.py:102
 msgid "<i>no term from urban dictionary</i>"
-msgstr ""
+msgstr "<i>nenhum termo no dicionário</i>"
 
 #: plugins/wolframalpha.py:52
 msgid "<i>Wolfram Alpha did not return any useful data</i>"
-msgstr ""
+msgstr "<i>Wolfram Alpha não retornou nenhum dado útil</i>"
