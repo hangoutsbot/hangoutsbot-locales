@@ -298,23 +298,23 @@ msgstr ""
 
 #: plugins/_example_memory.py:54
 msgid "<b>{}</b>, nothing to forget!"
-msgstr ""
+msgstr "<b>{}</b>, nada para esquecer!"
 
 #: plugins/_example_memory.py:60
 msgid "<b>{}</b>, forgotten!"
-msgstr ""
+msgstr "<b>{}</b>, esquecido!"
 
 #: plugins/_example_memory.py:76
 msgid "<b>{}</b>, remembered for this conversation"
-msgstr ""
+msgstr "<b>{}</b>, lembrado para essa conversa"
 
 #: plugins/_example_memory.py:81
 msgid "<b>{}</b>, remembered something else for this conversation!"
-msgstr ""
+msgstr "<b>{}</b>, algo a mais lembrado para essa conversa!"
 
 #: plugins/_example_memory.py:92
 msgid "<b>{}</b>, nothing remembered for this conversation!"
-msgstr ""
+msgstr "<b>{}</b>, nada lembrado para essa conversa!"
 
 #: plugins/_example_memory.py:97
 msgid "<b>{}</b> asked me to remember <i>\"{}\" for this conversation</i>"
@@ -330,7 +330,7 @@ msgstr ""
 
 #: plugins/autoreply.py:67
 msgid "Unidentified Conversation"
-msgstr ""
+msgstr "Conversa não identificada"
 
 #: plugins/botaliases.py:50
 msgid "<i>bot alias: {}</i>"
@@ -338,7 +338,7 @@ msgstr ""
 
 #: plugins/botaliases.py:79
 msgid "<i>not authorised to change bot alias</i>"
-msgstr ""
+msgstr "<i>não autorizado a alterar alias de bot</i>"
 
 #: plugins/chance.py:27
 msgid "<i>{} rolled <b>{}</b></i>"
@@ -354,19 +354,19 @@ msgstr ""
 
 #: plugins/cleverbot.py:201
 msgid "<em>Cleverbot is silent</em>"
-msgstr ""
+msgstr "<em>Cleverbot está silencioso</em>"
 
 #: plugins/convtools.py:53
 msgid "supply the id of the conversation to join"
-msgstr ""
+msgstr "informe o id da conversa para participar"
 
 #: plugins/convtools.py:131
 msgid "conversation {} not found"
-msgstr ""
+msgstr "conversa {} não encontrada"
 
 #: plugins/convtools.py:134
 msgid "conversation {} is not a GROUP"
-msgstr ""
+msgstr "conversa {} não é um GRUPO"
 
 #: plugins/convtools.py:137
 msgid "[DEFUNCT] {}"
@@ -377,18 +377,20 @@ msgid ""
 "<b>refresh:</b> {}<br /><b>rename old: {}</b><br /><b>removed {}:</b> {}<br /"
 "><b>added {}:</b> {}"
 msgstr ""
+"<b>atualizar:</b> {}<br /><b>renomear antigo: {}</b><br /><b>removido {}:</b>"
+" {}<br /><b>adicionado {}:</b> {}"
 
 #: plugins/convtools.py:158
 msgid "<em>unchanged</em>"
-msgstr ""
+msgstr "<em>inalterado</em>"
 
 #: plugins/convtools.py:160 plugins/convtools.py:162 plugins/convtools.py:184
 msgid "<em>none</em>"
-msgstr ""
+msgstr "<em>nenhum</em>"
 
 #: plugins/convtools.py:167
 msgid "<i>group refreshed</i><br />"
-msgstr ""
+msgstr "<i>grupo atualizado</i><br />"
 
 #: plugins/convtools.py:175
 msgid "<i>group has been obsoleted</i>"
@@ -402,7 +404,7 @@ msgstr ""
 
 #: plugins/convtools.py:187
 msgid "<b>nobody to add in the new conversation</b>"
-msgstr ""
+msgstr "<b>ninguém para adicionar na nova conversa</b>"
 
 #: plugins/convtools.py:213
 msgid "supply optional conversation id and valid user ids to kick"
@@ -410,19 +412,19 @@ msgstr ""
 
 #: plugins/convtools.py:216
 msgid "supply at least one valid user id to kick"
-msgstr ""
+msgstr "informe pelo menos um usuário válido para remover"
 
 #: plugins/convtools_invitations.py:121
 msgid "<i>group created</i>"
-msgstr ""
+msgstr "<i>grupo criado</i>"
 
 #: plugins/convtools_invitations.py:123
 msgid "GROUP: {}"
-msgstr ""
+msgstr "GRUPO: {}"
 
 #: plugins/convtools_invitations.py:177
 msgid "<em>insufficient parameters for invite</em>"
-msgstr ""
+msgstr "<em>parâmetros insuficientes para convidar</em>"
 
 #: plugins/convtools_invitations.py:196
 msgid "<b>Test Invitation Purge</b>"
@@ -434,11 +436,11 @@ msgstr ""
 
 #: plugins/convtools_invitations.py:201
 msgid "<b>Invitation List</b>"
-msgstr ""
+msgstr "<b>Lista de Convidados</b>"
 
 #: plugins/convtools_invitations.py:230
 msgid "<em>no invites found</em>"
-msgstr ""
+msgstr "<em>nenhum convite encontrado</em>"
 
 #: plugins/convtools_invitations.py:298
 msgid "<em>invite: specify \"from\" or explicit list of \"users\"</em>"
@@ -450,76 +452,78 @@ msgstr ""
 
 #: plugins/convtools_invitations.py:373
 msgid "<em>invite: nobody invited</em>"
-msgstr ""
+msgstr "<em>convite: ninguém foi convidado</em>"
 
 #: plugins/convtools_invitations.py:399
 msgid "<em>invite: {} invitations created</em>"
-msgstr ""
+msgstr "<em>convite: {} convites criados</em>"
 
 #: plugins/convtools_invitations.py:418
 msgid "<b>Invites for {}:</b>"
-msgstr ""
+msgstr "<b>Convites para {}:</b>"
 
 #: plugins/convtools_invitations.py:423
 msgid ""
 "<em>To claim an invite, use the rsvp command followed by the invite code</em>"
 msgstr ""
+"<em>Para reivindicar um convite, use o comando rsvp seguido do código do "
+"convite</em>"
 
 #: plugins/convtools_invitations.py:426
 msgid "<em>no invites to display</em>"
-msgstr ""
+msgstr "<em>nenhum convite para mostrar</em>"
 
 #: plugins/default.py:35
 msgid "<b>only admins can echo other conversations</b>"
-msgstr ""
+msgstr "<b>somente administradores podem usar echo em outras conversas</b>"
 
 #: plugins/default.py:64
 msgid "broadcast: no message set"
-msgstr ""
+msgstr "broadcast: nenhuma mensagem definida"
 
 #: plugins/default.py:68
 msgid "broadcast: no conversations available"
-msgstr ""
+msgstr "broadcast: nenhuma conversa disponível"
 
 #: plugins/default.py:72
 msgid "<b>message:</b><br />{}<br /><b>to:</b><br />{}"
-msgstr ""
+msgstr "<b>mensagem:</b><br />{}<br /><b>para:</b><br />{}"
 
 #: plugins/default.py:83
 msgid "broadcast: message not allowed"
-msgstr ""
+msgstr "broadcast: mensagem não permitida"
 
 #: plugins/default.py:88
 msgid "broadcast: message must be supplied after subcommand"
-msgstr ""
+msgstr "broadcast: a mensagem deve ser informada depois do subcomando"
 
 #: plugins/default.py:111
 msgid "broadcast: {} conversation(s)"
-msgstr ""
+msgstr "broadcast: {} conversa(s)"
 
 #: plugins/default.py:128
 msgid "broadcast: removed {}"
-msgstr ""
+msgstr "broadcast: removido(s) {}"
 
 #: plugins/default.py:135
 msgid "broadcast: message sent to {} chats"
-msgstr ""
+msgstr "broadcast: mensagem enviada para os chats {}"
 
 #: plugins/default.py:138
 msgid "broadcast: /bot broadcast [info|message|add|remove|NOW] ..."
-msgstr ""
+msgstr "broadcast: /bot broadcast [info|message|add|remove|NOW] ..."
 
 #: plugins/default.py:141
 msgid "broadcast: /bot broadcast [info|message|add|remove|NOW]"
-msgstr ""
+msgstr "broadcast: /bot broadcast [info|message|add|remove|NOW]"
 
 #: plugins/default.py:155
 msgid "results for user named \"{}\":"
-msgstr ""
+msgstr "resultados para usuários com o nome \"{}\":"
 
 #: plugins/default.py:193
 msgid "<b>List of hangouts with keyword:</b> \"<pre>{}</pre>\""
-msgstr ""
+msgstr "<b>Lista de hangouts com as palavras chave:</b> \"<pre>{}</pre>\""
 
 #: plugins/default.py:281
 msgid "<em>note: testing single parameter as json</em>"
@@ -535,11 +539,11 @@ msgstr ""
 
 #: plugins/default.py:332
 msgid "Parameter does not exist!"
-msgstr ""
+msgstr "Parâmetro não existe!"
 
 #: plugins/default.py:354
 msgid "<b><pre>{}</pre></b>, chat_id = <i>{}</i>"
-msgstr ""
+msgstr "<b><pre>{}</pre></b>, chat_id = <i>{}</i>"
 
 #: plugins/default.py:362
 msgid "You are at <b><pre>{}</pre></b>, conv_id = <i><pre>{}</pre></i>"
@@ -569,25 +573,25 @@ msgstr ""
 
 #: plugins/lookup.py:37
 msgid "Results for keyword <b>{}</b>:<br />"
-msgstr ""
+msgstr "Resultados para a palavra chave <b>{}</b>:<br />"
 
 #: plugins/lookup.py:71
 msgid "<br />Row {}: "
-msgstr ""
+msgstr "<br />Linha {}: "
 
 #: plugins/lookup.py:82
 #, python-brace-format
 msgid "<br />{0} rows found. Only returning first {1}."
-msgstr ""
+msgstr "<br />{0} linhas encontradas. Retornando apenas a primeira {1}."
 
 #: plugins/lookup.py:84
 #, python-brace-format
 msgid "<br />Hint: Use <b>/bot lookup <{0} {1}</b> to view {0} rows"
-msgstr ""
+msgstr "<br />Dica: Use <b>/bot lookup <{0} {1}</b> para visualizar {0} linhas"
 
 #: plugins/lookup.py:87
 msgid "No match found"
-msgstr ""
+msgstr "Nenhuma correspondência encontrada"
 
 #: plugins/lottery.py:98
 msgid "prepare: min and max are the same ({})"
