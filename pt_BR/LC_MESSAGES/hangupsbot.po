@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Portuguese (Brazil) (Hangoutsbot)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-07 05:27+0200\n"
-"PO-Revision-Date: 2016-10-06 03:10+0000\n"
+"PO-Revision-Date: 2016-10-11 14:27+0000\n"
 "Last-Translator: Rafael Capaci Pereira <rafaelcp123@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/pt_BR/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: commands/basic.py:45
 msgid "<b>User commands:</b>"
-msgstr ""
+msgstr "<b>Comandos do usuário:</b>"
 
 #: commands/basic.py:50
 msgid "<i>For more information, please see: {}</i>"
@@ -76,7 +76,7 @@ msgstr ""
 
 #: commands/convid.py:35
 msgid "<em>supply 1 parameter</em>"
-msgstr ""
+msgstr "<em>forneça 1 paramêtro</em>"
 
 #: commands/convid.py:40 plugins/default.py:191
 #: commands/convid.py:40,
