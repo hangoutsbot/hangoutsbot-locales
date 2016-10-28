@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-21 10:30+0800\n"
-"PO-Revision-Date: 2016-10-05 04:29+0000\n"
+"PO-Revision-Date: 2016-10-28 00:53+0000\n"
 "Last-Translator: tomoki matsuoka <tomoki.matsuoka@gmail.com>\n"
 "Language-Team: Japanese "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/ja/>\n"
@@ -899,7 +899,6 @@ msgid "<i>syncroom \"{}\" language set to {}</i>"
 msgstr "<i>同期ハングアウト \"{}\" の言語を {} に設定しました</i>"
 
 #: plugins/syncrooms_config.py:68
-#, fuzzy
 msgid "<i>syncout updated: {} conversations</i>"
 msgstr "<i>同期設定を更新しました: {} 個</i>"
 
@@ -909,12 +908,10 @@ msgid "<i>syncout created: {} conversations</i>"
 msgstr "<i>同期設定を作成しました: {} 個</i>"
 
 #: plugins/syncrooms_config.py:74
-#, fuzzy
 msgid "<i>syncouts unchanged</i>"
 msgstr "<i>同期設定は変更されません</i>"
 
 #: plugins/syncrooms_config.py:115
-#, fuzzy
 msgid "<i>`{}` was detached</i>"
 msgstr "<i>「{}」 は同期から外れました</i>"
 
@@ -923,17 +920,14 @@ msgid "{}. {} <b>{} ago</b>"
 msgstr "{}. {} <b>{} 前</b>"
 
 #: plugins/tldr.py:41
-#, fuzzy
 msgid "TL;DR not found"
 msgstr "TL;DR が見つかりません"
 
 #: plugins/tldr.py:43
-#, fuzzy
 msgid "<b>TL;DR ({} stored):</b>"
 msgstr "<b>TL;DR ({} 個保存されています):</b>"
 
 #: plugins/tldr.py:44
-#, fuzzy
 msgid "<br />"
 msgstr "<br />"
 
@@ -946,32 +940,26 @@ msgid "TL;DR #{} removed - \"{}\""
 msgstr "TL;DR {} 版を削除しました - 「{}」"
 
 #: plugins/tldr.py:62
-#, fuzzy
 msgid "All TL;DRs cleared"
 msgstr "全ての TL;DR を削除しました"
 
 #: plugins/tldr.py:74
-#, fuzzy
 msgid "Added \"{}\" to TL;DR. Count: {}"
 msgstr "「{}」を TL;DR に追加しました。合計: {} 個"
 
 #: plugins/tldr.py:83
-#, fuzzy
 msgid "{}s"
 msgstr "{}秒"
 
 #: plugins/tldr.py:85
-#, fuzzy
 msgid "{}m"
 msgstr "{}分"
 
 #: plugins/tldr.py:87
-#, fuzzy
 msgid "{}h"
 msgstr "{}時間"
 
 #: plugins/tldr.py:89
-#, fuzzy
 msgid "{}d"
 msgstr "{}日"
 
