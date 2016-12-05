@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2016-09-26 11:58+0000\n"
+"PO-Revision-Date: 2016-12-05 10:13+0000\n"
 "Last-Translator: Petr Dráb <petr@drabovi.cz>\n"
 "Language-Team: Czech "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/cs/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2.9-dev\n"
+"X-Generator: Weblate 2.10-dev\n"
 
 #: commands.py:102
 msgid "<b>User commands:</b>"
@@ -40,21 +40,23 @@ msgid ""
 "<i>{}, you are currently opted-out. Private message me or enter <b>{} "
 "optout</b> to get me to talk to you.</i>"
 msgstr ""
+"<i>{}, máš nastaveno abych tě nekontaktoval. Napiš mi soukromou zprávu nebo "
+"zadej <b>{} optout</b> a já na tebe opět začnu mluvit.</i>"
 
 #: commands.py:141
 msgid ""
 "<i>{}, before I can help you, you need to private message me and say hi.</i>"
 msgstr ""
 "<i>{}, dříve než ti budu moci pomoct, musíš mi napsat skrze soukromý hangout "
-"hi.</i>"
+"a říct \"hi\".</i>"
 
 #: commands.py:165
 msgid "<i>{}, you <b>opted-out</b> from bot private messages</i>"
-msgstr ""
+msgstr "<i>{}, máš nastaveno <b>vypnutí</b> soukromých zpráv od bota</i>"
 
 #: commands.py:167
 msgid "<i>{}, you <b>opted-in</b> for bot private messages</i>"
-msgstr ""
+msgstr "<i>{}, máš nastaveno <b>zapnutí</b> soukromých zpráv od bota</i>"
 
 #: commands.py:173
 msgid "Bot Version: <b>{}</b>"
@@ -78,7 +80,7 @@ msgstr "<i>Moderátoři aktualizováni: {} odstraněni</i>"
 
 #: plugins/restrictedadd.py:39
 msgid "RESTRICTEDADD: admin added me to {}"
-msgstr ""
+msgstr "RESTRICTEDADD: admin mě přidal do {}"
 
 #: plugins/restrictedadd.py:43
 msgid "RESTRICTEDADD: authorised user added me to {}"
@@ -125,6 +127,7 @@ msgid ""
 "<em>1 parameter required, {} supplied - enclose parameter in double-quotes</"
 "em>"
 msgstr ""
+"<em> je vyžadován 1 parametr, dodáno {} - vlož parametr do \"závorek\"</em>"
 
 #: plugins/default.py:38
 msgid "<em>supply 1 parameter</em>"
@@ -148,11 +151,11 @@ msgstr "<em>chybějící text</em>"
 
 #: plugins/default.py:71
 msgid "<em>required parameters: convfilter text</em>"
-msgstr ""
+msgstr "<em>požadované parametry: text convfilteru</em>"
 
 #: plugins/default.py:75
 msgid "<em>no conversations filtered</em>"
-msgstr ""
+msgstr "<em>nefiltruji žádnou konverzaci</em>"
 
 #: plugins/default.py:96
 msgid "<em>missing title</em>"
@@ -168,7 +171,7 @@ msgstr ""
 
 #: plugins/default.py:114
 msgid "<em>retrieving ALL conversations blocked</em>"
-msgstr ""
+msgstr "<em>získávam VŠECHNY blokované konverzace</em>"
 
 #: plugins/default.py:133
 msgid "<b>Users: {}</b>"
@@ -188,11 +191,11 @@ msgstr "Já se vrátím!"
 
 #: plugins/default.py:182
 msgid "broadcast: no message set"
-msgstr ""
+msgstr "broadcast: není nastavena žádná zpráva"
 
 #: plugins/default.py:185
 msgid "broadcast: no conversations available"
-msgstr ""
+msgstr "broadcast: není dostupná žádná konverzace"
 
 #: plugins/default.py:188
 msgid "<b>message:</b><br />{}<br /><b>to:</b><br />{}"
@@ -200,31 +203,33 @@ msgstr "<b>zpráva:</b><br />{}<br /><b>pro:</b><br />{}"
 
 #: plugins/default.py:198
 msgid "broadcast: message not allowed"
-msgstr ""
+msgstr "broadcast: zpráva nepovolena"
 
 #: plugins/default.py:202
 msgid "broadcast: message must be supplied after subcommand"
-msgstr ""
+msgstr "broadcast: zpráva musí být dodána následně po pod-příkazu"
 
 #: plugins/default.py:221
 msgid "broadcast: {} conversation(s)"
-msgstr ""
+msgstr "broadcast: {} konverzace"
 
 #: plugins/default.py:235
 msgid "broadcast: removed {}"
-msgstr ""
+msgstr "broadcast: odstraněno {}"
 
 #: plugins/default.py:241
 msgid "broadcast: message sent to {} chats"
-msgstr ""
+msgstr "broadcast: zpráva rozeslána do {} chatů"
 
 #: plugins/default.py:243
+#, fuzzy
 msgid "broadcast: /bot broadcast [info|message|add|remove|NOW] ..."
-msgstr ""
+msgstr "broadcast: /bot broadcast [info|message|add|remove|NOW] ..."
 
 #: plugins/default.py:245
+#, fuzzy
 msgid "broadcast: /bot broadcast [info|message|add|remove|NOW]"
-msgstr ""
+msgstr "broadcast: /bot broadcast [info|message|add|remove|NOW]"
 
 #: plugins/default.py:256
 msgid "results for user named \"{}\":"
@@ -232,19 +237,19 @@ msgstr "výsledky pro uživatele \"{}\":"
 
 #: plugins/default.py:287
 msgid "<b>List of hangouts with keyword:</b> \"{}\""
-msgstr ""
+msgstr "<b>Seznam hangoutů obsahující slovo:</b> \"{}\""
 
 #: plugins/default.py:320
 msgid "HangupsBot killed by user {} from conversation {}"
-msgstr ""
+msgstr "HangupsBot zabit uživatelem {} z konverzace {}"
 
 #: plugins/default.py:370
 msgid "<em>note: testing single parameter as json</em>"
-msgstr ""
+msgstr "<em>poznámka: testování jednoduchého parametru jako json</em>"
 
 #: plugins/default.py:397
 msgid "append failed on non-list"
-msgstr ""
+msgstr "přidání selhalo u neexistujícího seznamu"
 
 #: plugins/default.py:411
 msgid "remove failed on non-list"
@@ -255,8 +260,9 @@ msgid "Parameter does not exist!"
 msgstr "Parametr neexistuje!"
 
 #: plugins/default.py:443
+#, fuzzy
 msgid "<b>{}</b>, chat_id = <i>{}</i>"
-msgstr ""
+msgstr "<b>{}</b>, chat_id = <i>{}</i>"
 
 #: plugins/default.py:451
 msgid "You are at <b>{}</b>, conv_id = <i>{}</i>"
@@ -285,7 +291,7 @@ msgstr ""
 #: plugins/mentions.py:105
 msgid ""
 "<b>{}</b>, you cannot @mention anyone until your DND status is toggled off."
-msgstr ""
+msgstr "<b>{}</b>, nemůžete použít @mention dokud váš status DND nebude vypnut."
 
 #: plugins/mentions.py:109
 msgid "quidproquo: user {} ({}) has 1-on-1"
