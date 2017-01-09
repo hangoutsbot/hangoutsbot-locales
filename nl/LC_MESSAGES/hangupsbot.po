@@ -8,30 +8,32 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2015-07-13 20:53+0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-01-09 12:06+0000\n"
+"Last-Translator: bafplus <bart.cockheyt@gmail.com>\n"
+"Language-Team: Dutch "
+"<https://hosted.weblate.org/projects/hangoutsbot/hangups/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.11-dev\n"
 
 #: commands.py:102
 msgid "<b>User commands:</b>"
-msgstr ""
+msgstr "<b>Opdrachten gebruiker:</b>"
 
 #: commands.py:107
 msgid "<i>For more information, please see: {}</i>"
-msgstr ""
+msgstr "<i>Voor meer informatie zie: {}</i>"
 
 #: commands.py:111
 msgid "<b>Admin commands:</b>"
-msgstr ""
+msgstr "<b>Opdrachten beheerders:</b>"
 
 #: commands.py:131
 msgid "<i>{}, I've sent you some help ;)</i>"
-msgstr ""
+msgstr "<i>{}, ik heb je wat hulp gestuurd  ;)</i>"
 
 #: commands.py:136
 msgid ""
