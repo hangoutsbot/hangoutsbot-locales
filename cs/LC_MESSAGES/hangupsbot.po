@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2017-01-16 16:46+0000\n"
+"PO-Revision-Date: 2017-02-05 19:48+0000\n"
 "Last-Translator: Petr Dráb <petr@drabovi.cz>\n"
 "Language-Team: Czech "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/cs/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2.11-dev\n"
+"X-Generator: Weblate 2.11\n"
 
 #: commands.py:102
 msgid "<b>User commands:</b>"
@@ -223,11 +223,11 @@ msgstr "broadcast: zpráva rozeslána do {} chatů"
 
 #: plugins/default.py:243
 msgid "broadcast: /bot broadcast [info|message|add|remove|NOW] ..."
-msgstr "broadcast: /bot broadcast [info|message|add|remove|NOW] ..."
+msgstr "vysílání: /bot broadcast [info|message|add|remove|NOW] ..."
 
 #: plugins/default.py:245
 msgid "broadcast: /bot broadcast [info|message|add|remove|NOW]"
-msgstr "broadcast: /bot broadcast [info|message|add|remove|NOW]"
+msgstr "vysílání: /bot broadcast [info|message|add|remove|NOW]"
 
 #: plugins/default.py:256
 msgid "results for user named \"{}\":"
@@ -267,7 +267,7 @@ msgstr "Jsi v <b>{}</b>, conv_id = <i>{}</i>"
 
 #: plugins/mentions.py:28
 msgid "migration(): pushbullet config migrated"
-msgstr ""
+msgstr "migrace(): nastavení pushbullet bylo přesunuto"
 
 #: plugins/mentions.py:46
 msgid "mentions: falling back to legacy _user_has_dnd()"
@@ -369,10 +369,12 @@ msgstr "výběr priotity v přezdívce pro {}"
 #: plugins/mentions.py:235
 msgid "prioritising single case-sensitive fragment match for {}"
 msgstr ""
+"upřednostňuji jednotlivé výsledky pro {} (rozlišují se malá a velká písmena)"
 
 #: plugins/mentions.py:238
 msgid "prioritising multiple case-sensitive fragment match for {}"
 msgstr ""
+"upřednostňuji několik výsledků pro {} (rozlišují se malá a velká písmena)"
 
 #: plugins/mentions.py:250
 msgid ""
@@ -396,7 +398,7 @@ msgstr "{} ({}) notifikován pomocí pushbullet"
 
 #: plugins/mentions.py:293
 msgid "pushbullet alert failed for {} ({})"
-msgstr ""
+msgstr "selhal alert v pushbullet pro {} ({})"
 
 #: plugins/mentions.py:304
 msgid "<b>{}</b> @mentioned you in <i>{}</i>:<br />{}"
@@ -442,6 +444,7 @@ msgstr "Nepodařilo se nikoho zmínit (@mention) :-(<br />"
 #: plugins/mentions.py:334
 msgid "Users failing 1-to-1 need to say something to me privately first.<br />"
 msgstr ""
+"Uživatelé kteří se mnou nemluvili mi musí napsat v soukromé konverzaci.<br />"
 
 #: plugins/mentions.py:350
 msgid "deactivating pushbullet integration"
@@ -826,35 +829,35 @@ msgstr "<b>{}</b>, zapamatováno!"
 
 #: plugins/example_memory.py:27
 msgid "<b>{}</b>, remembered something else!"
-msgstr ""
+msgstr "<b>{}</b>, si zapomatoval něco jiného!"
 
 #: plugins/example_memory.py:38
 msgid "<b>{}</b>, nothing remembered!"
-msgstr ""
+msgstr "<b>{}</b>, nic sem si nezapamatoval!"
 
 #: plugins/example_memory.py:43
 msgid "<b>{}</b> asked me to remember <i>\"{}\"</i>"
-msgstr ""
+msgstr "<b>{}</b> mě poprosil o zapamatování <i>\"{}\"</i>"
 
 #: plugins/example_memory.py:54
 msgid "<b>{}</b>, nothing to forget!"
-msgstr ""
+msgstr "<b>{}</b>, nic k zapomenutí!"
 
 #: plugins/example_memory.py:60
 msgid "<b>{}</b>, forgotten!"
-msgstr ""
+msgstr "<b>{}</b>, zapoměno!"
 
 #: plugins/example_memory.py:76
 msgid "<b>{}</b>, remembered for this conversation"
-msgstr ""
+msgstr "<b>{}</b>, si zapamatoval pro tuto konverzaci"
 
 #: plugins/example_memory.py:81
 msgid "<b>{}</b>, remembered something else for this conversation!"
-msgstr ""
+msgstr "<b>{}</b>, si vzpomněl na něco dalšího pro tuto konverzaci!"
 
 #: plugins/example_memory.py:92
 msgid "<b>{}</b>, nothing remembered for this conversation!"
-msgstr ""
+msgstr "<b>{}</b>, pro tuto konverzaci si nic nepamatuji!"
 
 #: plugins/example_memory.py:97
 msgid "<b>{}</b> asked me to remember <i>\"{}\" for this conversation</i>"
@@ -878,7 +881,7 @@ msgstr "není nastavena adresa tabulky"
 
 #: plugins/lookup.py:35
 msgid "Results for keyword <b>{}</b>:<br />"
-msgstr ""
+msgstr "Výsledky pro slovo <b>{}</b>:<br />"
 
 #: plugins/lookup.py:37
 #, python-brace-format
@@ -918,15 +921,15 @@ msgstr ""
 
 #: plugins/syncrooms_config.py:62
 msgid "SYNCROOM_CONFIG: extended"
-msgstr ""
+msgstr "SYNCROOM_CONFIG: rozšířeno"
 
 #: plugins/syncrooms_config.py:63
 msgid "<i>syncout updated: {} conversations</i>"
-msgstr ""
+msgstr "<i>aktualizace syncoutu: {} konverzací</i>"
 
 #: plugins/syncrooms_config.py:65
 msgid "SYNCROOM_CONFIG: created"
-msgstr ""
+msgstr "SYNCROOM_CONFIG: vytvořen"
 
 #: plugins/syncrooms_config.py:66
 msgid "<i>syncout created: {} conversations</i>"
