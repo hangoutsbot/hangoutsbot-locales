@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2017-03-30 01:01+0000\n"
-"Last-Translator: rene mayer <renemayer0hb@gmail.com>\n"
+"PO-Revision-Date: 2017-03-30 01:14+0000\n"
+"Last-Translator: Clément Meur (Chnorzy) <clement.meur@gmail.com>\n"
 "Language-Team: German "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/de/>\n"
 "Language: de\n"
@@ -80,7 +80,7 @@ msgstr "<i>Moderatoren aktualisiert: {} entfernt</i>"
 
 #: plugins/restrictedadd.py:39
 msgid "RESTRICTEDADD: admin added me to {}"
-msgstr "RESTRICTEDADD: Admin hat mich zu {} hinzugefügt"
+msgstr "RESTRICTEDADD: admin hat mich zu {} hinzugefügt"
 
 #: plugins/restrictedadd.py:43
 msgid "RESTRICTEDADD: authorised user added me to {}"
@@ -575,7 +575,7 @@ msgstr "_migrate_syncroom_v1(): config-v2 = {}"
 
 #: plugins/syncrooms.py:73
 msgid "syncrooms: handler disabled by context"
-msgstr "syncrooms: handler disabled by context"
+msgstr "syncrooms: Handler durch Kontext deaktiviert"
 
 #: plugins/syncrooms.py:87
 msgid "syncrooms: broadcasting to {} room(s)"
@@ -611,15 +611,15 @@ msgstr "<b>Teilnehmende User: {}</b>"
 
 #: plugins/simplytranslate.py:30
 msgid "TRANSLATE: \"{}\" to {}"
-msgstr "TRANSLATE: \"{}\" to {}"
+msgstr "TRANSLATE: \"{}\" nach {}"
 
 #: plugins/api.py:51
 msgid "config.api[{}].certfile must be configured"
-msgstr "config.api[{}].certfile must be configured"
+msgstr "config.api[{}].certfile muss konfiguriert werden"
 
 #: plugins/api.py:56
 msgid "config.api[{}] missing keyword"
-msgstr "config.api[{}] missing keyword"
+msgstr "config.api[{}] fehlendes keyword"
 
 #: plugins/example_watchmembers.py:23
 msgid "EXAMPLE_WATCHMEMBERS: {} has added {}"
@@ -631,15 +631,15 @@ msgstr "EXAMPLE_WATCHMEMBERS: {} ist rausgegangen"
 
 #: plugins/slack.py:56
 msgid "config.slack[{}].certfile must be configured"
-msgstr "config.slack[{}].certfile must be configured"
+msgstr "config.slack[{}].certfile muss konfiguriert werden"
 
 #: plugins/slack.py:61
 msgid "config.slack[{}] missing keyword"
-msgstr "config.slack[{}] missing keyword"
+msgstr "config.slack[{}] Fehlendes keyword"
 
 #: plugins/slack.py:78
 msgid "_start_slack_sinks(): {} sink thread(s) started"
-msgstr "_start_slack_sinks(): {} sink thread(s) started"
+msgstr "_start_slack_sinks(): {} sink thread(s) gestartet"
 
 #: plugins/slack.py:137
 msgid "conversation id must be provided as part of path"
@@ -655,7 +655,7 @@ msgstr "Verbindung geschlossen"
 
 #: plugins/slack.py:233
 msgid "incoming path: {}"
-msgstr "incoming path: {}"
+msgstr "eingehender Pfad: {}"
 
 #: plugins/slack.py:238
 msgid "payload {}"
@@ -699,7 +699,7 @@ msgstr "<i>Kein Begriff vom urban dictionary</i>"
 
 #: plugins/wolframalpha.py:25
 msgid "WOLFRAMALPHA: config.wolframalpha-apikey required"
-msgstr "WOLFRAMALPHA: config.wolframalpha-apikey required"
+msgstr "WOLFRAMALPHA: config.wolframalpha-apikey benötigt"
 
 #: plugins/wolframalpha.py:51
 msgid "<i>Wolfram Alpha did not return any useful data</i>"
@@ -715,7 +715,7 @@ msgstr "<i>Nein! Ich bin Spartakus!</i>"
 
 #: plugins/starter.py:29
 msgid "<i>config: {}<br />memory: {}</i>"
-msgstr "<i>config: {}<br />memory: {}</i>"
+msgstr "<i>config: {}<br />Speicher: {}</i>"
 
 #: plugins/starter.py:51
 msgid ""
@@ -829,11 +829,11 @@ msgstr "EXAMPLE_PRINTRENAMES: {} Unterhaltung in {} umbenannt"
 
 #: plugins/dnd.py:23
 msgid "dnd: list migrated to memory"
-msgstr "dnd: list migrated to memory"
+msgstr "dnd: Liste in Speicher migriert"
 
 #: plugins/dnd.py:38
 msgid "dnd: list migrated to dictionary"
-msgstr "dnd: list migrated to dictionary"
+msgstr "dnd: Liste in dictionary gespeicherrt"
 
 #: plugins/example_memory.py:22
 msgid "<b>{}</b>, remembered!"
