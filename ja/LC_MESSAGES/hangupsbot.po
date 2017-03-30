@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-21 10:30+0800\n"
+"POT-Creation-Date: 2017-03-30 19:29+0800\n"
 "PO-Revision-Date: 2016-10-28 00:53+0000\n"
 "Last-Translator: tomoki matsuoka <tomoki.matsuoka@gmail.com>\n"
-"Language-Team: Japanese "
-"<https://hosted.weblate.org/projects/hangoutsbot/hangups/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/hangoutsbot/"
+"hangups/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,58 +19,76 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2.9-dev\n"
 
-#: commands/basic.py:35
+#: commands/basic.py:45
 msgid ""
 "<b>Impersonation:</b><br /><b><pre>{}</pre></b><br /><b><pre>{}</pre></"
 "b><br />"
 msgstr ""
-"<b>他の人の見え方:</b><br /><b><pre>{}</pre></b><br /><b><pre>{}</pre></b><br />"
+"<b>他の人の見え方:</b><br /><b><pre>{}</pre></b><br /><b><pre>{}</pre></"
+"b><br />"
 
-#: commands/basic.py:45
+#: commands/basic.py:51
 msgid "<b>User commands:</b>"
 msgstr "<b>ユーザーコマンド：</b>"
 
-#: commands/basic.py:50
+#: commands/basic.py:56
 msgid "<i>For more information, please see: {}</i>"
 msgstr "<i>もっと詳しく知りたい場合はこちらをご覧ください:{}</i>"
 
-#: commands/basic.py:54
+#: commands/basic.py:60
 msgid "<b>Admin commands:</b>"
 msgstr "<b>管理者用コマンド:</b>"
 
-#: commands/basic.py:68
+#: commands/basic.py:85
+msgid "command help not available"
+msgstr ""
+
+#: commands/basic.py:114
 msgid "<i>{}, I've sent you some help ;)</i>"
 msgstr "<i>{}, ヘルプを送信します(^_-)</i>"
 
-#: commands/basic.py:77
+#: commands/basic.py:123
 msgid "locale set to: {}"
 msgstr "地域を設定しました: {}"
 
-#: commands/basic.py:79
+#: commands/basic.py:125
 msgid "locale unchanged"
 msgstr "地域を変更していません"
 
-#: commands/basic.py:81
+#: commands/basic.py:127
 msgid "language code required"
 msgstr "言語コードが必要です"
 
-#: commands/basic.py:108
-msgid "<i>{}, you <b>opted-out</b> from bot private messages</i>"
-msgstr "<i>{},　Bot からのプライベートメッセージは現在 <b>opted-out</b> 状態です。</i>"
+#: commands/basic.py:177
+msgid "<i>{}, search did not match a single group conversation</i>"
+msgstr ""
 
-#: commands/basic.py:110
+#: commands/basic.py:218
 msgid "<i>{}, you <b>opted-in</b> for bot private messages</i>"
-msgstr "<i>{},　Bot からのプライベートメッセージは現在 <b>opted-in</b> 状態です。</i>"
+msgstr ""
+"<i>{},　Bot からのプライベートメッセージは現在 <b>opted-in</b> 状態です。</i>"
 
-#: commands/basic.py:118
+#: commands/basic.py:221
+msgid "<i>{}, you <b>opted-out</b> from bot private messages</i>"
+msgstr ""
+"<i>{},　Bot からのプライベートメッセージは現在 <b>opted-out</b> 状態です。</"
+"i>"
+
+#: commands/basic.py:223
+msgid ""
+"<i>{}, you are <b>opted-out</b> from the following conversations:\n"
+"{}</i>"
+msgstr ""
+
+#: commands/basic.py:234
 msgid "Bot Version: <b>{}</b>"
 msgstr "Botのバージョン: <b>{}</b>"
 
-#: commands/basic.py:140
+#: commands/basic.py:265
 msgid "{}: Unknown Command"
 msgstr "{}: 不明なコマンド"
 
-#: commands/basic.py:146
+#: commands/basic.py:275
 msgid "{}: Can't do that."
 msgstr "{}:　実行できません。"
 
@@ -78,13 +96,15 @@ msgstr "{}:　実行できません。"
 msgid ""
 "<em>1 parameter required, {} supplied - enclose parameter in double-quotes</"
 "em>"
-msgstr "<em>１つのパラメータが必要です、 {} です。 提供されるパラメータはダブルクォートで囲みます。</em>"
+msgstr ""
+"<em>１つのパラメータが必要です、 {} です。 提供されるパラメータはダブルクォー"
+"トで囲みます。</em>"
 
 #: commands/convid.py:35
 msgid "<em>supply 1 parameter</em>"
 msgstr "<em>パラメータを１つ設定してください。</em>"
 
-#: commands/convid.py:40 plugins/default.py:191
+#: commands/convid.py:40 plugins/default.py:203
 msgid "<b>Total: {}</b>"
 msgstr "<b>合計: {}</b>"
 
@@ -140,79 +160,79 @@ msgstr "<em>パラメータが必要です: convfilter</em>"
 msgid "I'll be back!"
 msgstr "アイルビーバック！"
 
-#: commands/tagging.py:18
+#: commands/tagging.py:32
 msgid "tagged <b><pre>{}</pre></b> with <b><pre>{}</pre></b>"
 msgstr "タグ付けされています　<b><pre>{}</pre></b> （ <b><pre>{}</pre>　）</b>"
 
-#: commands/tagging.py:20 commands/tagging.py:34
+#: commands/tagging.py:34 commands/tagging.py:49
 msgid "<b><pre>{}</pre></b> unchanged"
 msgstr "<b><pre>{}</pre></b> 変更されていません"
 
-#: commands/tagging.py:22 commands/tagging.py:36
+#: commands/tagging.py:36 commands/tagging.py:51
 msgid "<b>supply type, id, tag</b>"
 msgstr "<b>タイプ、id、タグを指定する</b>"
 
-#: commands/tagging.py:32
+#: commands/tagging.py:47
 msgid "removed <b><pre>{}</pre></b> from <b><pre>{}</pre></b>"
 msgstr "<b><pre>{}</pre></b> を　<b><pre>{}</pre>　から取り除きました。</b>"
 
-#: commands/tagging.py:46
+#: commands/tagging.py:62
 msgid "entries removed: <b><pre>{}</pre></b>"
 msgstr "エントリを削除しました: <b><pre>{}</pre></b>"
 
-#: commands/tagging.py:48
+#: commands/tagging.py:64
 msgid "<b>supply type, id</b>"
 msgstr "<b>type　と id を指定してください。</b>"
 
-#: commands/tagging.py:59
+#: commands/tagging.py:75
 msgid "<b><pre>COMMAND: {}</pre></b> does not exist"
 msgstr "<b><pre>コマンド: {}</pre></b> はありません"
 
-#: commands/tagging.py:109
+#: commands/tagging.py:125
 msgid "<b><pre>COMMAND: {}</pre></b> has no tags"
 msgstr "<b><pre>コマンド: {}</pre></b> のタグはありません"
 
-#: commands/tagging.py:111
+#: commands/tagging.py:127
 msgid "<b><pre>COMMAND: {}</pre></b>, match <b>ANY</b>:"
 msgstr "<b><pre>コマンド: {}</pre></b>, <b>一致しません</b>:"
 
-#: commands/tagging.py:115
+#: commands/tagging.py:131
 msgid "<b>supply command name</b>"
 msgstr "<b>コマンド名を指定してください</b>"
 
-#: commands/tagging.py:128
+#: commands/tagging.py:144
 msgid "index: <b><pre>{}</pre></b>"
 msgstr "インデックス: <b><pre>{}</pre></b>"
 
-#: commands/tagging.py:130
+#: commands/tagging.py:146
 msgid "key: <pre>{}</pre>"
 msgstr "キー: <pre>{}</pre>"
 
-#: commands/tagging.py:138
+#: commands/tagging.py:154
 msgid "<b>no entries to list</b>"
 msgstr "<b>一覧にエントリがありません</b>"
 
-#: commands/tagging.py:153
+#: commands/tagging.py:191
 msgid "<b>supply chat_id, optional conv_id</b>"
 msgstr "<b>chat_id　を指定する、オプションで conv_id　を指定する。</b>"
 
-#: commands/tagging.py:177
+#: commands/tagging.py:218
 msgid "<b>supply conv_id, optional tag list</b>"
 msgstr "<b>conv_id を指定する、オプションでタグリストを指定する。</b>"
 
-#: commands/tagging.py:185
+#: commands/tagging.py:229
 msgid "<em>no tags returned</em>"
 msgstr "<em>タグは有りませんでした</em>"
 
-#: commands/tagging.py:189
+#: commands/tagging.py:233
 msgid "<b>no users found</b>"
 msgstr "<b>ユーザーが見つかりません</b>"
 
-#: handlers.py:174
+#: handlers.py:182
 msgid "{}: {}"
 msgstr "{}: {}"
 
-#: handlers.py:180
+#: handlers.py:191
 msgid "{}: Missing parameter(s)"
 msgstr "{}: パラメータが不足しています"
 
@@ -224,114 +244,133 @@ msgstr "{} 既に共有登録されています"
 msgid "memory: {} is 1on1 with {}"
 msgstr "メモリー: {} は  {} と 1on1しています"
 
-#: hangupsbot.py:447
+#: hangupsbot.py:457
 #, python-brace-format
 msgid ""
 "<i>Hi there! I'll be using this channel to send private messages and alerts. "
 "For help, type <b>{0} help</b>. To keep me quiet, reply with <b>{0} optout</"
 "b>.</i>"
 msgstr ""
-"<i>こんにちは！私はこのチャンネルでプライベートメッセージとアラートをお知らせします。ヘルプをみるには、　<b>{0} help</b>　"
-"と入力してください。 私を黙らせたい場合は <b>{0} optout</b>　と返信してください。</i>"
+"<i>こんにちは！私はこのチャンネルでプライベートメッセージとアラートをお知らせ"
+"します。ヘルプをみるには、　<b>{0} help</b>　と入力してください。 私を黙らせ"
+"たい場合は <b>{0} optout</b>　と返信してください。</i>"
 
-#: hangupsbot.py:789
+#: hangupsbot.py:799
 msgid "Unidentified User"
 msgstr "未設定ユーザー"
 
-#: hangupsbot.py:797
+#: hangupsbot.py:807
 msgid ""
 "<i>{}, you are currently opted-out. Private message me or enter <b>{} "
 "optout</b> to get me to talk to you.</i>"
 msgstr ""
-"<i>{}, 現在　opted-out　状態です（しゃべりません）。　再びしゃべらせたい場合はプライベートメッセージまたは <b>{} "
-"optout</b> を入力してください。</i>"
+"<i>{}, 現在　opted-out　状態です（しゃべりません）。　再びしゃべらせたい場合"
+"はプライベートメッセージまたは <b>{} optout</b> を入力してください。</i>"
 
-#: hangupsbot.py:800
+#: hangupsbot.py:810
 msgid ""
 "<i>{}, before I can help you, you need to private message me and say hi.</i>"
-msgstr "<i>{}, 利用を開始する前に、私と個別HOを開始して何か発言してください。</i>"
+msgstr ""
+"<i>{}, 利用を開始する前に、私と個別HOを開始して何か発言してください。</i>"
 
-#: hangupsbot.py:938
+#: hangupsbot.py:963
 msgid "log detailed debugging messages"
 msgstr "デバッグ情報を含む詳細ログ"
 
-#: hangupsbot.py:940
+#: hangupsbot.py:965
 msgid "log file path"
 msgstr "ログファイルのパス"
 
-#: hangupsbot.py:942
+#: hangupsbot.py:967
 msgid "cookie storage path"
 msgstr "クッキー保存先パス"
 
-#: hangupsbot.py:944
+#: hangupsbot.py:969
 msgid "memory storage path"
 msgstr "メモリー保存先パス"
 
-#: hangupsbot.py:946
+#: hangupsbot.py:971
 msgid "config storage path"
 msgstr "設定保存先パス"
 
-#: hangupsbot.py:948
+#: hangupsbot.py:973
+msgid "Maximum disconnect / reconnect retries before quitting"
+msgstr ""
+
+#: hangupsbot.py:975
 msgid "show program's version number and exit"
 msgstr "プログラムのバージョンを表示して終了"
 
-#: hangupsbot.py:958
+#: hangupsbot.py:987
 msgid "Failed to create directory: {}"
 msgstr "ディレクトリ作成に失敗しました: {}"
 
-#: hangupsbot.py:966
+#: hangupsbot.py:995
 msgid "Failed to copy default config file: {}"
 msgstr "デフォルト設定ファイルのコピーに失敗しました: {}"
 
-#: plugins/_example_memory.py:22
+#: plugins/_DEPRECATED_simplytranslate.py:48
+msgid "Translation server error: <i>{}</i>"
+msgstr "翻訳サーバーエラー: <i>{}</i>"
+
+#: plugins/_DEPRECATED_syncrooms_autotranslate.py:68
+msgid "<i>syncroom \"{}\" language is {}</i>"
+msgstr "<i>同期ハングアウト \"{}\" の言語は {} です</i>"
+
+#: plugins/_DEPRECATED_syncrooms_autotranslate.py:81
+msgid "<i>syncroom \"{}\" language set to {}</i>"
+msgstr "<i>同期ハングアウト \"{}\" の言語を {} に設定しました</i>"
+
+#: plugins/_example/example_memory.py:22
 msgid "<b>{}</b>, remembered!"
 msgstr "<b>{}</b>, 思い出した！"
 
-#: plugins/_example_memory.py:27
+#: plugins/_example/example_memory.py:27
 msgid "<b>{}</b>, remembered something else!"
 msgstr "<b>{}</b>, 別のことを思い出した！"
 
-#: plugins/_example_memory.py:38
+#: plugins/_example/example_memory.py:38
 msgid "<b>{}</b>, nothing remembered!"
 msgstr "<b>{}</b>, なにも思い出せない！"
 
-#: plugins/_example_memory.py:43
+#: plugins/_example/example_memory.py:43
 msgid "<b>{}</b> asked me to remember <i>\"{}\"</i>"
 msgstr "<b>{}</b> 思い出すように言ってください <i>\"{}\"</i>"
 
-#: plugins/_example_memory.py:54
+#: plugins/_example/example_memory.py:54
 msgid "<b>{}</b>, nothing to forget!"
 msgstr "<b>{}</b>, 忘れる物はなにもない！"
 
-#: plugins/_example_memory.py:60
+#: plugins/_example/example_memory.py:60
 msgid "<b>{}</b>, forgotten!"
 msgstr "<b>{}</b>, わすれた！"
 
-#: plugins/_example_memory.py:76
+#: plugins/_example/example_memory.py:76
 msgid "<b>{}</b>, remembered for this conversation"
 msgstr "<b>{}</b>, この会話を思い出した"
 
-#: plugins/_example_memory.py:81
+#: plugins/_example/example_memory.py:81
 msgid "<b>{}</b>, remembered something else for this conversation!"
 msgstr "<b>{}</b>, この会話以外の何かを思い出した！"
 
-#: plugins/_example_memory.py:92
+#: plugins/_example/example_memory.py:92
 msgid "<b>{}</b>, nothing remembered for this conversation!"
 msgstr "<b>{}</b>, この会話の事を思い出せなかった！"
 
-#: plugins/_example_memory.py:97
+#: plugins/_example/example_memory.py:97
 msgid "<b>{}</b> asked me to remember <i>\"{}\" for this conversation</i>"
-msgstr "<b>{}</b> この会話について <i>\"{}\" を思い出すように指示して下さい</i>"
+msgstr ""
+"<b>{}</b> この会話について <i>\"{}\" を思い出すように指示して下さい</i>"
 
-#: plugins/_example_memory.py:108
+#: plugins/_example/example_memory.py:108
 msgid "<b>{}</b>, nothing to forget for this conversation!"
 msgstr "<b>{}</b>, この会話について忘れる物はなにもない！"
 
-#: plugins/_example_memory.py:114
+#: plugins/_example/example_memory.py:114
 msgid "<b>{}</b>, forgotten for this conversation!"
 msgstr "<b>{}</b>, この会話を忘れました！"
 
-#: plugins/autoreply.py:67
+#: plugins/autoreply.py:110
 msgid "Unidentified Conversation"
 msgstr "未設定の会話"
 
@@ -343,63 +382,71 @@ msgstr "<i>botのエイリアス: {}</i>"
 msgid "<i>not authorised to change bot alias</i>"
 msgstr "<i>botのエイリアス変更は許可されていません。</i>"
 
-#: plugins/chance.py:27
-msgid "<i>{} rolled <b>{}</b></i>"
-msgstr "<i>{} は <b>{}</b>を演じた</i>"
+#: plugins/chance.py:50
+msgid "<i>{} rolled "
+msgstr ""
 
-#: plugins/chance.py:33
+#: plugins/chance.py:57
+msgid "<b>{}</b>"
+msgstr ""
+
+#: plugins/chance.py:59
+msgid " totalling <b>{}</b></i>"
+msgstr ""
+
+#: plugins/chance.py:66
 msgid "<i>{}, coin turned up <b>heads</b></i>"
 msgstr "<i>{}, コイントスを行った。 <b>表</b></i>"
 
-#: plugins/chance.py:35
+#: plugins/chance.py:68
 msgid "<i>{}, coin turned up <b>tails</b></i>"
 msgstr "<i>{}, コイントスを行った。 <b>裏</b></i>"
 
-#: plugins/cleverbot.py:201
-msgid "<em>Cleverbot is silent</em>"
-msgstr "<em>Cleverbot は沈黙中です</em>"
-
-#: plugins/convtools.py:53
+#: plugins/convtools.py:77
 msgid "supply the id of the conversation to join"
 msgstr "HOに入るにはidを指定して下さい"
 
-#: plugins/convtools.py:131
+#: plugins/convtools.py:155
 msgid "conversation {} not found"
 msgstr "グループ {} は見つかりません"
 
-#: plugins/convtools.py:134
+#: plugins/convtools.py:158
 msgid "conversation {} is not a GROUP"
 msgstr "会話 {} はグループではありません"
 
-#: plugins/convtools.py:137
+#: plugins/convtools.py:161
 msgid "[DEFUNCT] {}"
 msgstr "[廃棄] {}"
 
-#: plugins/convtools.py:154
+#: plugins/convtools.py:178
 msgid ""
 "<b>refresh:</b> {}<br /><b>rename old: {}</b><br /><b>removed {}:</b> {}<br /"
 "><b>added {}:</b> {}"
 msgstr ""
-"<b>更新結果:</b> {}<br /><b>名前変更: {}</b><br /><b>削除 {}:</b> {}<br /><b>追加 {}:</b>"
-" {}"
+"<b>更新結果:</b> {}<br /><b>名前変更: {}</b><br /><b>削除 {}:</b> {}<br /><b>"
+"追加 {}:</b> {}"
 
-#: plugins/convtools.py:158
+#: plugins/convtools.py:182
 msgid "<em>unchanged</em>"
 msgstr "<em>変更されませんでした</em>"
 
-#: plugins/convtools.py:160 plugins/convtools.py:162 plugins/convtools.py:184
+#: plugins/convtools.py:184 plugins/convtools.py:186 plugins/convtools.py:211
 msgid "<em>none</em>"
 msgstr "<em>なし</em>"
 
-#: plugins/convtools.py:167
-msgid "<i>group refreshed</i><br />"
-msgstr "<i>グループを更新しました</i><br />"
+#: plugins/convtools.py:191
+msgid "<i>refreshing group...</i><br />"
+msgstr ""
 
-#: plugins/convtools.py:175
+#: plugins/convtools.py:194
+msgid "<i>all users added</i><br />"
+msgstr ""
+
+#: plugins/convtools.py:202
 msgid "<i>group has been obsoleted</i>"
 msgstr "<i>グループは廃止されています</i>"
 
-#: plugins/convtools.py:178
+#: plugins/convtools.py:205
 msgid ""
 "refreshed: <b><pre>{}</pre></b> (original id: <pre>{}</pre>).<br />new "
 "conversation id: <b><pre>{}</pre></b>.<br />removed {}: {}"
@@ -407,15 +454,15 @@ msgstr ""
 "更新結果: <b><pre>{}</pre></b> (旧ID: <pre>{}</pre>).<br />新会話ID: "
 "<b><pre>{}</pre></b>.<br />削除 {}: {}"
 
-#: plugins/convtools.py:187
+#: plugins/convtools.py:214
 msgid "<b>nobody to add in the new conversation</b>"
 msgstr "<b>会話に追加する人はいません</b>"
 
-#: plugins/convtools.py:213
+#: plugins/convtools.py:240
 msgid "supply optional conversation id and valid user ids to kick"
 msgstr "キックするには会話ID（オプション）と正しいユーザーIDを指定して下さい"
 
-#: plugins/convtools.py:216
+#: plugins/convtools.py:243
 msgid "supply at least one valid user id to kick"
 msgstr "キックするには一つ以上の正しいユーザIDを指定して下さい"
 
@@ -470,7 +517,9 @@ msgstr "<b>{}:への招待</b>"
 #: plugins/convtools_invitations.py:423
 msgid ""
 "<em>To claim an invite, use the rsvp command followed by the invite code</em>"
-msgstr "<em>招待を受理するには、招待コードを後ろに続けた rsvp コマンドを使ってください</em>"
+msgstr ""
+"<em>招待を受理するには、招待コードを後ろに続けた rsvp コマンドを使ってくださ"
+"い</em>"
 
 #: plugins/convtools_invitations.py:426
 msgid "<em>no invites to display</em>"
@@ -521,46 +570,66 @@ msgid "broadcast: /bot broadcast [info|message|add|remove|NOW]"
 msgstr "broadcast: /bot broadcast [info|message|add|remove|NOW]"
 
 #: plugins/default.py:155
+msgid "supply search term"
+msgstr ""
+
+#: plugins/default.py:160
 msgid "results for user named \"{}\":"
 msgstr "名前が「{}」のユーザーの検索結果 :"
 
-#: plugins/default.py:193
+#: plugins/default.py:205
 msgid "<b>List of hangouts with keyword:</b> \"<pre>{}</pre>\""
 msgstr "<b>以下のキーワードに一致したハングアウトの一覧</b>「<pre>{}</pre>」"
 
-#: plugins/default.py:281
+#: plugins/default.py:306
 msgid "<em>note: testing single parameter as json</em>"
 msgstr "<em>註: 単一のパラメータを JSON としてテストします</em>"
 
-#: plugins/default.py:308
+#: plugins/default.py:333
 msgid "append failed on non-list"
 msgstr "非リストへのappend（追加）は出来ません"
 
-#: plugins/default.py:322
+#: plugins/default.py:347
 msgid "remove failed on non-list"
 msgstr "非リストからのremove（削除）は出来ません"
 
-#: plugins/default.py:332
+#: plugins/default.py:357
 msgid "Parameter does not exist!"
 msgstr "パラメータが有りません！"
 
-#: plugins/default.py:354
+#: plugins/default.py:382
 msgid "<b><pre>{}</pre></b>, chat_id = <i>{}</i>"
 msgstr "<b><pre>{}</pre></b>, チャットID = <i>{}</i>"
 
-#: plugins/default.py:362
+#: plugins/default.py:390
 msgid "You are at <b><pre>{}</pre></b>, conv_id = <i><pre>{}</pre></i>"
 msgstr "<b><pre>{}</pre></b> にいます。 会話ID = <i><pre>{}</pre></i>"
+
+#: plugins/forecast.py:32
+msgid "No location was specified, please specify a location."
+msgstr ""
+
+#: plugins/forecast.py:37
+msgid "Unable to find the specified location."
+msgstr ""
+
+#: plugins/forecast.py:45
+msgid "This hangouts default location has been set to {}."
+msgstr ""
 
 #: plugins/humor_hangoutcalls.py:32
 msgid ""
 "<b>It's been {} since the last call. Lonely? I can't reply you as I don't "
 "have speech synthesis (or speech recognition either!)</b>"
-msgstr "<b>最後の呼び出しから {} 経ちました。寂しいですか？　私には音声合成や音声認識機能がないので応答できないのです。</b>"
+msgstr ""
+"<b>最後の呼び出しから {} 経ちました。寂しいですか？　私には音声合成や音声認識"
+"機能がないので応答できないのです。</b>"
 
 #: plugins/humor_hangoutcalls.py:37
 msgid "<b>It's been {} since the last call. The last caller was <i>{}</i>.</b>"
-msgstr "<b>最後の会話から {}  経ちました。last call. The last caller was <i>{}</i>.</b>"
+msgstr ""
+"<b>最後の会話から {}  経ちました。last call. The last caller was <i>{}</i>.</"
+"b>"
 
 #: plugins/humor_hangoutcalls.py:42
 msgid "<b>No prizes for that call</b>"
@@ -607,12 +676,15 @@ msgstr "prepare: 認識できない形式です (!csv, !range, !numberToken): {}
 #: plugins/lottery.py:122
 msgid ""
 "Wow! Too many items to draw in <b>{}</b> lottery. Try {} items or less..."
-msgstr "わお！ <b>{}</b> くじから引く数が多すぎます。{} 回以下で試してください……"
+msgstr ""
+"わお！ <b>{}</b> くじから引く数が多すぎます。{} 回以下で試してください……"
 
 #: plugins/lottery.py:127
 msgid ""
 "The <b>{}</b> lottery is ready: {} items loaded and shuffled into the box."
-msgstr "<b>{}</b> くじの準備ができました: 箱にはシャッフルされた {} 個のくじが入っています。"
+msgstr ""
+"<b>{}</b> くじの準備ができました: 箱にはシャッフルされた {} 個のくじが入って"
+"います。"
 
 #: plugins/lottery.py:129
 msgid "prepare: {} was initialised empty"
@@ -638,109 +710,120 @@ msgstr "<b>{}</b>, <b>{}</b> くじは終わりました。 "
 msgid "You drew a {} previously."
 msgstr "あなたは {} を引きました。"
 
-#: plugins/mentions.py:116
+#: plugins/mentions.py:117
 msgid ""
 "<b>{}</b>, you cannot @mention anyone until your DND status is toggled off."
 msgstr "<b>{}</b>, 現在DNDがオンのため @メンションを送信出来ません。"
 
-#: plugins/mentions.py:126
+#: plugins/mentions.py:127
 msgid "<b>{}</b> cannot @mention anyone until they say something to me first."
 msgstr "<b>{}</b> 相手が一度botと会話するまで@ でのメンションは出来ません。"
 
-#: plugins/mentions.py:167
-msgid "You are not allowed to use @all in <b>{}</b>"
-msgstr "<b>{}</b>での全員宛のメンションは許可されていません"
+#: plugins/mentions.py:168
+msgid "You are not allowed to mention all users in <b>{}</b>"
+msgstr ""
 
-#: plugins/mentions.py:172
-msgid "<b>{}</b> blocked from using <i>@all</i>"
-msgstr "<b>{}</b> 全員宛メンション<i>@all</i>の利用は許可されていません"
+#: plugins/mentions.py:173
+msgid "<b>{}</b> blocked from mentioning all users"
+msgstr ""
 
-#: plugins/mentions.py:271
+#: plugins/mentions.py:272
 msgid ""
 "{} users would be mentioned with \"@{}\"! Be more specific. List of matching "
 "users:<br />"
-msgstr "{} 名のユーザーが \"@{}\" でメンションを受け取ります！ 具体的には、以下のユーザーです:<br />"
+msgstr ""
+"{} 名のユーザーが \"@{}\" でメンションを受け取ります！ 具体的には、以下のユー"
+"ザーです:<br />"
 
-#: plugins/mentions.py:304
+#: plugins/mentions.py:307
 msgid "{} mentioned you in {}"
 msgstr "{} があなた宛のメンションを送りました （{}）"
 
-#: plugins/mentions.py:322
+#: plugins/mentions.py:332
+msgid "<b>{}</b> @mentioned ALL in <i>{}</i>:<br />{}"
+msgstr ""
+
+#: plugins/mentions.py:334
 msgid "<b>{}</b> @mentioned you in <i>{}</i>:<br />{}"
 msgstr "<b>{}</b> があなたにメンションを送信しました。 <i>{}</i>:<br />{}"
 
-#: plugins/mentions.py:334
+#: plugins/mentions.py:350
 msgid ""
 "@mention didn't work for <b>{}</b>. User must say something to me first."
-msgstr "ユーザーがbotと一度会話するまで、<b>{}</b> 宛の@メンションは使用できません。"
+msgstr ""
+"ユーザーがbotと一度会話するまで、<b>{}</b> 宛の@メンションは使用できません。"
 
-#: plugins/mentions.py:339
+#: plugins/mentions.py:355
 msgid "<b>@mentions:</b><br />"
 msgstr "<b>@メンション：</b><br />"
 
-#: plugins/mentions.py:341
+#: plugins/mentions.py:357
 msgid "1-to-1 fail: <i>{}</i><br />"
 msgstr "1対1会話 失敗： <i>{}</i><br />"
 
-#: plugins/mentions.py:343
+#: plugins/mentions.py:359
 msgid "PushBullet fail: <i>{}</i><br />"
 msgstr "PushBullet 失敗: <i>{}</i><br />"
 
-#: plugins/mentions.py:345
+#: plugins/mentions.py:361
 msgid "Ignored (DND): <i>{}</i><br />"
 msgstr "無視されました (DND): <i>{}</i><br />"
 
-#: plugins/mentions.py:347
+#: plugins/mentions.py:363
 msgid "Alerted: <i>{}</i><br />"
 msgstr "通知しました: <i>{}</i><br />"
 
-#: plugins/mentions.py:349
+#: plugins/mentions.py:365
 msgid "Nobody was successfully @mentioned ;-(<br />"
 msgstr "メンションは誰にも届きませんでした (x_x)<br />"
 
-#: plugins/mentions.py:352
-msgid "Users failing 1-to-1 need to say something to me privately first.<br />"
-msgstr "1 対 1 のハングアウトに失敗したユーザーは、まず私宛に 1 対 1 ハングアウトで適当なメッセージを送ってください。<br />"
-
 #: plugins/mentions.py:368
+msgid "Users failing 1-to-1 need to say something to me privately first.<br />"
+msgstr ""
+"1 対 1 のハングアウトに失敗したユーザーは、まず私宛に 1 対 1 ハングアウトで適"
+"当なメッセージを送ってください。<br />"
+
+#: plugins/mentions.py:384
 msgid "deactivating pushbullet integration"
 msgstr "Pushbullet 統合を無効にします"
 
-#: plugins/mentions.py:372
+#: plugins/mentions.py:388
 msgid "setting pushbullet api key"
 msgstr "Pushbullet API キーを設定します"
 
-#: plugins/mentions.py:380
+#: plugins/mentions.py:396
 msgid "pushbullet configuration not changed"
 msgstr "Pushbullet 設定は変更されません"
 
-#: plugins/mentions.py:396
+#: plugins/mentions.py:412
 msgid "<em>\"be more specific\" for mentions toggled ON</em>"
 msgstr "<em>メンションの「詳細」機能をオンに切り替えました</em>"
 
-#: plugins/mentions.py:400
+#: plugins/mentions.py:416
 msgid "<em>\"be more specific\" for mentions toggled OFF</em>"
 msgstr "<em>メンションの「詳細」機能をオフにに切り替えました</em>"
 
-#: plugins/mentions.py:419
+#: plugins/mentions.py:435
 msgid ""
 "Error: Minimum length of nickname is {} characters. Only alphabetical and "
 "numeric characters allowed."
-msgstr "エラー: ニックネームは最小 {} 文字です。アルファベットと数字だけが利用できます。"
+msgstr ""
+"エラー: ニックネームは最小 {} 文字です。アルファベットと数字だけが利用できま"
+"す。"
 
-#: plugins/mentions.py:457
+#: plugins/mentions.py:473
 msgid "<i>Your nickname is already <b>`{}`</b></i>"
 msgstr "<i>あなたのニックネームはすでに <b>`{}`</b> です</i>"
 
-#: plugins/mentions.py:462
+#: plugins/mentions.py:478
 msgid "<i>Nickname <b>`{}`</b> is already in use by another user"
 msgstr "<i>ニックネーム「<b>{}</b>」は既に他のユーザーが利用しています"
 
-#: plugins/mentions.py:481
+#: plugins/mentions.py:497
 msgid "Removing nickname"
 msgstr "ニックネームを削除します"
 
-#: plugins/mentions.py:485
+#: plugins/mentions.py:501
 msgid "Setting nickname to '{}'"
 msgstr "ニックネームを '{}' に設定しました"
 
@@ -751,9 +834,10 @@ msgid ""
 "authorization.<br /><br /><b>{1}</b>: Please leave this hangout and ask a "
 "moderator to add you. Thank you for your understanding."
 msgstr ""
-"<b>!!! 警告 !!!</b><br /><br /><b>{0}</b> が <b>{1}</b> を認証せずに招待しました。<br /><br "
-"/><b>{1}</b>: "
-"申し訳ありませんが、このハングアウトを一度抜けて、モデレーターに自分を追加するように依頼してください。手続きの関係上、ご理解いただけば幸いです。"
+"<b>!!! 警告 !!!</b><br /><br /><b>{0}</b> が <b>{1}</b> を認証せずに招待しま"
+"した。<br /><br /><b>{1}</b>: 申し訳ありませんが、このハングアウトを一度抜け"
+"て、モデレーターに自分を追加するように依頼してください。手続きの関係上、ご理"
+"解いただけば幸いです。"
 
 #: plugins/monitoradds.py:69 plugins/monitoradds.py:74
 msgid "<i>Moderators updated: {} added</i>"
@@ -771,27 +855,65 @@ msgstr "タイトルを削除します"
 msgid "Setting topic to '{}'"
 msgstr "タイトルを「{}」に設定します"
 
-#: plugins/restrictedadd.py:66
+#: plugins/remind.py:15
+msgid "Usage: /bot remindme <b>delay (minutes)</b> <i>Message</i>"
+msgstr ""
+
+#: plugins/remind.py:20
+msgid "Private reminder for <b>{}</b> in {}m"
+msgstr ""
+
+#: plugins/remind.py:23 plugins/remind.py:43
+msgid "<b>Reminder:</b>  "
+msgstr ""
+
+#: plugins/remind.py:25 plugins/remind.py:45
+msgid "Error creating reminder, invalid delay"
+msgstr ""
+
+#: plugins/remind.py:36
+msgid "Usage: /bot remindall <b>delay (minutes)</b> <i>Message</i>"
+msgstr ""
+
+#: plugins/remind.py:41
+msgid "Public reminder in {}m"
+msgstr ""
+
+#: plugins/restrictedadd.py:72
 msgid ""
 "<i>{}, you need to be authorised to add me to another conversation. I'm "
 "leaving now...</i>"
-msgstr "<i>{}, 私を別のハングアウトに追加するには認証を受ける必要があります。退出します……</i>"
+msgstr ""
+"<i>{}, 私を別のハングアウトに追加するには認証を受ける必要があります。退出しま"
+"す……</i>"
 
-#: plugins/restrictedadd.py:108
+#: plugins/restrictedadd.py:117
 msgid "<i>There is no botkeeper in here. I have to go...</i>"
 msgstr "<i>ここには私の管理者が居ませんね。退出しないと……</i>"
 
-#: plugins/restrictedadd.py:132
+#: plugins/restrictedadd.py:141
 msgid "user id {} added as botkeeper"
 msgstr "ユーザー ID {} が BOT 管理者に追加されました"
 
-#: plugins/restrictedadd.py:154
+#: plugins/restrictedadd.py:163
 msgid "user id {} removed as botkeeper"
 msgstr "ユーザー ID {} が BOT 管理者から削除されました"
 
-#: plugins/restrictedadd.py:163
+#: plugins/restrictedadd.py:172
 msgid "user id {} is not authorised"
 msgstr "ユーザー ID {} は認証されていません"
+
+#: plugins/showme/__init__.py:59
+msgid "I'm sorry, I couldn't upload a {} image"
+msgstr ""
+
+#: plugins/showme/__init__.py:67
+msgid "Show you what?"
+msgstr ""
+
+#: plugins/showme/__init__.py:77
+msgid "I don't know a \"{}\", try sources"
+msgstr ""
 
 #: plugins/simplewikipedia.py:20
 msgid "<i>source: <a href=\"{}\">{}</a></i>"
@@ -801,9 +923,49 @@ msgstr "<i>出典: <a href=\"{}\">{}</a></i>"
 msgid "<i>no entry found for {}</i>"
 msgstr "<i>{}</i> の項目は見つかりませんでした"
 
-#: plugins/simplytranslate.py:45
-msgid "Translation server error: <i>{}</i>"
-msgstr "翻訳サーバーエラー: <i>{}</i>"
+#: plugins/spotify.py:85
+msgid "<em>Unable to get the song title :(</em>"
+msgstr ""
+
+#: plugins/spotify.py:111
+msgid "<em>Spotify is <b>{}</b>.</em>"
+msgstr ""
+
+#: plugins/spotify.py:118
+msgid "<em>Spotify {} on. Now it's <b>{}</b>.</em>"
+msgstr ""
+
+#: plugins/spotify.py:126
+msgid "<em>Did you mean <b>/bot help spotify</b>?</em>"
+msgstr ""
+
+#: plugins/spotify.py:129
+msgid "<em>Spotify playlist: {}</em>"
+msgstr ""
+
+#: plugins/spotify.py:132
+msgid "<em>You must specify a Spotify track.</em>"
+msgstr ""
+
+#: plugins/spotify.py:162
+msgid "<em>No tracks found for '{}'.</em>"
+msgstr ""
+
+#: plugins/spotify.py:258
+msgid "<em>Added <b>{} by {}</b></em>"
+msgstr ""
+
+#: plugins/spotify.py:261
+msgid "<em><b>Unable to add track:</b> {}</em>"
+msgstr ""
+
+#: plugins/spotify.py:272
+msgid "<em>Removed track <b>{} by {}</b>.</em>"
+msgstr ""
+
+#: plugins/spotify.py:275
+msgid "<em><b>Unable to remove track:</b> {}</em>"
+msgstr ""
 
 #: plugins/starter.py:18
 msgid "<i>Starter: Configuring first admin: {}</i>"
@@ -824,79 +986,80 @@ msgstr "<i>検証完了 - ここがあなたとこの BOT の 1 対 1 ハング�
 
 #: plugins/starter.py:58
 msgid "<i>verified - user has a one-to-one conversation with me</i>"
-msgstr "<i>検証されています - ユーザーは私との 1 対 1 ハングアウトを持っています</i>"
+msgstr ""
+"<i>検証されています - ユーザーは私との 1 対 1 ハングアウトを持っています</i>"
 
 #: plugins/starter.py:73
 msgid ""
 "<i>User must say \"hi\" to me first via a 1-on-1 hangout with <b>{}</b>."
-msgstr "<i>ユーザーは最初に私 <b>{}</b> との1対1ハングアウトで何か会話する必要があります。"
+msgstr ""
+"<i>ユーザーは最初に私 <b>{}</b> との1対1ハングアウトで何か会話する必要があり"
+"ます。"
 
 #: plugins/starter.py:74
 msgid "Then let me know by sending <b>/bot verifyme</b> in this chat.</i>"
-msgstr "そしてそのハングアウト上で私に <b>/bot verifyme</b> を送って知らせてください。</i>"
+msgstr ""
+"そしてそのハングアウト上で私に <b>/bot verifyme</b> を送って知らせてくださ"
+"い。</i>"
 
-#: plugins/subscribe.py:88
+#: plugins/subscribe.py:126
 msgid "<b>{}</b> mentioned '{}' in <i>{}</i>:<br />{}"
 msgstr "<b>{}</b> がキーワード「{}」を<i>{}</i> でメンションしました:<br />{}"
 
-#: plugins/subscribe.py:110
+#: plugins/subscribe.py:149
 msgid ""
 "Note: I am unable to ping you until you start a 1 on 1 conversation with me!"
-msgstr "註: あなたと 1 対 1 ハングアウトを開始するまで、私はあなたに ping を送ることができません！"
+msgstr ""
+"註: あなたと 1 対 1 ハングアウトを開始するまで、私はあなたに ping を送ること"
+"ができません！"
 
-#: plugins/subscribe.py:114
+#: plugins/subscribe.py:153
 msgid "Usage: /bot subscribe [keyword]"
 msgstr "使用方法： /bot subscribe [キーワード]"
 
-#: plugins/subscribe.py:118 plugins/subscribe.py:151
+#: plugins/subscribe.py:157 plugins/subscribe.py:190
 msgid "Subscribed to: {}"
 msgstr "予約しました : {}"
 
-#: plugins/subscribe.py:125
+#: plugins/subscribe.py:164
 msgid "Already subscribed to '{}'!"
 msgstr "すでに '{}' に予約されています!"
 
-#: plugins/subscribe.py:134 plugins/subscribe.py:142
+#: plugins/subscribe.py:173 plugins/subscribe.py:181
 msgid ""
 "Note: You will not be able to trigger your own subscriptions. To test, "
 "please ask somebody else to test this for you."
-msgstr "註: あなたは通知を自分でテストすることはできません。テストするには、ほかの方にあなた宛ての通知を依頼してください。"
+msgstr ""
+"註: あなたは通知を自分でテストすることはできません。テストするには、ほかの方"
+"にあなた宛ての通知を依頼してください。"
 
-#: plugins/subscribe.py:162
+#: plugins/subscribe.py:202
 msgid "Unsubscribing all keywords"
 msgstr "すべてのキーワードを予約解除しました"
 
-#: plugins/subscribe.py:166
+#: plugins/subscribe.py:206
 msgid "Unsubscribing from keyword '{}'"
 msgstr "'{}' からキーワードを解除します"
 
-#: plugins/subscribe.py:170
+#: plugins/subscribe.py:210
 msgid "Error: keyword not found"
 msgstr "エラー： キーワードが見つかりません"
 
-#: plugins/syncrooms.py:281
+#: plugins/syncrooms.py:277
 msgid "<b>Sync Rooms: {}</b>"
 msgstr "<b>同期部屋： {}</b>"
 
-#: plugins/syncrooms.py:285
+#: plugins/syncrooms.py:281
 msgid "<b>Standard Room</b>"
 msgstr "<b>通常のハングアウト</b>"
 
-#: plugins/syncrooms.py:296
+#: plugins/syncrooms.py:292
 msgid "<b>failed to retrieve user list</b>"
 msgstr "<b>ユーザー一覧の取得に失敗しました</b>"
 
-#: plugins/syncrooms.py:317
+#: plugins/syncrooms.py:313
 msgid "<b>Total Unique: {}</b>"
 msgstr "<b>一意のユーザー数: {} 名</b>"
-
-#: plugins/syncrooms_autotranslate.py:57
-msgid "<i>syncroom \"{}\" language is {}</i>"
-msgstr "<i>同期ハングアウト \"{}\" の言語は {} です</i>"
-
-#: plugins/syncrooms_autotranslate.py:70
-msgid "<i>syncroom \"{}\" language set to {}</i>"
-msgstr "<i>同期ハングアウト \"{}\" の言語を {} に設定しました</i>"
 
 #: plugins/syncrooms_config.py:68
 msgid "<i>syncout updated: {} conversations</i>"
@@ -915,51 +1078,63 @@ msgstr "<i>同期設定は変更されません</i>"
 msgid "<i>`{}` was detached</i>"
 msgstr "<i>「{}」 は同期から外れました</i>"
 
-#: plugins/tldr.py:36
+#: plugins/tldr.py:126
 msgid "{}. {} <b>{} ago</b>"
 msgstr "{}. {} <b>{} 前</b>"
 
-#: plugins/tldr.py:41
-msgid "TL;DR not found"
-msgstr "TL;DR が見つかりません"
+#: plugins/tldr.py:131
+msgid "TL;DR not found."
+msgstr ""
 
-#: plugins/tldr.py:43
+#: plugins/tldr.py:134
 msgid "<b>TL;DR ({} stored):</b>"
 msgstr "<b>TL;DR ({} 個保存されています):</b>"
 
-#: plugins/tldr.py:44
-msgid "<br />"
-msgstr "<br />"
+#: plugins/tldr.py:135
+msgid "\n"
+msgstr ""
 
-#: plugins/tldr.py:55
-msgid "TL;DR #{} not found"
-msgstr "TL;DR  {} 番が見つかりませんでした"
+#: plugins/tldr.py:160 plugins/tldr.py:180
+msgid "TL;DR #{} not found."
+msgstr ""
 
-#: plugins/tldr.py:59
+#: plugins/tldr.py:165
 msgid "TL;DR #{} removed - \"{}\""
 msgstr "TL;DR {} 版を削除しました - 「{}」"
 
-#: plugins/tldr.py:62
-msgid "All TL;DRs cleared"
-msgstr "全ての TL;DR を削除しました"
+#: plugins/tldr.py:169
+msgid "All TL;DRs cleared."
+msgstr ""
 
-#: plugins/tldr.py:74
-msgid "Added \"{}\" to TL;DR. Count: {}"
-msgstr "「{}」を TL;DR に追加しました。合計: {} 個"
+#: plugins/tldr.py:171
+msgid "Nothing specified to clear."
+msgstr ""
 
-#: plugins/tldr.py:83
+#: plugins/tldr.py:187
+msgid "TL;DR #{} edited - \"{}\" -> \"{}\""
+msgstr ""
+
+#: plugins/tldr.py:189
+msgid "Unknown Command at \"tldr edit.\""
+msgstr ""
+
+#: plugins/tldr.py:200
+msgid "<em>{}</em> added to TL;DR. Count: {}"
+msgstr ""
+
+#: plugins/tldr.py:210
 msgid "{}s"
 msgstr "{}秒"
 
-#: plugins/tldr.py:85
+#: plugins/tldr.py:212
 msgid "{}m"
 msgstr "{}分"
 
-#: plugins/tldr.py:87
+#: plugins/tldr.py:214
 msgid "{}h"
 msgstr "{}時間"
 
-#: plugins/tldr.py:89
+#: plugins/tldr.py:216
 msgid "{}d"
 msgstr "{}日"
 
@@ -980,6 +1155,40 @@ msgstr "<i>Urban Dictionary に「{}」の定義が見つかりませんでし�
 msgid "<i>no term from urban dictionary</i>"
 msgstr "<i>Urban Dictionary に表現がありませんでした</i>"
 
-#: plugins/wolframalpha.py:52
+#: plugins/wolframalpha.py:34
+msgid "You need to ask WolframAlpha a question"
+msgstr ""
+
+#: plugins/wolframalpha.py:57
 msgid "<i>Wolfram Alpha did not return any useful data</i>"
 msgstr "<i>Wolfram Alphaはロクな回答が出てきません。</i>"
+
+#~ msgid "<i>{} rolled <b>{}</b></i>"
+#~ msgstr "<i>{} は <b>{}</b>を演じた</i>"
+
+#~ msgid "<em>Cleverbot is silent</em>"
+#~ msgstr "<em>Cleverbot は沈黙中です</em>"
+
+#~ msgid "<i>group refreshed</i><br />"
+#~ msgstr "<i>グループを更新しました</i><br />"
+
+#~ msgid "You are not allowed to use @all in <b>{}</b>"
+#~ msgstr "<b>{}</b>での全員宛のメンションは許可されていません"
+
+#~ msgid "<b>{}</b> blocked from using <i>@all</i>"
+#~ msgstr "<b>{}</b> 全員宛メンション<i>@all</i>の利用は許可されていません"
+
+#~ msgid "TL;DR not found"
+#~ msgstr "TL;DR が見つかりません"
+
+#~ msgid "<br />"
+#~ msgstr "<br />"
+
+#~ msgid "TL;DR #{} not found"
+#~ msgstr "TL;DR  {} 番が見つかりませんでした"
+
+#~ msgid "All TL;DRs cleared"
+#~ msgstr "全ての TL;DR を削除しました"
+
+#~ msgid "Added \"{}\" to TL;DR. Count: {}"
+#~ msgstr "「{}」を TL;DR に追加しました。合計: {} 個"

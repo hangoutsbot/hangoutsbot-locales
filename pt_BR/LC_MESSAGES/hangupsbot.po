@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portuguese (Brazil) (Hangoutsbot)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-07 05:27+0200\n"
+"POT-Creation-Date: 2017-03-30 19:29+0800\n"
 "PO-Revision-Date: 2016-10-11 14:27+0000\n"
 "Last-Translator: Rafael Capaci Pereira <rafaelcp123@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) "
-"<https://hosted.weblate.org/projects/hangoutsbot/hangups/pt_BR/>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"hangoutsbot/hangups/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,57 +14,71 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 2.9-dev\n"
 
-#: commands/basic.py:35
+#: commands/basic.py:45
 msgid ""
 "<b>Impersonation:</b><br /><b><pre>{}</pre></b><br /><b><pre>{}</pre></"
 "b><br />"
 msgstr ""
 
-#: commands/basic.py:45
+#: commands/basic.py:51
 msgid "<b>User commands:</b>"
 msgstr "<b>Comandos do usuário:</b>"
 
-#: commands/basic.py:50
+#: commands/basic.py:56
 msgid "<i>For more information, please see: {}</i>"
 msgstr "<i>Para mais informações, por favor, verifique:{}</i>"
 
-#: commands/basic.py:54
+#: commands/basic.py:60
 msgid "<b>Admin commands:</b>"
 msgstr "<b>Comandos do Administrador</b>"
 
-#: commands/basic.py:68
+#: commands/basic.py:85
+msgid "command help not available"
+msgstr ""
+
+#: commands/basic.py:114
 msgid "<i>{}, I've sent you some help ;)</i>"
 msgstr "<i>{}, Lhe enviei algo para ajudar ;)</i>"
 
-#: commands/basic.py:77
+#: commands/basic.py:123
 msgid "locale set to: {}"
 msgstr "localização selecionada: {}"
 
-#: commands/basic.py:79
+#: commands/basic.py:125
 msgid "locale unchanged"
 msgstr "localização inalterada"
 
-#: commands/basic.py:81
+#: commands/basic.py:127
 msgid "language code required"
 msgstr ""
 
-#: commands/basic.py:108
-msgid "<i>{}, you <b>opted-out</b> from bot private messages</i>"
+#: commands/basic.py:177
+msgid "<i>{}, search did not match a single group conversation</i>"
 msgstr ""
 
-#: commands/basic.py:110
+#: commands/basic.py:218
 msgid "<i>{}, you <b>opted-in</b> for bot private messages</i>"
 msgstr ""
 
-#: commands/basic.py:118
+#: commands/basic.py:221
+msgid "<i>{}, you <b>opted-out</b> from bot private messages</i>"
+msgstr ""
+
+#: commands/basic.py:223
+msgid ""
+"<i>{}, you are <b>opted-out</b> from the following conversations:\n"
+"{}</i>"
+msgstr ""
+
+#: commands/basic.py:234
 msgid "Bot Version: <b>{}</b>"
 msgstr "Versão do Bot: <b>{}</b>"
 
-#: commands/basic.py:140
+#: commands/basic.py:265
 msgid "{}: Unknown Command"
 msgstr "{}: Comando desconhecido"
 
-#: commands/basic.py:146
+#: commands/basic.py:275
 msgid "{}: Can't do that."
 msgstr "{}: Não é possível fazer isso."
 
@@ -78,8 +92,7 @@ msgstr ""
 msgid "<em>supply 1 parameter</em>"
 msgstr "<em>forneça 1 paramêtro</em>"
 
-#: commands/convid.py:40 plugins/default.py:191
-#: commands/convid.py:40,
+#: commands/convid.py:40 plugins/default.py:203
 msgid "<b>Total: {}</b>"
 msgstr "<b>Total: {}</b>"
 
@@ -135,80 +148,79 @@ msgstr ""
 msgid "I'll be back!"
 msgstr "Eu voltarei!"
 
-#: commands/tagging.py:18
+#: commands/tagging.py:32
 msgid "tagged <b><pre>{}</pre></b> with <b><pre>{}</pre></b>"
 msgstr "marcado<b><pre>{}</pre></b>com<b><pre>{}</pre></b>"
 
-#: commands/tagging.py:20 commands/tagging.py:34
-#: commands/tagging.py:20,
+#: commands/tagging.py:34 commands/tagging.py:49
 msgid "<b><pre>{}</pre></b> unchanged"
 msgstr "<b><pre>{}</pre></b>inalterado"
 
-#: commands/tagging.py:22 commands/tagging.py:36
+#: commands/tagging.py:36 commands/tagging.py:51
 msgid "<b>supply type, id, tag</b>"
 msgstr ""
 
-#: commands/tagging.py:32
+#: commands/tagging.py:47
 msgid "removed <b><pre>{}</pre></b> from <b><pre>{}</pre></b>"
 msgstr "removido <b><pre>{}</pre></b> de <b><pre>{}</pre></b>"
 
-#: commands/tagging.py:46
+#: commands/tagging.py:62
 msgid "entries removed: <b><pre>{}</pre></b>"
 msgstr "entradas removidas: <b><pre>{}</pre></b>"
 
-#: commands/tagging.py:48
+#: commands/tagging.py:64
 msgid "<b>supply type, id</b>"
 msgstr ""
 
-#: commands/tagging.py:59
+#: commands/tagging.py:75
 msgid "<b><pre>COMMAND: {}</pre></b> does not exist"
 msgstr "<b><pre>COMANDO: {}</pre></b> não existe"
 
-#: commands/tagging.py:109
+#: commands/tagging.py:125
 msgid "<b><pre>COMMAND: {}</pre></b> has no tags"
 msgstr "<b><pre>Comando: {}</pre></b> não tem tags"
 
-#: commands/tagging.py:111
+#: commands/tagging.py:127
 msgid "<b><pre>COMMAND: {}</pre></b>, match <b>ANY</b>:"
 msgstr "<b><pre>Comando: {}</pre></b>, corresponde <b>QUALQUER UM</b>:"
 
-#: commands/tagging.py:115
+#: commands/tagging.py:131
 msgid "<b>supply command name</b>"
 msgstr ""
 
-#: commands/tagging.py:128
+#: commands/tagging.py:144
 msgid "index: <b><pre>{}</pre></b>"
 msgstr "índice: <b><pre>{}</pre></b>"
 
-#: commands/tagging.py:130
+#: commands/tagging.py:146
 msgid "key: <pre>{}</pre>"
 msgstr "chave: <pre>{}</pre>"
 
-#: commands/tagging.py:138
+#: commands/tagging.py:154
 msgid "<b>no entries to list</b>"
 msgstr "<b>sem entradas para a lista</b>"
 
-#: commands/tagging.py:153
+#: commands/tagging.py:191
 msgid "<b>supply chat_id, optional conv_id</b>"
 msgstr ""
 
-#: commands/tagging.py:177
+#: commands/tagging.py:218
 msgid "<b>supply conv_id, optional tag list</b>"
 msgstr ""
 
-#: commands/tagging.py:185
+#: commands/tagging.py:229
 msgid "<em>no tags returned</em>"
 msgstr "<em>nenhuma tag retornada</em>"
 
-#: commands/tagging.py:189
+#: commands/tagging.py:233
 msgid "<b>no users found</b>"
 msgstr "<b>nenhum usuário foi encontrado</b>"
 
-#: handlers.py:174
+#: handlers.py:182
 msgid "{}: {}"
 msgstr "{}: {}"
 
-#: handlers.py:180
+#: handlers.py:191
 msgid "{}: Missing parameter(s)"
 msgstr "{}: Parâmetro(s) faltando"
 
@@ -220,7 +232,7 @@ msgstr ""
 msgid "memory: {} is 1on1 with {}"
 msgstr ""
 
-#: hangupsbot.py:447
+#: hangupsbot.py:457
 #, python-brace-format
 msgid ""
 "<i>Hi there! I'll be using this channel to send private messages and alerts. "
@@ -231,104 +243,120 @@ msgstr ""
 "alertas. Para solicitar ajuda, digite <b>{0} help</b>. Para me silenciar, "
 "responda com <b>{0} optout</b>.</i>"
 
-#: hangupsbot.py:789
+#: hangupsbot.py:799
 msgid "Unidentified User"
 msgstr "Usuário não identificado"
 
-#: hangupsbot.py:797
+#: hangupsbot.py:807
 msgid ""
 "<i>{}, you are currently opted-out. Private message me or enter <b>{} "
 "optout</b> to get me to talk to you.</i>"
 msgstr ""
 
-#: hangupsbot.py:800
+#: hangupsbot.py:810
 msgid ""
 "<i>{}, before I can help you, you need to private message me and say hi.</i>"
 msgstr ""
 "<i>{}, antes de eu lhe ajudar, você precisa me enviar uma mensagem privada "
 "dizendo olá.</i>"
 
-#: hangupsbot.py:938
+#: hangupsbot.py:963
 msgid "log detailed debugging messages"
 msgstr ""
 
-#: hangupsbot.py:940
+#: hangupsbot.py:965
 msgid "log file path"
 msgstr ""
 
-#: hangupsbot.py:942
+#: hangupsbot.py:967
 msgid "cookie storage path"
 msgstr "caminho do armazenamento de cookies"
 
-#: hangupsbot.py:944
+#: hangupsbot.py:969
 msgid "memory storage path"
 msgstr "caminho de armazenamento de memória"
 
-#: hangupsbot.py:946
+#: hangupsbot.py:971
 msgid "config storage path"
 msgstr ""
 
-#: hangupsbot.py:948
+#: hangupsbot.py:973
+msgid "Maximum disconnect / reconnect retries before quitting"
+msgstr ""
+
+#: hangupsbot.py:975
 msgid "show program's version number and exit"
 msgstr "mostrar o número de versão do programa e sair"
 
-#: hangupsbot.py:958
+#: hangupsbot.py:987
 msgid "Failed to create directory: {}"
 msgstr "Falha ao criar diretório: {}"
 
-#: hangupsbot.py:966
+#: hangupsbot.py:995
 msgid "Failed to copy default config file: {}"
 msgstr "Falha ao copiar o arquivo de configuração padrão: {}"
 
-#: plugins/_example_memory.py:22
+#: plugins/_DEPRECATED_simplytranslate.py:48
+msgid "Translation server error: <i>{}</i>"
+msgstr ""
+
+#: plugins/_DEPRECATED_syncrooms_autotranslate.py:68
+msgid "<i>syncroom \"{}\" language is {}</i>"
+msgstr "<i>syncroom \"{}\" o idioma é {}</i>"
+
+#: plugins/_DEPRECATED_syncrooms_autotranslate.py:81
+msgid "<i>syncroom \"{}\" language set to {}</i>"
+msgstr "<i>syncroom \"{}\" idioma definido para {}</i>"
+
+#: plugins/_example/example_memory.py:22
 msgid "<b>{}</b>, remembered!"
 msgstr "<b>{}</b>, lembrado!"
 
-#: plugins/_example_memory.py:27
+#: plugins/_example/example_memory.py:27
 msgid "<b>{}</b>, remembered something else!"
 msgstr "<b>{}</b>, outra coisa lembrada!"
 
-#: plugins/_example_memory.py:38
+#: plugins/_example/example_memory.py:38
 msgid "<b>{}</b>, nothing remembered!"
 msgstr "<b>{}</b>, nada lembrado!"
 
-#: plugins/_example_memory.py:43
+#: plugins/_example/example_memory.py:43
 msgid "<b>{}</b> asked me to remember <i>\"{}\"</i>"
 msgstr ""
 
-#: plugins/_example_memory.py:54
+#: plugins/_example/example_memory.py:54
 msgid "<b>{}</b>, nothing to forget!"
 msgstr "<b>{}</b>, nada para esquecer!"
 
-#: plugins/_example_memory.py:60
+#: plugins/_example/example_memory.py:60
 msgid "<b>{}</b>, forgotten!"
 msgstr "<b>{}</b>, esquecido!"
 
-#: plugins/_example_memory.py:76
+#: plugins/_example/example_memory.py:76
 msgid "<b>{}</b>, remembered for this conversation"
 msgstr "<b>{}</b>, lembrado para essa conversa"
 
-#: plugins/_example_memory.py:81
+#: plugins/_example/example_memory.py:81
 msgid "<b>{}</b>, remembered something else for this conversation!"
 msgstr "<b>{}</b>, algo a mais lembrado para essa conversa!"
 
-#: plugins/_example_memory.py:92
+#: plugins/_example/example_memory.py:92
 msgid "<b>{}</b>, nothing remembered for this conversation!"
 msgstr "<b>{}</b>, nada lembrado para essa conversa!"
 
-#: plugins/_example_memory.py:97
+#: plugins/_example/example_memory.py:97
 msgid "<b>{}</b> asked me to remember <i>\"{}\" for this conversation</i>"
 msgstr ""
 
-#: plugins/_example_memory.py:108
+#: plugins/_example/example_memory.py:108
 msgid "<b>{}</b>, nothing to forget for this conversation!"
 msgstr ""
 
-#: plugins/_example_memory.py:114
+#: plugins/_example/example_memory.py:114
 msgid "<b>{}</b>, forgotten for this conversation!"
 msgstr ""
 
-#: plugins/autoreply.py:67
+#: plugins/autoreply.py:110
 msgid "Unidentified Conversation"
 msgstr "Conversa não identificada"
 
@@ -340,77 +368,85 @@ msgstr ""
 msgid "<i>not authorised to change bot alias</i>"
 msgstr "<i>não autorizado a alterar alias de bot</i>"
 
-#: plugins/chance.py:27
-msgid "<i>{} rolled <b>{}</b></i>"
+#: plugins/chance.py:50
+msgid "<i>{} rolled "
 msgstr ""
 
-#: plugins/chance.py:33
+#: plugins/chance.py:57
+msgid "<b>{}</b>"
+msgstr ""
+
+#: plugins/chance.py:59
+msgid " totalling <b>{}</b></i>"
+msgstr ""
+
+#: plugins/chance.py:66
 msgid "<i>{}, coin turned up <b>heads</b></i>"
 msgstr ""
 
-#: plugins/chance.py:35
+#: plugins/chance.py:68
 msgid "<i>{}, coin turned up <b>tails</b></i>"
 msgstr ""
 
-#: plugins/cleverbot.py:201
-msgid "<em>Cleverbot is silent</em>"
-msgstr "<em>Cleverbot está silencioso</em>"
-
-#: plugins/convtools.py:53
+#: plugins/convtools.py:77
 msgid "supply the id of the conversation to join"
 msgstr "informe o id da conversa para participar"
 
-#: plugins/convtools.py:131
+#: plugins/convtools.py:155
 msgid "conversation {} not found"
 msgstr "conversa {} não encontrada"
 
-#: plugins/convtools.py:134
+#: plugins/convtools.py:158
 msgid "conversation {} is not a GROUP"
 msgstr "conversa {} não é um GRUPO"
 
-#: plugins/convtools.py:137
+#: plugins/convtools.py:161
 msgid "[DEFUNCT] {}"
 msgstr ""
 
-#: plugins/convtools.py:154
+#: plugins/convtools.py:178
 msgid ""
 "<b>refresh:</b> {}<br /><b>rename old: {}</b><br /><b>removed {}:</b> {}<br /"
 "><b>added {}:</b> {}"
 msgstr ""
-"<b>atualizar:</b> {}<br /><b>renomear antigo: {}</b><br /><b>removido {}:</b>"
-" {}<br /><b>adicionado {}:</b> {}"
+"<b>atualizar:</b> {}<br /><b>renomear antigo: {}</b><br /><b>removido {}:</"
+"b> {}<br /><b>adicionado {}:</b> {}"
 
-#: plugins/convtools.py:158
+#: plugins/convtools.py:182
 msgid "<em>unchanged</em>"
 msgstr "<em>inalterado</em>"
 
-#: plugins/convtools.py:160 plugins/convtools.py:162 plugins/convtools.py:184
+#: plugins/convtools.py:184 plugins/convtools.py:186 plugins/convtools.py:211
 msgid "<em>none</em>"
 msgstr "<em>nenhum</em>"
 
-#: plugins/convtools.py:167
-msgid "<i>group refreshed</i><br />"
-msgstr "<i>grupo atualizado</i><br />"
+#: plugins/convtools.py:191
+msgid "<i>refreshing group...</i><br />"
+msgstr ""
 
-#: plugins/convtools.py:175
+#: plugins/convtools.py:194
+msgid "<i>all users added</i><br />"
+msgstr ""
+
+#: plugins/convtools.py:202
 msgid "<i>group has been obsoleted</i>"
 msgstr ""
 
-#: plugins/convtools.py:178
+#: plugins/convtools.py:205
 msgid ""
 "refreshed: <b><pre>{}</pre></b> (original id: <pre>{}</pre>).<br />new "
 "conversation id: <b><pre>{}</pre></b>.<br />removed {}: {}"
 msgstr ""
 
-#: plugins/convtools.py:187
+#: plugins/convtools.py:214
 msgid "<b>nobody to add in the new conversation</b>"
 msgstr "<b>ninguém para adicionar na nova conversa</b>"
 
-#: plugins/convtools.py:213
+#: plugins/convtools.py:240
 msgid "supply optional conversation id and valid user ids to kick"
 msgstr ""
 
-#: plugins/convtools.py:216
+#: plugins/convtools.py:243
 msgid "supply at least one valid user id to kick"
 msgstr "informe pelo menos um usuário válido para remover"
 
@@ -518,35 +554,51 @@ msgid "broadcast: /bot broadcast [info|message|add|remove|NOW]"
 msgstr "broadcast: /bot broadcast [info|message|add|remove|NOW]"
 
 #: plugins/default.py:155
+msgid "supply search term"
+msgstr ""
+
+#: plugins/default.py:160
 msgid "results for user named \"{}\":"
 msgstr "resultados para usuários com o nome \"{}\":"
 
-#: plugins/default.py:193
+#: plugins/default.py:205
 msgid "<b>List of hangouts with keyword:</b> \"<pre>{}</pre>\""
 msgstr "<b>Lista de hangouts com as palavras chave:</b> \"<pre>{}</pre>\""
 
-#: plugins/default.py:281
+#: plugins/default.py:306
 msgid "<em>note: testing single parameter as json</em>"
 msgstr ""
 
-#: plugins/default.py:308
+#: plugins/default.py:333
 msgid "append failed on non-list"
 msgstr ""
 
-#: plugins/default.py:322
+#: plugins/default.py:347
 msgid "remove failed on non-list"
 msgstr ""
 
-#: plugins/default.py:332
+#: plugins/default.py:357
 msgid "Parameter does not exist!"
 msgstr "Parâmetro não existe!"
 
-#: plugins/default.py:354
+#: plugins/default.py:382
 msgid "<b><pre>{}</pre></b>, chat_id = <i>{}</i>"
 msgstr "<b><pre>{}</pre></b>, chat_id = <i>{}</i>"
 
-#: plugins/default.py:362
+#: plugins/default.py:390
 msgid "You are at <b><pre>{}</pre></b>, conv_id = <i><pre>{}</pre></i>"
+msgstr ""
+
+#: plugins/forecast.py:32
+msgid "No location was specified, please specify a location."
+msgstr ""
+
+#: plugins/forecast.py:37
+msgid "Unable to find the specified location."
+msgstr ""
+
+#: plugins/forecast.py:45
+msgid "This hangouts default location has been set to {}."
 msgstr ""
 
 #: plugins/humor_hangoutcalls.py:32
@@ -635,93 +687,97 @@ msgstr ""
 msgid "You drew a {} previously."
 msgstr ""
 
-#: plugins/mentions.py:116
+#: plugins/mentions.py:117
 msgid ""
 "<b>{}</b>, you cannot @mention anyone until your DND status is toggled off."
 msgstr ""
 
-#: plugins/mentions.py:126
+#: plugins/mentions.py:127
 msgid "<b>{}</b> cannot @mention anyone until they say something to me first."
 msgstr ""
 
-#: plugins/mentions.py:167
-msgid "You are not allowed to use @all in <b>{}</b>"
+#: plugins/mentions.py:168
+msgid "You are not allowed to mention all users in <b>{}</b>"
 msgstr ""
 
-#: plugins/mentions.py:172
-msgid "<b>{}</b> blocked from using <i>@all</i>"
+#: plugins/mentions.py:173
+msgid "<b>{}</b> blocked from mentioning all users"
 msgstr ""
 
-#: plugins/mentions.py:271
+#: plugins/mentions.py:272
 msgid ""
 "{} users would be mentioned with \"@{}\"! Be more specific. List of matching "
 "users:<br />"
 msgstr ""
 
-#: plugins/mentions.py:304
+#: plugins/mentions.py:307
 msgid "{} mentioned you in {}"
 msgstr ""
 
-#: plugins/mentions.py:322
-msgid "<b>{}</b> @mentioned you in <i>{}</i>:<br />{}"
+#: plugins/mentions.py:332
+msgid "<b>{}</b> @mentioned ALL in <i>{}</i>:<br />{}"
 msgstr ""
 
 #: plugins/mentions.py:334
+msgid "<b>{}</b> @mentioned you in <i>{}</i>:<br />{}"
+msgstr ""
+
+#: plugins/mentions.py:350
 msgid ""
 "@mention didn't work for <b>{}</b>. User must say something to me first."
 msgstr ""
 "@mention não funciona para <b>{}</b>. O usuário deve me dizer algo "
 "primeiramente."
 
-#: plugins/mentions.py:339
+#: plugins/mentions.py:355
 msgid "<b>@mentions:</b><br />"
 msgstr ""
 
-#: plugins/mentions.py:341
+#: plugins/mentions.py:357
 msgid "1-to-1 fail: <i>{}</i><br />"
 msgstr ""
 
-#: plugins/mentions.py:343
+#: plugins/mentions.py:359
 msgid "PushBullet fail: <i>{}</i><br />"
 msgstr ""
 
-#: plugins/mentions.py:345
+#: plugins/mentions.py:361
 msgid "Ignored (DND): <i>{}</i><br />"
 msgstr ""
 
-#: plugins/mentions.py:347
+#: plugins/mentions.py:363
 msgid "Alerted: <i>{}</i><br />"
 msgstr ""
 
-#: plugins/mentions.py:349
+#: plugins/mentions.py:365
 msgid "Nobody was successfully @mentioned ;-(<br />"
 msgstr ""
 
-#: plugins/mentions.py:352
+#: plugins/mentions.py:368
 msgid "Users failing 1-to-1 need to say something to me privately first.<br />"
 msgstr ""
 
-#: plugins/mentions.py:368
+#: plugins/mentions.py:384
 msgid "deactivating pushbullet integration"
 msgstr ""
 
-#: plugins/mentions.py:372
+#: plugins/mentions.py:388
 msgid "setting pushbullet api key"
 msgstr ""
 
-#: plugins/mentions.py:380
+#: plugins/mentions.py:396
 msgid "pushbullet configuration not changed"
 msgstr ""
 
-#: plugins/mentions.py:396
+#: plugins/mentions.py:412
 msgid "<em>\"be more specific\" for mentions toggled ON</em>"
 msgstr ""
 
-#: plugins/mentions.py:400
+#: plugins/mentions.py:416
 msgid "<em>\"be more specific\" for mentions toggled OFF</em>"
 msgstr ""
 
-#: plugins/mentions.py:419
+#: plugins/mentions.py:435
 msgid ""
 "Error: Minimum length of nickname is {} characters. Only alphabetical and "
 "numeric characters allowed."
@@ -729,19 +785,19 @@ msgstr ""
 "Erro: O tamanho mínimo do nickname é {} caracteres. Somente caracteres "
 "alfanuméricos são permitidos."
 
-#: plugins/mentions.py:457
+#: plugins/mentions.py:473
 msgid "<i>Your nickname is already <b>`{}`</b></i>"
 msgstr "<i>O seu nickname já é <b>`{}`</b></i>"
 
-#: plugins/mentions.py:462
+#: plugins/mentions.py:478
 msgid "<i>Nickname <b>`{}`</b> is already in use by another user"
 msgstr "<i>Nickname <b>`{}`</b> já está sendo utilizado por outro usuário"
 
-#: plugins/mentions.py:481
+#: plugins/mentions.py:497
 msgid "Removing nickname"
 msgstr "Removendo nickname"
 
-#: plugins/mentions.py:485
+#: plugins/mentions.py:501
 msgid "Setting nickname to '{}'"
 msgstr "Definindo nickname para '{}'"
 
@@ -754,7 +810,6 @@ msgid ""
 msgstr ""
 
 #: plugins/monitoradds.py:69 plugins/monitoradds.py:74
-#: plugins/monitoradds.py:69,
 msgid "<i>Moderators updated: {} added</i>"
 msgstr "<i>Moderadores atualizados: {} incluído(s)</i>"
 
@@ -770,7 +825,31 @@ msgstr "Removendo tópico"
 msgid "Setting topic to '{}'"
 msgstr "Definindo tópico para '{}'"
 
-#: plugins/restrictedadd.py:66
+#: plugins/remind.py:15
+msgid "Usage: /bot remindme <b>delay (minutes)</b> <i>Message</i>"
+msgstr ""
+
+#: plugins/remind.py:20
+msgid "Private reminder for <b>{}</b> in {}m"
+msgstr ""
+
+#: plugins/remind.py:23 plugins/remind.py:43
+msgid "<b>Reminder:</b>  "
+msgstr ""
+
+#: plugins/remind.py:25 plugins/remind.py:45
+msgid "Error creating reminder, invalid delay"
+msgstr ""
+
+#: plugins/remind.py:36
+msgid "Usage: /bot remindall <b>delay (minutes)</b> <i>Message</i>"
+msgstr ""
+
+#: plugins/remind.py:41
+msgid "Public reminder in {}m"
+msgstr ""
+
+#: plugins/restrictedadd.py:72
 msgid ""
 "<i>{}, you need to be authorised to add me to another conversation. I'm "
 "leaving now...</i>"
@@ -778,20 +857,32 @@ msgstr ""
 "<i>{}, você precisa estar logado para me adicionar em outra conversa. Estou "
 "indo agora...</i>"
 
-#: plugins/restrictedadd.py:108
+#: plugins/restrictedadd.py:117
 msgid "<i>There is no botkeeper in here. I have to go...</i>"
 msgstr ""
 
-#: plugins/restrictedadd.py:132
+#: plugins/restrictedadd.py:141
 msgid "user id {} added as botkeeper"
 msgstr ""
 
-#: plugins/restrictedadd.py:154
+#: plugins/restrictedadd.py:163
 msgid "user id {} removed as botkeeper"
 msgstr ""
 
-#: plugins/restrictedadd.py:163
+#: plugins/restrictedadd.py:172
 msgid "user id {} is not authorised"
+msgstr ""
+
+#: plugins/showme/__init__.py:59
+msgid "I'm sorry, I couldn't upload a {} image"
+msgstr ""
+
+#: plugins/showme/__init__.py:67
+msgid "Show you what?"
+msgstr ""
+
+#: plugins/showme/__init__.py:77
+msgid "I don't know a \"{}\", try sources"
 msgstr ""
 
 #: plugins/simplewikipedia.py:20
@@ -802,8 +893,48 @@ msgstr ""
 msgid "<i>no entry found for {}</i>"
 msgstr ""
 
-#: plugins/simplytranslate.py:45
-msgid "Translation server error: <i>{}</i>"
+#: plugins/spotify.py:85
+msgid "<em>Unable to get the song title :(</em>"
+msgstr ""
+
+#: plugins/spotify.py:111
+msgid "<em>Spotify is <b>{}</b>.</em>"
+msgstr ""
+
+#: plugins/spotify.py:118
+msgid "<em>Spotify {} on. Now it's <b>{}</b>.</em>"
+msgstr ""
+
+#: plugins/spotify.py:126
+msgid "<em>Did you mean <b>/bot help spotify</b>?</em>"
+msgstr ""
+
+#: plugins/spotify.py:129
+msgid "<em>Spotify playlist: {}</em>"
+msgstr ""
+
+#: plugins/spotify.py:132
+msgid "<em>You must specify a Spotify track.</em>"
+msgstr ""
+
+#: plugins/spotify.py:162
+msgid "<em>No tracks found for '{}'.</em>"
+msgstr ""
+
+#: plugins/spotify.py:258
+msgid "<em>Added <b>{} by {}</b></em>"
+msgstr ""
+
+#: plugins/spotify.py:261
+msgid "<em><b>Unable to add track:</b> {}</em>"
+msgstr ""
+
+#: plugins/spotify.py:272
+msgid "<em>Removed track <b>{} by {}</b>.</em>"
+msgstr ""
+
+#: plugins/spotify.py:275
+msgid "<em><b>Unable to remove track:</b> {}</em>"
 msgstr ""
 
 #: plugins/starter.py:18
@@ -836,68 +967,60 @@ msgstr ""
 msgid "Then let me know by sending <b>/bot verifyme</b> in this chat.</i>"
 msgstr ""
 
-#: plugins/subscribe.py:88
+#: plugins/subscribe.py:126
 msgid "<b>{}</b> mentioned '{}' in <i>{}</i>:<br />{}"
 msgstr "<b>{}</b> mencionado '{}' em <i>{}</i>:<br />{}"
 
-#: plugins/subscribe.py:110
+#: plugins/subscribe.py:149
 msgid ""
 "Note: I am unable to ping you until you start a 1 on 1 conversation with me!"
 msgstr ""
 
-#: plugins/subscribe.py:114
+#: plugins/subscribe.py:153
 msgid "Usage: /bot subscribe [keyword]"
 msgstr ""
 
-#: plugins/subscribe.py:118 plugins/subscribe.py:151
+#: plugins/subscribe.py:157 plugins/subscribe.py:190
 msgid "Subscribed to: {}"
 msgstr ""
 
-#: plugins/subscribe.py:125
+#: plugins/subscribe.py:164
 msgid "Already subscribed to '{}'!"
 msgstr ""
 
-#: plugins/subscribe.py:134 plugins/subscribe.py:142
+#: plugins/subscribe.py:173 plugins/subscribe.py:181
 msgid ""
 "Note: You will not be able to trigger your own subscriptions. To test, "
 "please ask somebody else to test this for you."
 msgstr ""
 
-#: plugins/subscribe.py:162
+#: plugins/subscribe.py:202
 msgid "Unsubscribing all keywords"
 msgstr ""
 
-#: plugins/subscribe.py:166
+#: plugins/subscribe.py:206
 msgid "Unsubscribing from keyword '{}'"
 msgstr ""
 
-#: plugins/subscribe.py:170
+#: plugins/subscribe.py:210
 msgid "Error: keyword not found"
 msgstr "Erro: palavra chave não encontrada"
 
-#: plugins/syncrooms.py:281
+#: plugins/syncrooms.py:277
 msgid "<b>Sync Rooms: {}</b>"
 msgstr ""
 
-#: plugins/syncrooms.py:285
+#: plugins/syncrooms.py:281
 msgid "<b>Standard Room</b>"
 msgstr ""
 
-#: plugins/syncrooms.py:296
+#: plugins/syncrooms.py:292
 msgid "<b>failed to retrieve user list</b>"
 msgstr ""
 
-#: plugins/syncrooms.py:317
+#: plugins/syncrooms.py:313
 msgid "<b>Total Unique: {}</b>"
 msgstr ""
-
-#: plugins/syncrooms_autotranslate.py:57
-msgid "<i>syncroom \"{}\" language is {}</i>"
-msgstr "<i>syncroom \"{}\" o idioma é {}</i>"
-
-#: plugins/syncrooms_autotranslate.py:70
-msgid "<i>syncroom \"{}\" language set to {}</i>"
-msgstr "<i>syncroom \"{}\" idioma definido para {}</i>"
 
 #: plugins/syncrooms_config.py:68
 msgid "<i>syncout updated: {} conversations</i>"
@@ -915,51 +1038,63 @@ msgstr "<i>syncouts inalterados</i>"
 msgid "<i>`{}` was detached</i>"
 msgstr "<i>`{}` foi destacado</i>"
 
-#: plugins/tldr.py:36
+#: plugins/tldr.py:126
 msgid "{}. {} <b>{} ago</b>"
 msgstr "{}. {} <b>{} atrás</b>"
 
-#: plugins/tldr.py:41
-msgid "TL;DR not found"
-msgstr "TL;DR não encontrado"
+#: plugins/tldr.py:131
+msgid "TL;DR not found."
+msgstr ""
 
-#: plugins/tldr.py:43
+#: plugins/tldr.py:134
 msgid "<b>TL;DR ({} stored):</b>"
 msgstr "<b>TL;DR ({} armazenado(s)):</b>"
 
-#: plugins/tldr.py:44
-msgid "<br />"
-msgstr "<br />"
+#: plugins/tldr.py:135
+msgid "\n"
+msgstr ""
 
-#: plugins/tldr.py:55
-msgid "TL;DR #{} not found"
-msgstr "TL;DR #{} não encontrado"
+#: plugins/tldr.py:160 plugins/tldr.py:180
+msgid "TL;DR #{} not found."
+msgstr ""
 
-#: plugins/tldr.py:59
+#: plugins/tldr.py:165
 msgid "TL;DR #{} removed - \"{}\""
 msgstr "TL;DR #{} removido(s) - \"{}\""
 
-#: plugins/tldr.py:62
-msgid "All TL;DRs cleared"
-msgstr "Todos os TL;DRs foram limpos"
-
-#: plugins/tldr.py:74
-msgid "Added \"{}\" to TL;DR. Count: {}"
+#: plugins/tldr.py:169
+msgid "All TL;DRs cleared."
 msgstr ""
 
-#: plugins/tldr.py:83
+#: plugins/tldr.py:171
+msgid "Nothing specified to clear."
+msgstr ""
+
+#: plugins/tldr.py:187
+msgid "TL;DR #{} edited - \"{}\" -> \"{}\""
+msgstr ""
+
+#: plugins/tldr.py:189
+msgid "Unknown Command at \"tldr edit.\""
+msgstr ""
+
+#: plugins/tldr.py:200
+msgid "<em>{}</em> added to TL;DR. Count: {}"
+msgstr ""
+
+#: plugins/tldr.py:210
 msgid "{}s"
 msgstr "{}s"
 
-#: plugins/tldr.py:85
+#: plugins/tldr.py:212
 msgid "{}m"
 msgstr "{}m"
 
-#: plugins/tldr.py:87
+#: plugins/tldr.py:214
 msgid "{}h"
 msgstr "{}h"
 
-#: plugins/tldr.py:89
+#: plugins/tldr.py:216
 msgid "{}d"
 msgstr "{}d"
 
@@ -979,6 +1114,28 @@ msgstr "<i>sem definições no dicionário para \"{}\"</i>"
 msgid "<i>no term from urban dictionary</i>"
 msgstr "<i>nenhum termo no dicionário</i>"
 
-#: plugins/wolframalpha.py:52
+#: plugins/wolframalpha.py:34
+msgid "You need to ask WolframAlpha a question"
+msgstr ""
+
+#: plugins/wolframalpha.py:57
 msgid "<i>Wolfram Alpha did not return any useful data</i>"
 msgstr "<i>Wolfram Alpha não retornou nenhum dado útil</i>"
+
+#~ msgid "<em>Cleverbot is silent</em>"
+#~ msgstr "<em>Cleverbot está silencioso</em>"
+
+#~ msgid "<i>group refreshed</i><br />"
+#~ msgstr "<i>grupo atualizado</i><br />"
+
+#~ msgid "TL;DR not found"
+#~ msgstr "TL;DR não encontrado"
+
+#~ msgid "<br />"
+#~ msgstr "<br />"
+
+#~ msgid "TL;DR #{} not found"
+#~ msgstr "TL;DR #{} não encontrado"
+
+#~ msgid "All TL;DRs cleared"
+#~ msgstr "Todos os TL;DRs foram limpos"
