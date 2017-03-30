@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2017-03-30 01:15+0000\n"
-"Last-Translator: Carsten Raddatz <git@carsten-raddatz.de>\n"
+"PO-Revision-Date: 2017-03-30 01:16+0000\n"
+"Last-Translator: Clément Meur (Chnorzy) <clement.meur@gmail.com>\n"
 "Language-Team: German "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/de/>\n"
 "Language: de\n"
@@ -196,7 +196,7 @@ msgstr "broadcast: es wurde keine Nachricht gesendet"
 
 #: plugins/default.py:185
 msgid "broadcast: no conversations available"
-msgstr "broadcast: keine Konversationen verfügbar"
+msgstr "Broadcast: Keine Unterhaltungen vorhanden"
 
 #: plugins/default.py:188
 msgid "<b>message:</b><br />{}<br /><b>to:</b><br />{}"
