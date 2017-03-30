@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2017-03-30 01:00+0000\n"
-"Last-Translator: Clément Meur (Chnorzy) <clement.meur@gmail.com>\n"
+"PO-Revision-Date: 2017-03-30 01:01+0000\n"
+"Last-Translator: rene mayer <renemayer0hb@gmail.com>\n"
 "Language-Team: German "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/de/>\n"
 "Language: de\n"
@@ -524,7 +524,7 @@ msgstr "subscribe: {} ({}) Benachrichtigungen via 1-zu-1 ({})"
 
 #: plugins/subscribe.py:84
 msgid "subscribe: {} ({}) has dnd"
-msgstr "subscribe: {} ({}) has dnd"
+msgstr "subscribe: {} ({}) möchte nicht gestört werden"
 
 #: plugins/subscribe.py:86
 msgid "subscribe: user {} ({}) could not be alerted via 1on1"
