@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2016-07-06 16:31+0000\n"
-"Last-Translator: Marcel <MTRNord1@gmail.com>\n"
+"PO-Revision-Date: 2017-03-30 01:00+0000\n"
+"Last-Translator: Clément Meur (Chnorzy) <clement.meur@gmail.com>\n"
 "Language-Team: German "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/de/>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.7-dev\n"
+"X-Generator: Weblate 2.13-dev\n"
 
 #: commands.py:102
 msgid "<b>User commands:</b>"
@@ -80,7 +80,7 @@ msgstr "<i>Moderatoren aktualisiert: {} entfernt</i>"
 
 #: plugins/restrictedadd.py:39
 msgid "RESTRICTEDADD: admin added me to {}"
-msgstr "RESTRICTEDADD: admin added me to {}"
+msgstr "RESTRICTEDADD: Admin hat mich zu {} hinzugefügt"
 
 #: plugins/restrictedadd.py:43
 msgid "RESTRICTEDADD: authorised user added me to {}"
@@ -208,7 +208,7 @@ msgstr "Broadcast: Nachricht nicht erlaubt"
 
 #: plugins/default.py:202
 msgid "broadcast: message must be supplied after subcommand"
-msgstr "broadcast: message must be supplied after subcommand"
+msgstr "broadcast: Nachricht muss nach dem Sub-Befehl mitgegeben werden"
 
 #: plugins/default.py:221
 msgid "broadcast: {} conversation(s)"
@@ -339,7 +339,7 @@ msgstr "@all in {}: erlaubt, {} ({}) ist Admin"
 
 #: plugins/mentions.py:168
 msgid "@all in {}: enabled global/per-conversation"
-msgstr "@all in {}: enabled global/per-conversation"
+msgstr "@all in {}: Global/Pro-Unterhaltung aktiviert"
 
 #: plugins/mentions.py:190
 msgid "user {} ({}) is present"
@@ -371,11 +371,15 @@ msgstr "Priorisiere Nickname match für {}"
 
 #: plugins/mentions.py:235
 msgid "prioritising single case-sensitive fragment match for {}"
-msgstr "prioritising single case-sensitive fragment match for {}"
+msgstr ""
+"priorisiere einzelne  Fragment-Treffer mit Beachtung der Gross- und "
+"Kleinschreibung für {}"
 
 #: plugins/mentions.py:238
 msgid "prioritising multiple case-sensitive fragment match for {}"
-msgstr "prioritising multiple case-sensitive fragment match for {}"
+msgstr ""
+"priorisiere vielfache Fragment-Treffer mit Beachtung der Gross- und "
+"Kleinschreibung für {}"
 
 #: plugins/mentions.py:250
 msgid ""
@@ -387,7 +391,7 @@ msgstr ""
 
 #: plugins/mentions.py:263
 msgid "@{} not sent due to multiple recipients"
-msgstr "@{} not sent due to multiple recipients"
+msgstr "@{} nicht versendet aufgrund mehrerer Empfänger"
 
 #: plugins/mentions.py:283
 msgid "{} mentioned you in {}"
@@ -422,7 +426,7 @@ msgstr "User {} ({}) konnte nicht via 1on1 benachrichtigt werden"
 
 #: plugins/mentions.py:321
 msgid "<b>@mentions:</b><br />"
-msgstr "<b>@mentions:</b><br />"
+msgstr "<b>@Erwähnungen:</b><br />"
 
 #: plugins/mentions.py:323
 msgid "1-to-1 fail: <i>{}</i><br />"
@@ -484,7 +488,7 @@ msgstr "<i>Dein Nickname ist bereits \""
 
 #: plugins/mentions.py:444
 msgid "<i>Nickname \""
-msgstr "<i>Nickname \""
+msgstr "<i>Spitzname \""
 
 #: plugins/mentions.py:444
 msgid "\" is already in use by another user.</i>"
@@ -516,7 +520,7 @@ msgstr "<b>{}</b> hat '{}' in <i>{}</i> erwähnt:<br />{}"
 
 #: plugins/subscribe.py:82
 msgid "subscribe: {} ({}) alerted via 1on1 ({})"
-msgstr "subscribe: {} ({}) alerted via 1on1 ({})"
+msgstr "subscribe: {} ({}) Benachrichtigungen via 1-zu-1 ({})"
 
 #: plugins/subscribe.py:84
 msgid "subscribe: {} ({}) has dnd"
@@ -586,14 +590,12 @@ msgid "syncrooms: incoming message"
 msgstr "syncrooms: ankommende Nachricht"
 
 #: plugins/syncrooms.py:233
-#, fuzzy
 msgid "syncrooms: {} user(s) added to {}"
-msgstr "syncrooms: {} user(s) added to {}"
+msgstr "syncrooms: {} Benutzer zu {} hinzugefügt"
 
 #: plugins/syncrooms.py:241
-#, fuzzy
 msgid "syncrooms: {} user(s) left {}"
-msgstr "syncrooms: {} user(s) left {}"
+msgstr "syncrooms: {} Benutzer raus aus {}"
 
 #: plugins/syncrooms.py:278
 msgid "<b>Sync Rooms: {}</b>"
@@ -774,9 +776,8 @@ msgstr ""
 "Invitations-Plugin</em>"
 
 #: plugins/convtools_invitations.py:188
-#, fuzzy
 msgid "<b>Invitation Purge (Admin)</b>"
-msgstr "<b>Invitation Purge (Admin)</b>"
+msgstr "<b>Einladung löschen (Admin)</b>"
 
 #: plugins/convtools_invitations.py:191
 msgid "<b>Invitation List (Admin)</b>"
@@ -839,9 +840,8 @@ msgid "<b>{}</b>, remembered!"
 msgstr "<b>{}</b>, gemerkt!"
 
 #: plugins/example_memory.py:27
-#, fuzzy
 msgid "<b>{}</b>, remembered something else!"
-msgstr "<b>{}</b>, etwas anderes wurde sich gemerkt!"
+msgstr "<b>{}</b>, etwas anderes gemerkt!"
 
 #: plugins/example_memory.py:38
 msgid "<b>{}</b>, nothing remembered!"
@@ -864,7 +864,6 @@ msgid "<b>{}</b>, remembered for this conversation"
 msgstr "<b>{}</b>, wurde für diese Unterhaltung gemerkt"
 
 #: plugins/example_memory.py:81
-#, fuzzy
 msgid "<b>{}</b>, remembered something else for this conversation!"
 msgstr "<b>{}</b>, für diese Unterhaltung wurde sich etwas anderes gemerkt!"
 
@@ -875,6 +874,7 @@ msgstr "<b>{}</b>, für diese Unterhaltung wurde sich nichts gemerkt!"
 #: plugins/example_memory.py:97
 msgid "<b>{}</b> asked me to remember <i>\"{}\" for this conversation</i>"
 msgstr ""
+"<b>{}</b> bat mich, mich <i> in dieser Unterhaltung \"{}\" </i> zu merken"
 
 #: plugins/example_memory.py:108
 msgid "<b>{}</b>, nothing to forget for this conversation!"
@@ -882,82 +882,82 @@ msgstr "<b>{}</b>, für diese Unterhaltung kann nichts vergessen werden!"
 
 #: plugins/example_memory.py:114
 msgid "<b>{}</b>, forgotten for this conversation!"
-msgstr ""
+msgstr "<b>{}</b>, für diese Unterhaltung vergessen!"
 
 #: plugins/lookup.py:16
 msgid "Spreadsheet function disabled"
-msgstr ""
+msgstr "Funktion für Tabellenkalkulation deaktiviert"
 
 #: plugins/lookup.py:20
 msgid "Spreadsheet URL not set"
-msgstr ""
+msgstr "URL für Tabellenkalkulation nicht gesetzt"
 
 #: plugins/lookup.py:35
 msgid "Results for keyword <b>{}</b>:<br />"
-msgstr ""
+msgstr "Resultate für Schlüsselwort <b>{}</b>:<br />"
 
 #: plugins/lookup.py:37
 #, python-brace-format
 msgid "{0} ({1}) has requested to lookup '{2}'"
-msgstr ""
+msgstr "{0} ({1}) hat eine Tabellensuche angefragt für '{2}'"
 
 #: plugins/lookup.py:69
 msgid "<br />Row {}: "
-msgstr ""
+msgstr "<br />Zeile {}: "
 
 #: plugins/lookup.py:80
 #, python-brace-format
 msgid "<br />{0} rows found. Only returning first {1}."
-msgstr ""
+msgstr "<br />{0} Zeilen gefunden. Zeige nur die ersten {1}."
 
 #: plugins/lookup.py:82
 #, python-brace-format
 msgid "<br />Hint: Use <b>/bot lookup <{0} {1}</b> to view {0} rows"
-msgstr ""
+msgstr "<br />Tipp: Benutze <b>/bot lookup <{0} {1}</b> um {0} Zeilen zu sehen"
 
 #: plugins/lookup.py:85
 msgid "No match found"
-msgstr ""
+msgstr "Kein Treffer gefunden"
 
 #: plugins/chance.py:27
 msgid "<i>{} rolled <b>{}</b></i>"
-msgstr ""
+msgstr "<i>{} würfelte <b>{}</b></i>"
 
 #: plugins/chance.py:33
 msgid "<i>{}, coin turned up <b>heads</b></i>"
-msgstr ""
+msgstr "<i>{}, Die Münze zeigt <b>Kopf</b></i>"
 
 #: plugins/chance.py:35
 msgid "<i>{}, coin turned up <b>tails</b></i>"
-msgstr ""
+msgstr "<i>{}, Die Münze zeigt <b>Zahl</b></i>"
 
 #: plugins/syncrooms_config.py:62
 msgid "SYNCROOM_CONFIG: extended"
-msgstr ""
+msgstr "SYNCROOM_CONFIG: erweitert"
 
 #: plugins/syncrooms_config.py:63
 msgid "<i>syncout updated: {} conversations</i>"
-msgstr ""
+msgstr "<i>syncout: {} Unterhaltungen aktualisiert</i>"
 
 #: plugins/syncrooms_config.py:65
 msgid "SYNCROOM_CONFIG: created"
-msgstr ""
+msgstr "SYNCROOM_CONFIG: erstellt"
 
 #: plugins/syncrooms_config.py:66
 msgid "<i>syncout created: {} conversations</i>"
-msgstr ""
+msgstr "<i>syncout hat: {} Unterhaltungen erstellt</i>"
 
 #: plugins/syncrooms_config.py:68
 msgid "SYNCROOM_CONFIG: no change"
-msgstr ""
+msgstr "SYNCROOM_CONFIG: Keine Änderung"
 
 #: plugins/syncrooms_config.py:69
 msgid "<i>syncouts unchanged</i>"
-msgstr ""
+msgstr "<i>syncouts unverändert</i>"
 
 #: plugins/syncrooms_config.py:110
 msgid "<i>`{}` was detached</i>"
-msgstr ""
+msgstr "<i>`{}` wurde losgelöst</i>"
 
 #: plugins/lottery.py:33
 msgid "LOTTERY: joint room keys {}"
@@ -965,50 +965,53 @@ msgstr ""
 
 #: plugins/lottery.py:42
 msgid "LOTTERY: loading from memory"
-msgstr ""
+msgstr "LOTTERY: Lade vom Speicher"
 
 #: plugins/lottery.py:96
 msgid "prepare: min and max are the same ({})"
-msgstr ""
+msgstr "prepare: min und max sind gleich gross ({})"
 
 #: plugins/lottery.py:114
 msgid "prepare: unrecognised match (!csv, !range, !numberToken): {}"
-msgstr ""
+msgstr "prepare: Treffer nicht erkannt (!csv, !range, !numberToken): {}"
 
 #: plugins/lottery.py:120
 msgid ""
 "Wow! Too many items to draw in <b>{}</b> lottery. Try {} items or less..."
 msgstr ""
+"Wow! Zuviele Zahlen für eine <b>{}er</b> Lotterie. Versuch {} oder weniger..."
 
 #: plugins/lottery.py:125
 msgid ""
 "The <b>{}</b> lottery is ready: {} items loaded and shuffled into the box."
 msgstr ""
+"Die <b>{}</b> Lotterie ist bereit: {} Objekte geladen und in die Kiste "
+"gemischt."
 
 #: plugins/lottery.py:127
 msgid "prepare: {} was initialised empty"
-msgstr ""
+msgstr "prepare: {} wurde leer initialisiert"
 
 #: plugins/lottery.py:167
 msgid "LOTTERY: {} is valid"
-msgstr ""
+msgstr "LOTTERY: {} ist gültig"
 
 #: plugins/lottery.py:175
 msgid "<b>{}</b>, you have already drawn <b>{}</b> from the <b>{}</b> box"
-msgstr ""
+msgstr "<b>{}</b>, du hast bereits <b>{}</b> von der <b>{}</b> Kiste gezogen"
 
 #: plugins/lottery.py:184
 msgid "<b>{}</b> draws <b>{}</b> from the <b>{}</b> box. "
-msgstr ""
+msgstr "<b>{}</b> zieht <b>{}</b>aus der <b>{}</b> Kiste. "
 
 #: plugins/lottery.py:186
 msgid "...AAAAAND its all gone! The <b>{}</b> lottery is over folks."
-msgstr ""
+msgstr "...UUUUUND alles ist weg! Die <b>{}</b> Lotterie ist vorbei Leute."
 
 #: plugins/lottery.py:192
 msgid "<b>{}</b>, the <b>{}</b> lottery is over. "
-msgstr ""
+msgstr "<b>{}</b>, die <b>{}</b> Lotterie ist beendet. "
 
 #: plugins/lottery.py:195
 msgid "You drew a {} previously."
-msgstr ""
+msgstr "Du hast zuvor bereits {} gezogen."
