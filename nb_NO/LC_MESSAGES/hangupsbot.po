@@ -8,217 +8,226 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-21 10:30+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-11-22 07:48+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål "
+"<https://hosted.weblate.org/projects/hangoutsbot/hangups/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18-dev\n"
 
 #: commands/basic.py:35
 msgid ""
 "<b>Impersonation:</b><br /><b><pre>{}</pre></b><br /><b><pre>{}</pre></"
 "b><br />"
 msgstr ""
+"<b>Etterligning:</b><br /><b><pre>{}</pre></b><br /><b><pre>{}</pre></b><br "
+"/>"
 
 #: commands/basic.py:45
 msgid "<b>User commands:</b>"
-msgstr ""
+msgstr "<b>Brukerkommandoer:</b>"
 
 #: commands/basic.py:50
 msgid "<i>For more information, please see: {}</i>"
-msgstr ""
+msgstr "<i>For mer informasjon, sjekk: {}</i>"
 
 #: commands/basic.py:54
 msgid "<b>Admin commands:</b>"
-msgstr ""
+msgstr "<b>Administratorkommandoer:</b>"
 
 #: commands/basic.py:68
 msgid "<i>{}, I've sent you some help ;)</i>"
-msgstr ""
+msgstr "<i>{}, Jeg har sendt deg litt hjelp ;)</i>"
 
 #: commands/basic.py:77
 msgid "locale set to: {}"
-msgstr ""
+msgstr "lokale satt til: {}"
 
 #: commands/basic.py:79
 msgid "locale unchanged"
-msgstr ""
+msgstr "lokale uendret"
 
 #: commands/basic.py:81
 msgid "language code required"
-msgstr ""
+msgstr "språkkode kreves"
 
 #: commands/basic.py:108
 msgid "<i>{}, you <b>opted-out</b> from bot private messages</i>"
-msgstr ""
+msgstr "<i>{}, du har <b>valgt bort</b> privatmeldinger fra bot-en</i>"
 
 #: commands/basic.py:110
 msgid "<i>{}, you <b>opted-in</b> for bot private messages</i>"
-msgstr ""
+msgstr "<i>{}, du <b>har godtatt</b> privatmeldinger fra bot-en</i>"
 
 #: commands/basic.py:118
 msgid "Bot Version: <b>{}</b>"
-msgstr ""
+msgstr "Bot-versjon <b>{}</b>"
 
 #: commands/basic.py:140
 msgid "{}: Unknown Command"
-msgstr ""
+msgstr "{}: Ukjent kommando"
 
 #: commands/basic.py:146
 msgid "{}: Can't do that."
-msgstr ""
+msgstr "{}: Kan ikke gjøre dette."
 
 #: commands/convid.py:32
 msgid ""
 "<em>1 parameter required, {} supplied - enclose parameter in double-quotes</"
 "em>"
-msgstr ""
+msgstr "<em>Ett parameter kreves, {} oppgitt - sett parameter i hermetegn</em>"
 
 #: commands/convid.py:35
 msgid "<em>supply 1 parameter</em>"
-msgstr ""
+msgstr "<em>oppgi ett parameter</em>"
 
 #: commands/convid.py:40 plugins/default.py:191
 msgid "<b>Total: {}</b>"
-msgstr ""
+msgstr "<b>Totalt: {}</b>"
 
 #: commands/convid.py:55
 msgid "<em>sending to ALL conversations not allowed</em>"
-msgstr ""
+msgstr "<em>foresendelse til ALLE samtaler tillates ikke</em>"
 
 #: commands/convid.py:64
 msgid "<em>command echo blocked</em>"
-msgstr ""
+msgstr "<em>kommandoen \"echo\" er blokkert</em>"
 
 #: commands/convid.py:68
 msgid "<em>missing text</em>"
-msgstr ""
+msgstr "<em>manglende tekst</em>"
 
 #: commands/convid.py:72
 msgid "<em>required parameters: convfilter text</em>"
-msgstr ""
+msgstr "<em>påkrevde parameter: Convfilter-tekst</em>"
 
 #: commands/convid.py:76
 msgid "<em>no conversations filtered</em>"
-msgstr ""
+msgstr "<em>ingen samtaler filtrert</em>"
 
 #: commands/convid.py:97
 msgid "<em>missing title</em>"
-msgstr ""
+msgstr "<em>mangler tittel</em>"
 
 #: commands/convid.py:102
 msgid "<em>required parameters: convfilter title</em>"
-msgstr ""
+msgstr "<em>påkrevde parameter: Convfilter-tittel</em>"
 
 #: commands/convid.py:112
 msgid "<em>should be 1 parameter, {} supplied</em>"
-msgstr ""
+msgstr "<em>burde være ett parameter, {} oppgitt</em>"
 
 #: commands/convid.py:115
 msgid "<em>retrieving ALL conversations blocked</em>"
-msgstr ""
+msgstr "<em>innhenting av ALLE samtaler blokkert</em>"
 
 #: commands/convid.py:132
 msgid "<b>Users: {}</b>"
-msgstr ""
+msgstr "<b>Brukere: {}</b>"
 
 #: commands/convid.py:149
 msgid "<em>cannot leave ALL conversations</em>"
-msgstr ""
+msgstr "<em>kan ikke forlate ALLE samtaler</em>"
 
 #: commands/convid.py:156
 msgid "<em>required parameters: convfilter</em>"
-msgstr ""
+msgstr "<em>påkrevde parameter: Convfilter</em>"
 
 #: commands/convid.py:162
 msgid "I'll be back!"
-msgstr ""
+msgstr "Jeg er tilbake!"
 
 #: commands/tagging.py:18
 msgid "tagged <b><pre>{}</pre></b> with <b><pre>{}</pre></b>"
-msgstr ""
+msgstr "merket <b><pre>{}</pre></b> med <b><pre>{}</pre></b>"
 
 #: commands/tagging.py:20 commands/tagging.py:34
 msgid "<b><pre>{}</pre></b> unchanged"
-msgstr ""
+msgstr "<b><pre>{}</pre></b> uendret"
 
 #: commands/tagging.py:22 commands/tagging.py:36
+#, fuzzy
 msgid "<b>supply type, id, tag</b>"
-msgstr ""
+msgstr "<b>oppgi type, ID, tagg</b>"
 
 #: commands/tagging.py:32
 msgid "removed <b><pre>{}</pre></b> from <b><pre>{}</pre></b>"
-msgstr ""
+msgstr "fjernet <b><pre>{}</pre></b> fra <b><pre>{}</pre></b>"
 
 #: commands/tagging.py:46
 msgid "entries removed: <b><pre>{}</pre></b>"
-msgstr ""
+msgstr "oppføringer fjernet: <b><pre>{}</pre></b>"
 
 #: commands/tagging.py:48
+#, fuzzy
 msgid "<b>supply type, id</b>"
-msgstr ""
+msgstr "<b>oppgi type, ID</b>"
 
 #: commands/tagging.py:59
 msgid "<b><pre>COMMAND: {}</pre></b> does not exist"
-msgstr ""
+msgstr "<b><pre>Kommandoen: {}</pre></b> finnes ikke"
 
 #: commands/tagging.py:109
 msgid "<b><pre>COMMAND: {}</pre></b> has no tags"
-msgstr ""
+msgstr "<b><pre>Kommandoen: {}</pre></b> har ingen tagger"
 
 #: commands/tagging.py:111
 msgid "<b><pre>COMMAND: {}</pre></b>, match <b>ANY</b>:"
-msgstr ""
+msgstr "<b><pre>Kommandoen: {}</pre></b>, samsvarer med <b>ANY</b>:"
 
 #: commands/tagging.py:115
 msgid "<b>supply command name</b>"
-msgstr ""
+msgstr "<b>oppgi kommandonavn</b>"
 
 #: commands/tagging.py:128
 msgid "index: <b><pre>{}</pre></b>"
-msgstr ""
+msgstr "indeks: <b><pre>{}</pre></b>"
 
 #: commands/tagging.py:130
 msgid "key: <pre>{}</pre>"
-msgstr ""
+msgstr "nøkkel: <pre>{}</pre>"
 
 #: commands/tagging.py:138
 msgid "<b>no entries to list</b>"
-msgstr ""
+msgstr "<b>ingen oppføringer å liste opp</b>"
 
 #: commands/tagging.py:153
+#, fuzzy
 msgid "<b>supply chat_id, optional conv_id</b>"
-msgstr ""
+msgstr "<b>angi chat_id, valgfri conv_id</b>"
 
 #: commands/tagging.py:177
+#, fuzzy
 msgid "<b>supply conv_id, optional tag list</b>"
-msgstr ""
+msgstr "<b>angi conv_id, valgfri tagg-liste</b>"
 
 #: commands/tagging.py:185
 msgid "<em>no tags returned</em>"
-msgstr ""
+msgstr "<em>ingen tagger returnert</em>"
 
 #: commands/tagging.py:189
 msgid "<b>no users found</b>"
-msgstr ""
+msgstr "<b>ingen brukere funnet</b>"
 
 #: handlers.py:174
 msgid "{}: {}"
-msgstr ""
+msgstr "{}: {}"
 
 #: handlers.py:180
 msgid "{}: Missing parameter(s)"
-msgstr ""
+msgstr "{}: Manglende parameter"
 
 #: hangupsbot.py:116
 msgid "{} already registered in shared"
-msgstr ""
+msgstr "{} allerede registrert i delt"
 
 #: hangupsbot.py:400
 msgid "memory: {} is 1on1 with {}"
-msgstr ""
+msgstr "minne: {} er på tomannshånd med {}"
 
 #: hangupsbot.py:447
 #, python-brace-format
@@ -227,362 +236,392 @@ msgid ""
 "For help, type <b>{0} help</b>. To keep me quiet, reply with <b>{0} optout</"
 "b>.</i>"
 msgstr ""
+"<i>Hei der. Jeg vil bruke denne kanalen til å sende private meldinger og "
+"varslinger. For hjelp, skriv <b>{0} help</b>. For å reservere deg, svar med "
+"<b>{0} optout</b>.</i>"
 
 #: hangupsbot.py:789
 msgid "Unidentified User"
-msgstr ""
+msgstr "Uidentifisert bruker"
 
 #: hangupsbot.py:797
 msgid ""
 "<i>{}, you are currently opted-out. Private message me or enter <b>{} "
 "optout</b> to get me to talk to you.</i>"
 msgstr ""
+"<i>{}, du har reservert deg. Send meg en privat melding, eller skriv <b>{} "
+"optout</b> igjen for å komme i snakk igjen.</i>"
 
 #: hangupsbot.py:800
 msgid ""
 "<i>{}, before I can help you, you need to private message me and say hi.</i>"
 msgstr ""
+"<i>{}, før jeg kan hjelpe deg, må du sende meg en privat melding og si "
+"hei.</i>"
 
 #: hangupsbot.py:938
 msgid "log detailed debugging messages"
-msgstr ""
+msgstr "loggfør detaljerte feilrettingsmeldinger"
 
 #: hangupsbot.py:940
 msgid "log file path"
-msgstr ""
+msgstr "lagringssti for loggføringsfil"
 
 #: hangupsbot.py:942
 msgid "cookie storage path"
-msgstr ""
+msgstr "lagringssti for kaker"
 
 #: hangupsbot.py:944
 msgid "memory storage path"
-msgstr ""
+msgstr "lagringssti for minne"
 
 #: hangupsbot.py:946
 msgid "config storage path"
-msgstr ""
+msgstr "lagringssti for oppsett"
 
 #: hangupsbot.py:948
 msgid "show program's version number and exit"
-msgstr ""
+msgstr "vis programmets versjonsnummer og avslutt"
 
 #: hangupsbot.py:958
 msgid "Failed to create directory: {}"
-msgstr ""
+msgstr "Klarte ikke å opprette mappe: {}"
 
 #: hangupsbot.py:966
 msgid "Failed to copy default config file: {}"
-msgstr ""
+msgstr "Klarte ikke å kopiere forvalgt oppsettsfil: {}"
 
 #: plugins/_example_memory.py:22
 msgid "<b>{}</b>, remembered!"
-msgstr ""
+msgstr "<b>{}</b>, husket!"
 
 #: plugins/_example_memory.py:27
 msgid "<b>{}</b>, remembered something else!"
-msgstr ""
+msgstr "<b>{}</b>, husket noe annet!"
 
 #: plugins/_example_memory.py:38
 msgid "<b>{}</b>, nothing remembered!"
-msgstr ""
+msgstr "<b>{}</b>, ingenting husket!"
 
 #: plugins/_example_memory.py:43
 msgid "<b>{}</b> asked me to remember <i>\"{}\"</i>"
-msgstr ""
+msgstr "<b>{}</b> spurte meg om å huske <i>\"{}\"</i>"
 
 #: plugins/_example_memory.py:54
 msgid "<b>{}</b>, nothing to forget!"
-msgstr ""
+msgstr "<b>{}</b>, ingenting å glemme!"
 
 #: plugins/_example_memory.py:60
 msgid "<b>{}</b>, forgotten!"
-msgstr ""
+msgstr "<b>{}</b>, glemt!"
 
 #: plugins/_example_memory.py:76
+#, fuzzy
 msgid "<b>{}</b>, remembered for this conversation"
-msgstr ""
+msgstr "<b>{}</b>, husket for denne samtalen"
 
 #: plugins/_example_memory.py:81
 msgid "<b>{}</b>, remembered something else for this conversation!"
-msgstr ""
+msgstr "<b>{}</b>, husket noe annet for denne samtalen!"
 
 #: plugins/_example_memory.py:92
 msgid "<b>{}</b>, nothing remembered for this conversation!"
-msgstr ""
+msgstr "<b>{}</b>, ingenting husket for denne samtalen!"
 
 #: plugins/_example_memory.py:97
 msgid "<b>{}</b> asked me to remember <i>\"{}\" for this conversation</i>"
-msgstr ""
+msgstr "<b>{}</b> har spurt meg om å huske <i>\"{}\" for denne samtalen</i>"
 
 #: plugins/_example_memory.py:108
 msgid "<b>{}</b>, nothing to forget for this conversation!"
-msgstr ""
+msgstr "<b>{}</b>, ingenting å glemme for denne samtalen!"
 
 #: plugins/_example_memory.py:114
 msgid "<b>{}</b>, forgotten for this conversation!"
-msgstr ""
+msgstr "<b>{}</b>, glemt for denne samtalen!"
 
 #: plugins/autoreply.py:67
 msgid "Unidentified Conversation"
-msgstr ""
+msgstr "Uidentifisert samtale"
 
 #: plugins/botaliases.py:50
 msgid "<i>bot alias: {}</i>"
-msgstr ""
+msgstr "<i>bot-kallenavn: {}</i>"
 
 #: plugins/botaliases.py:79
 msgid "<i>not authorised to change bot alias</i>"
-msgstr ""
+msgstr "<i>har ikke tilgang til å endre bot-kallenavn</i>"
 
 #: plugins/chance.py:27
 msgid "<i>{} rolled <b>{}</b></i>"
-msgstr ""
+msgstr "<i>{} rullet <b>{}</b></i>"
 
 #: plugins/chance.py:33
 msgid "<i>{}, coin turned up <b>heads</b></i>"
-msgstr ""
+msgstr "<i>{}, mynten landet <b>kron</b></i>"
 
 #: plugins/chance.py:35
 msgid "<i>{}, coin turned up <b>tails</b></i>"
-msgstr ""
+msgstr "<i>{}, mynten landet <b>mynt</b></i>"
 
 #: plugins/cleverbot.py:201
 msgid "<em>Cleverbot is silent</em>"
-msgstr ""
+msgstr "<em>Cleverbot er stille</em>"
 
 #: plugins/convtools.py:53
 msgid "supply the id of the conversation to join"
-msgstr ""
+msgstr "angi ID for samtalen for å ta del i den"
 
 #: plugins/convtools.py:131
 msgid "conversation {} not found"
-msgstr ""
+msgstr "samtalen {} ble ikke funnet"
 
 #: plugins/convtools.py:134
 msgid "conversation {} is not a GROUP"
-msgstr ""
+msgstr "samtalen {} er ikke ei GRUPPE"
 
 #: plugins/convtools.py:137
 msgid "[DEFUNCT] {}"
-msgstr ""
+msgstr "[FORELDET] {}"
 
 #: plugins/convtools.py:154
+#, fuzzy
 msgid ""
 "<b>refresh:</b> {}<br /><b>rename old: {}</b><br /><b>removed {}:</b> {}<br /"
 "><b>added {}:</b> {}"
 msgstr ""
+"<b>gjenoppfrisk:</b> {}<br /><b>gi nytt navn til gammel: {}</b><br /><b>"
+"fjernet {}:</b> {}<br /><b>lagt til {}:</b> {}"
 
 #: plugins/convtools.py:158
 msgid "<em>unchanged</em>"
-msgstr ""
+msgstr "<em>uendret</em>"
 
 #: plugins/convtools.py:160 plugins/convtools.py:162 plugins/convtools.py:184
+#, fuzzy
 msgid "<em>none</em>"
-msgstr ""
+msgstr "<em>ingen</em>"
 
 #: plugins/convtools.py:167
 msgid "<i>group refreshed</i><br />"
-msgstr ""
+msgstr "<i>gruppe gjenoppfrisket</i><br />"
 
 #: plugins/convtools.py:175
 msgid "<i>group has been obsoleted</i>"
-msgstr ""
+msgstr "<i>gruppen har blitt foreldet</i>"
 
 #: plugins/convtools.py:178
+#, fuzzy
 msgid ""
 "refreshed: <b><pre>{}</pre></b> (original id: <pre>{}</pre>).<br />new "
 "conversation id: <b><pre>{}</pre></b>.<br />removed {}: {}"
 msgstr ""
+"gjenoppfrisket: <b><pre>{}</pre></b> (opprinnelig ID: <pre>{}</pre>).<br />"
+"ny samtale-ID: <b><pre>{}</pre></b>.<br />fjernet {}: {}"
 
 #: plugins/convtools.py:187
 msgid "<b>nobody to add in the new conversation</b>"
-msgstr ""
+msgstr "<b>ingen å legge til i den nye samtalen</b>"
 
 #: plugins/convtools.py:213
+#, fuzzy
 msgid "supply optional conversation id and valid user ids to kick"
-msgstr ""
+msgstr "angi alternativ samtale-ID og gyldige bruker-ID-er å kaste ut"
 
 #: plugins/convtools.py:216
 msgid "supply at least one valid user id to kick"
-msgstr ""
+msgstr "angi minst én gyldig bruker-ID å kaste ut"
 
 #: plugins/convtools_invitations.py:121
 msgid "<i>group created</i>"
-msgstr ""
+msgstr "<i>gruppe opprettet</i>"
 
 #: plugins/convtools_invitations.py:123
 msgid "GROUP: {}"
-msgstr ""
+msgstr "GRUPPE: {}"
 
 #: plugins/convtools_invitations.py:177
 msgid "<em>insufficient parameters for invite</em>"
-msgstr ""
+msgstr "<em>ugyldige parameter for invitasjon</em>"
 
 #: plugins/convtools_invitations.py:196
+#, fuzzy
 msgid "<b>Test Invitation Purge</b>"
-msgstr ""
+msgstr "<b>Test invitasjonsutsletting</b>"
 
 #: plugins/convtools_invitations.py:198
 msgid "<b>Invitation Purge</b>"
-msgstr ""
+msgstr "<b>Invitasjonssletting</b>"
 
 #: plugins/convtools_invitations.py:201
 msgid "<b>Invitation List</b>"
-msgstr ""
+msgstr "<b>Invitasjonsliste</b>"
 
 #: plugins/convtools_invitations.py:230
 msgid "<em>no invites found</em>"
-msgstr ""
+msgstr "<em>ingen invitasjoner funnet</em>"
 
 #: plugins/convtools_invitations.py:298
 msgid "<em>invite: specify \"from\" or explicit list of \"users\"</em>"
 msgstr ""
+"<em>invitasjon: Angi \"fra\" eller eksplisitt liste over \"brukere\"</em>"
 
 #: plugins/convtools_invitations.py:307
 msgid "<em>invite: could not identify target conversation"
-msgstr ""
+msgstr "<em>invitasjon: Kunne ikke identifisere ønsket samtale"
 
 #: plugins/convtools_invitations.py:373
 msgid "<em>invite: nobody invited</em>"
-msgstr ""
+msgstr "<em>invitasjon: Ingen invitert</em>"
 
 #: plugins/convtools_invitations.py:399
 msgid "<em>invite: {} invitations created</em>"
-msgstr ""
+msgstr "<em>invitasjon: {} invitasjoner opprettet</em>"
 
 #: plugins/convtools_invitations.py:418
 msgid "<b>Invites for {}:</b>"
-msgstr ""
+msgstr "<b>Invitasjoner for {}:</b>"
 
 #: plugins/convtools_invitations.py:423
 msgid ""
 "<em>To claim an invite, use the rsvp command followed by the invite code</em>"
 msgstr ""
+"<em>For å samtykke til en invitasjon, bruk rsvp-kommandoen fulgt av "
+"invitasjonskoden</em>"
 
 #: plugins/convtools_invitations.py:426
 msgid "<em>no invites to display</em>"
-msgstr ""
+msgstr "<em>ingen invitasjoner å vise</em>"
 
 #: plugins/default.py:35
 msgid "<b>only admins can echo other conversations</b>"
-msgstr ""
+msgstr "<b>kun administratorer kan bruke echo på andre samtaler</b>"
 
 #: plugins/default.py:64
+#, fuzzy
 msgid "broadcast: no message set"
-msgstr ""
+msgstr "kringkasting: Ingen melding satt"
 
 #: plugins/default.py:68
 msgid "broadcast: no conversations available"
 msgstr ""
 
 #: plugins/default.py:72
+#, fuzzy
 msgid "<b>message:</b><br />{}<br /><b>to:</b><br />{}"
-msgstr ""
+msgstr "<b>kringkasting:</b><br />{}<br /><b>til:</b><br />{}"
 
 #: plugins/default.py:83
 msgid "broadcast: message not allowed"
-msgstr ""
+msgstr "kringkasting: Meldingen tillates ikke"
 
 #: plugins/default.py:88
+#, fuzzy
 msgid "broadcast: message must be supplied after subcommand"
-msgstr ""
+msgstr "kringkasting: Meldingen må angis etter underkommandoen"
 
 #: plugins/default.py:111
 msgid "broadcast: {} conversation(s)"
-msgstr ""
+msgstr "kringkasting: {} Samtale(r)"
 
 #: plugins/default.py:128
 msgid "broadcast: removed {}"
-msgstr ""
+msgstr "kringkasting: Fjernet {}"
 
 #: plugins/default.py:135
 msgid "broadcast: message sent to {} chats"
-msgstr ""
+msgstr "kringkasting: Melding sendt til {} sludringer"
 
 #: plugins/default.py:138
+#, fuzzy
 msgid "broadcast: /bot broadcast [info|message|add|remove|NOW] ..."
-msgstr ""
+msgstr "Kringkasting: /bot broadcast [info|message|add|remove|NOW] ..."
 
 #: plugins/default.py:141
 msgid "broadcast: /bot broadcast [info|message|add|remove|NOW]"
-msgstr ""
+msgstr "Kringkasting: /bot broadcast [info|message|add|remove|NOW]"
 
 #: plugins/default.py:155
 msgid "results for user named \"{}\":"
-msgstr ""
+msgstr "resultat for bruker ved navn \"{}\":"
 
 #: plugins/default.py:193
+#, fuzzy
 msgid "<b>List of hangouts with keyword:</b> \"<pre>{}</pre>\""
-msgstr ""
+msgstr "<b>Liste over hangout-er med nøkkelordet:</b> \"<pre>{}</pre>\""
 
 #: plugins/default.py:281
+#, fuzzy
 msgid "<em>note: testing single parameter as json</em>"
-msgstr ""
+msgstr "<em>notis: Tester enkeltparameter som JSON</em>"
 
 #: plugins/default.py:308
 msgid "append failed on non-list"
-msgstr ""
+msgstr "tillegg feilet for noe som ikke var en liste"
 
 #: plugins/default.py:322
 msgid "remove failed on non-list"
-msgstr ""
+msgstr "fjerning feilet for noe som ikke var en liste"
 
 #: plugins/default.py:332
 msgid "Parameter does not exist!"
-msgstr ""
+msgstr "Parameteret finnes ikke!"
 
 #: plugins/default.py:354
 msgid "<b><pre>{}</pre></b>, chat_id = <i>{}</i>"
-msgstr ""
+msgstr "<b><pre>{}</pre></b>, chat_id = <i>{}</i>"
 
 #: plugins/default.py:362
 msgid "You are at <b><pre>{}</pre></b>, conv_id = <i><pre>{}</pre></i>"
-msgstr ""
+msgstr "Du er i <b><pre>{}</pre></b>, conv_id = <i><pre>{}</pre></i>"
 
 #: plugins/humor_hangoutcalls.py:32
 msgid ""
 "<b>It's been {} since the last call. Lonely? I can't reply you as I don't "
 "have speech synthesis (or speech recognition either!)</b>"
 msgstr ""
+"<b>Det har gått {} siden forrige samtale. Er du ensom? Jeg kan ikke svare "
+"siden jeg ikke har stemme (ei heller stemmegjenkjenning!)</b>"
 
 #: plugins/humor_hangoutcalls.py:37
 msgid "<b>It's been {} since the last call. The last caller was <i>{}</i>.</b>"
 msgstr ""
+"<b>Det har gått {} siden forrige samtale. Forrige innringer var "
+"<i>{}</i>.</b>"
 
 #: plugins/humor_hangoutcalls.py:42
 msgid "<b>No prizes for that call</b>"
-msgstr ""
+msgstr "<b>Ingen premier for den samtalen</b>"
 
 #: plugins/lookup.py:20
 msgid "Spreadsheet function disabled"
-msgstr ""
+msgstr "Regneark-funksjon avskrudd"
 
 #: plugins/lookup.py:24
 msgid "Spreadsheet URL not set"
-msgstr ""
+msgstr "Nettadresse for regneark er ikke satt"
 
 #: plugins/lookup.py:37
 msgid "Results for keyword <b>{}</b>:<br />"
-msgstr ""
+msgstr "Resultat for nøkkelord <b>{}</b>:<br />"
 
 #: plugins/lookup.py:71
 msgid "<br />Row {}: "
-msgstr ""
+msgstr "<br />Rad {}: "
 
 #: plugins/lookup.py:82
 #, python-brace-format
 msgid "<br />{0} rows found. Only returning first {1}."
-msgstr ""
+msgstr "<br />{0} rader funnet. Kommer bare med de første {1}."
 
 #: plugins/lookup.py:84
 #, python-brace-format
 msgid "<br />Hint: Use <b>/bot lookup <{0} {1}</b> to view {0} rows"
-msgstr ""
+msgstr "<br />Hint: Bruk <b>/bot lookup <{0} {1}</b> for å vise {0} rader"
 
 #: plugins/lookup.py:87
 msgid "No match found"
-msgstr ""
+msgstr "Samsvarte ikke med noe"
 
 #: plugins/lottery.py:98
 msgid "prepare: min and max are the same ({})"
@@ -601,6 +640,7 @@ msgstr ""
 msgid ""
 "The <b>{}</b> lottery is ready: {} items loaded and shuffled into the box."
 msgstr ""
+"<b>{}</b>-lotteriet er klart: {} ting lagt til og ristet rundt i boksen."
 
 #: plugins/lottery.py:129
 msgid "prepare: {} was initialised empty"
@@ -637,100 +677,110 @@ msgstr ""
 
 #: plugins/mentions.py:167
 msgid "You are not allowed to use @all in <b>{}</b>"
-msgstr ""
+msgstr "Du har ikke tillatelse til å bruke @all i <b>{}</b>"
 
 #: plugins/mentions.py:172
 msgid "<b>{}</b> blocked from using <i>@all</i>"
-msgstr ""
+msgstr "<b>{}</b> blokkert fra å bruke <i>@all</i>"
 
 #: plugins/mentions.py:271
 msgid ""
 "{} users would be mentioned with \"@{}\"! Be more specific. List of matching "
 "users:<br />"
 msgstr ""
+"{} brukere ville ha blitt nevnt med \"@{}\"! Vær mer spesifikk. Liste over "
+"samsvarende brukere:<br />"
 
 #: plugins/mentions.py:304
 msgid "{} mentioned you in {}"
-msgstr ""
+msgstr "{} nevnte deg i {}"
 
 #: plugins/mentions.py:322
 msgid "<b>{}</b> @mentioned you in <i>{}</i>:<br />{}"
-msgstr ""
+msgstr "<b>{}</b> @nevnte deg i <i>{}</i>:<br />{}"
 
 #: plugins/mentions.py:334
 msgid ""
 "@mention didn't work for <b>{}</b>. User must say something to me first."
-msgstr ""
+msgstr "@mention fungerte ikke for <b>{}</b>. Brukeren må si noe til meg først."
 
 #: plugins/mentions.py:339
 msgid "<b>@mentions:</b><br />"
-msgstr ""
+msgstr "<b>@navngivninger:</b><br />"
 
 #: plugins/mentions.py:341
 msgid "1-to-1 fail: <i>{}</i><br />"
-msgstr ""
+msgstr "tomannshånd-feil: <i>{}</i><br />"
 
 #: plugins/mentions.py:343
 msgid "PushBullet fail: <i>{}</i><br />"
-msgstr ""
+msgstr "PushBullet mislyktes: <i>{}</i><br />"
 
 #: plugins/mentions.py:345
 msgid "Ignored (DND): <i>{}</i><br />"
-msgstr ""
+msgstr "Ignorert (ikke forstyrr): <i>{}</i><br />"
 
 #: plugins/mentions.py:347
 msgid "Alerted: <i>{}</i><br />"
-msgstr ""
+msgstr "Varslet: <i>{}</i><br />"
 
 #: plugins/mentions.py:349
+#, fuzzy
 msgid "Nobody was successfully @mentioned ;-(<br />"
-msgstr ""
+msgstr "Ingen ble @navngitt ;-(<br />"
 
 #: plugins/mentions.py:352
 msgid "Users failing 1-to-1 need to say something to me privately first.<br />"
 msgstr ""
+"Brukere som ikke klarer å komme på tomannshånd må si noe til meg privat "
+"først.<br />"
 
 #: plugins/mentions.py:368
+#, fuzzy
 msgid "deactivating pushbullet integration"
-msgstr ""
+msgstr "skrur av PushBullet-integrasjon"
 
 #: plugins/mentions.py:372
+#, fuzzy
 msgid "setting pushbullet api key"
-msgstr ""
+msgstr "setter API-nøkkel for PushBullet"
 
 #: plugins/mentions.py:380
+#, fuzzy
 msgid "pushbullet configuration not changed"
-msgstr ""
+msgstr "PushBullet-oppsettet ble ikke endret"
 
 #: plugins/mentions.py:396
 msgid "<em>\"be more specific\" for mentions toggled ON</em>"
-msgstr ""
+msgstr "<em>\"vær mer spesifikk\" for navngivninger vekslet PÅ</em>"
 
 #: plugins/mentions.py:400
 msgid "<em>\"be more specific\" for mentions toggled OFF</em>"
-msgstr ""
+msgstr "<em>\"vær mer spesifikk\" for navngivninger vekslet PÅ</em>"
 
 #: plugins/mentions.py:419
 msgid ""
 "Error: Minimum length of nickname is {} characters. Only alphabetical and "
 "numeric characters allowed."
 msgstr ""
+"Feil: Minimumslengde for kallenavn er {} tegn. Kun alfabetiske og numeriske "
+"tegn tillates."
 
 #: plugins/mentions.py:457
 msgid "<i>Your nickname is already <b>`{}`</b></i>"
-msgstr ""
+msgstr "<i>Kallenavnet ditt er allerede <b>`{}`</b></i>"
 
 #: plugins/mentions.py:462
 msgid "<i>Nickname <b>`{}`</b> is already in use by another user"
-msgstr ""
+msgstr "<i>Kallenavnet <b>`{}`</b> er allerede i bruk av en annen bruker"
 
 #: plugins/mentions.py:481
 msgid "Removing nickname"
-msgstr ""
+msgstr "Fjerner kallenavn"
 
 #: plugins/mentions.py:485
 msgid "Setting nickname to '{}'"
-msgstr ""
+msgstr "Setter kallenavn til '{}'"
 
 #: plugins/monitoradds.py:52
 #, python-brace-format
@@ -750,11 +800,11 @@ msgstr ""
 
 #: plugins/namelock.py:71
 msgid "Removing topic"
-msgstr ""
+msgstr "Fjerner emne"
 
 #: plugins/namelock.py:75
 msgid "Setting topic to '{}'"
-msgstr ""
+msgstr "Setter emne til '{}'"
 
 #: plugins/restrictedadd.py:66
 msgid ""
