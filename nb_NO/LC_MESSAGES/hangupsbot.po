@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-21 10:30+0800\n"
-"PO-Revision-Date: 2017-11-22 07:48+0000\n"
+"PO-Revision-Date: 2017-12-08 04:48+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål "
 "<https://hosted.weblate.org/projects/hangoutsbot/hangups/nb_NO/>\n"
@@ -503,8 +503,9 @@ msgid "broadcast: no message set"
 msgstr "kringkasting: Ingen melding satt"
 
 #: plugins/default.py:68
+#, fuzzy
 msgid "broadcast: no conversations available"
-msgstr ""
+msgstr "broadcast: Ingen samtaler tilgjengelige"
 
 #: plugins/default.py:72
 #, fuzzy
@@ -624,8 +625,9 @@ msgid "No match found"
 msgstr "Samsvarte ikke med noe"
 
 #: plugins/lottery.py:98
+#, fuzzy
 msgid "prepare: min and max are the same ({})"
-msgstr ""
+msgstr "prepare: Min. og maks. er like ({})"
 
 #: plugins/lottery.py:116
 msgid "prepare: unrecognised match (!csv, !range, !numberToken): {}"
@@ -663,8 +665,9 @@ msgid "<b>{}</b>, the <b>{}</b> lottery is over. "
 msgstr ""
 
 #: plugins/lottery.py:197
+#, fuzzy
 msgid "You drew a {} previously."
-msgstr ""
+msgstr "Du trakk et {} tidligere."
 
 #: plugins/mentions.py:116
 msgid ""
@@ -796,7 +799,7 @@ msgstr ""
 
 #: plugins/monitoradds.py:90
 msgid "<i>Moderators updated: {} removed</i>"
-msgstr ""
+msgstr "<i>Moderatorer oppdatert: {} fjernet</i>"
 
 #: plugins/namelock.py:71
 msgid "Removing topic"
@@ -830,27 +833,27 @@ msgstr ""
 
 #: plugins/simplewikipedia.py:20
 msgid "<i>source: <a href=\"{}\">{}</a></i>"
-msgstr ""
+msgstr "<i>kilde: <a href=\"{}\">{}</a></i>"
 
 #: plugins/simplewikipedia.py:24
 msgid "<i>no entry found for {}</i>"
-msgstr ""
+msgstr "<i>ingen oppføring funnet for {}</i>"
 
 #: plugins/simplytranslate.py:45
 msgid "Translation server error: <i>{}</i>"
-msgstr ""
+msgstr "Oversettelsestjenerfeil: <i>{}</i>"
 
 #: plugins/starter.py:18
 msgid "<i>Starter: Configuring first admin: {}</i>"
-msgstr ""
+msgstr "<i>Starter: Setter opp første administrator: {}</i>"
 
 #: plugins/starter.py:23
 msgid "<i>No! I am Spartacus!</i>"
-msgstr ""
+msgstr "<i>Nei! Jeg er Spartacus!</i>"
 
 #: plugins/starter.py:31
 msgid "<i>config: {}<br />memory: {}</i>"
-msgstr ""
+msgstr "<i>oppsett: {}<br />minne: {}</i>"
 
 #: plugins/starter.py:53
 msgid ""
@@ -872,7 +875,7 @@ msgstr ""
 
 #: plugins/subscribe.py:88
 msgid "<b>{}</b> mentioned '{}' in <i>{}</i>:<br />{}"
-msgstr ""
+msgstr "<b>{}</b> nevnte '{}' i <i>{}</i>:<br />{}"
 
 #: plugins/subscribe.py:110
 msgid ""
@@ -880,16 +883,17 @@ msgid ""
 msgstr ""
 
 #: plugins/subscribe.py:114
+#, fuzzy
 msgid "Usage: /bot subscribe [keyword]"
-msgstr ""
+msgstr "Bruk: /bot subscribe [nøkkelord]"
 
 #: plugins/subscribe.py:118 plugins/subscribe.py:151
 msgid "Subscribed to: {}"
-msgstr ""
+msgstr "Abonnert på: {}"
 
 #: plugins/subscribe.py:125
 msgid "Already subscribed to '{}'!"
-msgstr ""
+msgstr "Allerede abonnert på '{}'!"
 
 #: plugins/subscribe.py:134 plugins/subscribe.py:142
 msgid ""
@@ -911,11 +915,11 @@ msgstr ""
 
 #: plugins/syncrooms.py:281
 msgid "<b>Sync Rooms: {}</b>"
-msgstr ""
+msgstr "<b>Synkroniser rom: {}</b>"
 
 #: plugins/syncrooms.py:285
 msgid "<b>Standard Room</b>"
-msgstr ""
+msgstr "<b>Forvalgt rom</b>"
 
 #: plugins/syncrooms.py:296
 msgid "<b>failed to retrieve user list</b>"
@@ -923,91 +927,93 @@ msgstr ""
 
 #: plugins/syncrooms.py:317
 msgid "<b>Total Unique: {}</b>"
-msgstr ""
+msgstr "<b>Antall unike: {}</b>"
 
 #: plugins/syncrooms_autotranslate.py:57
 msgid "<i>syncroom \"{}\" language is {}</i>"
-msgstr ""
+msgstr "<i>syncroom \"{}\" språket er {}</i>"
 
 #: plugins/syncrooms_autotranslate.py:70
 msgid "<i>syncroom \"{}\" language set to {}</i>"
-msgstr ""
+msgstr "<i>syncroom \"{}\" språk satt til {}</i>"
 
 #: plugins/syncrooms_config.py:68
 msgid "<i>syncout updated: {} conversations</i>"
-msgstr ""
+msgstr "<i>syncout oppdatert: {} samtaler</i>"
 
 #: plugins/syncrooms_config.py:71
 msgid "<i>syncout created: {} conversations</i>"
-msgstr ""
+msgstr "<i>syncout opprettet: {} samtaler</i>"
 
 #: plugins/syncrooms_config.py:74
 msgid "<i>syncouts unchanged</i>"
-msgstr ""
+msgstr "<i>syncouts uendret</i>"
 
 #: plugins/syncrooms_config.py:115
 msgid "<i>`{}` was detached</i>"
-msgstr ""
+msgstr "<i>`{}` ble frakoblet</i>"
 
 #: plugins/tldr.py:36
 msgid "{}. {} <b>{} ago</b>"
-msgstr ""
+msgstr "{}. {} <b>{} siden</b>"
 
 #: plugins/tldr.py:41
 msgid "TL;DR not found"
-msgstr ""
+msgstr "TL;DR ikke funnet"
 
 #: plugins/tldr.py:43
 msgid "<b>TL;DR ({} stored):</b>"
-msgstr ""
+msgstr "<b>TL;DR ({} lagret):</b>"
 
 #: plugins/tldr.py:44
 msgid "<br />"
-msgstr ""
+msgstr "<br />"
 
 #: plugins/tldr.py:55
 msgid "TL;DR #{} not found"
-msgstr ""
+msgstr "TL;DR #{} ikke funnet"
 
 #: plugins/tldr.py:59
 msgid "TL;DR #{} removed - \"{}\""
-msgstr ""
+msgstr "TL;DR #{} fjernet - \"{}\""
 
 #: plugins/tldr.py:62
 msgid "All TL;DRs cleared"
-msgstr ""
+msgstr "Alle TL;DR-er tømt"
 
 #: plugins/tldr.py:74
 msgid "Added \"{}\" to TL;DR. Count: {}"
-msgstr ""
+msgstr "La til \"{}\" i TL;DR. Antall: {}"
 
 #: plugins/tldr.py:83
 msgid "{}s"
-msgstr ""
+msgstr "{}s"
 
 #: plugins/tldr.py:85
 msgid "{}m"
-msgstr ""
+msgstr "{}m"
 
 #: plugins/tldr.py:87
 msgid "{}h"
-msgstr ""
+msgstr "{}t"
 
 #: plugins/tldr.py:89
 msgid "{}d"
-msgstr ""
+msgstr "{}d"
 
 #: plugins/urbandict.py:93
+#, fuzzy
 msgid "<b>definition:</b> "
-msgstr ""
+msgstr "<b>Definisjon:</b> "
 
 #: plugins/urbandict.py:95
+#, fuzzy
 msgid "<b>example:</b> "
-msgstr ""
+msgstr "<b>Eksempel:</b> "
 
 #: plugins/urbandict.py:100
 msgid "<i>no urban dictionary definition for \"{}\"</i>"
-msgstr ""
+msgstr "<i>inget urban dictionary-emne for \"{}\"</i>"
 
 #: plugins/urbandict.py:102
 msgid "<i>no term from urban dictionary</i>"
@@ -1015,4 +1021,4 @@ msgstr ""
 
 #: plugins/wolframalpha.py:52
 msgid "<i>Wolfram Alpha did not return any useful data</i>"
-msgstr ""
+msgstr "<i>Wolfram Alpha svarte ikke med noen nyttig data</i>"
