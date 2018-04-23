@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-21 10:30+0800\n"
-"PO-Revision-Date: 2017-12-08 04:48+0000\n"
+"PO-Revision-Date: 2018-04-24 04:39+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
-"Language-Team: Norwegian Bokmål "
-"<https://hosted.weblate.org/projects/hangoutsbot/hangups/nb_NO/>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
+"hangoutsbot/hangups/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18-dev\n"
+"X-Generator: Weblate 3.0-dev\n"
 
 #: commands/basic.py:35
 msgid ""
@@ -631,12 +631,14 @@ msgstr "prepare: Min. og maks. er like ({})"
 
 #: plugins/lottery.py:116
 msgid "prepare: unrecognised match (!csv, !range, !numberToken): {}"
-msgstr ""
+msgstr "prepare: Ugjenkjent sammentreff (!csv, !range, !numberToken): {}"
 
 #: plugins/lottery.py:122
 msgid ""
 "Wow! Too many items to draw in <b>{}</b> lottery. Try {} items or less..."
 msgstr ""
+"Wow! For mange elementer å tegne i <b>{}</b>-lotteriet. Prøv {} elementer "
+"eller mindre…"
 
 #: plugins/lottery.py:127
 msgid ""
@@ -646,23 +648,23 @@ msgstr ""
 
 #: plugins/lottery.py:129
 msgid "prepare: {} was initialised empty"
-msgstr ""
+msgstr "prepare: {} ble igangsatt i tom tilstand"
 
 #: plugins/lottery.py:177
 msgid "<b>{}</b>, you have already drawn <b>{}</b> from the <b>{}</b> box"
-msgstr ""
+msgstr "<b>{}</b>, du har allerede trukket <b>{}</b> fra <b>{}</b>-boksen"
 
 #: plugins/lottery.py:186
 msgid "<b>{}</b> draws <b>{}</b> from the <b>{}</b> box. "
-msgstr ""
+msgstr "<b>{}</b> trekker <b>{}</b> fra <b>{}</b>-boksen. "
 
 #: plugins/lottery.py:188
 msgid "...AAAAAND its all gone! The <b>{}</b> lottery is over folks."
-msgstr ""
+msgstr "…OOOOOG dett var dett! <b>{}</b>-lotteriet er over folkens."
 
 #: plugins/lottery.py:194
 msgid "<b>{}</b>, the <b>{}</b> lottery is over. "
-msgstr ""
+msgstr "<b>{}</b>, <b>{}</b>-lotteriet er over. "
 
 #: plugins/lottery.py:197
 #, fuzzy
@@ -672,11 +674,11 @@ msgstr "Du trakk et {} tidligere."
 #: plugins/mentions.py:116
 msgid ""
 "<b>{}</b>, you cannot @mention anyone until your DND status is toggled off."
-msgstr ""
+msgstr "<b>{}</b>, du kan ikke @mention noen til din DND-status er av igjen."
 
 #: plugins/mentions.py:126
 msgid "<b>{}</b> cannot @mention anyone until they say something to me first."
-msgstr ""
+msgstr "<b>{}</b> kan ikke @nevne noen til de sier noe til meg først."
 
 #: plugins/mentions.py:167
 msgid "You are not allowed to use @all in <b>{}</b>"
@@ -792,10 +794,13 @@ msgid ""
 "authorization.<br /><br /><b>{1}</b>: Please leave this hangout and ask a "
 "moderator to add you. Thank you for your understanding."
 msgstr ""
+"<b>!!! ADVARSEL !!!</b><br /><br /><b>{0}</b> inviterte <b>{1}</b> uten "
+"godkjenning.<br /><br /><b>{1}</b>: Forlat denne hangout-en og spør en "
+"moderator om å legge deg til."
 
 #: plugins/monitoradds.py:69 plugins/monitoradds.py:74
 msgid "<i>Moderators updated: {} added</i>"
-msgstr ""
+msgstr "<i>Moderatorer oppdaterte: {} lagt til</i>"
 
 #: plugins/monitoradds.py:90
 msgid "<i>Moderators updated: {} removed</i>"
@@ -814,22 +819,25 @@ msgid ""
 "<i>{}, you need to be authorised to add me to another conversation. I'm "
 "leaving now...</i>"
 msgstr ""
+"<i>{}, du må være bekreftet for å legge meg til i en annen samtale. Jeg drar "
+"nå…</i>"
 
 #: plugins/restrictedadd.py:108
 msgid "<i>There is no botkeeper in here. I have to go...</i>"
-msgstr ""
+msgstr "<i>Det finnes ingen bot-hånderer her. Jeg må gå…</i>"
 
 #: plugins/restrictedadd.py:132
+#, fuzzy
 msgid "user id {} added as botkeeper"
-msgstr ""
+msgstr "Bruker-ID-en {} lagt til som bot-håndterer"
 
 #: plugins/restrictedadd.py:154
 msgid "user id {} removed as botkeeper"
-msgstr ""
+msgstr "Bruker-ID-en {} fjernet som bot-håndterer"
 
 #: plugins/restrictedadd.py:163
 msgid "user id {} is not authorised"
-msgstr ""
+msgstr "Bruker-ID-en {} ikke bekreftet"
 
 #: plugins/simplewikipedia.py:20
 msgid "<i>source: <a href=\"{}\">{}</a></i>"
@@ -859,28 +867,37 @@ msgstr "<i>oppsett: {}<br />minne: {}</i>"
 msgid ""
 "<i>verification completed - this is your one-to-one chat with the bot</i>"
 msgstr ""
+"<i>bekreftelse fullført - dette er en sludring på tomannshånd med bot-en</i>"
 
 #: plugins/starter.py:58
 msgid "<i>verified - user has a one-to-one conversation with me</i>"
-msgstr ""
+msgstr "<i>bekreftet - brukeren har en samtale med meg på tomannshånd</i>"
 
 #: plugins/starter.py:73
+#, fuzzy
 msgid ""
 "<i>User must say \"hi\" to me first via a 1-on-1 hangout with <b>{}</b>."
 msgstr ""
+"<i>Brukeren må si hei til meg først i en hangout på tomannshånd med "
+"<b>{}</b>."
 
 #: plugins/starter.py:74
 msgid "Then let me know by sending <b>/bot verifyme</b> in this chat.</i>"
 msgstr ""
+"La det så komme meg til kjenne ved å sende <b>/bot verifyme</b> i denne "
+"sludringen.</i>"
 
 #: plugins/subscribe.py:88
 msgid "<b>{}</b> mentioned '{}' in <i>{}</i>:<br />{}"
 msgstr "<b>{}</b> nevnte '{}' i <i>{}</i>:<br />{}"
 
 #: plugins/subscribe.py:110
+#, fuzzy
 msgid ""
 "Note: I am unable to ping you until you start a 1 on 1 conversation with me!"
 msgstr ""
+"Merk: Jeg kan ikke sende deg sanntidskall før du starter en samtale på "
+"tomannshånd med meg!"
 
 #: plugins/subscribe.py:114
 #, fuzzy
@@ -900,18 +917,22 @@ msgid ""
 "Note: You will not be able to trigger your own subscriptions. To test, "
 "please ask somebody else to test this for you."
 msgstr ""
+"Merk: Du vil ikke lenger kunne utløse dine egne abonnementer. For å teste, "
+"spør noen om å teste dette for deg."
 
 #: plugins/subscribe.py:162
 msgid "Unsubscribing all keywords"
-msgstr ""
+msgstr "Opphever alle abonnementer på nøkkelord"
 
 #: plugins/subscribe.py:166
+#, fuzzy
 msgid "Unsubscribing from keyword '{}'"
-msgstr ""
+msgstr "Opphever abonnement på nøkkelordet \"{}\""
 
 #: plugins/subscribe.py:170
+#, fuzzy
 msgid "Error: keyword not found"
-msgstr ""
+msgstr "Feil: Fant ikke nøkkelordet"
 
 #: plugins/syncrooms.py:281
 msgid "<b>Sync Rooms: {}</b>"
@@ -923,7 +944,7 @@ msgstr "<b>Forvalgt rom</b>"
 
 #: plugins/syncrooms.py:296
 msgid "<b>failed to retrieve user list</b>"
-msgstr ""
+msgstr "<b>klarte ikke å hente brukerliste</b>"
 
 #: plugins/syncrooms.py:317
 msgid "<b>Total Unique: {}</b>"
@@ -1017,7 +1038,7 @@ msgstr "<i>inget urban dictionary-emne for \"{}\"</i>"
 
 #: plugins/urbandict.py:102
 msgid "<i>no term from urban dictionary</i>"
-msgstr ""
+msgstr "<i>ikke å finne i urbanordbok-en</i>"
 
 #: plugins/wolframalpha.py:52
 msgid "<i>Wolfram Alpha did not return any useful data</i>"
