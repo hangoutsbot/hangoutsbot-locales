@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2018-02-12 19:36+0000\n"
-"Last-Translator: Andreas Kleinert <Andy.Kleinert@gmail.com>\n"
-"Language-Team: German "
-"<https://hosted.weblate.org/projects/hangoutsbot/hangups/de/>\n"
+"PO-Revision-Date: 2018-11-28 21:08+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/hangoutsbot/"
+"hangups/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.19-dev\n"
+"X-Generator: Weblate 3.3-dev\n"
 
 #: commands.py:102
 msgid "<b>User commands:</b>"
@@ -961,7 +961,7 @@ msgstr "<i>`{}` wurde losgelöst</i>"
 
 #: plugins/lottery.py:33
 msgid "LOTTERY: joint room keys {}"
-msgstr ""
+msgstr "LOTTERIE: gemeinsame Raumschlüssel {}"
 
 #: plugins/lottery.py:42
 msgid "LOTTERY: loading from memory"
