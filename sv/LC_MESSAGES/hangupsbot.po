@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2019-10-22 14:56+0000\n"
-"Last-Translator: Mattias Münster <mattiasmun@gmail.com>\n"
+"PO-Revision-Date: 2020-01-06 05:21+0000\n"
+"Last-Translator: Emma Holmen Lindberg <famsexy666@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/hangoutsbot/"
 "hangups/sv/>\n"
 "Language: sv\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1-dev\n"
+"X-Generator: Weblate 3.10\n"
 
 #: commands.py:102
 msgid "<b>User commands:</b>"
@@ -140,11 +140,11 @@ msgstr "<b>Totalt: {}</b>"
 
 #: plugins/default.py:54
 msgid "<em>sending to ALL conversations not allowed</em>"
-msgstr ""
+msgstr "<em>sending to ALL conversations not allowed</em>"
 
 #: plugins/default.py:63
 msgid "<em>command echo blocked</em>"
-msgstr ""
+msgstr "\t"
 
 #: plugins/default.py:67
 msgid "<em>missing text</em>"
