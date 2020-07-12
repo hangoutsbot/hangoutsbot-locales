@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 20:53+0800\n"
-"PO-Revision-Date: 2020-06-11 17:41+0000\n"
-"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
+"PO-Revision-Date: 2020-07-13 08:41+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/hangoutsbot/"
 "hangups/fr/>\n"
 "Language: fr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.1-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #: commands.py:102
 msgid "<b>User commands:</b>"
@@ -65,7 +65,7 @@ msgstr "Version du bot : <b>{}</b>"
 
 #: commands.py:180
 msgid "{}: unknown command"
-msgstr "{}: commande inconnue"
+msgstr "{} : commande inconnue"
 
 #: plugins/forwarding.py:20
 msgid "FORWARDING: {}"
@@ -73,11 +73,11 @@ msgstr "TRANSFERT : {}"
 
 #: plugins/monitoradds.py:58 plugins/monitoradds.py:63
 msgid "<i>Moderators updated: {} added</i>"
-msgstr "<i>Mise a jour moderateur: {} ajoute</i>"
+msgstr "<i>Mise à jour modérateur : {} ajouté</i>"
 
 #: plugins/monitoradds.py:79
 msgid "<i>Moderators updated: {} removed</i>"
-msgstr "<i>Mise a jour moderateur: {} supprime</i>"
+msgstr "<i>Mise à jour modérateur : {} supprimé</i>"
 
 #: plugins/restrictedadd.py:39
 msgid "RESTRICTEDADD: admin added me to {}"
@@ -421,7 +421,7 @@ msgstr ""
 
 #: plugins/mentions.py:318
 msgid "user {} ({}) could not be alerted via 1on1"
-msgstr "L'utilisateur {} ({}) ne peut peut pas etre alerte en prive"
+msgstr "L'utilisateur {} ({}) ne peut pas etre alerte en privé"
 
 #: plugins/mentions.py:321
 msgid "<b>@mentions:</b><br />"
