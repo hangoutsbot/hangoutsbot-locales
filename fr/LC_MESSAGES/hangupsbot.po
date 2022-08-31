@@ -25,15 +25,15 @@ msgid ""
 "b><br />"
 msgstr ""
 
-#: commands/basic.py:51
+#: commands/basic.py:51 commands.py:102
 msgid "<b>User commands:</b>"
 msgstr "<b>Commandes utilisateur :</b>"
 
-#: commands/basic.py:56
+#: commands/basic.py:56 commands.py:107
 msgid "<i>For more information, please see: {}</i>"
 msgstr "<i>Pour plus d'informations, voir svp : {}</i>"
 
-#: commands/basic.py:60
+#: commands/basic.py:60 commands.py:111
 msgid "<b>Admin commands:</b>"
 msgstr "<b>Commandes Admin :</b>"
 
@@ -41,7 +41,7 @@ msgstr "<b>Commandes Admin :</b>"
 msgid "command help not available"
 msgstr ""
 
-#: commands/basic.py:114
+#: commands/basic.py:114 commands.py:131
 msgid "<i>{}, I've sent you some help ;)</i>"
 msgstr "<i>{}, Je t'ai envoyé un peu d'aide ;)</i>"
 
@@ -61,11 +61,11 @@ msgstr ""
 msgid "<i>{}, search did not match a single group conversation</i>"
 msgstr ""
 
-#: commands/basic.py:218
+#: commands/basic.py:218 commands.py:167
 msgid "<i>{}, you <b>opted-in</b> for bot private messages</i>"
 msgstr "<i>{}, tu <b>acceptes</b> les messages privés du bot</i>"
 
-#: commands/basic.py:221
+#: commands/basic.py:221 commands.py:165
 msgid "<i>{}, you <b>opted-out</b> from bot private messages</i>"
 msgstr "<i>{}, tu <b>refuses</b> les messages privés du bot</i>"
 
@@ -75,7 +75,7 @@ msgid ""
 "{}</i>"
 msgstr ""
 
-#: commands/basic.py:234
+#: commands/basic.py:234 commands.py:173
 msgid "Bot Version: <b>{}</b>"
 msgstr "Version du bot : <b>{}</b>"
 
@@ -87,7 +87,7 @@ msgstr ""
 msgid "{}: Can't do that."
 msgstr ""
 
-#: commands/convid.py:32
+#: commands/convid.py:32 plugins/default.py:35
 msgid ""
 "<em>1 parameter required, {} supplied - enclose parameter in double-quotes</"
 "em>"
@@ -95,63 +95,64 @@ msgstr ""
 "<em>1 paramètre requis, {} fourni(s) - encadrer le paramètre par des "
 "guillemets</em>"
 
-#: commands/convid.py:35
+#: commands/convid.py:35 plugins/default.py:38
 msgid "<em>supply 1 parameter</em>"
 msgstr "<em>fournir 1 paramètre</em>"
 
-#: commands/convid.py:40 plugins/default.py:203
+#: commands/convid.py:40 plugins/default.py:203 plugins/default.py:43
+#: plugins/default.py:285
 msgid "<b>Total: {}</b>"
 msgstr "<b>Total : {}</b>"
 
-#: commands/convid.py:55
+#: commands/convid.py:55 plugins/default.py:54
 msgid "<em>sending to ALL conversations not allowed</em>"
 msgstr "<em>envoyer vers TOUTES les conversations n'est pas permis</em>"
 
-#: commands/convid.py:64
+#: commands/convid.py:64 plugins/default.py:63
 msgid "<em>command echo blocked</em>"
 msgstr "<em>commande echo bloquée</em>"
 
-#: commands/convid.py:68
+#: commands/convid.py:68 plugins/default.py:67
 msgid "<em>missing text</em>"
 msgstr "<em>texte manquant</em>"
 
-#: commands/convid.py:72
+#: commands/convid.py:72 plugins/default.py:71
 msgid "<em>required parameters: convfilter text</em>"
 msgstr "<em>paramètres requis: convfilter texte</em>"
 
-#: commands/convid.py:76
+#: commands/convid.py:76 plugins/default.py:75
 msgid "<em>no conversations filtered</em>"
 msgstr "<em>pas des conversations filtrées</em>"
 
-#: commands/convid.py:97
+#: commands/convid.py:97 plugins/default.py:96
 msgid "<em>missing title</em>"
 msgstr "<em>titre manquant</em>"
 
-#: commands/convid.py:102
+#: commands/convid.py:102 plugins/default.py:101
 msgid "<em>required parameters: convfilter title</em>"
 msgstr "<em>paramétrés nécessaires: convfilter titre</em>"
 
-#: commands/convid.py:112
+#: commands/convid.py:112 plugins/default.py:111
 msgid "<em>should be 1 parameter, {} supplied</em>"
 msgstr "<em>doit être 1 paramétré, {} envoyé</em>"
 
-#: commands/convid.py:115
+#: commands/convid.py:115 plugins/default.py:114
 msgid "<em>retrieving ALL conversations blocked</em>"
 msgstr "<em>récupération de TOUTES les conversation bloquées</em>"
 
-#: commands/convid.py:132
+#: commands/convid.py:132 plugins/default.py:133
 msgid "<b>Users: {}</b>"
 msgstr "<b>Utilisateurs : {}</b>"
 
-#: commands/convid.py:149
+#: commands/convid.py:149 plugins/default.py:148
 msgid "<em>cannot leave ALL conversations</em>"
 msgstr "<em>impossible de quitter TOUTES les conversations</em>"
 
-#: commands/convid.py:156
+#: commands/convid.py:156 plugins/default.py:155
 msgid "<em>required parameters: convfilter</em>"
 msgstr "<em>paramétré requis: convfilter</em>"
 
-#: commands/convid.py:162
+#: commands/convid.py:162 plugins/default.py:161
 msgid "I'll be back!"
 msgstr "Je reviendrai !"
 
@@ -251,7 +252,7 @@ msgstr ""
 msgid "Unidentified User"
 msgstr ""
 
-#: hangupsbot.py:807
+#: hangupsbot.py:807 commands.py:136
 msgid ""
 "<i>{}, you are currently opted-out. Private message me or enter <b>{} "
 "optout</b> to get me to talk to you.</i>"
@@ -260,7 +261,7 @@ msgstr ""
 "message privé ou envoie la commande <b>{} optout</b> pour me permettre de te "
 "parler.</i>"
 
-#: hangupsbot.py:810
+#: hangupsbot.py:810 commands.py:141
 msgid ""
 "<i>{}, before I can help you, you need to private message me and say hi.</i>"
 msgstr ""
@@ -308,59 +309,61 @@ msgid "Translation server error: <i>{}</i>"
 msgstr ""
 
 #: plugins/_DEPRECATED_syncrooms_autotranslate.py:68
+#: plugins/syncrooms_autotranslate.py:57
 msgid "<i>syncroom \"{}\" language is {}</i>"
 msgstr "<i>syncroom \"{}\" la langue est {}</i>"
 
 #: plugins/_DEPRECATED_syncrooms_autotranslate.py:81
+#: plugins/syncrooms_autotranslate.py:70
 msgid "<i>syncroom \"{}\" language set to {}</i>"
 msgstr "<i>syncroom \"{}\" changement de langue en {}</i>"
 
-#: plugins/_example/example_memory.py:22
+#: plugins/_example/example_memory.py:22 plugins/example_memory.py:22
 msgid "<b>{}</b>, remembered!"
 msgstr "<b>{}</b>, enregistré !"
 
-#: plugins/_example/example_memory.py:27
+#: plugins/_example/example_memory.py:27 plugins/example_memory.py:27
 msgid "<b>{}</b>, remembered something else!"
 msgstr "<b>{}</b>, enregistré autre chose !"
 
-#: plugins/_example/example_memory.py:38
+#: plugins/_example/example_memory.py:38 plugins/example_memory.py:38
 msgid "<b>{}</b>, nothing remembered!"
 msgstr "<b>{}</b>, rien d'enregistré !"
 
-#: plugins/_example/example_memory.py:43
+#: plugins/_example/example_memory.py:43 plugins/example_memory.py:43
 msgid "<b>{}</b> asked me to remember <i>\"{}\"</i>"
 msgstr "<b>{}</b> m’a demandé de retenir <i>\"{}\"</i>"
 
-#: plugins/_example/example_memory.py:54
+#: plugins/_example/example_memory.py:54 plugins/example_memory.py:54
 msgid "<b>{}</b>, nothing to forget!"
 msgstr "<b>{}</b>, rien à oublier !"
 
-#: plugins/_example/example_memory.py:60
+#: plugins/_example/example_memory.py:60 plugins/example_memory.py:60
 msgid "<b>{}</b>, forgotten!"
 msgstr "<b>{}</b>, oublié !"
 
-#: plugins/_example/example_memory.py:76
+#: plugins/_example/example_memory.py:76 plugins/example_memory.py:76
 msgid "<b>{}</b>, remembered for this conversation"
 msgstr "<b>{}</b>, enregistré pour cette discussion"
 
-#: plugins/_example/example_memory.py:81
+#: plugins/_example/example_memory.py:81 plugins/example_memory.py:81
 msgid "<b>{}</b>, remembered something else for this conversation!"
 msgstr "<b>{}</b>, enregistré autre chose pour cette discussion !"
 
-#: plugins/_example/example_memory.py:92
+#: plugins/_example/example_memory.py:92 plugins/example_memory.py:92
 msgid "<b>{}</b>, nothing remembered for this conversation!"
 msgstr "<b>{}</b>, rien d'enregistré pour cette discussion !"
 
-#: plugins/_example/example_memory.py:97
+#: plugins/_example/example_memory.py:97 plugins/example_memory.py:97
 msgid "<b>{}</b> asked me to remember <i>\"{}\" for this conversation</i>"
 msgstr ""
 "<b>{}</b> m'a demandé de me souvenir de <i>\"{}\" pour cette discussion</i>"
 
-#: plugins/_example/example_memory.py:108
+#: plugins/_example/example_memory.py:108 plugins/example_memory.py:108
 msgid "<b>{}</b>, nothing to forget for this conversation!"
 msgstr "<b>{}</b>, rien à oublier pour cette discussion !"
 
-#: plugins/_example/example_memory.py:114
+#: plugins/_example/example_memory.py:114 plugins/example_memory.py:114
 msgid "<b>{}</b>, forgotten for this conversation!"
 msgstr "<b>{}</b>, oublié pour cette conversation !"
 
@@ -368,11 +371,11 @@ msgstr "<b>{}</b>, oublié pour cette conversation !"
 msgid "Unidentified Conversation"
 msgstr ""
 
-#: plugins/botaliases.py:50
+#: plugins/botaliases.py:50 plugins/botaliases.py:46
 msgid "<i>bot alias: {}</i>"
 msgstr "<i>alias du bot: {}</i>"
 
-#: plugins/botaliases.py:79
+#: plugins/botaliases.py:79 plugins/botaliases.py:75
 msgid "<i>not authorised to change bot alias</i>"
 msgstr "<i>non autorisé à changer l’alias du bot</i>"
 
@@ -388,11 +391,11 @@ msgstr ""
 msgid " totalling <b>{}</b></i>"
 msgstr ""
 
-#: plugins/chance.py:66
+#: plugins/chance.py:66 plugins/chance.py:33
 msgid "<i>{}, coin turned up <b>heads</b></i>"
 msgstr "<i>{}, la pièce est côté <b>face</b></i>"
 
-#: plugins/chance.py:68
+#: plugins/chance.py:68 plugins/chance.py:35
 msgid "<i>{}, coin turned up <b>tails</b></i>"
 msgstr "<i>{}, la pièce est côté <b>pile</b></i>"
 
@@ -456,11 +459,11 @@ msgstr ""
 msgid "supply at least one valid user id to kick"
 msgstr ""
 
-#: plugins/convtools_invitations.py:121
+#: plugins/convtools_invitations.py:121 plugins/convtools_invitations.py:112
 msgid "<i>group created</i>"
 msgstr "<i>groupe créè</i>"
 
-#: plugins/convtools_invitations.py:123
+#: plugins/convtools_invitations.py:123 plugins/convtools_invitations.py:114
 msgid "GROUP: {}"
 msgstr "GROUPE: {}"
 
@@ -480,40 +483,40 @@ msgstr ""
 msgid "<b>Invitation List</b>"
 msgstr ""
 
-#: plugins/convtools_invitations.py:230
+#: plugins/convtools_invitations.py:230 plugins/convtools_invitations.py:220
 msgid "<em>no invites found</em>"
 msgstr "<em>aucune invitation trouvée</em>"
 
-#: plugins/convtools_invitations.py:298
+#: plugins/convtools_invitations.py:298 plugins/convtools_invitations.py:288
 msgid "<em>invite: specify \"from\" or explicit list of \"users\"</em>"
 msgstr ""
 "<em>invitation: spécifiez \"de la part de\" ou détaillez la liste des "
 "\"utilisateurs\"</em>"
 
-#: plugins/convtools_invitations.py:307
+#: plugins/convtools_invitations.py:307 plugins/convtools_invitations.py:297
 msgid "<em>invite: could not identify target conversation"
 msgstr "<em>invitation: je ne trouve pas la conversation cible"
 
-#: plugins/convtools_invitations.py:373
+#: plugins/convtools_invitations.py:373 plugins/convtools_invitations.py:362
 msgid "<em>invite: nobody invited</em>"
 msgstr "<em>invitation: personne n'est invité</em>"
 
-#: plugins/convtools_invitations.py:399
+#: plugins/convtools_invitations.py:399 plugins/convtools_invitations.py:388
 msgid "<em>invite: {} invitations created</em>"
 msgstr "<em>invitation: {} invitations créées</em>"
 
-#: plugins/convtools_invitations.py:418
+#: plugins/convtools_invitations.py:418 plugins/convtools_invitations.py:407
 msgid "<b>Invites for {}:</b>"
 msgstr "<b>Invitations for {}:</b>"
 
-#: plugins/convtools_invitations.py:423
+#: plugins/convtools_invitations.py:423 plugins/convtools_invitations.py:412
 msgid ""
 "<em>To claim an invite, use the rsvp command followed by the invite code</em>"
 msgstr ""
 "<em>Pour demander une invitation, utiliser la commande rsvp suivie du code "
 "d'invitation</em>"
 
-#: plugins/convtools_invitations.py:426
+#: plugins/convtools_invitations.py:426 plugins/convtools_invitations.py:415
 msgid "<em>no invites to display</em>"
 msgstr "<em>aucune invitation à afficher</em>"
 
@@ -521,43 +524,43 @@ msgstr "<em>aucune invitation à afficher</em>"
 msgid "<b>only admins can echo other conversations</b>"
 msgstr ""
 
-#: plugins/default.py:64
+#: plugins/default.py:64 plugins/default.py:182
 msgid "broadcast: no message set"
 msgstr "diffusion: aucun message de défini"
 
-#: plugins/default.py:68
+#: plugins/default.py:68 plugins/default.py:185
 msgid "broadcast: no conversations available"
 msgstr "diffusion: aucune conversation disponible"
 
-#: plugins/default.py:72
+#: plugins/default.py:72 plugins/default.py:188
 msgid "<b>message:</b><br />{}<br /><b>to:</b><br />{}"
 msgstr "<b>message:</b><br />{}<br /><b>à:</b><br />{}"
 
-#: plugins/default.py:83
+#: plugins/default.py:83 plugins/default.py:198
 msgid "broadcast: message not allowed"
 msgstr "diffusion: message interdit"
 
-#: plugins/default.py:88
+#: plugins/default.py:88 plugins/default.py:202
 msgid "broadcast: message must be supplied after subcommand"
 msgstr "diffusion: un message doit être saisi après la sous commande"
 
-#: plugins/default.py:111
+#: plugins/default.py:111 plugins/default.py:221
 msgid "broadcast: {} conversation(s)"
 msgstr "diffusion: {} discussion(s)"
 
-#: plugins/default.py:128
+#: plugins/default.py:128 plugins/default.py:235
 msgid "broadcast: removed {}"
 msgstr "diffusion: {} supprimé"
 
-#: plugins/default.py:135
+#: plugins/default.py:135 plugins/default.py:241
 msgid "broadcast: message sent to {} chats"
 msgstr "diffusion; message envoyé aux {} tchats"
 
-#: plugins/default.py:138
+#: plugins/default.py:138 plugins/default.py:243
 msgid "broadcast: /bot broadcast [info|message|add|remove|NOW] ..."
 msgstr "diffusion: /bot broadcast [info|message|add|remove|NOW] ..."
 
-#: plugins/default.py:141
+#: plugins/default.py:141 plugins/default.py:245
 msgid "broadcast: /bot broadcast [info|message|add|remove|NOW]"
 msgstr "diffusion: /bot broadcast [info|message|add|remove|NOW]"
 
@@ -565,7 +568,7 @@ msgstr "diffusion: /bot broadcast [info|message|add|remove|NOW]"
 msgid "supply search term"
 msgstr ""
 
-#: plugins/default.py:160
+#: plugins/default.py:160 plugins/default.py:256
 msgid "results for user named \"{}\":"
 msgstr "résultats pour les utilisateurs nommés \"{}\" :"
 
@@ -573,19 +576,19 @@ msgstr "résultats pour les utilisateurs nommés \"{}\" :"
 msgid "<b>List of hangouts with keyword:</b> \"<pre>{}</pre>\""
 msgstr ""
 
-#: plugins/default.py:306
+#: plugins/default.py:306 plugins/default.py:370
 msgid "<em>note: testing single parameter as json</em>"
 msgstr "<em>note : tentative avec un seul paramètre en tant que json</em>"
 
-#: plugins/default.py:333
+#: plugins/default.py:333 plugins/default.py:397
 msgid "append failed on non-list"
 msgstr "Erreur d'ajout dans une liste inexstante"
 
-#: plugins/default.py:347
+#: plugins/default.py:347 plugins/default.py:411
 msgid "remove failed on non-list"
 msgstr "Erreur de suppression dans une liste inexstante"
 
-#: plugins/default.py:357
+#: plugins/default.py:357 plugins/default.py:421
 msgid "Parameter does not exist!"
 msgstr "Paramètre inexistant !"
 
@@ -623,92 +626,92 @@ msgstr ""
 msgid "<b>No prizes for that call</b>"
 msgstr ""
 
-#: plugins/lookup.py:20
+#: plugins/lookup.py:20 plugins/lookup.py:16
 msgid "Spreadsheet function disabled"
 msgstr "fonction tableur désactivée"
 
-#: plugins/lookup.py:24
+#: plugins/lookup.py:24 plugins/lookup.py:20
 msgid "Spreadsheet URL not set"
 msgstr "URL de tableur non définie"
 
-#: plugins/lookup.py:37
+#: plugins/lookup.py:37 plugins/lookup.py:35
 msgid "Results for keyword <b>{}</b>:<br />"
 msgstr "Resultats pour le mot-clé <b>{}</b>:<br />"
 
-#: plugins/lookup.py:71
+#: plugins/lookup.py:71 plugins/lookup.py:69
 msgid "<br />Row {}: "
 msgstr "<br />Ligne {}: "
 
-#: plugins/lookup.py:82
+#: plugins/lookup.py:82 plugins/lookup.py:80
 #, python-brace-format
 msgid "<br />{0} rows found. Only returning first {1}."
 msgstr "<br />{0} lignes trouvées. Renvoi uniquement les {1} premières."
 
-#: plugins/lookup.py:84
+#: plugins/lookup.py:84 plugins/lookup.py:82
 #, python-brace-format
 msgid "<br />Hint: Use <b>/bot lookup <{0} {1}</b> to view {0} rows"
 msgstr ""
 "<br />Astuce: Utiliser <b>/bot lookup <{0} {1}</b> pour voir {0} collones"
 
-#: plugins/lookup.py:87
+#: plugins/lookup.py:87 plugins/lookup.py:85
 msgid "No match found"
 msgstr "Aucune correspondance trouvée"
 
-#: plugins/lottery.py:98
+#: plugins/lottery.py:98 plugins/lottery.py:96
 msgid "prepare: min and max are the same ({})"
 msgstr "préparation : le minima et le maximum sont identiques ({})"
 
-#: plugins/lottery.py:116
+#: plugins/lottery.py:116 plugins/lottery.py:114
 msgid "prepare: unrecognised match (!csv, !range, !numberToken): {}"
 msgstr ""
 "préparation : aucune comparaison trouve (!csv, !range, !numberToken): {}"
 
-#: plugins/lottery.py:122
+#: plugins/lottery.py:122 plugins/lottery.py:120
 msgid ""
 "Wow! Too many items to draw in <b>{}</b> lottery. Try {} items or less..."
 msgstr ""
 "Aie! Trop d'items a dessiner dans <b>{}</b> loterie. Essayer {} items ou "
 "moins..."
 
-#: plugins/lottery.py:127
+#: plugins/lottery.py:127 plugins/lottery.py:125
 msgid ""
 "The <b>{}</b> lottery is ready: {} items loaded and shuffled into the box."
 msgstr ""
 "La loterie <b>{}</b> est prête: {} items sont chargée et mélangées dans le "
 "chapeau."
 
-#: plugins/lottery.py:129
+#: plugins/lottery.py:129 plugins/lottery.py:127
 msgid "prepare: {} was initialised empty"
 msgstr "préparation: {} a été initialisé à l'état vide"
 
-#: plugins/lottery.py:177
+#: plugins/lottery.py:177 plugins/lottery.py:175
 msgid "<b>{}</b>, you have already drawn <b>{}</b> from the <b>{}</b> box"
 msgstr "<b>{}</b>, tu as déjà tiré <b>{}</b>dans le boîte <b>{}</b>"
 
-#: plugins/lottery.py:186
+#: plugins/lottery.py:186 plugins/lottery.py:184
 msgid "<b>{}</b> draws <b>{}</b> from the <b>{}</b> box. "
 msgstr "<b>{}</b> tire <b>{}</b> dans la boite <b>{}</b>. "
 
-#: plugins/lottery.py:188
+#: plugins/lottery.py:188 plugins/lottery.py:186
 msgid "...AAAAAND its all gone! The <b>{}</b> lottery is over folks."
 msgstr "...Et c'est termine! La loterie <b>{}</b> est finie les enfants."
 
-#: plugins/lottery.py:194
+#: plugins/lottery.py:194 plugins/lottery.py:192
 msgid "<b>{}</b>, the <b>{}</b> lottery is over. "
 msgstr "<b>{}</b>, la loterie<b>{}</b> est terminé. "
 
-#: plugins/lottery.py:197
+#: plugins/lottery.py:197 plugins/lottery.py:195
 msgid "You drew a {} previously."
 msgstr "Tu as tiré {} précédemment."
 
-#: plugins/mentions.py:117
+#: plugins/mentions.py:117 plugins/mentions.py:105
 msgid ""
 "<b>{}</b>, you cannot @mention anyone until your DND status is toggled off."
 msgstr ""
 "<b>{}</b>,vous ne pouvez @mentionner personne jusqu'à ce que votre statut "
 "DND soit off."
 
-#: plugins/mentions.py:127
+#: plugins/mentions.py:127 plugins/mentions.py:115
 msgid "<b>{}</b> cannot @mention anyone until they say something to me first."
 msgstr ""
 "<b>{}</b> ne peut pas @mention quelqu'un tant qu'ils ne m'ont pas dit "
@@ -722,7 +725,7 @@ msgstr ""
 msgid "<b>{}</b> blocked from mentioning all users"
 msgstr ""
 
-#: plugins/mentions.py:272
+#: plugins/mentions.py:272 plugins/mentions.py:250
 msgid ""
 "{} users would be mentioned with \"@{}\"! Be more specific. List of matching "
 "users:<br />"
@@ -730,7 +733,7 @@ msgstr ""
 "{} utilisateurs seraient mentionnés avec \"@{}\"! Soyez plus précis. Liste "
 "de concordance utilisateurs:<br />"
 
-#: plugins/mentions.py:307
+#: plugins/mentions.py:307 plugins/mentions.py:283
 msgid "{} mentioned you in {}"
 msgstr "{} vous a mentionné dans {}"
 
@@ -738,66 +741,66 @@ msgstr "{} vous a mentionné dans {}"
 msgid "<b>{}</b> @mentioned ALL in <i>{}</i>:<br />{}"
 msgstr ""
 
-#: plugins/mentions.py:334
+#: plugins/mentions.py:334 plugins/mentions.py:304
 msgid "<b>{}</b> @mentioned you in <i>{}</i>:<br />{}"
 msgstr "<b>{}</b> vous a mentionne dans <i>{}</i>:<br />{}"
 
-#: plugins/mentions.py:350
+#: plugins/mentions.py:350 plugins/mentions.py:316
 msgid ""
 "@mention didn't work for <b>{}</b>. User must say something to me first."
 msgstr ""
 "@mention n'a pas fonctionné pour <b>{}</b>. L'utilisateur doit me parler "
 "d'abord."
 
-#: plugins/mentions.py:355
+#: plugins/mentions.py:355 plugins/mentions.py:321
 msgid "<b>@mentions:</b><br />"
 msgstr "<b>@mentions: </b><br />"
 
-#: plugins/mentions.py:357
+#: plugins/mentions.py:357 plugins/mentions.py:323
 msgid "1-to-1 fail: <i>{}</i><br />"
 msgstr "Echec du mode prive : <i>{}</i><br />"
 
-#: plugins/mentions.py:359
+#: plugins/mentions.py:359 plugins/mentions.py:325
 msgid "PushBullet fail: <i>{}</i><br />"
 msgstr "Erreur PushBullet: <i>{}</i><br />"
 
-#: plugins/mentions.py:361
+#: plugins/mentions.py:361 plugins/mentions.py:327
 msgid "Ignored (DND): <i>{}</i><br />"
 msgstr "Ignore (Ne pas deranger): <i>{}</i><br />"
 
-#: plugins/mentions.py:363
+#: plugins/mentions.py:363 plugins/mentions.py:329
 msgid "Alerted: <i>{}</i><br />"
 msgstr "Alerte: <i>{}</i><br />"
 
-#: plugins/mentions.py:365
+#: plugins/mentions.py:365 plugins/mentions.py:331
 msgid "Nobody was successfully @mentioned ;-(<br />"
 msgstr "Personne n'a ete mentionne correctement ;-(<br />"
 
-#: plugins/mentions.py:368
+#: plugins/mentions.py:368 plugins/mentions.py:334
 msgid "Users failing 1-to-1 need to say something to me privately first.<br />"
 msgstr "Echec mode  1-to-1 vous devez commencer par me parler en prive.<br />"
 
-#: plugins/mentions.py:384
+#: plugins/mentions.py:384 plugins/mentions.py:350
 msgid "deactivating pushbullet integration"
 msgstr "désactivation de l'intégration de PushBullet"
 
-#: plugins/mentions.py:388
+#: plugins/mentions.py:388 plugins/mentions.py:354
 msgid "setting pushbullet api key"
 msgstr "Paramétrage de la clé API de PushBullet"
 
-#: plugins/mentions.py:396
+#: plugins/mentions.py:396 plugins/mentions.py:362
 msgid "pushbullet configuration not changed"
 msgstr "Configuration de PushBullet inchangée"
 
-#: plugins/mentions.py:412
+#: plugins/mentions.py:412 plugins/mentions.py:378
 msgid "<em>\"be more specific\" for mentions toggled ON</em>"
 msgstr "<em>\"be more specific\" pour les mentions ACTIF</em>"
 
-#: plugins/mentions.py:416
+#: plugins/mentions.py:416 plugins/mentions.py:382
 msgid "<em>\"be more specific\" for mentions toggled OFF</em>"
 msgstr "<em>\"be more specific\" pour les mentions INACTIF</em>"
 
-#: plugins/mentions.py:435
+#: plugins/mentions.py:435 plugins/mentions.py:401
 msgid ""
 "Error: Minimum length of nickname is {} characters. Only alphabetical and "
 "numeric characters allowed."
@@ -813,11 +816,11 @@ msgstr ""
 msgid "<i>Nickname <b>`{}`</b> is already in use by another user"
 msgstr ""
 
-#: plugins/mentions.py:497
+#: plugins/mentions.py:497 plugins/mentions.py:463
 msgid "Removing nickname"
 msgstr "Retrait du pseudo"
 
-#: plugins/mentions.py:501
+#: plugins/mentions.py:501 plugins/mentions.py:467
 msgid "Setting nickname to '{}'"
 msgstr "Pseudo enregistré comme '{}'"
 
@@ -830,18 +833,19 @@ msgid ""
 msgstr ""
 
 #: plugins/monitoradds.py:69 plugins/monitoradds.py:74
+#: plugins/monitoradds.py:58 plugins/monitoradds.py:63
 msgid "<i>Moderators updated: {} added</i>"
-msgstr "<i>Mise a jour moderateur: {} ajoute</i>"
+msgstr "<i>Mise à jour modérateur : {} ajouté</i>"
 
-#: plugins/monitoradds.py:90
+#: plugins/monitoradds.py:90 plugins/monitoradds.py:79
 msgid "<i>Moderators updated: {} removed</i>"
-msgstr "<i>Mise a jour moderateur: {} supprime</i>"
+msgstr "<i>Mise à jour modérateur : {} supprimé</i>"
 
-#: plugins/namelock.py:71
+#: plugins/namelock.py:71 plugins/namelock.py:44
 msgid "Removing topic"
 msgstr "Suppresion du sujet"
 
-#: plugins/namelock.py:75
+#: plugins/namelock.py:75 plugins/namelock.py:48
 msgid "Setting topic to '{}'"
 msgstr "Changement du sujet pour '{}'"
 
@@ -869,7 +873,7 @@ msgstr ""
 msgid "Public reminder in {}m"
 msgstr ""
 
-#: plugins/restrictedadd.py:72
+#: plugins/restrictedadd.py:72 plugins/restrictedadd.py:52
 msgid ""
 "<i>{}, you need to be authorised to add me to another conversation. I'm "
 "leaving now...</i>"
@@ -877,19 +881,19 @@ msgstr ""
 "<i>{}, tu dois être autorisé à m'ajouter à une conversation. Je vous laisse "
 "maintenant...</i>"
 
-#: plugins/restrictedadd.py:117
+#: plugins/restrictedadd.py:117 plugins/restrictedadd.py:96
 msgid "<i>There is no botkeeper in here. I have to go...</i>"
 msgstr "<i>Il n'y a pas de botkeeper ici. Je dois y aller...</i>"
 
-#: plugins/restrictedadd.py:141
+#: plugins/restrictedadd.py:141 plugins/restrictedadd.py:120
 msgid "user id {} added as botkeeper"
 msgstr "L'identifiant utilisateur {} a ete ajoute en tant que botkeeper"
 
-#: plugins/restrictedadd.py:163
+#: plugins/restrictedadd.py:163 plugins/restrictedadd.py:142
 msgid "user id {} removed as botkeeper"
 msgstr "L'identifiant utilisateur {} a ete supprime de la liste des botkeeper"
 
-#: plugins/restrictedadd.py:172
+#: plugins/restrictedadd.py:172 plugins/restrictedadd.py:151
 msgid "user id {} is not authorised"
 msgstr "L'identifiant utilisateur {} n'est pas autorise"
 
@@ -907,7 +911,7 @@ msgstr ""
 
 #: plugins/simplewikipedia.py:20
 msgid "<i>source: <a href=\"{}\">{}</a></i>"
-msgstr "<i>source: <a href=\"{}\">{}</a></i>"
+msgstr "<i>source : <a href=\"{}\">{}</a></i>"
 
 #: plugins/simplewikipedia.py:24
 msgid "<i>no entry found for {}</i>"
@@ -957,64 +961,66 @@ msgstr ""
 msgid "<em><b>Unable to remove track:</b> {}</em>"
 msgstr ""
 
-#: plugins/starter.py:18
+#: plugins/starter.py:18 plugins/starter.py:16
 msgid "<i>Starter: Configuring first admin: {}</i>"
 msgstr "<i>Starter: Configuration du premier administrateur: {}</i>"
 
-#: plugins/starter.py:23
+#: plugins/starter.py:23 plugins/starter.py:21
 msgid "<i>No! I am Spartacus!</i>"
 msgstr "<i>Nan! Je suis Spartacus!</i>"
 
-#: plugins/starter.py:31
+#: plugins/starter.py:31 plugins/starter.py:29
 msgid "<i>config: {}<br />memory: {}</i>"
 msgstr "<i>configuration: {}<br />memoire: {}</i>"
 
-#: plugins/starter.py:53
+#: plugins/starter.py:53 plugins/starter.py:51
 msgid ""
 "<i>verification completed - this is your one-to-one chat with the bot</i>"
 msgstr "<i>vérification complète - ceci est le tchat un-a-un avec le bot</i>"
 
-#: plugins/starter.py:58
+#: plugins/starter.py:58 plugins/starter.py:56
 msgid "<i>verified - user has a one-to-one conversation with me</i>"
 msgstr "<i>Utilisateur verifie possede une conversion privee avec moi</i>"
 
-#: plugins/starter.py:73
+#: plugins/starter.py:73 plugins/starter.py:70
 msgid ""
 "<i>User must say \"hi\" to me first via a 1-on-1 hangout with <b>{}</b>."
 msgstr ""
 "<i>L'utilisateur doit d'abord me dire \"hi\" en conversation privée sur "
 "hangout avec <b>{}</b>."
 
-#: plugins/starter.py:74
+#: plugins/starter.py:74 plugins/starter.py:71
 msgid "Then let me know by sending <b>/bot verifyme</b> in this chat.</i>"
 msgstr ""
 "Puis faites-le-moi savoir par la commande <b>/bot verifyme</b> dans cette "
 "fenetre de tchat.</i>"
 
-#: plugins/subscribe.py:126
+#: plugins/subscribe.py:126 plugins/subscribe.py:77
 msgid "<b>{}</b> mentioned '{}' in <i>{}</i>:<br />{}"
 msgstr "<b>{}</b> a mentionne '{}' dans <i>{}</i>:<br />{}"
 
-#: plugins/subscribe.py:149
+#: plugins/subscribe.py:149 plugins/subscribe.py:98
 msgid ""
 "Note: I am unable to ping you until you start a 1 on 1 conversation with me!"
 msgstr ""
 "Remarque : Il m'est impossible de vous pinger avant que vous n'ayez commencé "
 "une conversation privée avec moi !"
 
-#: plugins/subscribe.py:153
+#: plugins/subscribe.py:153 plugins/subscribe.py:102
 msgid "Usage: /bot subscribe [keyword]"
 msgstr "Utilisation : /bot subscribe [mot clé]"
 
-#: plugins/subscribe.py:157 plugins/subscribe.py:190
+#: plugins/subscribe.py:157 plugins/subscribe.py:190 plugins/subscribe.py:106
+#: plugins/subscribe.py:139
 msgid "Subscribed to: {}"
 msgstr "Vous avez souscrit a : {}"
 
-#: plugins/subscribe.py:164
+#: plugins/subscribe.py:164 plugins/subscribe.py:113
 msgid "Already subscribed to '{}'!"
 msgstr "Vous avez déjà souscrit a '{}' !"
 
-#: plugins/subscribe.py:173 plugins/subscribe.py:181
+#: plugins/subscribe.py:173 plugins/subscribe.py:181 plugins/subscribe.py:122
+#: plugins/subscribe.py:130
 msgid ""
 "Note: You will not be able to trigger your own subscriptions. To test, "
 "please ask somebody else to test this for you."
@@ -1022,23 +1028,23 @@ msgstr ""
 "Note: Vous ne serez pas en mesure de déclencher vos propres abonnements. "
 "Pour tester, veuillez demander à quelqu'un d'essayer pour vous."
 
-#: plugins/subscribe.py:202
+#: plugins/subscribe.py:202 plugins/subscribe.py:149
 msgid "Unsubscribing all keywords"
 msgstr "Désinscription de tous les mot-clés"
 
-#: plugins/subscribe.py:206
+#: plugins/subscribe.py:206 plugins/subscribe.py:153
 msgid "Unsubscribing from keyword '{}'"
 msgstr "Désinscription du mot-clé '{}'"
 
-#: plugins/subscribe.py:210
+#: plugins/subscribe.py:210 plugins/subscribe.py:157
 msgid "Error: keyword not found"
 msgstr "Erreur: mot-clé non trouvé"
 
-#: plugins/syncrooms.py:277
+#: plugins/syncrooms.py:277 plugins/syncrooms.py:278
 msgid "<b>Sync Rooms: {}</b>"
 msgstr "<b>Salles synchronisés: {}</b>"
 
-#: plugins/syncrooms.py:281
+#: plugins/syncrooms.py:281 plugins/syncrooms.py:282
 msgid "<b>Standard Room</b>"
 msgstr "<b>Salle standard</b>"
 
@@ -1046,23 +1052,23 @@ msgstr "<b>Salle standard</b>"
 msgid "<b>failed to retrieve user list</b>"
 msgstr ""
 
-#: plugins/syncrooms.py:313
+#: plugins/syncrooms.py:313 plugins/syncrooms.py:310
 msgid "<b>Total Unique: {}</b>"
 msgstr "<b>Totalement Unique: {}</b>"
 
-#: plugins/syncrooms_config.py:68
+#: plugins/syncrooms_config.py:68 plugins/syncrooms_config.py:63
 msgid "<i>syncout updated: {} conversations</i>"
 msgstr "<i>syncout mis a jour: {} conversations</i>"
 
-#: plugins/syncrooms_config.py:71
+#: plugins/syncrooms_config.py:71 plugins/syncrooms_config.py:66
 msgid "<i>syncout created: {} conversations</i>"
 msgstr "<i>syncout cree: {} conversations</i>"
 
-#: plugins/syncrooms_config.py:74
+#: plugins/syncrooms_config.py:74 plugins/syncrooms_config.py:69
 msgid "<i>syncouts unchanged</i>"
 msgstr "<i>syncouts inchange</i>"
 
-#: plugins/syncrooms_config.py:115
+#: plugins/syncrooms_config.py:115 plugins/syncrooms_config.py:110
 msgid "<i>`{}` was detached</i>"
 msgstr "<i>`{}` a été détachée</i>"
 
@@ -1126,19 +1132,19 @@ msgstr ""
 msgid "{}d"
 msgstr ""
 
-#: plugins/urbandict.py:93
+#: plugins/urbandict.py:93 plugins/urbandict.py:89
 msgid "<b>definition:</b> "
 msgstr "<b>définition:</b> "
 
-#: plugins/urbandict.py:95
+#: plugins/urbandict.py:95 plugins/urbandict.py:91
 msgid "<b>example:</b> "
 msgstr "<b>exemple:</b> "
 
-#: plugins/urbandict.py:100
+#: plugins/urbandict.py:100 plugins/urbandict.py:96
 msgid "<i>no urban dictionary definition for \"{}\"</i>"
 msgstr "<i>pas de définition dans urban dictionary pour \"{}\"</i>"
 
-#: plugins/urbandict.py:102
+#: plugins/urbandict.py:102 plugins/urbandict.py:98
 msgid "<i>no term from urban dictionary</i>"
 msgstr "<i>pas de mot de urban dictionary</i>"
 
@@ -1146,277 +1152,363 @@ msgstr "<i>pas de mot de urban dictionary</i>"
 msgid "You need to ask WolframAlpha a question"
 msgstr ""
 
-#: plugins/wolframalpha.py:57
+#: plugins/wolframalpha.py:57 plugins/wolframalpha.py:51
 msgid "<i>Wolfram Alpha did not return any useful data</i>"
 msgstr "<i>Wolfram Alpha n'a pas retourne de donnees pertinentes</i>"
 
-#~ msgid "{}: unknown command"
-#~ msgstr "{}: commande inconnue"
-
-#~ msgid "FORWARDING: {}"
-#~ msgstr "TRANSFERT : {}"
-
-#~ msgid "RESTRICTEDADD: admin added me to {}"
-#~ msgstr "RESTRICTEDADD: l'administrateur m'a ajoute a {}"
-
-#~ msgid "RESTRICTEDADD: authorised user added me to {}"
-#~ msgstr "RESTRICTEDADD: l'utilisateur verifie m'a ajoute a {}"
-
-#~ msgid "RESTRICTEDADD: user {} tried to add me to {}"
-#~ msgstr "RESTRICTEDADD: l'utilisateur {} a essaye de m'ajouter a {}"
-
-#~ msgid "RESTRICTEDADD: found botkeeper {}"
-#~ msgstr "RESTRICTEDADD: botkeeper {} trouve"
-
-#~ msgid "RESTRICTEDADD: no botkeeper in {}"
-#~ msgstr "RESTRICTEDADD: pas de botkeeper dans {}"
-
-#~ msgid "<b>List of hangouts with keyword:</b> \"{}\""
-#~ msgstr "<b>Liste des hangouts avec le mot-clé :</b> \"{}\""
-
-#~ msgid "HangupsBot killed by user {} from conversation {}"
-#~ msgstr "HangupsBot tué par l’utilisateur {} depuis la conversation {}"
-
-#~ msgid "<b>{}</b>, chat_id = <i>{}</i>"
-#~ msgstr "<b>{}</b>, chat_id = <i>{}</i>"
-
-#~ msgid "You are at <b>{}</b>, conv_id = <i>{}</i>"
-#~ msgstr "Vous êtes sur <b>{}</b>, conv_id = <i>{}</i>"
-
-#~ msgid "migration(): pushbullet config migrated"
-#~ msgstr "migration(): pushbullet configuration déplacée"
-
-#~ msgid "mentions: falling back to legacy _user_has_dnd()"
-#~ msgstr "mentions: restaurer legacy _user_has_dnd()"
-
-#~ msgid "@mention from {} ({}) too short (== '{}')"
-#~ msgstr "@mention de {} ({}) trop courte (== '{}')"
-
-#~ msgid "@mention in a syncroom: {} user(s) present"
-#~ msgstr "@mention dans le salon synchronisé : {} utilisateur(s) présent(s)"
-
-#~ msgid "quidproquo: user {} ({}) has DND active"
-#~ msgstr ""
-#~ "quidproquo: L'utilisateur {} ({}) a active la fonction Ne pas deranger"
-
-#~ msgid "quidproquo: user {} ({}) has 1-on-1"
-#~ msgstr "quidproquo: L'utilisateur {} ({}) a une de conversation privee"
-
-#~ msgid "quidproquo: user {} ({}) has no 1-on-1"
-#~ msgstr "quidproquo: L'utilisateur {} ({}) n'a pas de conversation privee"
-
-#~ msgid "@mention '{}' in '{}' ({})"
-#~ msgstr "@mention '{}' dans '{}' ({})"
-
-#~ msgid "@all in {}: disabled/unset global/per-conversation"
-#~ msgstr "@all dans {}: disabled/unset global/per-conversation"
-
-#~ msgid "@all in {}: user {} ({}) is not admin"
-#~ msgstr "@all in {}: user {} ({}) n’est pas administrateur"
-
-#~ msgid "@all in {}: user {} ({}) blocked"
-#~ msgstr "@all dans {}: utilisateur {} ({}) bloque"
-
-#~ msgid "You are not allowed to use @all in <b>{}</b>"
-#~ msgstr "Vous n’êtes pas autorisé à utiliser @all dans <b>{}</b>"
-
-#~ msgid "<b>{}</b> blocked from using <i>@all</i>"
-#~ msgstr "<b>{}</b> bloqué pour l’usage de <i>@all</i>"
-
-#~ msgid "@all in {}: allowed, {} ({}) is whitelisted"
-#~ msgstr "@all dans {}: est autorisé, {} ({}) est sur liste blanche"
-
-#~ msgid "@all in {}: allowed, {} ({}) is an admin"
-#~ msgstr "@all dans {}: est autorisé, {} ({}) est un admin"
-
-#~ msgid "@all in {}: enabled global/per-conversation"
-#~ msgstr "@all dans {}: global/per-conversation active"
-
-#~ msgid "user {} ({}) is present"
-#~ msgstr "l’utilisateur {} ({}) est présent"
-
-#~ msgid "suppressing bot mention by {} ({})"
-#~ msgstr "suppression du bot de mention par {} ({})"
-
-#~ msgid "suppressing @all for {} ({})"
-#~ msgstr "suppression @all pour {} ({})"
-
-#~ msgid "suppressing @self for {} ({})"
-#~ msgstr "suppression @self pour {} ({})"
-
-#~ msgid "suppressing duplicate mention for {} ({})"
-#~ msgstr "suppression d'une mention double pour {} ({})"
-
-#~ msgid "suppressing @mention for {} ({})"
-#~ msgstr "suppression @mention pour {} ({})"
-
-#~ msgid "prioritising nickname match for {}"
-#~ msgstr "priorisation de correspondance de pseudo pour {}"
-
-#~ msgid "prioritising single case-sensitive fragment match for {}"
-#~ msgstr "priorisation de la simple correspondance sensible à la case pour {}"
-
-#~ msgid "prioritising multiple case-sensitive fragment match for {}"
-#~ msgstr ""
-#~ "priorisation de la multiple correspondance sensible à la case pour {}"
-
-#~ msgid "@{} not sent due to multiple recipients"
-#~ msgstr ""
-#~ "@{} n’a pas été envoyé du fait du trop grand nombre de destinataires"
-
-#~ msgid "{} ({}) alerted via pushbullet"
-#~ msgstr "{} ({}) informe par pushbullet"
-
-#~ msgid "pushbullet alert failed for {} ({})"
-#~ msgstr "Erreur d'alerte par pushbullet pour {} ({})"
-
-#~ msgid "{} ({}) alerted via 1on1 ({})"
-#~ msgstr "{} ({}) alerte en prive ({})"
-
-#~ msgid "user {} ({}) could not be alerted via 1on1"
-#~ msgstr "L'utilisateur {} ({}) ne peut peut pas etre alerte en prive"
-
-#~ msgid "<i>Your nickname is already \""
-#~ msgstr "<i>Votre pseudo est toujours \""
-
-#~ msgid "<i>Nickname \""
-#~ msgstr "<i>Pseudo \""
-
-#~ msgid "\" is already in use by another user.</i>"
-#~ msgstr "\" est déjà attribué à un autre utilisateur.</i>"
-
-#~ msgid "subscribe: keyword '{}' in '{}' ({})"
-#~ msgstr "subscribe: mots cles '{}' in '{}' ({})"
-
-#~ msgid "subscribe: {} ({}) alerted via 1on1 ({})"
-#~ msgstr "subscribe: {} ({}) a ete alerte en prive ({})"
-
-#~ msgid "subscribe: {} ({}) has dnd"
-#~ msgstr "subscribe: {} ({}) est en mode ne pas deranger"
-
-#~ msgid "subscribe: user {} ({}) could not be alerted via 1on1"
-#~ msgstr "subscribe: L'utilisateur {} ({}) ne peut pas etre alerte en prive"
-
-#~ msgid "_migrate_syncroom_v1(): config-v2 = {}"
-#~ msgstr "_migrate_syncroom_v1():  config-v2 = {}"
-
-#~ msgid "syncrooms: handler disabled by context"
-#~ msgstr "syncrooms: handler desactive par le contexte"
-
-#~ msgid "syncrooms: broadcasting to {} room(s)"
-#~ msgstr "syncrooms: Propagation aux discussions {}"
-
-#~ msgid "syncrooms: not a sync room"
-#~ msgstr "syncrooms : n'est pas une discussion de synchronisation"
-
-#~ msgid "syncrooms: incoming message"
-#~ msgstr "syncrooms: message en cours de reception"
-
-#~ msgid "syncrooms: {} user(s) added to {}"
-#~ msgstr "syncrooms: Les utilisateurs {} ont ete ajoute a {}"
-
-#~ msgid "syncrooms: {} user(s) left {}"
-#~ msgstr "syncrooms: les utilisateurs {} ont quitte {}"
-
-#~ msgid "TRANSLATE: \"{}\" to {}"
-#~ msgstr "TRANSLATE: \"{}\" vers {}"
-
-#~ msgid "config.api[{}].certfile must be configured"
-#~ msgstr "config.api[{}].certfile doit être paramétrée"
-
-#~ msgid "config.api[{}] missing keyword"
-#~ msgstr "config.api[{}] mot-clé manquant"
-
-#~ msgid "EXAMPLE_WATCHMEMBERS: {} has added {}"
-#~ msgstr "EXAMPLE_WATCHMEMBERS: {} a ajouté {}"
-
-#~ msgid "EXAMPLE_WATCHMEMBERS: {} has left"
-#~ msgstr "EXAMPLE_WATCHMEMBERS: {} est parti"
-
-#~ msgid "config.slack[{}].certfile must be configured"
-#~ msgstr "Le composant config.slack[{}].certfile doit etre configure"
-
-#~ msgid "config.slack[{}] missing keyword"
-#~ msgstr "Il manque un mot cle au composant config.slack[{}]"
-
-#~ msgid "_start_slack_sinks(): {} sink thread(s) started"
-#~ msgstr "_start_slack_sinks(): {} sink fils(s) démarrés"
-
-#~ msgid "conversation id must be provided as part of path"
-#~ msgstr "L'identifiant de conversation doit etre faire parti du path"
-
-#~ msgid "receiving POST..."
-#~ msgstr "Reception en mode POST..."
-
-#~ msgid "connection closed"
-#~ msgstr "Connexion terminee"
-
-#~ msgid "incoming path: {}"
-#~ msgstr "chemin arrivage: {}"
-
-#~ msgid "payload {}"
-#~ msgstr "payload {}"
-
-#~ msgid "<i>group refreshed</i><br />"
-#~ msgstr "<i>le groupe mis à jour</i><br />"
-
-#~ msgid "<b>group obsoleted</b>"
-#~ msgstr "<b>groupe obsolète</b>"
-
-#~ msgid "bot aliases: {}"
-#~ msgstr "alias utilisés par le robot"
-
-#~ msgid "WOLFRAMALPHA: config.wolframalpha-apikey required"
-#~ msgstr "WOLFRAMALPHA: config.wolframalpha-apikey est requis"
-
-#~ msgid "AUTOTRANSLATE(): translating {} to {}"
-#~ msgstr "AUTOTRANSLATE(): traduction de {} vers {}"
-
-#~ msgid ""
-#~ "<em>Usage: https://github.com/hangoutsbot/hangoutsbot/wiki/Conversation-"
-#~ "Invitations-Plugin</em>"
-#~ msgstr ""
-#~ "<em>Utilisation: https://github.com/hangoutsbot/hangoutsbot/wiki/"
-#~ "Conversation-Invitations-Plugin</em>"
-
-#~ msgid "<b>Invitation Purge (Admin)</b>"
-#~ msgstr "<b>Délester Invitations (Admin)</b>"
-
-#~ msgid "<b>Invitation List (Admin)</b>"
-#~ msgstr "<b>Liste Invitations (Admin)</b>"
-
-#~ msgid "EXAMPLE_PRINTRENAMES: {} cleared the conversation name"
-#~ msgstr "EXAMPLE_PRINTRENAMES: {} a nettoyé le nom de la conversation"
-
-#~ msgid "EXAMPLE_PRINTRENAMES: {} renamed the conversation to {}"
-#~ msgstr "EXAMPLE_PRINTRENAMES: {} a rebaptisé la conversation avec {}"
-
-#~ msgid "dnd: list migrated to memory"
-#~ msgstr "dnd: liste déplacée en mémoire"
-
-#~ msgid "dnd: list migrated to dictionary"
-#~ msgstr "dnd: liste déplacée dans le dictionnaire"
-
-#~ msgid "{0} ({1}) has requested to lookup '{2}'"
-#~ msgstr "{0} ({1}) a demande a consulter '{2}'"
-
-#~ msgid "<i>{} rolled <b>{}</b></i>"
-#~ msgstr "<i>{} a fait <b>{}</b></i>"
-
-#~ msgid "SYNCROOM_CONFIG: extended"
-#~ msgstr "SYNCROOM_CONFIG: etendu"
-
-#~ msgid "SYNCROOM_CONFIG: created"
-#~ msgstr "SYNCROOM_CONFIG: cree"
-
-#~ msgid "SYNCROOM_CONFIG: no change"
-#~ msgstr "SYNCROOM_CONFIG: pas de changement"
-
-#~ msgid "LOTTERY: joint room keys {}"
-#~ msgstr "LOTTERY : clés de la salle commune {}"
-
-#~ msgid "LOTTERY: loading from memory"
-#~ msgstr "LOTERIE : chargement depuis la mémoire"
-
-#~ msgid "LOTTERY: {} is valid"
-#~ msgstr "LOTTERY: {} est valide"
+#: commands.py:180
+msgid "{}: unknown command"
+msgstr "{} : commande inconnue"
+
+#: plugins/forwarding.py:20
+msgid "FORWARDING: {}"
+msgstr "TRANSFERT : {}"
+
+#: plugins/restrictedadd.py:39
+msgid "RESTRICTEDADD: admin added me to {}"
+msgstr "RESTRICTEDADD : l'administrateur m'a ajoute a {}"
+
+#: plugins/restrictedadd.py:43
+msgid "RESTRICTEDADD: authorised user added me to {}"
+msgstr "RESTRICTEDADD: l'utilisateur verifie m'a ajoute a {}"
+
+#: plugins/restrictedadd.py:46
+msgid "RESTRICTEDADD: user {} tried to add me to {}"
+msgstr "RESTRICTEDADD: l'utilisateur {} a essaye de m'ajouter a {}"
+
+#: plugins/restrictedadd.py:84
+msgid "RESTRICTEDADD: found botkeeper {}"
+msgstr "RESTRICTEDADD: botkeeper {} trouve"
+
+#: plugins/restrictedadd.py:91
+msgid "RESTRICTEDADD: no botkeeper in {}"
+msgstr "RESTRICTEDADD: pas de botkeeper dans {}"
+
+#: plugins/default.py:287
+msgid "<b>List of hangouts with keyword:</b> \"{}\""
+msgstr "<b>Liste des hangouts avec le mot-clé :</b> \"{}\""
+
+#: plugins/default.py:320
+msgid "HangupsBot killed by user {} from conversation {}"
+msgstr "HangupsBot tué par l’utilisateur {} depuis la conversation {}"
+
+#: plugins/default.py:443
+msgid "<b>{}</b>, chat_id = <i>{}</i>"
+msgstr "<b>{}</b>, chat_id = <i>{}</i>"
+
+#: plugins/default.py:451
+msgid "You are at <b>{}</b>, conv_id = <i>{}</i>"
+msgstr "Vous êtes sur <b>{}</b>, conv_id = <i>{}</i>"
+
+#: plugins/mentions.py:28
+msgid "migration(): pushbullet config migrated"
+msgstr "migration(): pushbullet configuration déplacée"
+
+#: plugins/mentions.py:46
+msgid "mentions: falling back to legacy _user_has_dnd()"
+msgstr "mentions: restaurer legacy _user_has_dnd()"
+
+#: plugins/mentions.py:64
+msgid "@mention from {} ({}) too short (== '{}')"
+msgstr "@mention de {} ({}) trop courte (== '{}')"
+
+#: plugins/mentions.py:82
+msgid "@mention in a syncroom: {} user(s) present"
+msgstr "@mention dans le salon synchronisé : {} utilisateur(s) présent(s)"
+
+#: plugins/mentions.py:101
+msgid "quidproquo: user {} ({}) has DND active"
+msgstr "quidproquo: L'utilisateur {} ({}) a active la fonction Ne pas deranger"
+
+#: plugins/mentions.py:109
+msgid "quidproquo: user {} ({}) has 1-on-1"
+msgstr "quidproquo: L'utilisateur {} ({}) a une de conversation privee"
+
+#: plugins/mentions.py:111
+msgid "quidproquo: user {} ({}) has no 1-on-1"
+msgstr "quidproquo: L'utilisateur {} ({}) n'a pas de conversation privee"
+
+#: plugins/mentions.py:134
+msgid "@mention '{}' in '{}' ({})"
+msgstr "@mention '{}' dans '{}' ({})"
+
+#: plugins/mentions.py:142
+msgid "@all in {}: disabled/unset global/per-conversation"
+msgstr "@all dans {}: disabled/unset global/per-conversation"
+
+#: plugins/mentions.py:147
+msgid "@all in {}: user {} ({}) is not admin"
+msgstr "@all in {}: user {} ({}) n’est pas administrateur"
+
+#: plugins/mentions.py:151
+msgid "@all in {}: user {} ({}) blocked"
+msgstr "@all dans {}: utilisateur {} ({}) bloque"
+
+#: plugins/mentions.py:155
+msgid "You are not allowed to use @all in <b>{}</b>"
+msgstr "Vous n’êtes pas autorisé à utiliser @all dans <b>{}</b>"
+
+#: plugins/mentions.py:160
+msgid "<b>{}</b> blocked from using <i>@all</i>"
+msgstr "<b>{}</b> bloqué pour l’usage de <i>@all</i>"
+
+#: plugins/mentions.py:164
+msgid "@all in {}: allowed, {} ({}) is whitelisted"
+msgstr "@all dans {}: est autorisé, {} ({}) est sur liste blanche"
+
+#: plugins/mentions.py:166
+msgid "@all in {}: allowed, {} ({}) is an admin"
+msgstr "@all dans {}: est autorisé, {} ({}) est un admin"
+
+#: plugins/mentions.py:168
+msgid "@all in {}: enabled global/per-conversation"
+msgstr "@all dans {}: global/per-conversation active"
+
+#: plugins/mentions.py:190
+msgid "user {} ({}) is present"
+msgstr "l’utilisateur {} ({}) est présent"
+
+#: plugins/mentions.py:194
+msgid "suppressing bot mention by {} ({})"
+msgstr "suppression du bot de mention par {} ({})"
+
+#: plugins/mentions.py:199
+msgid "suppressing @all for {} ({})"
+msgstr "suppression @all pour {} ({})"
+
+#: plugins/mentions.py:204
+msgid "suppressing @self for {} ({})"
+msgstr "suppression @self pour {} ({})"
+
+#: plugins/mentions.py:209
+msgid "suppressing duplicate mention for {} ({})"
+msgstr "suppression d'une mention double pour {} ({})"
+
+#: plugins/mentions.py:214
+msgid "suppressing @mention for {} ({})"
+msgstr "suppression @mention pour {} ({})"
+
+#: plugins/mentions.py:231
+msgid "prioritising nickname match for {}"
+msgstr "priorisation de correspondance de pseudo pour {}"
+
+#: plugins/mentions.py:235
+msgid "prioritising single case-sensitive fragment match for {}"
+msgstr "priorisation de la simple correspondance sensible à la case pour {}"
+
+#: plugins/mentions.py:238
+msgid "prioritising multiple case-sensitive fragment match for {}"
+msgstr "priorisation de la multiple correspondance sensible à la case pour {}"
+
+#: plugins/mentions.py:263
+msgid "@{} not sent due to multiple recipients"
+msgstr "@{} n’a pas été envoyé du fait du trop grand nombre de destinataires"
+
+#: plugins/mentions.py:289
+msgid "{} ({}) alerted via pushbullet"
+msgstr "{} ({}) informe par pushbullet"
+
+#: plugins/mentions.py:293
+msgid "pushbullet alert failed for {} ({})"
+msgstr "Erreur d'alerte par pushbullet pour {} ({})"
+
+#: plugins/mentions.py:310
+msgid "{} ({}) alerted via 1on1 ({})"
+msgstr "{} ({}) alerte en prive ({})"
+
+#: plugins/mentions.py:318
+msgid "user {} ({}) could not be alerted via 1on1"
+msgstr "L'utilisateur {} ({}) ne peut pas etre alerte en privé"
+
+#: plugins/mentions.py:439
+msgid "<i>Your nickname is already \""
+msgstr "<i>Votre pseudo est toujours \""
+
+#: plugins/mentions.py:444
+msgid "<i>Nickname \""
+msgstr "<i>Pseudo \""
+
+#: plugins/mentions.py:444
+msgid "\" is already in use by another user.</i>"
+msgstr "\" est déjà attribué à un autre utilisateur.</i>"
+
+#: plugins/subscribe.py:59
+msgid "subscribe: keyword '{}' in '{}' ({})"
+msgstr "subscribe: mots cles '{}' in '{}' ({})"
+
+#: plugins/subscribe.py:82
+msgid "subscribe: {} ({}) alerted via 1on1 ({})"
+msgstr "subscribe: {} ({}) a ete alerte en prive ({})"
+
+#: plugins/subscribe.py:84
+msgid "subscribe: {} ({}) has dnd"
+msgstr "subscribe: {} ({}) est en mode ne pas deranger"
+
+#: plugins/subscribe.py:86
+msgid "subscribe: user {} ({}) could not be alerted via 1on1"
+msgstr "subscribe: L'utilisateur {} ({}) ne peut pas etre alerte en prive"
+
+#: plugins/syncrooms.py:59
+msgid "_migrate_syncroom_v1(): config-v2 = {}"
+msgstr "_migrate_syncroom_v1():  config-v2 = {}"
+
+#: plugins/syncrooms.py:73
+msgid "syncrooms: handler disabled by context"
+msgstr "syncrooms: handler desactive par le contexte"
+
+#: plugins/syncrooms.py:87
+msgid "syncrooms: broadcasting to {} room(s)"
+msgstr "syncrooms: Propagation aux discussions {}"
+
+#: plugins/syncrooms.py:90
+msgid "syncrooms: not a sync room"
+msgstr "syncrooms : n'est pas une discussion de synchronisation"
+
+#: plugins/syncrooms.py:116
+msgid "syncrooms: incoming message"
+msgstr "syncrooms: message en cours de reception"
+
+#: plugins/syncrooms.py:233
+msgid "syncrooms: {} user(s) added to {}"
+msgstr "syncrooms: Les utilisateurs {} ont ete ajoute a {}"
+
+#: plugins/syncrooms.py:241
+msgid "syncrooms: {} user(s) left {}"
+msgstr "syncrooms: les utilisateurs {} ont quitte {}"
+
+#: plugins/simplytranslate.py:30
+msgid "TRANSLATE: \"{}\" to {}"
+msgstr "TRANSLATE: \"{}\" vers {}"
+
+#: plugins/api.py:51
+msgid "config.api[{}].certfile must be configured"
+msgstr "config.api[{}].certfile doit être paramétrée"
+
+#: plugins/api.py:56
+msgid "config.api[{}] missing keyword"
+msgstr "config.api[{}] mot-clé manquant"
+
+#: plugins/example_watchmembers.py:23
+msgid "EXAMPLE_WATCHMEMBERS: {} has added {}"
+msgstr "EXAMPLE_WATCHMEMBERS: {} a ajouté {}"
+
+#: plugins/example_watchmembers.py:26
+msgid "EXAMPLE_WATCHMEMBERS: {} has left"
+msgstr "EXAMPLE_WATCHMEMBERS: {} est parti"
+
+#: plugins/slack.py:56
+msgid "config.slack[{}].certfile must be configured"
+msgstr "Le composant config.slack[{}].certfile doit etre configure"
+
+#: plugins/slack.py:61
+msgid "config.slack[{}] missing keyword"
+msgstr "Il manque un mot cle au composant config.slack[{}]"
+
+#: plugins/slack.py:78
+msgid "_start_slack_sinks(): {} sink thread(s) started"
+msgstr "_start_slack_sinks(): {} sink fils(s) démarrés"
+
+#: plugins/slack.py:137
+msgid "conversation id must be provided as part of path"
+msgstr "L'identifiant de conversation doit etre faire parti du path"
+
+#: plugins/slack.py:218
+msgid "receiving POST..."
+msgstr "Reception en mode POST..."
+
+#: plugins/slack.py:226
+msgid "connection closed"
+msgstr "Connexion terminee"
+
+#: plugins/slack.py:233
+msgid "incoming path: {}"
+msgstr "chemin arrivage: {}"
+
+#: plugins/slack.py:238
+msgid "payload {}"
+msgstr "payload {}"
+
+#: plugins/convtools.py:147
+msgid "<i>group refreshed</i><br />"
+msgstr "<i>le groupe mis à jour</i><br />"
+
+#: plugins/convtools.py:148 plugins/convtools.py:150
+msgid "<b>group obsoleted</b>"
+msgstr "<b>groupe obsolète</b>"
+
+#: plugins/botaliases.py:33
+msgid "bot aliases: {}"
+msgstr "alias utilisés par le robot"
+
+#: plugins/wolframalpha.py:25
+msgid "WOLFRAMALPHA: config.wolframalpha-apikey required"
+msgstr "WOLFRAMALPHA: config.wolframalpha-apikey est requis"
+
+#: plugins/syncrooms_autotranslate.py:26
+msgid "AUTOTRANSLATE(): translating {} to {}"
+msgstr "AUTOTRANSLATE(): traduction de {} vers {}"
+
+#: plugins/convtools_invitations.py:170
+msgid ""
+"<em>Usage: https://github.com/hangoutsbot/hangoutsbot/wiki/Conversation-"
+"Invitations-Plugin</em>"
+msgstr ""
+"<em>Utilisation: https://github.com/hangoutsbot/hangoutsbot/wiki/"
+"Conversation-Invitations-Plugin</em>"
+
+#: plugins/convtools_invitations.py:188
+msgid "<b>Invitation Purge (Admin)</b>"
+msgstr "<b>Délester Invitations (Admin)</b>"
+
+#: plugins/convtools_invitations.py:191
+msgid "<b>Invitation List (Admin)</b>"
+msgstr "<b>Liste Invitations (Admin)</b>"
+
+#: plugins/example_printrenames.py:21
+msgid "EXAMPLE_PRINTRENAMES: {} cleared the conversation name"
+msgstr "EXAMPLE_PRINTRENAMES: {} a nettoyé le nom de la conversation"
+
+#: plugins/example_printrenames.py:23
+msgid "EXAMPLE_PRINTRENAMES: {} renamed the conversation to {}"
+msgstr "EXAMPLE_PRINTRENAMES: {} a rebaptisé la conversation avec {}"
+
+#: plugins/dnd.py:23
+msgid "dnd: list migrated to memory"
+msgstr "dnd: liste déplacée en mémoire"
+
+#: plugins/dnd.py:38
+msgid "dnd: list migrated to dictionary"
+msgstr "dnd: liste déplacée dans le dictionnaire"
+
+#: plugins/lookup.py:37
+#, python-brace-format
+msgid "{0} ({1}) has requested to lookup '{2}'"
+msgstr "{0} ({1}) a demande a consulter '{2}'"
+
+#: plugins/chance.py:27
+msgid "<i>{} rolled <b>{}</b></i>"
+msgstr "<i>{} a fait <b>{}</b></i>"
+
+#: plugins/syncrooms_config.py:62
+msgid "SYNCROOM_CONFIG: extended"
+msgstr "SYNCROOM_CONFIG: etendu"
+
+#: plugins/syncrooms_config.py:65
+msgid "SYNCROOM_CONFIG: created"
+msgstr "SYNCROOM_CONFIG: cree"
+
+#: plugins/syncrooms_config.py:68
+msgid "SYNCROOM_CONFIG: no change"
+msgstr "SYNCROOM_CONFIG: pas de changement"
+
+#: plugins/lottery.py:33
+msgid "LOTTERY: joint room keys {}"
+msgstr "LOTTERY : clés de la salle commune {}"
+
+#: plugins/lottery.py:42
+msgid "LOTTERY: loading from memory"
+msgstr "LOTERIE : chargement depuis la mémoire"
+
+#: plugins/lottery.py:167
+msgid "LOTTERY: {} is valid"
+msgstr "LOTTERY: {} est valide"
