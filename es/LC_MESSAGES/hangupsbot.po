@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-30 19:29+0800\n"
-"PO-Revision-Date: 2016-03-03 00:10+0000\n"
-"Last-Translator: Carlos Núñez (Sabinico) <sabinico@gmail.com>\n"
+"PO-Revision-Date: 2023-03-28 16:40+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/hangoutsbot/"
 "hangups/es/>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.5-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: commands/basic.py:45
 msgid ""
@@ -41,7 +41,7 @@ msgstr "<b>Comandos de Administrador:</b>"
 
 #: commands/basic.py:85
 msgid "command help not available"
-msgstr ""
+msgstr "comando de ayuda no disponible"
 
 #: commands/basic.py:114
 msgid "<i>{}, I've sent you some help ;)</i>"
@@ -62,6 +62,7 @@ msgstr "Se requiere un código de idioma"
 #: commands/basic.py:177
 msgid "<i>{}, search did not match a single group conversation</i>"
 msgstr ""
+"<i>{}, la búsqueda no ha coincidido con ninguna conversación de grupo</i>"
 
 #: commands/basic.py:218
 msgid "<i>{}, you <b>opted-in</b> for bot private messages</i>"
@@ -76,6 +77,8 @@ msgid ""
 "<i>{}, you are <b>opted-out</b> from the following conversations:\n"
 "{}</i>"
 msgstr ""
+"<i>{}, está <b>excluido</b> de las siguientes conversaciones: \n"
+"{}</i>"
 
 #: commands/basic.py:234
 msgid "Bot Version: <b>{}</b>"
@@ -293,7 +296,7 @@ msgstr "ruta del archivo config"
 
 #: hangupsbot.py:973
 msgid "Maximum disconnect / reconnect retries before quitting"
-msgstr ""
+msgstr "Máximo de reintentos de desconexión / reconexión antes de salir"
 
 #: hangupsbot.py:975
 msgid "show program's version number and exit"
@@ -381,15 +384,15 @@ msgstr "<i>no autorizado para cambiar el alias del bot</i>"
 
 #: plugins/chance.py:50
 msgid "<i>{} rolled "
-msgstr ""
+msgstr "<i>{} rodado "
 
 #: plugins/chance.py:57
 msgid "<b>{}</b>"
-msgstr ""
+msgstr "<b>{}</b>"
 
 #: plugins/chance.py:59
 msgid " totalling <b>{}</b></i>"
-msgstr ""
+msgstr " totalizando <b>{}</b></i>"
 
 #: plugins/chance.py:66
 msgid "<i>{}, coin turned up <b>heads</b></i>"
@@ -433,11 +436,11 @@ msgstr "<em>nada</em>"
 
 #: plugins/convtools.py:191
 msgid "<i>refreshing group...</i><br />"
-msgstr ""
+msgstr "<i>actualizando grupo...</i><br />"
 
 #: plugins/convtools.py:194
 msgid "<i>all users added</i><br />"
-msgstr ""
+msgstr "<i> todos los usuarios añadidos </i> <br />"
 
 #: plugins/convtools.py:202
 msgid "<i>group has been obsoleted</i>"
@@ -570,7 +573,7 @@ msgstr "uso de broadcast: /bot broadcast [info|message|add|remove|NOW]"
 
 #: plugins/default.py:155
 msgid "supply search term"
-msgstr ""
+msgstr "término de búsqueda del suministro"
 
 #: plugins/default.py:160
 msgid "results for user named \"{}\":"
@@ -607,14 +610,15 @@ msgstr "Estás en <b><pre>{}</pre></b>, conv_id = <i><pre>{}</pre></i>"
 #: plugins/forecast.py:32
 msgid "No location was specified, please specify a location."
 msgstr ""
+"No se ha especificado ninguna ubicación, por favor especifique una ubicación."
 
 #: plugins/forecast.py:37
 msgid "Unable to find the specified location."
-msgstr ""
+msgstr "No se ha podido encontrar la ubicación especificada."
 
 #: plugins/forecast.py:45
 msgid "This hangouts default location has been set to {}."
-msgstr ""
+msgstr "Esta ubicación predeterminada de Hangouts se ha establecido en {}."
 
 #: plugins/humor_hangoutcalls.py:32
 msgid ""
@@ -724,11 +728,11 @@ msgstr ""
 
 #: plugins/mentions.py:168
 msgid "You are not allowed to mention all users in <b>{}</b>"
-msgstr ""
+msgstr "No está permitido mencionar a todos los usuarios en <b>{}</b>"
 
 #: plugins/mentions.py:173
 msgid "<b>{}</b> blocked from mentioning all users"
-msgstr ""
+msgstr "<b>{}</b> bloqueada la mención a todos los usuarios"
 
 #: plugins/mentions.py:272
 msgid ""
