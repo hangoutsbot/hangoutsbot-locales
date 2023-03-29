@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-30 19:29+0800\n"
-"PO-Revision-Date: 2023-03-28 16:40+0000\n"
+"PO-Revision-Date: 2023-03-30 16:38+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/hangoutsbot/"
 "hangups/es/>\n"
@@ -748,7 +748,7 @@ msgstr "{} te ha mencionado en {}"
 
 #: plugins/mentions.py:332
 msgid "<b>{}</b> @mentioned ALL in <i>{}</i>:<br />{}"
-msgstr ""
+msgstr "<b>{}</b> @mencionado TODO en <i>{}</i>:<br />{}"
 
 #: plugins/mentions.py:334
 msgid "<b>{}</b> @mentioned you in <i>{}</i>:<br />{}"
@@ -868,15 +868,15 @@ msgstr ""
 
 #: plugins/remind.py:20
 msgid "Private reminder for <b>{}</b> in {}m"
-msgstr ""
+msgstr "Recordatorio privado para <b>{}</b> en {}m"
 
 #: plugins/remind.py:23 plugins/remind.py:43
 msgid "<b>Reminder:</b>  "
-msgstr ""
+msgstr "<b>Recordatorio:</b>  "
 
 #: plugins/remind.py:25 plugins/remind.py:45
 msgid "Error creating reminder, invalid delay"
-msgstr ""
+msgstr "Error al crear un recordatorio, retraso no válido"
 
 #: plugins/remind.py:36
 msgid "Usage: /bot remindall <b>delay (minutes)</b> <i>Message</i>"
@@ -884,7 +884,7 @@ msgstr ""
 
 #: plugins/remind.py:41
 msgid "Public reminder in {}m"
-msgstr ""
+msgstr "Recordatorio público en {}m"
 
 #: plugins/restrictedadd.py:72
 msgid ""
@@ -912,15 +912,15 @@ msgstr "El usuario con id {} no está autorizado"
 
 #: plugins/showme/__init__.py:59
 msgid "I'm sorry, I couldn't upload a {} image"
-msgstr ""
+msgstr "Lo siento, no pude subir una imagen {}"
 
 #: plugins/showme/__init__.py:67
 msgid "Show you what?"
-msgstr ""
+msgstr "¿Mostrarte qué?"
 
 #: plugins/showme/__init__.py:77
 msgid "I don't know a \"{}\", try sources"
-msgstr ""
+msgstr "No conozco un \"{}\", prueba las fuentes"
 
 #: plugins/simplewikipedia.py:20
 msgid "<i>source: <a href=\"{}\">{}</a></i>"
@@ -932,15 +932,15 @@ msgstr "<i>Ninguna entrada encontrada para {}</i>"
 
 #: plugins/spotify.py:85
 msgid "<em>Unable to get the song title :(</em>"
-msgstr ""
+msgstr "<em>No se puede obtener el título de la canción :(</em>"
 
 #: plugins/spotify.py:111
 msgid "<em>Spotify is <b>{}</b>.</em>"
-msgstr ""
+msgstr "<em>Spotify está <b>{}</b>.</em>"
 
 #: plugins/spotify.py:118
 msgid "<em>Spotify {} on. Now it's <b>{}</b>.</em>"
-msgstr ""
+msgstr "<em>Spotify {} activado. Ahora es <b>{}</b>.</em>"
 
 #: plugins/spotify.py:126
 msgid "<em>Did you mean <b>/bot help spotify</b>?</em>"
@@ -948,31 +948,31 @@ msgstr ""
 
 #: plugins/spotify.py:129
 msgid "<em>Spotify playlist: {}</em>"
-msgstr ""
+msgstr "<em>Lista de reproducción de Spotify: {}</em>"
 
 #: plugins/spotify.py:132
 msgid "<em>You must specify a Spotify track.</em>"
-msgstr ""
+msgstr "<em>Debes especificar una pista de Spotify.</em>"
 
 #: plugins/spotify.py:162
 msgid "<em>No tracks found for '{}'.</em>"
-msgstr ""
+msgstr "<em>No se encontraron pistas para '{}'.</em>"
 
 #: plugins/spotify.py:258
 msgid "<em>Added <b>{} by {}</b></em>"
-msgstr ""
+msgstr "<em> Agregado <b> {} por {} </b> </em>"
 
 #: plugins/spotify.py:261
 msgid "<em><b>Unable to add track:</b> {}</em>"
-msgstr ""
+msgstr "<em><b>No se pudo agregar la pista:</b> {}</em>"
 
 #: plugins/spotify.py:272
 msgid "<em>Removed track <b>{} by {}</b>.</em>"
-msgstr ""
+msgstr "<em>Pista eliminada <b>{} por {}</b>.</em>"
 
 #: plugins/spotify.py:275
 msgid "<em><b>Unable to remove track:</b> {}</em>"
-msgstr ""
+msgstr "<em><b>No se pudo eliminar la pista:</b> {}</em>"
 
 #: plugins/starter.py:18
 msgid "<i>Starter: Configuring first admin: {}</i>"
@@ -1095,7 +1095,7 @@ msgstr "<b>TL;DR ({} almacenado):</b>"
 
 #: plugins/tldr.py:135
 msgid "\n"
-msgstr ""
+msgstr "\n"
 
 #: plugins/tldr.py:160 plugins/tldr.py:180
 msgid "TL;DR #{} not found."
