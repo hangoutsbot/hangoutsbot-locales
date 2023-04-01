@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-30 19:29+0800\n"
-"PO-Revision-Date: 2023-03-30 16:38+0000\n"
+"PO-Revision-Date: 2023-04-02 15:41+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/hangoutsbot/"
 "hangups/es/>\n"
@@ -520,8 +520,8 @@ msgstr "<b>Invitaciones para {}:</b>"
 msgid ""
 "<em>To claim an invite, use the rsvp command followed by the invite code</em>"
 msgstr ""
-"<em>Para aceptar una invitación, usa el comando <b>rsvp</b> seguido del "
-"código de la invitación. Ejemplo: /kevin rsvp XXXX</em>"
+"<em>Para reclamar una invitación, usa el comando rsvp seguido del código de "
+"invitación</em>"
 
 #: plugins/convtools_invitations.py:426
 msgid "<em>no invites to display</em>"
@@ -804,11 +804,11 @@ msgstr "no se ha cambiado la configuración de Pushbullet"
 
 #: plugins/mentions.py:412
 msgid "<em>\"be more specific\" for mentions toggled ON</em>"
-msgstr "<em>\"se más especifico\" para @menciones <b>activado</b></em>"
+msgstr "<em>\"ser más específico\" para las menciones activado</em>"
 
 #: plugins/mentions.py:416
 msgid "<em>\"be more specific\" for mentions toggled OFF</em>"
-msgstr "<em>\"se más especifico\" para @menciones <b>desactivado</b></em>"
+msgstr "<em>\"ser más específico\" para las menciones desactivado</em>"
 
 #: plugins/mentions.py:435
 msgid ""
@@ -864,7 +864,7 @@ msgstr "Estableciendo topic a '{}'"
 
 #: plugins/remind.py:15
 msgid "Usage: /bot remindme <b>delay (minutes)</b> <i>Message</i>"
-msgstr ""
+msgstr "Uso: /recordatorio del bot <b>retraso (minutos)</b> <i>Mensaje</i>"
 
 #: plugins/remind.py:20
 msgid "Private reminder for <b>{}</b> in {}m"
@@ -880,7 +880,7 @@ msgstr "Error al crear un recordatorio, retraso no válido"
 
 #: plugins/remind.py:36
 msgid "Usage: /bot remindall <b>delay (minutes)</b> <i>Message</i>"
-msgstr ""
+msgstr "Uso: /recordatorio del bot <b>retraso (minutos)</b> <i>Mensaje</i>"
 
 #: plugins/remind.py:41
 msgid "Public reminder in {}m"
@@ -944,7 +944,7 @@ msgstr "<em>Spotify {} activado. Ahora es <b>{}</b>.</em>"
 
 #: plugins/spotify.py:126
 msgid "<em>Did you mean <b>/bot help spotify</b>?</em>"
-msgstr ""
+msgstr "<em>¿Quiso decir <b>/bot ayuda a spotify</b>?</em>"
 
 #: plugins/spotify.py:129
 msgid "<em>Spotify playlist: {}</em>"
@@ -1087,7 +1087,7 @@ msgstr "{}. {} <b>Hace {}</b>"
 
 #: plugins/tldr.py:131
 msgid "TL;DR not found."
-msgstr ""
+msgstr "TL; DR no encontrado."
 
 #: plugins/tldr.py:134
 msgid "<b>TL;DR ({} stored):</b>"
@@ -1099,7 +1099,7 @@ msgstr "\n"
 
 #: plugins/tldr.py:160 plugins/tldr.py:180
 msgid "TL;DR #{} not found."
-msgstr ""
+msgstr "TL; DR # {} no encontrado."
 
 #: plugins/tldr.py:165
 msgid "TL;DR #{} removed - \"{}\""
@@ -1107,23 +1107,23 @@ msgstr "TL;DR #{} eliminado - \"{}\""
 
 #: plugins/tldr.py:169
 msgid "All TL;DRs cleared."
-msgstr ""
+msgstr "Todos los TL; DR borrados."
 
 #: plugins/tldr.py:171
 msgid "Nothing specified to clear."
-msgstr ""
+msgstr "Nada marcado para ser borrado."
 
 #: plugins/tldr.py:187
 msgid "TL;DR #{} edited - \"{}\" -> \"{}\""
-msgstr ""
+msgstr "TL; DR # {} editado - \"{}\" -> \"{}\""
 
 #: plugins/tldr.py:189
 msgid "Unknown Command at \"tldr edit.\""
-msgstr ""
+msgstr "Comando desconocido para \"modificar tldr\""
 
 #: plugins/tldr.py:200
 msgid "<em>{}</em> added to TL;DR. Count: {}"
-msgstr ""
+msgstr "<em>{}</em> añadido a TL;DR. Contar: {}"
 
 #: plugins/tldr.py:210
 msgid "{}s"
@@ -1159,7 +1159,7 @@ msgstr "<i>ningún término del diccionario urbano encontrado</i>"
 
 #: plugins/wolframalpha.py:34
 msgid "You need to ask WolframAlpha a question"
-msgstr ""
+msgstr "Necesitas hacerle una pregunta a Wolfram Alpha"
 
 #: plugins/wolframalpha.py:57
 msgid "<i>Wolfram Alpha did not return any useful data</i>"
