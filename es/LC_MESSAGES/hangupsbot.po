@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-30 19:29+0800\n"
-"PO-Revision-Date: 2023-04-02 15:41+0000\n"
+"PO-Revision-Date: 2023-06-02 15:47+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/hangoutsbot/"
 "hangups/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: commands/basic.py:45
 msgid ""
@@ -86,7 +86,7 @@ msgstr "Versión del bot: <b>{}</b>"
 
 #: commands/basic.py:265
 msgid "{}: Unknown Command"
-msgstr "<i>Comando desconocido, {}</i>"
+msgstr "{}: Comando desconocido"
 
 #: commands/basic.py:275
 msgid "{}: Can't do that."
@@ -1019,7 +1019,7 @@ msgstr ""
 
 #: plugins/subscribe.py:153
 msgid "Usage: /bot subscribe [keyword]"
-msgstr "Uso: /bot subscribe <palabra_clave>"
+msgstr "Uso: /bot subscribe [keyword]"
 
 #: plugins/subscribe.py:157 plugins/subscribe.py:190
 msgid "Subscribed to: {}"
