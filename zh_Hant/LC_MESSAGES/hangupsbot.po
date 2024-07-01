@@ -8,22 +8,22 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-30 19:29+0800\n"
-"PO-Revision-Date: 2015-09-08 19:10+0200\n"
-"Last-Translator: JimmyChang <mybalance22@gmail.com>\n"
-"Language-Team: Traditional Chinese <https://hosted.weblate.org/projects/"
+"PO-Revision-Date: 2024-07-01 05:34+0000\n"
+"Last-Translator: hugoalh <hugoalh@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "hangoutsbot/hangups/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.4-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: commands/basic.py:45
 msgid ""
 "<b>Impersonation:</b><br /><b><pre>{}</pre></b><br /><b><pre>{}</pre></"
 "b><br />"
-msgstr ""
+msgstr "<b>冒充：</b><br /><b><pre>{}</pre></b><br /><b><pre>{}</pre></b><br />"
 
 #: commands/basic.py:51
 msgid "<b>User commands:</b>"
@@ -31,7 +31,7 @@ msgstr "<b>使用者指令：</b>"
 
 #: commands/basic.py:56
 msgid "<i>For more information, please see: {}</i>"
-msgstr "<i>更多資訊，請至： {}</i>"
+msgstr "<i>要瞭解更多資訊，請參閱：{}</i>"
 
 #: commands/basic.py:60
 msgid "<b>Admin commands:</b>"
@@ -39,119 +39,124 @@ msgstr "<b>管理員指令：</b>"
 
 #: commands/basic.py:85
 msgid "command help not available"
-msgstr ""
+msgstr "指令 help 不可用"
 
 #: commands/basic.py:114
 msgid "<i>{}, I've sent you some help ;)</i>"
-msgstr "<i>{} ，我會給你一些幫助訊息 ;)</i>"
+msgstr "<i>{}，我已向你傳送了一些幫助 ;)</i>"
 
 #: commands/basic.py:123
 msgid "locale set to: {}"
-msgstr ""
+msgstr "語言環境設定為：{}"
 
 #: commands/basic.py:125
 msgid "locale unchanged"
-msgstr ""
+msgstr "語言環境沒有變更"
 
 #: commands/basic.py:127
 msgid "language code required"
-msgstr ""
+msgstr "需要語言代碼"
 
 #: commands/basic.py:177
 msgid "<i>{}, search did not match a single group conversation</i>"
-msgstr ""
+msgstr "<i>{}，搜尋與單一群組對話不匹配</i>"
 
 #: commands/basic.py:218
 msgid "<i>{}, you <b>opted-in</b> for bot private messages</i>"
-msgstr ""
+msgstr "<i>{}，你<b>已選擇加入</b>機器人私人訊息</i>"
 
 #: commands/basic.py:221
 msgid "<i>{}, you <b>opted-out</b> from bot private messages</i>"
-msgstr ""
+msgstr "<i>{}，你<b>已選擇退出</b>機器人私人訊息</i>"
 
 #: commands/basic.py:223
 msgid ""
 "<i>{}, you are <b>opted-out</b> from the following conversations:\n"
 "{}</i>"
 msgstr ""
+"<i>{}，你<b>已選擇退出</b>以下對話：\n"
+"{}</i>"
 
 #: commands/basic.py:234
 msgid "Bot Version: <b>{}</b>"
-msgstr "Bot 版本： <b>{}</b>"
+msgstr "機器人版本：<b>{}</b>"
 
 #: commands/basic.py:265
 msgid "{}: Unknown Command"
-msgstr "{}: 未知的指令"
+msgstr "{}：未知的指令"
 
 #: commands/basic.py:275
 msgid "{}: Can't do that."
-msgstr "{}: 無法執行。"
+msgstr "{}：不能這樣做。"
 
 #: commands/convid.py:32
 msgid ""
 "<em>1 parameter required, {} supplied - enclose parameter in double-quotes</"
 "em>"
-msgstr ""
+msgstr "<em>需要 1 個參數，已提供 {}—將參數括在雙引號中</em>"
 
 #: commands/convid.py:35
 msgid "<em>supply 1 parameter</em>"
-msgstr ""
+msgstr "<em>提供 1 個參數</em>"
 
 #: commands/convid.py:40 plugins/default.py:203
 msgid "<b>Total: {}</b>"
-msgstr "<b>總共： {}</b>"
+msgstr "<b>總計：{}</b>"
 
 #: commands/convid.py:55
 msgid "<em>sending to ALL conversations not allowed</em>"
-msgstr ""
+msgstr "<em>不允許傳送至所有對話</em>"
 
 #: commands/convid.py:64
 msgid "<em>command echo blocked</em>"
-msgstr ""
+msgstr "<em>指令 echo 被阻止</em>"
 
 #: commands/convid.py:68
 msgid "<em>missing text</em>"
-msgstr ""
+msgstr "<em>缺少文字</em>"
 
 #: commands/convid.py:72
+#, fuzzy
 msgid "<em>required parameters: convfilter text</em>"
-msgstr ""
+msgstr "<em>必要參數：convfilter 文字</em>"
 
 #: commands/convid.py:76
 msgid "<em>no conversations filtered</em>"
-msgstr ""
+msgstr "<em>沒有過濾任何對話</em>"
 
 #: commands/convid.py:97
 msgid "<em>missing title</em>"
-msgstr ""
+msgstr "<em>缺少標題</em>"
 
 #: commands/convid.py:102
+#, fuzzy
 msgid "<em>required parameters: convfilter title</em>"
-msgstr ""
+msgstr "<em>必要參數：convfilter 標題</em>"
 
 #: commands/convid.py:112
 msgid "<em>should be 1 parameter, {} supplied</em>"
-msgstr ""
+msgstr "<em>應提供 1 個參數，已提供 {}</em>"
 
 #: commands/convid.py:115
 msgid "<em>retrieving ALL conversations blocked</em>"
-msgstr ""
+msgstr "<em>糾正所有被封鎖的對話</em>"
 
 #: commands/convid.py:132
 msgid "<b>Users: {}</b>"
-msgstr ""
+msgstr "<b>使用者：{}</b>"
 
 #: commands/convid.py:149
 msgid "<em>cannot leave ALL conversations</em>"
-msgstr ""
+msgstr "<em>無法離開所有對話</em>"
 
 #: commands/convid.py:156
+#, fuzzy
 msgid "<em>required parameters: convfilter</em>"
-msgstr ""
+msgstr "<em>必要參數：convfilter</em>"
 
 #: commands/convid.py:162
 msgid "I'll be back!"
-msgstr ""
+msgstr "我會回來的！"
 
 #: commands/tagging.py:32
 msgid "tagged <b><pre>{}</pre></b> with <b><pre>{}</pre></b>"
@@ -159,7 +164,7 @@ msgstr ""
 
 #: commands/tagging.py:34 commands/tagging.py:49
 msgid "<b><pre>{}</pre></b> unchanged"
-msgstr ""
+msgstr "<b><pre>{}</pre></b> 沒有變更"
 
 #: commands/tagging.py:36 commands/tagging.py:51
 msgid "<b>supply type, id, tag</b>"
@@ -167,11 +172,11 @@ msgstr ""
 
 #: commands/tagging.py:47
 msgid "removed <b><pre>{}</pre></b> from <b><pre>{}</pre></b>"
-msgstr ""
+msgstr "已移除 <b><pre>{}</pre></b> 從 <b><pre>{}</pre></b>"
 
 #: commands/tagging.py:62
 msgid "entries removed: <b><pre>{}</pre></b>"
-msgstr ""
+msgstr "條目已移除：<b><pre>{}</pre></b>"
 
 #: commands/tagging.py:64
 msgid "<b>supply type, id</b>"
@@ -179,31 +184,31 @@ msgstr ""
 
 #: commands/tagging.py:75
 msgid "<b><pre>COMMAND: {}</pre></b> does not exist"
-msgstr ""
+msgstr "<b><pre>指令：{}</pre></b> 不存在"
 
 #: commands/tagging.py:125
 msgid "<b><pre>COMMAND: {}</pre></b> has no tags"
-msgstr ""
+msgstr "<b><pre>指令：{}</pre></b> 沒有標籤"
 
 #: commands/tagging.py:127
 msgid "<b><pre>COMMAND: {}</pre></b>, match <b>ANY</b>:"
-msgstr ""
+msgstr "<b><pre>指令：{}</pre></b>，匹配<b>任何</b>："
 
 #: commands/tagging.py:131
 msgid "<b>supply command name</b>"
-msgstr ""
+msgstr "<b>提供指令名稱</b>"
 
 #: commands/tagging.py:144
 msgid "index: <b><pre>{}</pre></b>"
-msgstr ""
+msgstr "索引：<b><pre>{}</pre></b>"
 
 #: commands/tagging.py:146
 msgid "key: <pre>{}</pre>"
-msgstr ""
+msgstr "鍵：<pre>{}</pre>"
 
 #: commands/tagging.py:154
 msgid "<b>no entries to list</b>"
-msgstr ""
+msgstr "<b>沒有要列出的條目</b>"
 
 #: commands/tagging.py:191
 msgid "<b>supply chat_id, optional conv_id</b>"
@@ -215,19 +220,19 @@ msgstr ""
 
 #: commands/tagging.py:229
 msgid "<em>no tags returned</em>"
-msgstr ""
+msgstr "<em>沒有回傳標籤</em>"
 
 #: commands/tagging.py:233
 msgid "<b>no users found</b>"
-msgstr ""
+msgstr "<b>找不到使用者</b>"
 
 #: handlers.py:182
 msgid "{}: {}"
-msgstr ""
+msgstr "{}：{}"
 
 #: handlers.py:191
 msgid "{}: Missing parameter(s)"
-msgstr ""
+msgstr "{}：缺少參數"
 
 #: hangupsbot.py:116
 msgid "{} already registered in shared"
@@ -244,41 +249,43 @@ msgid ""
 "For help, type <b>{0} help</b>. To keep me quiet, reply with <b>{0} optout</"
 "b>.</i>"
 msgstr ""
+"<i>你好！我將會使用此頻道傳送私人訊息和警報。如果需要協助，請輸入 "
+"<b>{0}help</b>。如果需要我保持安靜，請回覆 <b>{0} optout</b>。</i>"
 
 #: hangupsbot.py:799
 msgid "Unidentified User"
-msgstr ""
+msgstr "身份不明的使用者"
 
 #: hangupsbot.py:807
 msgid ""
 "<i>{}, you are currently opted-out. Private message me or enter <b>{} "
 "optout</b> to get me to talk to you.</i>"
-msgstr ""
+msgstr "<i>{}，你目前已選擇退出。私訊我或輸入 <b>{} optout</b> 以讓我與你交談。</i>"
 
 #: hangupsbot.py:810
 msgid ""
 "<i>{}, before I can help you, you need to private message me and say hi.</i>"
-msgstr ""
+msgstr "<i>{}，在我為你提供幫助之前，你需要先私訊我並打個招呼。</i>"
 
 #: hangupsbot.py:963
 msgid "log detailed debugging messages"
-msgstr ""
+msgstr "記錄詳細的偵錯訊息"
 
 #: hangupsbot.py:965
 msgid "log file path"
-msgstr ""
+msgstr "日誌檔案路徑"
 
 #: hangupsbot.py:967
 msgid "cookie storage path"
-msgstr ""
+msgstr "Cookie 儲存路徑"
 
 #: hangupsbot.py:969
 msgid "memory storage path"
-msgstr ""
+msgstr "記憶儲存路徑"
 
 #: hangupsbot.py:971
 msgid "config storage path"
-msgstr ""
+msgstr "配置儲存路徑"
 
 #: hangupsbot.py:973
 msgid "Maximum disconnect / reconnect retries before quitting"
@@ -933,7 +940,7 @@ msgstr ""
 
 #: plugins/starter.py:23
 msgid "<i>No! I am Spartacus!</i>"
-msgstr ""
+msgstr "<i>不！我是斯巴達克斯！</i>"
 
 #: plugins/starter.py:31
 msgid "<i>config: {}<br />memory: {}</i>"
@@ -968,49 +975,49 @@ msgstr ""
 
 #: plugins/subscribe.py:153
 msgid "Usage: /bot subscribe [keyword]"
-msgstr ""
+msgstr "用法：/bot subscribe [關鍵字]"
 
 #: plugins/subscribe.py:157 plugins/subscribe.py:190
 msgid "Subscribed to: {}"
-msgstr ""
+msgstr "已訂閱：{}"
 
 #: plugins/subscribe.py:164
 msgid "Already subscribed to '{}'!"
-msgstr ""
+msgstr "已經訂閱「{}」！"
 
 #: plugins/subscribe.py:173 plugins/subscribe.py:181
 msgid ""
 "Note: You will not be able to trigger your own subscriptions. To test, "
 "please ask somebody else to test this for you."
-msgstr ""
+msgstr "注意：你將會無法觸發自己的訂閱。要進行測試，請詢問其他人為你進行測試。"
 
 #: plugins/subscribe.py:202
 msgid "Unsubscribing all keywords"
-msgstr ""
+msgstr "取消訂閱所有關鍵字"
 
 #: plugins/subscribe.py:206
 msgid "Unsubscribing from keyword '{}'"
-msgstr ""
+msgstr "取消訂閱關鍵字「{}」"
 
 #: plugins/subscribe.py:210
 msgid "Error: keyword not found"
-msgstr ""
+msgstr "錯誤：找不到關鍵字"
 
 #: plugins/syncrooms.py:277
 msgid "<b>Sync Rooms: {}</b>"
-msgstr ""
+msgstr "<b>同步房間：{}</b>"
 
 #: plugins/syncrooms.py:281
 msgid "<b>Standard Room</b>"
-msgstr ""
+msgstr "<b>標準房間</b>"
 
 #: plugins/syncrooms.py:292
 msgid "<b>failed to retrieve user list</b>"
-msgstr ""
+msgstr "<b>檢索使用者清單失敗</b>"
 
 #: plugins/syncrooms.py:313
 msgid "<b>Total Unique: {}</b>"
-msgstr ""
+msgstr "<b>總計獨特：{}</b>"
 
 #: plugins/syncrooms_config.py:68
 msgid "<i>syncout updated: {} conversations</i>"
@@ -1030,7 +1037,7 @@ msgstr ""
 
 #: plugins/tldr.py:126
 msgid "{}. {} <b>{} ago</b>"
-msgstr ""
+msgstr "{}. {} <b>{} 前</b>"
 
 #: plugins/tldr.py:131
 msgid "TL;DR not found."
@@ -1042,7 +1049,7 @@ msgstr ""
 
 #: plugins/tldr.py:135
 msgid "\n"
-msgstr ""
+msgstr "\n"
 
 #: plugins/tldr.py:160 plugins/tldr.py:180
 msgid "TL;DR #{} not found."
@@ -1058,7 +1065,7 @@ msgstr ""
 
 #: plugins/tldr.py:171
 msgid "Nothing specified to clear."
-msgstr ""
+msgstr "沒有指定要清除的項目。"
 
 #: plugins/tldr.py:187
 msgid "TL;DR #{} edited - \"{}\" -> \"{}\""
@@ -1074,19 +1081,19 @@ msgstr ""
 
 #: plugins/tldr.py:210
 msgid "{}s"
-msgstr ""
+msgstr "{} 秒"
 
 #: plugins/tldr.py:212
 msgid "{}m"
-msgstr ""
+msgstr "{} 分鐘"
 
 #: plugins/tldr.py:214
 msgid "{}h"
-msgstr ""
+msgstr "{} 小時"
 
 #: plugins/tldr.py:216
 msgid "{}d"
-msgstr ""
+msgstr "{} 天"
 
 #: plugins/urbandict.py:93
 msgid "<b>definition:</b> "
@@ -1094,20 +1101,20 @@ msgstr "<b>定義：</b> "
 
 #: plugins/urbandict.py:95
 msgid "<b>example:</b> "
-msgstr "<b>例子：</b> "
+msgstr "<b>範例：</b> "
 
 #: plugins/urbandict.py:100
 msgid "<i>no urban dictionary definition for \"{}\"</i>"
-msgstr "<i>城市詞典中對於 \"{}\" 沒有任何定義</i>"
+msgstr "<i>城市辭典中沒有「{}」的定義</i>"
 
 #: plugins/urbandict.py:102
 msgid "<i>no term from urban dictionary</i>"
-msgstr "<i>城市詞典中沒有這個術語</i>"
+msgstr "<i>城市辭典中沒有術語</i>"
 
 #: plugins/wolframalpha.py:34
 msgid "You need to ask WolframAlpha a question"
-msgstr ""
+msgstr "你需要問 WolframAlpha 一個問題"
 
 #: plugins/wolframalpha.py:57
 msgid "<i>Wolfram Alpha did not return any useful data</i>"
-msgstr "<i>Wolfram Alpha 沒有回傳任何的有用的資訊</i>"
+msgstr "<i>Wolfram Alpha 沒有回傳任何有用的資訊</i>"
