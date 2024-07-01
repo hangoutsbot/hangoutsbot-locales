@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-30 19:29+0800\n"
-"PO-Revision-Date: 2024-07-01 05:34+0000\n"
+"PO-Revision-Date: 2024-07-02 06:09+0000\n"
 "Last-Translator: hugoalh <hugoalh@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "hangoutsbot/hangups/zh_Hant/>\n"
@@ -160,7 +160,7 @@ msgstr "我會回來的！"
 
 #: commands/tagging.py:32
 msgid "tagged <b><pre>{}</pre></b> with <b><pre>{}</pre></b>"
-msgstr ""
+msgstr "<b><pre>{}</pre></b> 已標記為 <b><pre>{}</pre></b>"
 
 #: commands/tagging.py:34 commands/tagging.py:49
 msgid "<b><pre>{}</pre></b> unchanged"
@@ -240,7 +240,7 @@ msgstr ""
 
 #: hangupsbot.py:400
 msgid "memory: {} is 1on1 with {}"
-msgstr ""
+msgstr "記憶：{} 與 {} 一對一"
 
 #: hangupsbot.py:457
 #, python-brace-format
@@ -289,23 +289,23 @@ msgstr "配置儲存路徑"
 
 #: hangupsbot.py:973
 msgid "Maximum disconnect / reconnect retries before quitting"
-msgstr ""
+msgstr "退出前最大斷線／重新連線重試次數"
 
 #: hangupsbot.py:975
 msgid "show program's version number and exit"
-msgstr ""
+msgstr "顯示程式的版本號碼並退出"
 
 #: hangupsbot.py:987
 msgid "Failed to create directory: {}"
-msgstr ""
+msgstr "建立目錄失敗：{}"
 
 #: hangupsbot.py:995
 msgid "Failed to copy default config file: {}"
-msgstr ""
+msgstr "複製預設配置檔案失敗：{}"
 
 #: plugins/_DEPRECATED_simplytranslate.py:48
 msgid "Translation server error: <i>{}</i>"
-msgstr ""
+msgstr "翻譯伺服器錯誤：<i>{}</i>"
 
 #: plugins/_DEPRECATED_syncrooms_autotranslate.py:68
 msgid "<i>syncroom \"{}\" language is {}</i>"
@@ -317,7 +317,7 @@ msgstr ""
 
 #: plugins/_example/example_memory.py:22
 msgid "<b>{}</b>, remembered!"
-msgstr ""
+msgstr "<b>{}</b>，已記住了！"
 
 #: plugins/_example/example_memory.py:27
 msgid "<b>{}</b>, remembered something else!"
@@ -369,11 +369,11 @@ msgstr ""
 
 #: plugins/botaliases.py:50
 msgid "<i>bot alias: {}</i>"
-msgstr ""
+msgstr "<i>機器人別名：{}</i>"
 
 #: plugins/botaliases.py:79
 msgid "<i>not authorised to change bot alias</i>"
-msgstr ""
+msgstr "<i>沒有授權變更機器人別名</i>"
 
 #: plugins/chance.py:50
 msgid "<i>{} rolled "
@@ -381,7 +381,7 @@ msgstr ""
 
 #: plugins/chance.py:57
 msgid "<b>{}</b>"
-msgstr ""
+msgstr "<b>{}</b>"
 
 #: plugins/chance.py:59
 msgid " totalling <b>{}</b></i>"
@@ -389,11 +389,11 @@ msgstr ""
 
 #: plugins/chance.py:66
 msgid "<i>{}, coin turned up <b>heads</b></i>"
-msgstr ""
+msgstr "<i>{}，硬幣出現<b>正面</b></i>"
 
 #: plugins/chance.py:68
 msgid "<i>{}, coin turned up <b>tails</b></i>"
-msgstr ""
+msgstr "<i>{}，硬幣出現<b>反面</b></i>"
 
 #: plugins/convtools.py:77
 msgid "supply the id of the conversation to join"
@@ -401,7 +401,7 @@ msgstr ""
 
 #: plugins/convtools.py:155
 msgid "conversation {} not found"
-msgstr ""
+msgstr "找不到對話 {}"
 
 #: plugins/convtools.py:158
 msgid "conversation {} is not a GROUP"
@@ -419,15 +419,15 @@ msgstr ""
 
 #: plugins/convtools.py:182
 msgid "<em>unchanged</em>"
-msgstr ""
+msgstr "<em>沒有變更</em>"
 
 #: plugins/convtools.py:184 plugins/convtools.py:186 plugins/convtools.py:211
 msgid "<em>none</em>"
-msgstr ""
+msgstr "<em>無</em>"
 
 #: plugins/convtools.py:191
 msgid "<i>refreshing group...</i><br />"
-msgstr ""
+msgstr "<i>正在重新整理群組…</i><br />"
 
 #: plugins/convtools.py:194
 msgid "<i>all users added</i><br />"
@@ -435,7 +435,7 @@ msgstr ""
 
 #: plugins/convtools.py:202
 msgid "<i>group has been obsoleted</i>"
-msgstr ""
+msgstr "<i>群組已被廢棄</i>"
 
 #: plugins/convtools.py:205
 msgid ""
@@ -445,23 +445,23 @@ msgstr ""
 
 #: plugins/convtools.py:214
 msgid "<b>nobody to add in the new conversation</b>"
-msgstr ""
+msgstr "<b>沒有人可以加入新對話</b>"
 
 #: plugins/convtools.py:240
 msgid "supply optional conversation id and valid user ids to kick"
-msgstr ""
+msgstr "提供選擇性的對話 ID 和有效的使用者 ID 以踢出"
 
 #: plugins/convtools.py:243
 msgid "supply at least one valid user id to kick"
-msgstr ""
+msgstr "提供至少一個有效的使用者 ID 以踢出"
 
 #: plugins/convtools_invitations.py:121
 msgid "<i>group created</i>"
-msgstr ""
+msgstr "<i>群組已建立</i>"
 
 #: plugins/convtools_invitations.py:123
 msgid "GROUP: {}"
-msgstr ""
+msgstr "群組：{}"
 
 #: plugins/convtools_invitations.py:177
 msgid "<em>insufficient parameters for invite</em>"
@@ -469,19 +469,19 @@ msgstr ""
 
 #: plugins/convtools_invitations.py:196
 msgid "<b>Test Invitation Purge</b>"
-msgstr ""
+msgstr "<b>測試邀請清除</b>"
 
 #: plugins/convtools_invitations.py:198
 msgid "<b>Invitation Purge</b>"
-msgstr ""
+msgstr "<b>邀請清除</b>"
 
 #: plugins/convtools_invitations.py:201
 msgid "<b>Invitation List</b>"
-msgstr ""
+msgstr "<b>邀請清單</b>"
 
 #: plugins/convtools_invitations.py:230
 msgid "<em>no invites found</em>"
-msgstr ""
+msgstr "<em>找不到邀請</em>"
 
 #: plugins/convtools_invitations.py:298
 msgid "<em>invite: specify \"from\" or explicit list of \"users\"</em>"
@@ -896,7 +896,7 @@ msgstr ""
 
 #: plugins/spotify.py:111
 msgid "<em>Spotify is <b>{}</b>.</em>"
-msgstr ""
+msgstr "<em>Spotify 是 <b>{}</b>。</em>"
 
 #: plugins/spotify.py:118
 msgid "<em>Spotify {} on. Now it's <b>{}</b>.</em>"
@@ -908,7 +908,7 @@ msgstr ""
 
 #: plugins/spotify.py:129
 msgid "<em>Spotify playlist: {}</em>"
-msgstr ""
+msgstr "<em>Spotify 播放清單：{}</em>"
 
 #: plugins/spotify.py:132
 msgid "<em>You must specify a Spotify track.</em>"
@@ -971,7 +971,7 @@ msgstr ""
 #: plugins/subscribe.py:149
 msgid ""
 "Note: I am unable to ping you until you start a 1 on 1 conversation with me!"
-msgstr ""
+msgstr "注意：在你與我開始一對一對話之前，我無法對你 ping！"
 
 #: plugins/subscribe.py:153
 msgid "Usage: /bot subscribe [keyword]"
