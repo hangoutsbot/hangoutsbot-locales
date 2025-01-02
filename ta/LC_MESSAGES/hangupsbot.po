@@ -8,231 +8,238 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-30 20:01+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-01-03 04:00+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/hangoutsbot/"
+"hangups/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: commands/basic.py:45
 msgid ""
 "<b>Impersonation:</b><br /><b><pre>{}</pre></b><br /><b><pre>{}</pre></"
 "b><br />"
 msgstr ""
+"<b>ஆள்மாறாட்டம்:</b><br /><b><pre>{}</pre></b><br /><b><pre>{}</pre></b><br />"
 
 #: commands/basic.py:51
 msgid "<b>User commands:</b>"
-msgstr ""
+msgstr "<b> பயனர் கட்டளைகள்: </b>"
 
 #: commands/basic.py:56
 msgid "<i>For more information, please see: {}</i>"
-msgstr ""
+msgstr "<i> மேலும் தகவலுக்கு, தயவுசெய்து பார்க்கவும்: {} </i>"
 
 #: commands/basic.py:60
 msgid "<b>Admin commands:</b>"
-msgstr ""
+msgstr "<b> நிர்வாக கட்டளைகள்: </b>"
 
 #: commands/basic.py:85
 msgid "command help not available"
-msgstr ""
+msgstr "கட்டளை உதவி கிடைக்கவில்லை"
 
 #: commands/basic.py:114
 msgid "<i>{}, I've sent you some help ;)</i>"
-msgstr ""
+msgstr "<i> {}, நான் உங்களுக்கு சில உதவிகளை அனுப்பினேன்;) </i>"
 
 #: commands/basic.py:123
 msgid "locale set to: {}"
-msgstr ""
+msgstr "லோகேல் அமைக்கப்பட்டுள்ளது: {}"
 
 #: commands/basic.py:125
 msgid "locale unchanged"
-msgstr ""
+msgstr "இடம் மாறாது"
 
 #: commands/basic.py:127
 msgid "language code required"
-msgstr ""
+msgstr "மொழி குறியீடு தேவை"
 
 #: commands/basic.py:177
 msgid "<i>{}, search did not match a single group conversation</i>"
-msgstr ""
+msgstr "<i> {}, தேடல் ஒரு குழு உரையாடலுடன் பொருந்தவில்லை </i>"
 
 #: commands/basic.py:218
 msgid "<i>{}, you <b>opted-in</b> for bot private messages</i>"
-msgstr ""
+msgstr "<i> {}, நீங்கள் <b> தேர்வுசெய்த </b> போட் பிரைவேட் செய்திகளுக்கு </i>"
 
 #: commands/basic.py:221
 msgid "<i>{}, you <b>opted-out</b> from bot private messages</i>"
-msgstr ""
+msgstr "<i> {}, நீங்கள் <b> விலகிய </b> போட் பிரைவேட் செய்திகளிலிருந்து </i>"
 
 #: commands/basic.py:223
 msgid ""
 "<i>{}, you are <b>opted-out</b> from the following conversations:\n"
 "{}</i>"
 msgstr ""
+"<i>{}, பின்வரும் உரையாடலிலிருந்து நீங்கள் <b>விலகியவர் </b>:\n"
+"{}</i>"
 
 #: commands/basic.py:234
 msgid "Bot Version: <b>{}</b>"
-msgstr ""
+msgstr "போட் பதிப்பு: <b> {} </b>"
 
 #: commands/basic.py:265
 msgid "{}: Unknown Command"
-msgstr ""
+msgstr "{}: தெரியாத கட்டளை"
 
 #: commands/basic.py:275
 msgid "{}: Can't do that."
-msgstr ""
+msgstr "{}: அதை செய்ய முடியாது."
 
 #: commands/convid.py:32
 msgid ""
 "<em>1 parameter required, {} supplied - enclose parameter in double-quotes</"
 "em>"
 msgstr ""
+"<em> 1 அளவுரு தேவை, {} வழங்கப்பட்டது - இரட்டை மேற்கோள்களில் அளவுருவை இணைக்கவும் </em>"
 
 #: commands/convid.py:35
 msgid "<em>supply 1 parameter</em>"
-msgstr ""
+msgstr "<em> வழங்கல் 1 அளவுரு </em>"
 
 #: commands/convid.py:40 plugins/default.py:203
 msgid "<b>Total: {}</b>"
-msgstr ""
+msgstr "<b> மொத்தம்: {} </b>"
 
 #: commands/convid.py:55
 msgid "<em>sending to ALL conversations not allowed</em>"
-msgstr ""
+msgstr "<em> அனுமதிக்கப்படாத அனைத்து உரையாடல்களுக்கும் அனுப்புகிறது </em>"
 
 #: commands/convid.py:64
 msgid "<em>command echo blocked</em>"
-msgstr ""
+msgstr "<em> கட்டளை எதிரொலி தடுக்கப்பட்டது </em>"
 
 #: commands/convid.py:68
 msgid "<em>missing text</em>"
-msgstr ""
+msgstr "<em> உரை காணவில்லை </em>"
 
 #: commands/convid.py:72
 msgid "<em>required parameters: convfilter text</em>"
-msgstr ""
+msgstr "<em> தேவையான அளவுருக்கள்: convfilter உரை </em>"
 
 #: commands/convid.py:76
 msgid "<em>no conversations filtered</em>"
-msgstr ""
+msgstr "<em> உரையாடல்கள் வடிகட்டப்படவில்லை </em>"
 
 #: commands/convid.py:97
 msgid "<em>missing title</em>"
-msgstr ""
+msgstr "<em> தலைப்பு இல்லை தலைப்பு </em>"
 
 #: commands/convid.py:102
 msgid "<em>required parameters: convfilter title</em>"
-msgstr ""
+msgstr "<em> தேவையான அளவுருக்கள்: convfilter தலைப்பு </em>"
 
 #: commands/convid.py:112
 msgid "<em>should be 1 parameter, {} supplied</em>"
-msgstr ""
+msgstr "<em> 1 அளவுருவாக இருக்க வேண்டும், {} வழங்கப்பட்டது </em>"
 
 #: commands/convid.py:115
 msgid "<em>retrieving ALL conversations blocked</em>"
-msgstr ""
+msgstr "<em> அனைத்து உரையாடல்களையும் மீட்டெடுப்பது தடுக்கப்பட்டது </em>"
 
 #: commands/convid.py:132
 msgid "<b>Users: {}</b>"
-msgstr ""
+msgstr "<b> பயனர்கள்: {} </b>"
 
 #: commands/convid.py:149
 msgid "<em>cannot leave ALL conversations</em>"
-msgstr ""
+msgstr "<em> எல்லா உரையாடல்களையும் விட்டுவிட முடியாது </em>"
 
 #: commands/convid.py:156
 msgid "<em>required parameters: convfilter</em>"
-msgstr ""
+msgstr "<em> தேவையான அளவுருக்கள்: convfilter </em>"
 
 #: commands/convid.py:162
 msgid "I'll be back!"
-msgstr ""
+msgstr "நான் திரும்பி வருவேன்!"
 
 #: commands/tagging.py:32
 msgid "tagged <b><pre>{}</pre></b> with <b><pre>{}</pre></b>"
-msgstr ""
+msgstr "குறித்துள்ளார் <b> <pre> {} </pre> </b> <b> <pre> {} </pre> </b> உடன்"
 
 #: commands/tagging.py:34 commands/tagging.py:49
 msgid "<b><pre>{}</pre></b> unchanged"
-msgstr ""
+msgstr "<b> <pre> {} </pre> </b> மாறாமல்"
 
 #: commands/tagging.py:36 commands/tagging.py:51
 msgid "<b>supply type, id, tag</b>"
-msgstr ""
+msgstr "<b> விநியோக வகை, ஐடி, குறிச்சொல் </b>"
 
 #: commands/tagging.py:47
 msgid "removed <b><pre>{}</pre></b> from <b><pre>{}</pre></b>"
-msgstr ""
+msgstr "<b><pre>{}</pre></b>இலிருந்து <b><pre>{}</pre></b>அகற்றப்பட்டது"
 
 #: commands/tagging.py:62
 msgid "entries removed: <b><pre>{}</pre></b>"
-msgstr ""
+msgstr "உள்ளீடுகள் அகற்றப்பட்டன: <b> <pre> {} </pre> </b>"
 
 #: commands/tagging.py:64
 msgid "<b>supply type, id</b>"
-msgstr ""
+msgstr "<b> விநியோக வகை, ஐடி </b>"
 
 #: commands/tagging.py:75
 msgid "<b><pre>COMMAND: {}</pre></b> does not exist"
-msgstr ""
+msgstr "<b> <pre> கட்டளை: {} </pre> </b> இல்லை"
 
 #: commands/tagging.py:125
 msgid "<b><pre>COMMAND: {}</pre></b> has no tags"
-msgstr ""
+msgstr "<b> <pre> கட்டளை: {} </pre> </b> குறிச்சொற்கள் இல்லை"
 
 #: commands/tagging.py:127
 msgid "<b><pre>COMMAND: {}</pre></b>, match <b>ANY</b>:"
-msgstr ""
+msgstr "<b> <pre> கட்டளை: {} </pre> </b>, பொருந்தவும் <b> ஏதேனும் </b>:"
 
 #: commands/tagging.py:131
 msgid "<b>supply command name</b>"
-msgstr ""
+msgstr "<b> கட்டளை பெயர் </b>"
 
 #: commands/tagging.py:144
 msgid "index: <b><pre>{}</pre></b>"
-msgstr ""
+msgstr "குறியீட்டு: <b> <pre> {} </pre> </b>"
 
 #: commands/tagging.py:146
 msgid "key: <pre>{}</pre>"
-msgstr ""
+msgstr "விசை: <pre> {} </pre>"
 
 #: commands/tagging.py:154
 msgid "<b>no entries to list</b>"
-msgstr ""
+msgstr "<b> பட்டியலுக்கு உள்ளீடுகள் இல்லை </b>"
 
 #: commands/tagging.py:191
 msgid "<b>supply chat_id, optional conv_id</b>"
-msgstr ""
+msgstr "<b> சப்ளை சாட்_ஐடி, விருப்பமான conv_id </b>"
 
 #: commands/tagging.py:218
 msgid "<b>supply conv_id, optional tag list</b>"
-msgstr ""
+msgstr "<b> வழங்கல் conv_id, விருப்ப குறிச்சொல் பட்டியல் </b>"
 
 #: commands/tagging.py:229
 msgid "<em>no tags returned</em>"
-msgstr ""
+msgstr "<em> குறிச்சொற்கள் எதுவும் திரும்பவில்லை </em>"
 
 #: commands/tagging.py:233
 msgid "<b>no users found</b>"
-msgstr ""
+msgstr "<b> பயனர்கள் எதுவும் கிடைக்கவில்லை </b>"
 
 #: handlers.py:182
 msgid "{}: {}"
-msgstr ""
+msgstr "{}: {}"
 
 #: handlers.py:191
 msgid "{}: Missing parameter(s)"
-msgstr ""
+msgstr "{}: காணாமல் போன அளவுரு (கள்)"
 
 #: hangupsbot.py:116
 msgid "{} already registered in shared"
-msgstr ""
+msgstr "{} ஏற்கனவே பகிரப்பட்ட பதிவு செய்யப்பட்டுள்ளது"
 
 #: hangupsbot.py:400
 msgid "memory: {} is 1on1 with {}"
-msgstr ""
+msgstr "நினைவகம்: {} என்பது {with உடன் 1on1"
 
 #: hangupsbot.py:457
 #, python-brace-format
@@ -241,554 +248,598 @@ msgid ""
 "For help, type <b>{0} help</b>. To keep me quiet, reply with <b>{0} optout</"
 "b>.</i>"
 msgstr ""
+"<i> வணக்கம்! தனிப்பட்ட செய்திகளையும் விழிப்பூட்டல்களையும் அனுப்ப இந்தச் சேனலைப் "
+"பயன்படுத்துவேன். உதவிக்கு, <b> {0}உதவி</b> எனத் தட்டச்சு செய்க. என்னை அமைதியாக "
+"வைத்திருக்க, <b> {0} optout </b> உடன் பதிலளிக்கவும். </i>"
 
 #: hangupsbot.py:799
 msgid "Unidentified User"
-msgstr ""
+msgstr "அடையாளம் தெரியாத பயனர்"
 
 #: hangupsbot.py:807
 msgid ""
 "<i>{}, you are currently opted-out. Private message me or enter <b>{} "
 "optout</b> to get me to talk to you.</i>"
 msgstr ""
+"<i>{}, நீங்கள் தற்போது விலகிவிட்டீர்கள். எனக்குத் தனிப்பட்ட செய்தி அல்லது <b>{} optout</b> "
+"உள்ளிடுக நான் உங்களிடம் பேச.</i>"
 
 #: hangupsbot.py:810
 msgid ""
 "<i>{}, before I can help you, you need to private message me and say hi.</i>"
 msgstr ""
+"<i> {}, நான் உங்களுக்கு உதவுமுன், நீங்கள் எனக்கு தனிப்பட்ட முறையில் செய்தி அனுப்ப வேண்டும், "
+"ஆய் சொல்ல வேண்டும். </i>"
 
 #: hangupsbot.py:963
 msgid "log detailed debugging messages"
-msgstr ""
+msgstr "விரிவான பிழைத்திருத்த செய்திகளை பதிவு செய்யுங்கள்"
 
 #: hangupsbot.py:965
 msgid "log file path"
-msgstr ""
+msgstr "பதிவு கோப்பு பாதை"
 
 #: hangupsbot.py:967
 msgid "cookie storage path"
-msgstr ""
+msgstr "குக்கீ சேமிப்பு பாதை"
 
 #: hangupsbot.py:969
 msgid "memory storage path"
-msgstr ""
+msgstr "நினைவக சேமிப்பு பாதை"
 
 #: hangupsbot.py:971
 msgid "config storage path"
-msgstr ""
+msgstr "உள்ளமைவு சேமிப்பு பாதை"
 
 #: hangupsbot.py:973
 msgid "Maximum disconnect / reconnect retries before quitting"
-msgstr ""
+msgstr "வெளியேறுவதற்கு முன் அதிகபட்சமாக துண்டிக்கவும் / மீண்டும் இணைக்கவும்"
 
 #: hangupsbot.py:975
 msgid "show program's version number and exit"
-msgstr ""
+msgstr "நிரலின் பதிப்பு எண்ணைக் காண்பி வெளியேறவும்"
 
 #: hangupsbot.py:987
 msgid "Failed to create directory: {}"
-msgstr ""
+msgstr "கோப்பகத்தை உருவாக்குவதில் தோல்வி: {}"
 
 #: hangupsbot.py:995
 msgid "Failed to copy default config file: {}"
-msgstr ""
+msgstr "இயல்புநிலை கட்டமைப்பு கோப்பை நகலெடுப்பதில் தோல்வி: {}"
 
 #: plugins/_DEPRECATED_simplytranslate.py:48
 msgid "Translation server error: <i>{}</i>"
-msgstr ""
+msgstr "மொழிபெயர்ப்பு சேவையக பிழை: <i> {} </i>"
 
 #: plugins/_DEPRECATED_syncrooms_autotranslate.py:68
 msgid "<i>syncroom \"{}\" language is {}</i>"
-msgstr ""
+msgstr "<i> ஒத்திசைவு \"{}\" மொழி {} </i>"
 
 #: plugins/_DEPRECATED_syncrooms_autotranslate.py:81
 msgid "<i>syncroom \"{}\" language set to {}</i>"
-msgstr ""
+msgstr "<i> ஒத்திசைவு \"{}\" மொழி {} </i> க்கு அமைக்கப்பட்டுள்ளது"
 
 #: plugins/_example/example_memory.py:22
 msgid "<b>{}</b>, remembered!"
-msgstr ""
+msgstr "<b> {} </b>, நினைவில் உள்ளது!"
 
 #: plugins/_example/example_memory.py:27
 msgid "<b>{}</b>, remembered something else!"
-msgstr ""
+msgstr "<b> {} </b>, வேறு ஏதாவது நினைவில் இருந்தது!"
 
 #: plugins/_example/example_memory.py:38
 msgid "<b>{}</b>, nothing remembered!"
-msgstr ""
+msgstr "<b> {} </b>, எதுவும் நினைவில் இல்லை!"
 
 #: plugins/_example/example_memory.py:43
 msgid "<b>{}</b> asked me to remember <i>\"{}\"</i>"
-msgstr ""
+msgstr "<b> {} </b> <i> \"{}\" </i> நினைவில் கொள்ளும்படி என்னிடம் கேட்டார்"
 
 #: plugins/_example/example_memory.py:54
 msgid "<b>{}</b>, nothing to forget!"
-msgstr ""
+msgstr "<b> {} </b>, மறக்க எதுவும் இல்லை!"
 
 #: plugins/_example/example_memory.py:60
 msgid "<b>{}</b>, forgotten!"
-msgstr ""
+msgstr "<b> {} </b>, மறந்துவிட்டது!"
 
 #: plugins/_example/example_memory.py:76
 msgid "<b>{}</b>, remembered for this conversation"
-msgstr ""
+msgstr "<b> {} </b>, இந்த உரையாடலுக்கு நினைவில் உள்ளது"
 
 #: plugins/_example/example_memory.py:81
 msgid "<b>{}</b>, remembered something else for this conversation!"
-msgstr ""
+msgstr "<b> {} </b>, இந்த உரையாடலுக்கு வேறு ஏதாவது நினைவில் இருந்தது!"
 
 #: plugins/_example/example_memory.py:92
 msgid "<b>{}</b>, nothing remembered for this conversation!"
-msgstr ""
+msgstr "<b> {} </b>, இந்த உரையாடலுக்கு எதுவும் நினைவில் இல்லை!"
 
 #: plugins/_example/example_memory.py:97
 msgid "<b>{}</b> asked me to remember <i>\"{}\" for this conversation</i>"
 msgstr ""
+"<b> {} </b> இந்த உரையாடலுக்காக <i> \"{}\" நினைவில் கொள்ளும்படி என்னிடம் கேட்டார் </i>"
 
 #: plugins/_example/example_memory.py:108
 msgid "<b>{}</b>, nothing to forget for this conversation!"
-msgstr ""
+msgstr "<b> {} </b>, இந்த உரையாடலை மறக்க எதுவும் இல்லை!"
 
 #: plugins/_example/example_memory.py:114
 msgid "<b>{}</b>, forgotten for this conversation!"
-msgstr ""
+msgstr "<b> {} </b>, இந்த உரையாடலுக்கு மறந்துவிட்டது!"
 
 #: plugins/autoreply.py:110
 msgid "Unidentified Conversation"
-msgstr ""
+msgstr "அடையாளம் தெரியாத உரையாடல்"
 
 #: plugins/botaliases.py:50
 msgid "<i>bot alias: {}</i>"
-msgstr ""
+msgstr "<i> போட் மாற்றுப்பெயர்: {} </i>"
 
 #: plugins/botaliases.py:79
 msgid "<i>not authorised to change bot alias</i>"
-msgstr ""
+msgstr "<i> போட் மாற்றுப்பெயரை மாற்ற ஏற்பு இல்லை </i>"
 
 #: plugins/chance.py:50
 msgid "<i>{} rolled "
-msgstr ""
+msgstr "<i> {} உருட்டப்பட்டது "
 
 #: plugins/chance.py:57
 msgid "<b>{}</b>"
-msgstr ""
+msgstr "<b> {} </b>"
 
 #: plugins/chance.py:59
 msgid " totalling <b>{}</b></i>"
-msgstr ""
+msgstr " மொத்தம் <b> {} </b> </i>"
 
 #: plugins/chance.py:66
 msgid "<i>{}, coin turned up <b>heads</b></i>"
-msgstr ""
+msgstr "<i> {}, நாணயம் திரும்பியது <b> தலைகள் </b> </i>"
 
 #: plugins/chance.py:68
 msgid "<i>{}, coin turned up <b>tails</b></i>"
-msgstr ""
+msgstr "<i> {}, நாணயம் திரும்பியது <b> வால்கள் </b> </i>"
 
 #: plugins/convtools.py:77
 msgid "supply the id of the conversation to join"
-msgstr ""
+msgstr "சேர உரையாடலின் ஐடியை வழங்கவும்"
 
 #: plugins/convtools.py:155
 msgid "conversation {} not found"
-msgstr ""
+msgstr "உரையாடல்}} காணப்படவில்லை"
 
 #: plugins/convtools.py:158
 msgid "conversation {} is not a GROUP"
-msgstr ""
+msgstr "உரையாடல் {the ஒரு குழு அல்ல"
 
 #: plugins/convtools.py:161
 msgid "[DEFUNCT] {}"
-msgstr ""
+msgstr "[செயலிழந்த] {}"
 
 #: plugins/convtools.py:178
 msgid ""
 "<b>refresh:</b> {}<br /><b>rename old: {}</b><br /><b>removed {}:</b> {}<br /"
 "><b>added {}:</b> {}"
 msgstr ""
+"<b> புதுப்பிக்கவும்: </b> {} <br /> <b> பழையதை மறுபெயரிடுங்கள்: {} </b> <br /> "
+"<b> அகற்றப்பட்டது {}: </b> {} <br /> <b > சேர்க்கப்பட்டது {}: </b> {}"
 
 #: plugins/convtools.py:182
 msgid "<em>unchanged</em>"
-msgstr ""
+msgstr "<em> மாறாத </em>"
 
 #: plugins/convtools.py:184 plugins/convtools.py:186 plugins/convtools.py:211
 msgid "<em>none</em>"
-msgstr ""
+msgstr "<em> எதுவுமில்லை </em>"
 
 #: plugins/convtools.py:191
 msgid "<i>refreshing group...</i><br />"
-msgstr ""
+msgstr "<i> புத்துணர்ச்சியூட்டும் குழு ... </i> <br />"
 
 #: plugins/convtools.py:194
 msgid "<i>all users added</i><br />"
-msgstr ""
+msgstr "<i> அனைத்து பயனர்களும் சேர்க்கப்பட்டனர் </i> <br />"
 
 #: plugins/convtools.py:202
 msgid "<i>group has been obsoleted</i>"
-msgstr ""
+msgstr "<i> குழு வழக்கற்றுப் போய்விட்டது </i>"
 
 #: plugins/convtools.py:205
 msgid ""
 "refreshed: <b><pre>{}</pre></b> (original id: <pre>{}</pre>).<br />new "
 "conversation id: <b><pre>{}</pre></b>.<br />removed {}: {}"
 msgstr ""
+"புத்துணர்ச்சி: <b> <pre> {} </pre> </b> (அசல் ஐடி: <pre> {} </pre>).<br />புதிய "
+"உரையாடல்அடையாளம்:<b><pre> {}</pre></b>.<br /> அகற்றப்பட்டது {}: {}"
 
 #: plugins/convtools.py:214
 msgid "<b>nobody to add in the new conversation</b>"
-msgstr ""
+msgstr "<b> புதிய உரையாடலில் சேர்க்க யாரும் இல்லை </b>"
 
 #: plugins/convtools.py:240
 msgid "supply optional conversation id and valid user ids to kick"
-msgstr ""
+msgstr "விருப்ப உரையாடல் ஐடி மற்றும் சரியான பயனர் ஐடிகளை உதைக்க வழங்கவும்"
 
 #: plugins/convtools.py:243
 msgid "supply at least one valid user id to kick"
-msgstr ""
+msgstr "உதைக்க குறைந்தது ஒரு செல்லுபடியாகும் பயனர் ஐடியை வழங்கவும்"
 
 #: plugins/convtools_invitations.py:121
 msgid "<i>group created</i>"
-msgstr ""
+msgstr "<i> குழு உருவாக்கப்பட்டது </i>"
 
 #: plugins/convtools_invitations.py:123
 msgid "GROUP: {}"
-msgstr ""
+msgstr "குழு: {}"
 
 #: plugins/convtools_invitations.py:177
 msgid "<em>insufficient parameters for invite</em>"
-msgstr ""
+msgstr "<em> அழைப்புக்கு போதுமான அளவுருக்கள் இல்லை </em>"
 
 #: plugins/convtools_invitations.py:196
 msgid "<b>Test Invitation Purge</b>"
-msgstr ""
+msgstr "<b> சோதனை அழைப்பிதழ் சுத்திகரிப்பு </b>"
 
 #: plugins/convtools_invitations.py:198
 msgid "<b>Invitation Purge</b>"
-msgstr ""
+msgstr "<b> அழைப்பிதழ் தூய்மை </b>"
 
 #: plugins/convtools_invitations.py:201
 msgid "<b>Invitation List</b>"
-msgstr ""
+msgstr "<b> அழைப்பிதழ் பட்டியல் </b>"
 
 #: plugins/convtools_invitations.py:230
 msgid "<em>no invites found</em>"
-msgstr ""
+msgstr "<em> எந்த அழைப்புகளும் கிடைக்கவில்லை </em>"
 
 #: plugins/convtools_invitations.py:298
 msgid "<em>invite: specify \"from\" or explicit list of \"users\"</em>"
 msgstr ""
+"<em> அழைக்கவும்: \"பயனர்கள்\" </em> இன் வெளிப்படையான பட்டியலிலிருந்து \"\" இலிருந்து "
+"குறிப்பிடவும்"
 
 #: plugins/convtools_invitations.py:307
 msgid "<em>invite: could not identify target conversation"
-msgstr ""
+msgstr "<em> அழைப்பு: இலக்கு உரையாடலை அடையாளம் காண முடியவில்லை"
 
 #: plugins/convtools_invitations.py:373
 msgid "<em>invite: nobody invited</em>"
-msgstr ""
+msgstr "<em> அழைக்கவும்: யாரும் அழைக்கப்படவில்லை </em>"
 
 #: plugins/convtools_invitations.py:399
 msgid "<em>invite: {} invitations created</em>"
-msgstr ""
+msgstr "<em> அழைக்கவும்: {} அழைப்புகள் உருவாக்கப்பட்டன </em>"
 
 #: plugins/convtools_invitations.py:418
 msgid "<b>Invites for {}:</b>"
-msgstr ""
+msgstr "<b> {}: </b> க்கு அழைப்புகள்"
 
 #: plugins/convtools_invitations.py:423
 msgid ""
 "<em>To claim an invite, use the rsvp command followed by the invite code</em>"
 msgstr ""
+"<em> அழைப்பைக் கோர, அழைப்புக் குறியீடு </em> ஐத் தொடர்ந்து RSVP கட்டளையைப் பயன்படுத்தவும்"
 
 #: plugins/convtools_invitations.py:426
 msgid "<em>no invites to display</em>"
-msgstr ""
+msgstr "<em> காண்பிக்க எந்த அழைப்பும் இல்லை </em>"
 
 #: plugins/default.py:35
 msgid "<b>only admins can echo other conversations</b>"
-msgstr ""
+msgstr "<b> நிர்வாகிகள் மட்டுமே பிற உரையாடல்களை எதிரொலிக்க முடியும் </b>"
 
 #: plugins/default.py:64
 msgid "broadcast: no message set"
-msgstr ""
+msgstr "ஒளிபரப்பு: செய்தி அமைக்கப்படவில்லை"
 
 #: plugins/default.py:68
 msgid "broadcast: no conversations available"
-msgstr ""
+msgstr "ஒளிபரப்பு: உரையாடல்கள் எதுவும் கிடைக்கவில்லை"
 
 #: plugins/default.py:72
 msgid "<b>message:</b><br />{}<br /><b>to:</b><br />{}"
-msgstr ""
+msgstr "<b> செய்தி: </b> <br /> {} <br /> <b> இவருக்கு: </b> <br /> {}"
 
 #: plugins/default.py:83
 msgid "broadcast: message not allowed"
-msgstr ""
+msgstr "ஒளிபரப்பு: செய்தி அனுமதிக்கப்படவில்லை"
 
 #: plugins/default.py:88
 msgid "broadcast: message must be supplied after subcommand"
-msgstr ""
+msgstr "ஒளிபரப்பு: துணைக் கட்டளைக்குப் பிறகு செய்தி வழங்கப்பட வேண்டும்"
 
 #: plugins/default.py:111
 msgid "broadcast: {} conversation(s)"
-msgstr ""
+msgstr "ஒளிபரப்பு: {} உரையாடல் (கள்)"
 
 #: plugins/default.py:128
 msgid "broadcast: removed {}"
-msgstr ""
+msgstr "ஒளிபரப்பு: அகற்றப்பட்டது {}"
 
 #: plugins/default.py:135
 msgid "broadcast: message sent to {} chats"
-msgstr ""
+msgstr "ஒளிபரப்பு: செய்தி}} அரட்டைகளுக்கு அனுப்பப்பட்டது"
 
 #: plugins/default.py:138
 msgid "broadcast: /bot broadcast [info|message|add|remove|NOW] ..."
 msgstr ""
+"ஒளிபரப்பு: /போட் ஒளிபரப்பு [தகவல் | செய்தி | சேர் | அகற்று | இப்போது] ..."
 
 #: plugins/default.py:141
 msgid "broadcast: /bot broadcast [info|message|add|remove|NOW]"
-msgstr ""
+msgstr "ஒளிபரப்பு: /போட் ஒளிபரப்பு [தகவல் | செய்தி | சேர் | அகற்று | இப்போது]"
 
 #: plugins/default.py:155
 msgid "supply search term"
-msgstr ""
+msgstr "தேடல் காலமானது"
 
 #: plugins/default.py:160
 msgid "results for user named \"{}\":"
-msgstr ""
+msgstr "\"{}\" என்று பெயரிடப்பட்ட பயனருக்கான முடிவுகள்:"
 
 #: plugins/default.py:205
 msgid "<b>List of hangouts with keyword:</b> \"<pre>{}</pre>\""
 msgstr ""
+"<b> முக்கிய சொற்களைக் கொண்ட ஏங்கவுட்களின் பட்டியல்: </b> \"<pre> {} </pre>\""
 
 #: plugins/default.py:306
 msgid "<em>note: testing single parameter as json</em>"
-msgstr ""
+msgstr "<em> குறிப்பு: ஒற்றை அளவுருவை சாதொபொகு என சோதித்தல் </em>"
 
 #: plugins/default.py:333
 msgid "append failed on non-list"
-msgstr ""
+msgstr "பட்டியலில் பிற்சேர் தோல்வியுற்றது"
 
 #: plugins/default.py:347
 msgid "remove failed on non-list"
-msgstr ""
+msgstr "பட்டியலில் தோல்வியுற்றதை அகற்று"
 
 #: plugins/default.py:357
 msgid "Parameter does not exist!"
-msgstr ""
+msgstr "அளவுரு இல்லை!"
 
 #: plugins/default.py:382
 msgid "<b><pre>{}</pre></b>, chat_id = <i>{}</i>"
-msgstr ""
+msgstr "<b> <pre> {} </pre> </b>, சாட்_ஐடி = <i> {} </i>"
 
 #: plugins/default.py:390
 msgid "You are at <b><pre>{}</pre></b>, conv_id = <i><pre>{}</pre></i>"
 msgstr ""
+"நீங்கள் <b> <pre> {} </pre> </b>, conv_id = <i> <pre> {} </pre> </i> இல் "
+"இருக்கிறீர்கள்"
 
 #: plugins/forecast.py:32
 msgid "No location was specified, please specify a location."
 msgstr ""
+"எந்த இடமும் குறிப்பிடப்படவில்லை, தயவுசெய்து ஒரு இருப்பிடத்தைக் குறிப்பிடவும்."
 
 #: plugins/forecast.py:37
 msgid "Unable to find the specified location."
-msgstr ""
+msgstr "குறிப்பிட்ட இருப்பிடத்தைக் கண்டுபிடிக்க முடியவில்லை."
 
 #: plugins/forecast.py:45
 msgid "This hangouts default location has been set to {}."
-msgstr ""
+msgstr "இந்த Hangouts இயல்புநிலை இருப்பிடம் {to என அமைக்கப்பட்டுள்ளது."
 
 #: plugins/humor_hangoutcalls.py:32
 msgid ""
 "<b>It's been {} since the last call. Lonely? I can't reply you as I don't "
 "have speech synthesis (or speech recognition either!)</b>"
 msgstr ""
+"<b> இது கடைசி அழைப்பிலிருந்து {} ஆகிவிட்டது. தனிமையா? எனக்குப் பேச்சுத் தொகுப்பு "
+"(அல்லது பேச்சு அங்கீகாரமும் இல்லை!) </b> இல்லாததால் என்னால் உங்களுக்குப் பதிலளிக்க முடியாது"
 
 #: plugins/humor_hangoutcalls.py:37
 msgid "<b>It's been {} since the last call. The last caller was <i>{}</i>.</b>"
 msgstr ""
+"<b> இது கடைசி அழைப்பிலிருந்து {} ஆகிவிட்டது. கடைசி அழைப்பாளர் <i> {} </i>. </b>"
 
 #: plugins/humor_hangoutcalls.py:42
 msgid "<b>No prizes for that call</b>"
-msgstr ""
+msgstr "<b> அந்த அழைப்புக்கு பரிசுகள் இல்லை </b>"
 
 #: plugins/lookup.py:20
 msgid "Spreadsheet function disabled"
-msgstr ""
+msgstr "விரிதாள் செயல்பாடு முடக்கப்பட்டுள்ளது"
 
 #: plugins/lookup.py:24
 msgid "Spreadsheet URL not set"
-msgstr ""
+msgstr "விரிதாள் முகவரி அமைக்கப்படவில்லை"
 
 #: plugins/lookup.py:37
 msgid "Results for keyword <b>{}</b>:<br />"
-msgstr ""
+msgstr "முக்கிய சொற்களுக்கான முடிவுகள் <b> {} </b>: <br />"
 
 #: plugins/lookup.py:71
 msgid "<br />Row {}: "
-msgstr ""
+msgstr "<br /> வரிசை {}: "
 
 #: plugins/lookup.py:82
 #, python-brace-format
 msgid "<br />{0} rows found. Only returning first {1}."
-msgstr ""
+msgstr "<br /> {0} வரிசைகள் காணப்படுகின்றன. முதலில் திரும்பும் {1}."
 
 #: plugins/lookup.py:84
 #, python-brace-format
 msgid "<br />Hint: Use <b>/bot lookup <{0} {1}</b> to view {0} rows"
 msgstr ""
+"<br /> குறிப்பு: <b>/போட் தேடல் <{0} {1} </b> ஐப் பயன்படுத்தவும் {0} வரிசைகள்"
 
 #: plugins/lookup.py:87
 msgid "No match found"
-msgstr ""
+msgstr "போட்டி எதுவும் கிடைக்கவில்லை"
 
 #: plugins/lottery.py:98
 msgid "prepare: min and max are the same ({})"
-msgstr ""
+msgstr "தயார்: மணித்துளி மற்றும் அதிகபட்சம் ஒன்றே ({})"
 
 #: plugins/lottery.py:116
 msgid "prepare: unrecognised match (!csv, !range, !numberToken): {}"
-msgstr ""
+msgstr "தயார்: அங்கீகரிக்கப்படாத போட்டி (! CSV,! வரம்பு,! NumberToken): {}"
 
 #: plugins/lottery.py:122
 msgid ""
 "Wow! Too many items to draw in <b>{}</b> lottery. Try {} items or less..."
 msgstr ""
+"ஆஆ! <b> {} </b> லாட்டரியில் வரைய பல உருப்படிகள். {} உருப்படிகள் அல்லது குறைவாக "
+"முயற்சிக்கவும் ..."
 
 #: plugins/lottery.py:127
 msgid ""
 "The <b>{}</b> lottery is ready: {} items loaded and shuffled into the box."
 msgstr ""
+"<b> {} </b> லாட்டரி தயாராக உள்ளது: {} உருப்படிகள் ஏற்றப்பட்டு பெட்டியில் மாற்றப்பட்டுள்ளன."
 
 #: plugins/lottery.py:129
 msgid "prepare: {} was initialised empty"
-msgstr ""
+msgstr "தயார்: {} காலியாக தொடங்கப்பட்டது"
 
 #: plugins/lottery.py:177
 msgid "<b>{}</b>, you have already drawn <b>{}</b> from the <b>{}</b> box"
 msgstr ""
+"<b> {} </b>, நீங்கள் ஏற்கனவே <b> {} </b> ஐ <b> {} </b> பெட்டியிலிருந்து வரைந்துள்ளீர்கள்"
 
 #: plugins/lottery.py:186
 msgid "<b>{}</b> draws <b>{}</b> from the <b>{}</b> box. "
-msgstr ""
+msgstr "<b> {} </b> <b> {} </b> ஐ <b> {} </b> பெட்டியிலிருந்து ஈர்க்கிறது. "
 
 #: plugins/lottery.py:188
 msgid "...AAAAAND its all gone! The <b>{}</b> lottery is over folks."
 msgstr ""
+"... aaaaand அதன் அனைத்தும் போய்விட்டது! <b> {} </b> லாட்டரி எல்லோருக்கும் மேல் உள்ளது."
 
 #: plugins/lottery.py:194
 msgid "<b>{}</b>, the <b>{}</b> lottery is over. "
-msgstr ""
+msgstr "<b> {} </b>, <b> {} </b> லாட்டரி முடிந்துவிட்டது. "
 
 #: plugins/lottery.py:197
 msgid "You drew a {} previously."
-msgstr ""
+msgstr "நீங்கள் முன்பு ஒரு {} வரைந்தீர்கள்."
 
 #: plugins/mentions.py:117
 msgid ""
 "<b>{}</b>, you cannot @mention anyone until your DND status is toggled off."
 msgstr ""
+"<b> {} </b>, உங்கள் டி.என்.டி நிலை மாற்றப்படும் வரை நீங்கள் யாரையும் கருத்தில் கொள்ள "
+"முடியாது."
 
 #: plugins/mentions.py:127
 msgid "<b>{}</b> cannot @mention anyone until they say something to me first."
 msgstr ""
+"<b> {} </b> அவர்கள் முதலில் என்னிடம் ஏதாவது சொல்லும் வரை யாரையும் குறிப்பிட முடியாது."
 
 #: plugins/mentions.py:168
 msgid "You are not allowed to mention all users in <b>{}</b>"
 msgstr ""
+"<b> {} </b> இல் உள்ள அனைத்து பயனர்களையும் குறிப்பிட உங்களுக்கு இசைவு இல்லை"
 
 #: plugins/mentions.py:173
 msgid "<b>{}</b> blocked from mentioning all users"
-msgstr ""
+msgstr "<b> {} </b> அனைத்து பயனர்களையும் குறிப்பிடுவதைத் தடுக்கவும்"
 
 #: plugins/mentions.py:272
 msgid ""
 "{} users would be mentioned with \"@{}\"! Be more specific. List of matching "
 "users:<br />"
 msgstr ""
+"}} பயனர்கள் \"@{}\" உடன் குறிப்பிடப்படுவார்கள்! இன்னும் குறிப்பிட்டதாக இருங்கள். "
+"பொருந்தக்கூடிய பயனர்களின் பட்டியல்: <br />"
 
 #: plugins/mentions.py:307
 msgid "{} mentioned you in {}"
-msgstr ""
+msgstr "{you உங்களை {} இல் குறிப்பிட்டுள்ளார்"
 
 #: plugins/mentions.py:332
 msgid "<b>{}</b> @mentioned ALL in <i>{}</i>:<br />{}"
-msgstr ""
+msgstr "<b> {} </b> இதில் @குறிப்பிடப்பட்ட அனைவரும்<i>{} </i>: <br/> {}"
 
 #: plugins/mentions.py:334
 msgid "<b>{}</b> @mentioned you in <i>{}</i>:<br />{}"
-msgstr ""
+msgstr "<b>{}</b> உங்களை @குறிப்பிடபட்ட இடம் <i>{}</i>:<br />{}"
 
 #: plugins/mentions.py:350
 msgid ""
 "@mention didn't work for <b>{}</b>. User must say something to me first."
 msgstr ""
+"@Mention <b> {} </b> க்கு வேலை செய்யவில்லை. பயனர் முதலில் என்னிடம் ஏதாவது சொல்ல "
+"வேண்டும்."
 
 #: plugins/mentions.py:355
 msgid "<b>@mentions:</b><br />"
-msgstr ""
+msgstr "<b> @குறிப்பிடங்கள்: </b> <br />"
 
 #: plugins/mentions.py:357
 msgid "1-to-1 fail: <i>{}</i><br />"
-msgstr ""
+msgstr "1-க்கு-1 தோல்வி: <i> {} </i> <br />"
 
 #: plugins/mentions.py:359
 msgid "PushBullet fail: <i>{}</i><br />"
-msgstr ""
+msgstr "புச்புல்லட் தோல்வி: <i> {} </i> <br />"
 
 #: plugins/mentions.py:361
 msgid "Ignored (DND): <i>{}</i><br />"
-msgstr ""
+msgstr "புறக்கணிக்கப்பட்டது (dnd): <i> {} </i> <br />"
 
 #: plugins/mentions.py:363
 msgid "Alerted: <i>{}</i><br />"
-msgstr ""
+msgstr "எச்சரிக்கை: <i> {} </i> <br />"
 
 #: plugins/mentions.py:365
 msgid "Nobody was successfully @mentioned ;-(<br />"
-msgstr ""
+msgstr "யாரும் வெற்றிகரமாக இல்லை;-(<br />"
 
 #: plugins/mentions.py:368
 msgid "Users failing 1-to-1 need to say something to me privately first.<br />"
 msgstr ""
+"1 முதல் 1 தோல்வியுற்ற பயனர்கள் முதலில் எனக்குத் தனிப்பட்ட முறையில் ஏதாவது சொல்ல வேண்டும்"
+".<br />"
 
 #: plugins/mentions.py:384
 msgid "deactivating pushbullet integration"
-msgstr ""
+msgstr "புச்புல்லட் ஒருங்கிணைப்பை செயலிழக்கச் செய்தல்"
 
 #: plugins/mentions.py:388
 msgid "setting pushbullet api key"
-msgstr ""
+msgstr "புச்புல்லட் பநிஇ விசையை அமைத்தல்"
 
 #: plugins/mentions.py:396
 msgid "pushbullet configuration not changed"
-msgstr ""
+msgstr "புச்புல்லட் உள்ளமைவு மாற்றப்படவில்லை"
 
 #: plugins/mentions.py:412
 msgid "<em>\"be more specific\" for mentions toggled ON</em>"
 msgstr ""
+"<em> </em> இல் மாற்றப்பட்ட குறிப்புகளுக்கு \"இன்னும் குறிப்பிட்டதாக இருங்கள்\""
 
 #: plugins/mentions.py:416
 msgid "<em>\"be more specific\" for mentions toggled OFF</em>"
 msgstr ""
+"<em> \"இன்னும் குறிப்பிட்டதாக இருங்கள்\" குறிப்புகள் மாற்றப்பட்டுள்ளன </em>"
 
 #: plugins/mentions.py:435
 msgid ""
 "Error: Minimum length of nickname is {} characters. Only alphabetical and "
 "numeric characters allowed."
 msgstr ""
+"பிழை: புனைப்பெயரின் குறைந்தபட்ச நீளம் {} எழுத்துக்கள். அகரவரிசை மற்றும் எண் எழுத்துக்கள் "
+"மட்டுமே அனுமதிக்கப்படுகின்றன."
 
 #: plugins/mentions.py:473
 msgid "<i>Your nickname is already <b>`{}`</b></i>"
-msgstr ""
+msgstr "<i> உங்கள் புனைப்பெயர் ஏற்கனவே <b> `{}` </b> </i>"
 
 #: plugins/mentions.py:478
 msgid "<i>Nickname <b>`{}`</b> is already in use by another user"
 msgstr ""
+"<i> புனைப்பெயர் <b> `{}` </b> ஏற்கனவே மற்றொரு பயனரால் பயன்பாட்டில் உள்ளது"
 
 #: plugins/mentions.py:497
 msgid "Removing nickname"
-msgstr ""
+msgstr "புனைப்பெயரை நீக்குதல்"
 
 #: plugins/mentions.py:501
 msgid "Setting nickname to '{}'"
-msgstr ""
+msgstr "புனைப்பெயரை '{}' க்கு அமைத்தல்"
 
 #: plugins/monitoradds.py:52
 #, python-brace-format
@@ -797,314 +848,331 @@ msgid ""
 "authorization.<br /><br /><b>{1}</b>: Please leave this hangout and ask a "
 "moderator to add you. Thank you for your understanding."
 msgstr ""
+"<b> !!! எச்சரிக்கை !!!</b><br /><br /><b> {0} </b>இசைவு இல்லாமல் "
+"<b>{1}</b>அழைக்கப்பட்டது.<br /><br /><b>{1}</b>: தயவுசெய்து இந்த அரட்டையை "
+"விட்டுவிட்டு, உங்களைச் சேர்க்க ஒரு மதிப்பீட்டாளரிடம் கேளுங்கள். உங்கள் புரிதலுக்கு நன்றி."
 
 #: plugins/monitoradds.py:69 plugins/monitoradds.py:74
 msgid "<i>Moderators updated: {} added</i>"
-msgstr ""
+msgstr "<i> மதிப்பீட்டாளர்கள் புதுப்பிக்கப்பட்டனர்: {} சேர்க்கப்பட்டது </i>"
 
 #: plugins/monitoradds.py:90
 msgid "<i>Moderators updated: {} removed</i>"
-msgstr ""
+msgstr "<i> மதிப்பீட்டாளர்கள் புதுப்பிக்கப்பட்டனர்: {} அகற்றப்பட்ட </i>"
 
 #: plugins/namelock.py:71
 msgid "Removing topic"
-msgstr ""
+msgstr "தலைப்பை நீக்குதல்"
 
 #: plugins/namelock.py:75
 msgid "Setting topic to '{}'"
-msgstr ""
+msgstr "தலைப்பை '{}' என அமைத்தல்"
 
 #: plugins/remind.py:15
 msgid "Usage: /bot remindme <b>delay (minutes)</b> <i>Message</i>"
 msgstr ""
+"பயன்பாடு:/போட் நினைவூட்டல் <b> நேரந்தவறுகை (நிமிடங்கள்) </b> <i> செய்தி </i>"
 
 #: plugins/remind.py:20
 msgid "Private reminder for <b>{}</b> in {}m"
-msgstr ""
+msgstr "{} M இல் <b> {} </b> க்கான தனிப்பட்ட நினைவூட்டல்"
 
 #: plugins/remind.py:23 plugins/remind.py:43
 msgid "<b>Reminder:</b>  "
-msgstr ""
+msgstr "<b> நினைவூட்டல்: </b>  "
 
 #: plugins/remind.py:25 plugins/remind.py:45
 msgid "Error creating reminder, invalid delay"
-msgstr ""
+msgstr "நினைவூட்டலை உருவாக்கும் பிழை, தவறான நேரந்தவறுகை"
 
 #: plugins/remind.py:36
 msgid "Usage: /bot remindall <b>delay (minutes)</b> <i>Message</i>"
 msgstr ""
+"பயன்பாடு:/போட் நினைவூட்டல் <b> நேரந்தவறுகை (நிமிடங்கள்) </b> <i> செய்தி </i>"
 
 #: plugins/remind.py:41
 msgid "Public reminder in {}m"
-msgstr ""
+msgstr "} M இல் பொது நினைவூட்டல்"
 
 #: plugins/restrictedadd.py:72
 msgid ""
 "<i>{}, you need to be authorised to add me to another conversation. I'm "
 "leaving now...</i>"
 msgstr ""
+"<i> {}, என்னை மற்றொரு உரையாடலில் சேர்க்க உங்களுக்கு ஏற்பு இருக்க வேண்டும். நான் இப்போது "
+"வெளியேறுகிறேன் ... </i>"
 
 #: plugins/restrictedadd.py:117
 msgid "<i>There is no botkeeper in here. I have to go...</i>"
-msgstr ""
+msgstr "<i> இங்கே போட்கீப்பர் இல்லை. நான் செல்ல வேண்டும் ... </i>"
 
 #: plugins/restrictedadd.py:141
 msgid "user id {} added as botkeeper"
-msgstr ""
+msgstr "பயனர் ஐடி {the போட்கீப்பராக சேர்க்கப்பட்டது"
 
 #: plugins/restrictedadd.py:163
 msgid "user id {} removed as botkeeper"
-msgstr ""
+msgstr "பயனர் ஐடி}} போட்கீப்பராக அகற்றப்பட்டது"
 
 #: plugins/restrictedadd.py:172
 msgid "user id {} is not authorised"
-msgstr ""
+msgstr "பயனர் ஐடி {} அங்கீகரிக்கப்படவில்லை"
 
 #: plugins/showme/__init__.py:59
 msgid "I'm sorry, I couldn't upload a {} image"
-msgstr ""
+msgstr "மன்னிக்கவும், என்னால் ஒரு}} படத்தை பதிவேற்ற முடியவில்லை"
 
 #: plugins/showme/__init__.py:67
 msgid "Show you what?"
-msgstr ""
+msgstr "என்ன காட்டு?"
 
 #: plugins/showme/__init__.py:77
 msgid "I don't know a \"{}\", try sources"
-msgstr ""
+msgstr "எனக்கு ஒரு \"{}\" தெரியாது, ஆதாரங்களை முயற்சிக்கவும்"
 
 #: plugins/simplewikipedia.py:20
 msgid "<i>source: <a href=\"{}\">{}</a></i>"
-msgstr ""
+msgstr "<i> ஆதாரம்: <a href = \"{}\"> {} </a> </i>"
 
 #: plugins/simplewikipedia.py:24
 msgid "<i>no entry found for {}</i>"
-msgstr ""
+msgstr "<i> {} </i> க்கு எந்த நுழைவும் கிடைக்கவில்லை"
 
 #: plugins/spotify.py:85
 msgid "<em>Unable to get the song title :(</em>"
-msgstr ""
+msgstr "<em> பாடல் தலைப்பைப் பெற முடியவில்லை: (</em>"
 
 #: plugins/spotify.py:111
 msgid "<em>Spotify is <b>{}</b>.</em>"
-msgstr ""
+msgstr "<em> spotify <b> {} </b>. </em>"
 
 #: plugins/spotify.py:118
 msgid "<em>Spotify {} on. Now it's <b>{}</b>.</em>"
-msgstr ""
+msgstr "<em> {} மேல் கண்டுபிடி. இப்போது அது <b> {} </b>.</em>"
 
 #: plugins/spotify.py:126
 msgid "<em>Did you mean <b>/bot help spotify</b>?</em>"
 msgstr ""
+"<em> நீங்கள் <b>/போட் உதவி கண்டுபிடி </b>? </em> என்று பொருள்படுத்தினீர்களா"
 
 #: plugins/spotify.py:129
 msgid "<em>Spotify playlist: {}</em>"
-msgstr ""
+msgstr "<em> Spotify PlayList: {} </em>"
 
 #: plugins/spotify.py:132
 msgid "<em>You must specify a Spotify track.</em>"
-msgstr ""
+msgstr "<em> நீங்கள் ஒரு Spotify பாதையை குறிப்பிட வேண்டும். </em>"
 
 #: plugins/spotify.py:162
 msgid "<em>No tracks found for '{}'.</em>"
-msgstr ""
+msgstr "<em> '{}' க்கு தடங்கள் எதுவும் கிடைக்கவில்லை. </em>"
 
 #: plugins/spotify.py:258
 msgid "<em>Added <b>{} by {}</b></em>"
-msgstr ""
+msgstr "<em> சேர்க்கப்பட்டது <b> {} by}} </b> </em>"
 
 #: plugins/spotify.py:261
 msgid "<em><b>Unable to add track:</b> {}</em>"
-msgstr ""
+msgstr "<em> <b> தடத்தைச் சேர்க்க முடியவில்லை: </b> {} </em>"
 
 #: plugins/spotify.py:272
 msgid "<em>Removed track <b>{} by {}</b>.</em>"
-msgstr ""
+msgstr "<em> அகற்றப்பட்ட டிராக் <b>}} by}} </b>. </em>"
 
 #: plugins/spotify.py:275
 msgid "<em><b>Unable to remove track:</b> {}</em>"
-msgstr ""
+msgstr "<em> <b> பாதையை அகற்ற முடியவில்லை: </b> {} </em>"
 
 #: plugins/starter.py:18
 msgid "<i>Starter: Configuring first admin: {}</i>"
-msgstr ""
+msgstr "<i> ச்டார்டர்: முதல் நிர்வாகத்தை உள்ளமைத்தல்: {} </i>"
 
 #: plugins/starter.py:23
 msgid "<i>No! I am Spartacus!</i>"
-msgstr ""
+msgstr "<i> இல்லை! நான் ச்பார்டகச்! </i>"
 
 #: plugins/starter.py:31
 msgid "<i>config: {}<br />memory: {}</i>"
-msgstr ""
+msgstr "<i> config: {} <br /> நினைவகம்: {} </i>"
 
 #: plugins/starter.py:53
 msgid ""
 "<i>verification completed - this is your one-to-one chat with the bot</i>"
 msgstr ""
+"<i> சரிபார்ப்பு முடிந்தது-இது போட் </i> உடன் உங்கள் ஒன்றுக்கு ஒன்று அரட்டை"
 
 #: plugins/starter.py:58
 msgid "<i>verified - user has a one-to-one conversation with me</i>"
 msgstr ""
+"<i> சரிபார்க்கப்பட்ட-பயனர் என்னுடன் ஒருவருக்கு ஒரு உரையாடலைக் கொண்டுள்ளார் </i>"
 
 #: plugins/starter.py:73
 msgid ""
 "<i>User must say \"hi\" to me first via a 1-on-1 hangout with <b>{}</b>."
 msgstr ""
+"<i> பயனர் முதலில் எனக்கு \"ஆய்\" என்று சொல்ல வேண்டும் <b> {} </b> உடன் 1-ஆன் -1 ஏங்கவுட் "
+"வழியாக."
 
 #: plugins/starter.py:74
 msgid "Then let me know by sending <b>/bot verifyme</b> in this chat.</i>"
 msgstr ""
+"இந்த அரட்டையில் <b>/போட் வெரிஃபைம் </b> ஐ அனுப்புவதன் மூலம் எனக்குத் தெரியப்படுத்துங்கள். "
+"</I>"
 
 #: plugins/subscribe.py:126
 msgid "<b>{}</b> mentioned '{}' in <i>{}</i>:<br />{}"
-msgstr ""
+msgstr "<b> {} </b> <i> {} </i> இல் குறிப்பிடப்பட்ட '{}': <br/> {}"
 
 #: plugins/subscribe.py:149
 msgid ""
 "Note: I am unable to ping you until you start a 1 on 1 conversation with me!"
 msgstr ""
+"குறிப்பு: நீங்கள் என்னுடன் 1 உரையாடலைத் தொடங்கும் வரை உங்களால் பிங் செய்ய முடியவில்லை!"
 
 #: plugins/subscribe.py:153
 msgid "Usage: /bot subscribe [keyword]"
-msgstr ""
+msgstr "பயன்பாடு: /போட் குழுசேர் [முக்கிய சொல்]"
 
 #: plugins/subscribe.py:157 plugins/subscribe.py:190
 msgid "Subscribed to: {}"
-msgstr ""
+msgstr "இதற்கு சந்தா: {}"
 
 #: plugins/subscribe.py:164
 msgid "Already subscribed to '{}'!"
-msgstr ""
+msgstr "ஏற்கனவே '{}' க்கு குழுசேர்ந்தது!"
 
 #: plugins/subscribe.py:173 plugins/subscribe.py:181
 msgid ""
 "Note: You will not be able to trigger your own subscriptions. To test, "
 "please ask somebody else to test this for you."
 msgstr ""
+"குறிப்பு: உங்கள் சொந்த சந்தாக்களை நீங்கள் தூண்ட முடியாது. சோதிக்க, உங்களுக்காக இதைச் சோதிக்"
+"க வேறு ஒருவரிடம் கேளுங்கள்."
 
 #: plugins/subscribe.py:202
 msgid "Unsubscribing all keywords"
-msgstr ""
+msgstr "அனைத்து முக்கிய வார்த்தைகளையும் குழுவிலக்கிறது"
 
 #: plugins/subscribe.py:206
 msgid "Unsubscribing from keyword '{}'"
-msgstr ""
+msgstr "'{}' என்ற முக்கிய சொல்லிலிருந்து குழுவிலகும்"
 
 #: plugins/subscribe.py:210
 msgid "Error: keyword not found"
-msgstr ""
+msgstr "பிழை: முக்கிய சொல் கிடைக்கவில்லை"
 
 #: plugins/syncrooms.py:277
 msgid "<b>Sync Rooms: {}</b>"
-msgstr ""
+msgstr "<b> ஒத்திசைவு அறைகள்: {} </b>"
 
 #: plugins/syncrooms.py:281
 msgid "<b>Standard Room</b>"
-msgstr ""
+msgstr "<b> நிலையான அறை </b>"
 
 #: plugins/syncrooms.py:292
 msgid "<b>failed to retrieve user list</b>"
-msgstr ""
+msgstr "<b> பயனர் பட்டியலை மீட்டெடுப்பதில் தோல்வி </b>"
 
 #: plugins/syncrooms.py:313
 msgid "<b>Total Unique: {}</b>"
-msgstr ""
+msgstr "<b> மொத்தம் தனித்துவமானது: {} </b>"
 
 #: plugins/syncrooms_config.py:68
 msgid "<i>syncout updated: {} conversations</i>"
-msgstr ""
+msgstr "<i> ஒத்திசைவு புதுப்பிக்கப்பட்டது: {} உரையாடல்கள் </i>"
 
 #: plugins/syncrooms_config.py:71
 msgid "<i>syncout created: {} conversations</i>"
-msgstr ""
+msgstr "<i> ஒத்திசைவு உருவாக்கப்பட்டது: {} உரையாடல்கள் </i>"
 
 #: plugins/syncrooms_config.py:74
 msgid "<i>syncouts unchanged</i>"
-msgstr ""
+msgstr "<i> மாறாமல் ஒத்திசைவுகள் </i>"
 
 #: plugins/syncrooms_config.py:115
 msgid "<i>`{}` was detached</i>"
-msgstr ""
+msgstr "<i> `{}` பிரிக்கப்பட்டது </i>"
 
 #: plugins/tldr.py:126
 msgid "{}. {} <b>{} ago</b>"
-msgstr ""
+msgstr "{}. {} <b> {} முன்பு </b>"
 
 #: plugins/tldr.py:131
 msgid "TL;DR not found."
-msgstr ""
+msgstr "Tl; dr கண்டுபிடிக்கப்படவில்லை."
 
 #: plugins/tldr.py:134
 msgid "<b>TL;DR ({} stored):</b>"
-msgstr ""
+msgstr "<b> tl; dr ({} சேமிக்கப்பட்டது): </b>"
 
 #: plugins/tldr.py:135
 msgid "\n"
-msgstr ""
+msgstr "\n"
 
 #: plugins/tldr.py:160 plugins/tldr.py:180
 msgid "TL;DR #{} not found."
-msgstr ""
+msgstr "Tl; dr #{} காணப்படவில்லை."
 
 #: plugins/tldr.py:165
 msgid "TL;DR #{} removed - \"{}\""
-msgstr ""
+msgstr "Tl; dr #{} அகற்றப்பட்டது - \"{}\""
 
 #: plugins/tldr.py:169
 msgid "All TL;DRs cleared."
-msgstr ""
+msgstr "அனைத்து tl; drs அழிக்கப்பட்டது."
 
 #: plugins/tldr.py:171
 msgid "Nothing specified to clear."
-msgstr ""
+msgstr "அழிக்க எதுவும் குறிப்பிடப்படவில்லை."
 
 #: plugins/tldr.py:187
 msgid "TL;DR #{} edited - \"{}\" -> \"{}\""
-msgstr ""
+msgstr "Tl; dr #{} திருத்தப்பட்டது - \"{}\" -> \"{}\""
 
 #: plugins/tldr.py:189
 msgid "Unknown Command at \"tldr edit.\""
-msgstr ""
+msgstr "\"TLDR திருத்து.\" இல் தெரியாத கட்டளை"
 
 #: plugins/tldr.py:200
 msgid "<em>{}</em> added to TL;DR. Count: {}"
-msgstr ""
+msgstr "<em> {} </em> tl இல் சேர்க்கப்பட்டுள்ளது; dr. எண்ணிக்கை: {}"
 
 #: plugins/tldr.py:210
 msgid "{}s"
-msgstr ""
+msgstr "{} கள்"
 
 #: plugins/tldr.py:212
 msgid "{}m"
-msgstr ""
+msgstr "{} மீ"
 
 #: plugins/tldr.py:214
 msgid "{}h"
-msgstr ""
+msgstr "{} h"
 
 #: plugins/tldr.py:216
 msgid "{}d"
-msgstr ""
+msgstr "{} டி"
 
 #: plugins/urbandict.py:93
 msgid "<b>definition:</b> "
-msgstr ""
+msgstr "<b> வரையறை: </b> "
 
 #: plugins/urbandict.py:95
 msgid "<b>example:</b> "
-msgstr ""
+msgstr "<b> எடுத்துக்காட்டு: </b> "
 
 #: plugins/urbandict.py:100
 msgid "<i>no urban dictionary definition for \"{}\"</i>"
-msgstr ""
+msgstr "<i> \"{}\" </i> க்கான நகர்ப்புற அகராதி வரையறை இல்லை"
 
 #: plugins/urbandict.py:102
 msgid "<i>no term from urban dictionary</i>"
-msgstr ""
+msgstr "<i> நகர்ப்புற அகராதியிலிருந்து எந்த காலமும் இல்லை </i>"
 
 #: plugins/wolframalpha.py:34
 msgid "You need to ask WolframAlpha a question"
-msgstr ""
+msgstr "நீங்கள் வொல்ஃப்ராமல்பாவைக் கேட்க வேண்டும்"
 
 #: plugins/wolframalpha.py:57
 msgid "<i>Wolfram Alpha did not return any useful data</i>"
-msgstr ""
+msgstr "<i> வொல்ஃப்ராம் ஆல்பா எந்த பயனுள்ள தரவையும் திருப்பித் தரவில்லை </i>"
